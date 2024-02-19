@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab308d8135b80d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech./Develop/MySQL/序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024/八次危机.md",
+                "file": "Tech./Develop/MySQL/序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024/八次危机.md",
+                "file": "Tech./Develop/MySQL/序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read./2024/八次危机.md"
+                "file": "Tech./Develop/MySQL/序.md"
               }
             }
           }
@@ -146,9 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f79a5eda01bbccb7",
+  "active": "ab308d8135b80d21",
   "lastOpenFiles": [
-    "Tech./Develop/MySQL/序言.md",
+    "Tech./Develop/MySQL/存储.md",
+    "Tech./Develop/MySQL/序.md",
+    "Tech./Develop/MySQL/存储",
     "Read./2024/八次危机.md",
     "Read./2024",
     "Tech/Java/Untitled.md",
