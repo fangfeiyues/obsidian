@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Tech./Develop/MySQL/MySQL存储方式.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -161,9 +162,9 @@
   },
   "active": "ab308d8135b80d21",
   "lastOpenFiles": [
-    "Tech./Develop/MySQL/序.md",
-    "Tech./Develop/MySQL/MySQL存储方式.md",
     "Read./2024/八次危机.md",
+    "Tech./Develop/MySQL/MySQL存储方式.md",
+    "Tech./Develop/MySQL/序.md",
     "Tech./Develop/MySQL/存储.md",
     "Tech./Develop/MySQL/存储",
     "Read./2024",
