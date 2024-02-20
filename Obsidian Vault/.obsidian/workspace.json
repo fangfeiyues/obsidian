@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL存储方式.md",
+                "file": "Tech./Develop/Review/Tracking Daily.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5490b68f2b40c67d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech./Develop/MySQL/MySQL 客户端连接.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL存储方式.md",
+                "file": "Tech./Develop/MySQL/MySQL 客户端连接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL存储方式.md",
+                "file": "Tech./Develop/MySQL/MySQL 客户端连接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL存储方式.md"
+                "file": "Tech./Develop/MySQL/MySQL 客户端连接.md"
               }
             }
           }
@@ -160,11 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab308d8135b80d21",
+  "active": "5490b68f2b40c67d",
   "lastOpenFiles": [
+    "Tech./Develop/Review/Tracking Daily.md",
     "Read./2024/八次危机.md",
+    "Tech./Develop/MySQL/MySQL 客户端连接.md",
+    "Tech./Develop/MySQL/MySQL 序.md",
+    "Tech./Develop/Review",
     "Tech./Develop/MySQL/MySQL存储方式.md",
-    "Tech./Develop/MySQL/序.md",
     "Tech./Develop/MySQL/存储.md",
     "Tech./Develop/MySQL/存储",
     "Read./2024",
