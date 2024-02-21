@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL的存储&修改.md",
+                "file": "Tech./Develop/Review/Tracking Week  One.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL的存储&修改.md",
+                "file": "Tech./Develop/Review/Tracking Week  One.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech./Develop/MySQL/MySQL的存储&修改.md"
+                "file": "Tech./Develop/Review/Tracking Week  One.md"
               }
             }
           }
@@ -173,10 +172,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d0f3e6f0e5f6ed6",
+  "active": "f79a5eda01bbccb7",
   "lastOpenFiles": [
-    "Tech./Develop/MySQL/MySQL 客户端.md",
     "Tech./Develop/MySQL/MySQL的存储&修改.md",
+    "Tech./Develop/MySQL/MySQL 客户端.md",
     "Compact行格式.png",
     "Tech./Develop/MySQL/MySQL 序.md",
     "Tech./Develop/MySQL/MySQL的读取.md",
