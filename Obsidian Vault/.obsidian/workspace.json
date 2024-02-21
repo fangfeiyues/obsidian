@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -111,12 +112,12 @@
               "type": "backlink",
               "state": {
                 "file": "Tech./Develop/MySQL/MySQL的存储&修改.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -154,7 +155,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,8 +176,9 @@
   "active": "9d0f3e6f0e5f6ed6",
   "lastOpenFiles": [
     "Tech./Develop/MySQL/MySQL 客户端.md",
-    "Tech./Develop/MySQL/MySQL 序.md",
     "Tech./Develop/MySQL/MySQL的存储&修改.md",
+    "Compact行格式.png",
+    "Tech./Develop/MySQL/MySQL 序.md",
     "Tech./Develop/MySQL/MySQL的读取.md",
     "Tech./Develop/Review/Tracking Week  One.md",
     "Tech./Develop/DDD.md",
