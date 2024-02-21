@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read./2024/八次危机.md",
+                "file": "Tech./Develop/Review/Tracking Week  One.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,17 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b1601db017977000",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -107,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tech./Develop/Review/Tracking Week  One.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tech./Develop/Review/Tracking Week  One.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tech./Develop/Review/Tracking Week  One.md"
+              }
             }
           }
         ]
@@ -164,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1601db017977000",
+  "active": "f79a5eda01bbccb7",
   "lastOpenFiles": [
-    "Tech./Develop/MySQL/MySQL 客户端.md",
     "Read./2024/八次危机.md",
+    "Tech./Develop/MySQL/MySQL 客户端.md",
     "Tech./Develop/Review/Tracking Week  One.md",
     "MySQL 客户端.png",
     "Pasted image 20240220195925.png",
