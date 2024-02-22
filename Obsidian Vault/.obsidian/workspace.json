@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Cause./Develop/MySQL/MySQL的查找.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29da4726e7f50139",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cause./Develop/MySQL/MySQL的存储&修改.md",
                 "mode": "source",
                 "source": false
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&修改.md",
+                "file": "Cause./Develop/MySQL/MySQL的查找.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&修改.md",
+                "file": "Cause./Develop/MySQL/MySQL的查找.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&修改.md"
+                "file": "Cause./Develop/MySQL/MySQL的查找.md"
               }
             }
           }
@@ -148,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,10 +174,11 @@
   },
   "active": "97335f323a6f08b7",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL的存储&修改.md",
+    "Cause./Develop/MySQL/MySQL的查找.md",
+    "Cause./Develop/MySQL/MySQL 序.md",
     "MySQL页目录.png",
     "Cause./Develop/Review/Tracking Week  One.md",
-    "Cause./Develop/MySQL/MySQL的存储&修改.md",
-    "Cause./Develop/MySQL/MySQL的读取.md",
     "MySQL 客户端.png",
     "Cause./Business/Youzan/上门取件.md",
     "Cause./Business/Youzan",
@@ -173,7 +186,6 @@
     "Cause./Untitled.md",
     "Pasted image 20240220195925.png",
     "Compact行格式.png",
-    "Cause./Develop/MySQL/MySQL 序.md",
     "Cause./Develop/MySQL/MySQL 客户端.md",
     "Tech./Develop/DDD.md",
     "Cause./Develop/DDD",
