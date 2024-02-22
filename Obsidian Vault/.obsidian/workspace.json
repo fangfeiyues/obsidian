@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Review/Tracking Week  One.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -162,10 +162,10 @@
   },
   "active": "97335f323a6f08b7",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL的读取.md",
-    "MySQL 客户端.png",
     "Cause./Develop/Review/Tracking Week  One.md",
     "Cause./Develop/MySQL/MySQL的存储&修改.md",
+    "Cause./Develop/MySQL/MySQL的读取.md",
+    "MySQL 客户端.png",
     "Cause./Business/Youzan/上门取件.md",
     "Cause./Business/Youzan",
     "Cause./Business",
