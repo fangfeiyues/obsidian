@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,8 +161,8 @@
   "active": "97335f323a6f08b7",
   "lastOpenFiles": [
     "Cause./Develop/Review/Tracking Week  One.md",
-    "MySQL 客户端.png",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
+    "MySQL 客户端.png",
     "Cause./Develop/MySQL/MySQL 序.md",
     "MySQL索引树.png",
     "MySQL页目录.png",
