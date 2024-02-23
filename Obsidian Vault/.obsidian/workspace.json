@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -146,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
