@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week  One.md",
-                "mode": "source",
+                "file": "Cause./Develop/Review/Tracking Week Two.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -161,6 +160,7 @@
   },
   "active": "97335f323a6f08b7",
   "lastOpenFiles": [
+    "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/Review/Tracking Week  One.md",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "MySQL 客户端.png",
