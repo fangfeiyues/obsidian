@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Two.md",
+                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Two.md",
+                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Two.md"
+                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md"
               }
             }
           }
@@ -146,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97335f323a6f08b7",
+  "active": "ee34274b40d1187b",
   "lastOpenFiles": [
+    "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "Cause./Develop/MySQL/MySQL 客户端.md",
-    "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/Review/Tracking Week  One.md",
     "MySQL 客户端.png",
     "Cause./Develop/MySQL/MySQL 序.md",
