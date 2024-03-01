@@ -25,34 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "07187b1a0695bf2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Read./2024/八次危机.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a70b70fa66473bce",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Read./2024/八次危机（温铁军）.md"
+              }
             }
           }
         ],
@@ -175,13 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "683255d2eb7eca30",
+  "active": "ee34274b40d1187b",
   "lastOpenFiles": [
+    "Cause./Develop/Review/Tracking Week Two.md",
+    "Read./2024/八次危机（温铁军）.md",
+    "Untitled.md",
+    "Cause./Develop/MySQL/MySQL的存储&查询.md",
+    "Interest./Invest/2024-03-02.md",
     "Interest./Invest",
     "Interest.",
-    "Cause./Develop/Review/Tracking Week Two.md",
-    "Cause./Develop/MySQL/MySQL的存储&查询.md",
-    "Read./2024/八次危机.md",
     "Cause./Develop/MySQL/MySQL 客户端.md",
     "Cause./Develop/Review/Tracking Week  One.md",
     "MySQL 客户端.png",
@@ -205,7 +191,6 @@
     "Cause./Develop/Redis",
     "Cause./Develop/MySQL",
     "Untitled.canvas",
-    "Cause./Develop",
     "Untitled 1.md",
     "文件夹1/Just  A  Beginning.md",
     "文件夹1/Just B Beginning.md",
