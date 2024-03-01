@@ -42,9 +42,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a70b70fa66473bce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024/八次危机.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024/八次危机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Read./2024/八次危机.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -171,10 +175,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07187b1a0695bf2b",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
+    "Interest./Invest",
+    "Interest.",
     "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
+    "Read./2024/八次危机.md",
     "Cause./Develop/MySQL/MySQL 客户端.md",
     "Cause./Develop/Review/Tracking Week  One.md",
     "MySQL 客户端.png",
@@ -190,7 +197,6 @@
     "Pasted image 20240220195925.png",
     "Tech./Develop/DDD.md",
     "Cause./Develop/DDD",
-    "Read./2024/八次危机.md",
     "Cause./Develop/Review",
     "Tech./Develop/MySQL/存储.md",
     "Tech./Develop/MySQL/存储",
@@ -200,7 +206,6 @@
     "Cause./Develop/MySQL",
     "Untitled.canvas",
     "Cause./Develop",
-    "Cause.",
     "Untitled 1.md",
     "文件夹1/Just  A  Beginning.md",
     "文件夹1/Just B Beginning.md",
