@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Fighting 2024.md",
+                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Fighting 2024.md",
+                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Fighting 2024.md"
+                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md"
               }
             }
           }
@@ -171,14 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "253822fa394b9527",
+  "active": "4c24d28e22af0e19",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "Cause./Develop/Review/Fighting 2024.md",
+    "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/Review/Tracking Week  One.md",
-    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL 客户端.md",
     "Cause./Business/Youzan/上门取件.md",
     "MySQL页目录.png",
