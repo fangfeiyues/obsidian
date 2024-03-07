@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -172,11 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c24d28e22af0e19",
+  "active": "ee34274b40d1187b",
   "lastOpenFiles": [
     "Cause./Develop/Review/Fighting 2024.md",
-    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
+    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/Review/Tracking Week  One.md",
