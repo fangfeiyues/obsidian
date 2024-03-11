@@ -38,12 +38,13 @@
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Review/Fighting 2024.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/Review/Fighting 2024.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/Review/Fighting 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md"
+                "file": "Cause./Develop/Review/Fighting 2024.md"
               }
             }
           }
@@ -159,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee34274b40d1187b",
+  "active": "253822fa394b9527",
   "lastOpenFiles": [
-    "Cause./Develop/Review/Fighting 2024.md",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
+    "Cause./Develop/Review/Fighting 2024.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
