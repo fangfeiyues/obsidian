@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Read./2024/八次危机（温铁军）.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Fighting 2024.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Fighting 2024.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Fighting 2024.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -160,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,11 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "253822fa394b9527",
+  "active": "ee34274b40d1187b",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "Cause./Develop/Review/Fighting 2024.md",
+    "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "Read./2024/八次危机（温铁军）.md",
+    "Interest./Product/？？？.md",
+    "Interest./Product",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/Review/Tracking Week  One.md",
@@ -204,7 +203,6 @@
     "Read./2024",
     "Tech/Java/Untitled.md",
     "Cause./Develop/Redis",
-    "Cause./Develop/MySQL",
     "Untitled.canvas",
     "Untitled 1.md",
     "文件夹1/Just  A  Beginning.md",
