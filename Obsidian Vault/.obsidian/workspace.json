@@ -25,31 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "253822fa394b9527",
+            "id": "37aca78a852d78c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Three.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1450a54f2ac90348",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interest./Product/飞书.md",
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 282.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md",
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL的存储&查询.md"
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md"
               }
             }
           }
@@ -171,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,15 +173,18 @@
   },
   "active": "4c24d28e22af0e19",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL 客户端.md",
+    "Cause./Develop/MySQL/MySQL InnoDB.md",
+    "Cause./Develop/MySQL/MySQL查询.md",
+    "Cause./Develop/MySQL/MySQL存储.md",
+    "Read./2024/八次危机（温铁军）.md",
+    "Untitled.canvas",
     "Interest./Product/飞书.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Fighting 2024.md",
-    "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/MySQL/MySQL的存储&查询.md",
     "Interest./Product",
     "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/Review/Tracking Week  One.md",
-    "Cause./Develop/MySQL/MySQL 客户端.md",
     "Cause./Business/Youzan/上门取件.md",
     "MySQL页目录.png",
     "MySQL索引树.png",
@@ -217,7 +207,6 @@
     "Read./2024",
     "Tech/Java/Untitled.md",
     "Cause./Develop/Redis",
-    "Untitled.canvas",
     "Untitled 1.md",
     "文件夹1/Just  A  Beginning.md",
     "文件夹1/Just B Beginning.md",
