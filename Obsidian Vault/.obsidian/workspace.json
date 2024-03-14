@@ -38,7 +38,19 @@
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Review/Fighting 2024.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1450a54f2ac90348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interest./Product/飞书.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -173,10 +185,10 @@
   },
   "active": "ee34274b40d1187b",
   "lastOpenFiles": [
-    "Cause./Develop/Review/Fighting 2024.md",
     "Cause./Develop/MySQL/MySQL的存储&查询.md",
+    "Cause./Develop/Review/Fighting 2024.md",
+    "Interest./Product/飞书.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Interest./Product/？？？.md",
     "Interest./Product",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
