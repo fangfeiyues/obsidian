@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
+                "file": "Cause./Develop/MySQL/MySQL查询.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,12 +173,12 @@
   },
   "active": "4c24d28e22af0e19",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL 客户端.md",
+    "Cause./Develop/MySQL/MySQL存储.md",
     "Cause./Develop/MySQL/MySQL InnoDB.md",
     "Cause./Develop/MySQL/MySQL查询.md",
-    "Cause./Develop/MySQL/MySQL存储.md",
-    "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/MySQL/MySQL 客户端.md",
     "Untitled.canvas",
+    "Read./2024/八次危机（温铁军）.md",
     "Interest./Product/飞书.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Fighting 2024.md",
