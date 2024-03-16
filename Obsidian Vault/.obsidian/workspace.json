@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -187,8 +188,8 @@
   "lastOpenFiles": [
     "Cause./Develop/MySQL/MySQL查询.md",
     "Cause./Develop/Review/Tracking Week Four.md",
-    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL InnoDB.md",
+    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/MySQL/MySQL存储.md",
