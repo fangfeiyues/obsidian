@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 268.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Four.md",
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Four.md",
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week Four.md"
+                "file": "Cause./Develop/MySQL/MySQL InnoDB.md"
               }
             }
           }
@@ -183,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4e99dae41f8be13",
+  "active": "4c24d28e22af0e19",
   "lastOpenFiles": [
-    "Cause./Develop/Review/Tracking Week Three.md",
-    "Cause./Develop/Review/Tracking Week Four.md",
-    "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/MySQL/MySQL查询.md",
+    "Cause./Develop/Review/Tracking Week Four.md",
+    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL InnoDB.md",
+    "Cause./Develop/Review/Tracking Week Three.md",
+    "Cause./Develop/Review/Tracking Week Two.md",
     "Cause./Develop/MySQL/MySQL存储.md",
     "Cause./Develop/MySQL/MySQL 客户端.md",
     "Untitled.canvas",
-    "Read./2024/八次危机（温铁军）.md",
     "Interest./Product/飞书.md",
     "Cause./Develop/Review/Fighting 2024.md",
     "Interest./Product",
