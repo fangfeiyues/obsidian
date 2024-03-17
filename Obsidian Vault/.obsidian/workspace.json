@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -174,9 +173,9 @@
   },
   "active": "4c24d28e22af0e19",
   "lastOpenFiles": [
-    "Cause./Develop/Review/Tracking Week 4.md",
-    "Cause./Develop/MySQL/MySQL查询.md",
     "Cause./Develop/MySQL/MySQL InnoDB.md",
+    "Cause./Develop/MySQL/MySQL查询.md",
+    "Cause./Develop/Review/Tracking Week 4.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Review/Tracking Week Three.md",
     "Cause./Develop/Review/Tracking Week Two.md",
