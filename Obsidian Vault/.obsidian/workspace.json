@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -159,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c24d28e22af0e19",
+  "active": "2e86ba43270d0d19",
   "lastOpenFiles": [
     "Cause./Develop/MySQL/MySQL InnoDB.md",
     "Cause./Develop/MySQL/MySQL查询.md",
