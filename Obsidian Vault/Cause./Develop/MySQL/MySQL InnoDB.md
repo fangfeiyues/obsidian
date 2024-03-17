@@ -111,3 +111,8 @@ MySQL会为每个记录默认添加一些隐藏列，如
 **匹配列前缀**
 **匹配范围值**
 **索引交集** 
+
+
+### Buffer Pool
+
+innodb_buffer_pool_size = xxx * 1024 * 1024
