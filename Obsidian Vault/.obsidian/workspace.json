@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL存储.md",
-                "mode": "preview",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,8 +25,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Cause./Develop/MySQL/MySQL-1 客户端.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bddf5f3ba336b1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read./2024/八次危机（温铁军）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec01995ea6d08d09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Interest./Product/聊聊飞书、企微和钉钉.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -81,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL存储.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL存储.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL存储.md"
+                "file": "Cause./Develop/Redis/Redis-1 存储.md"
               }
             }
           }
@@ -146,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,12 +186,18 @@
   },
   "active": "ee34274b40d1187b",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-2 查询.md",
     "Interest./Product/聊聊飞书、企微和钉钉.md",
-    "Cause./Develop/MySQL/MySQL存储.md",
-    "Cause./Develop/MySQL/MySQL查询.md",
-    "Cause./Develop/MySQL/MySQL InnoDB.md",
-    "Cause./Develop/MySQL/MySQL 客户端.md",
     "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/MySQL/MySQL-1 客户端.md",
+    "Cause./Develop/Redis/Redis-4 多功能.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-3 分布式.md",
+    "Cause./Develop/Redis/Redis-2.1 数据结构.md",
+    "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
     "Cause./Develop/Review/Tracking Week 5.md",
     "Cause./Develop/Review/Tracking Week 4.md",
@@ -196,11 +228,6 @@
     "Tech./Develop/MySQL/存储",
     "Read./2024",
     "Tech/Java/Untitled.md",
-    "Cause./Develop/Redis",
-    "Untitled 1.md",
-    "文件夹1/Just  A  Beginning.md",
-    "文件夹1/Just B Beginning.md",
-    "Untitled 3.md",
-    "Welcome.md"
+    "Untitled 1.md"
   ]
 }
