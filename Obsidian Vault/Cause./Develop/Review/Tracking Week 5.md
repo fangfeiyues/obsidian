@@ -1,0 +1,6 @@
+从 02.19 开始算，那么刚好 Fighting 30天
+1. 冲刺 Algo 50+
+2. 整理 MySQL 40%
+3. 总结 Business 20%
+总体来说进度是严重不及预期（预期Algo 80、MySQL & Redis、增值业务over），看出在班后投入太少！！ 新的一个月还要继续 Fighting 🚀
+### 2024-03-18
