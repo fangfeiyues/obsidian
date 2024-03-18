@@ -13,24 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/MySQL/MySQL存储.md",
                 "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4c24d28e22af0e19",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Cause./Develop/DDD/Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
               }
             }
           },
@@ -46,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/Untitled.canvas",
+                "file": "Cause./Develop/MySQL/MySQL存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/Untitled.canvas",
+                "file": "Cause./Develop/MySQL/MySQL存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/Untitled.canvas"
+                "file": "Cause./Develop/MySQL/MySQL存储.md"
               }
             }
           }
@@ -174,20 +158,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c24d28e22af0e19",
+  "active": "ee34274b40d1187b",
   "lastOpenFiles": [
-    "Cause./Develop/Review/Tracking Week 5.md",
-    "Cause./Develop/DDD/Untitled.canvas",
     "Interest./Product/聊聊飞书、企微和钉钉.md",
+    "Cause./Develop/MySQL/MySQL存储.md",
+    "Cause./Develop/MySQL/MySQL查询.md",
+    "Cause./Develop/MySQL/MySQL InnoDB.md",
+    "Cause./Develop/MySQL/MySQL 客户端.md",
+    "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/DDD/🌹Untitled.canvas",
+    "Cause./Develop/Review/Tracking Week 5.md",
     "Cause./Develop/Review/Tracking Week 4.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Review/Tracking Week 2.md",
     "Cause./Develop/Review/Tracking Week 3.md",
-    "Cause./Develop/MySQL/MySQL InnoDB.md",
-    "Cause./Develop/MySQL/MySQL查询.md",
-    "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/MySQL/MySQL存储.md",
-    "Cause./Develop/MySQL/MySQL 客户端.md",
     "Untitled.canvas",
     "Cause./Develop/Review/Fighting 2024.md",
     "Interest./Product",
