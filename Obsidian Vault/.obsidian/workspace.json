@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 5.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 5.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 5.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -183,10 +184,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee34274b40d1187b",
+  "active": "6bddf5f3ba336b1f",
   "lastOpenFiles": [
-    "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Review/Tracking Week 5.md",
+    "Cause./Develop/Review/Tracking Week  1.md",
     "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
