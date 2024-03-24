@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Read./2024/八次危机（温铁军）.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b05046042b7cb850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 348.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md"
+                "file": "Cause./Develop/Redis/Redis-1 存储.md"
               }
             }
           }
@@ -183,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,15 +183,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bddf5f3ba336b1f",
+  "active": "1781b013770dcfe4",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
-    "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/Review/Tracking Week 5.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-4 多功能.md",
+    "Cause./Develop/Redis/Redis-3 分布式.md",
+    "Cause./Develop/Redis/Redis-2.1 数据结构.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
+    "MySQL-7 InnoDB 锁-2.png",
+    "MySQL-7 InnoDB 锁-1.png",
+    "MySQL-7 InnoDB 锁.png",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+    "Interest./Product/聊聊飞书、企微和钉钉.md",
+    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+    "Cause./Develop/Review/Tracking Week 5.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
     "MySQL-4 Buffer Pool-1.png",
@@ -216,17 +212,12 @@
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "MySQL-6 InnoDB日志-redo log.png",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/Redis/Redis-2.1 数据结构.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Algo/15. 三数之和.md",
     "Cause./Develop/Algo/159. 至多包含两个不同字符的最长子串.md",
     "Cause./Develop/Algo/207. 课程表.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/Algo/131. 分割回文串.md",
     "Cause./Develop/Algo",
-    "Cause./Develop/Untitled.md",
-    "Cause./Develop/MySQL/MySQL-1 客户端.md",
-    "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
     "Untitled.canvas",
@@ -239,7 +230,6 @@
     "Interest.",
     "Cause./Business/Youzan",
     "Cause./Business",
-    "Pasted image 20240220195925.png",
     "Cause./Develop/DDD",
     "Cause./Develop/Review",
     "Tech./Develop/MySQL/存储"
