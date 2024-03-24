@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 286.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md"
+                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md"
               }
             }
           }
@@ -196,18 +196,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b05046042b7cb850",
+  "active": "1781b013770dcfe4",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/287. 寻找重复数.md",
+    "Cause./Develop/Review/Tracking Week 5.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
     "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+    "Interest./Product/聊聊飞书、企微和钉钉.md",
+    "Cause./Develop/Algo/287. 寻找重复数.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/255.  验证前序遍历序列二叉搜索树.md",
     "Cause./Develop/Algo/279. 完全平方数.md",
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Interest./Product/聊聊飞书、企微和钉钉.md",
-    "Cause./Develop/Review/Tracking Week 5.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB事务.md",
     "MySQL-6 InnoDB日志-redo log.png",
     "Cause./Develop/MySQL/MySQL-4 Buffer Pool.md",

@@ -3,6 +3,9 @@
 
 `WAL技术` 全称 Write-Ahead Logging，先写日志再写磁盘。具体来说更新一条记录的时候InnoDB会先写到redo log，并更新内存（buffer pool），这时候更新就算完成了。然后会在适当时候把更新到内存
 
+### Mini-Transaction
+为了保证一条插入语句因页面分裂而造成多个redo日志保存时候的原子性，InnoDB允许一组同时提交。
+
 
 ![[MySQL-6 InnoDB日志-redo log.png]]
 
@@ -11,11 +14,11 @@ check point是当前擦除的位置
 write pos 和 check point 之间是空着部分还可以继续记录，如果write 追上 check 表示内存满了，则需要停下来清楚数据
 
 ## binlog（归档日志） 
-	其实 binlog 并非 InnoDB特有的，这是在Server层日志而非引擎层。
-redo log VS binlog
--  redo log 是 InnoDB 特有的，binlog 是MySQL 的 Server 层实现的，所有引擎都可以使用
--  redo log 是物理日志，记录的是 “在某个数据页上做了什么修改”，binlog是逻辑日志，记录的是这个语句的原始逻辑
--  redo log 是循环写，binlog 是追加写
+
+	redo log VS binlog
+	-  redo log 是 InnoDB 特有的，binlog 是MySQL 的 Server 层实现的，所有引擎都可以使用
+	-  redo log 是 物理日志，记录的是 “在某个数据页上做了什么修改”；binlog是逻辑日志，记录的是这个语句的原始逻辑
+	-  redo log 是循环写，binlog 是追加写
 
 
 1.  执行器先找引擎取 ID=2 这一行。ID 是主键，引擎直接用树搜索找到这一行（在内存中直接返回，否则从磁盘读入内存再返回）
