@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -196,24 +196,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1781b013770dcfe4",
+  "active": "6bddf5f3ba336b1f",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+    "Interest./Product/聊聊飞书、企微和钉钉.md",
+    "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/Review/Tracking Week 5.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
     "MySQL-4 Buffer Pool-1.png",
     "MySQL-4 Buffer Pool.png",
-    "Cause./Develop/Review/Tracking Week 5.md",
-    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
-    "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Algo/287. 寻找重复数.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/255.  验证前序遍历序列二叉搜索树.md",
     "Cause./Develop/Algo/279. 完全平方数.md",
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
-    "Read./2024/八次危机（温铁军）.md",
     "MySQL-6 InnoDB日志-redo log.png",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/Redis/Redis-2.1 数据结构.md",

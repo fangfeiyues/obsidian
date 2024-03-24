@@ -85,8 +85,6 @@
 1. trx_id：每次一个事务对某条聚簇索引记录进行改动时，都会把该事务的事务id赋值给 trx_id 隐藏列
 2. roll_pointer：每次对某条聚簇索引记录进行改动时都会把旧版本信息写入到undo日志，然后这个隐藏列相当于一个指针，可以通过它来找到该记录修改前的信息
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5f50993-5205-4766-ad1c-757e6d9c5f14/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5f50993-5205-4766-ad1c-757e6d9c5f14/Untitled.png)
-
 ### MVCC实现机制
 
 解决最核心的问题：需要判断一下版本链中的哪个版本是当前事务可见的。
