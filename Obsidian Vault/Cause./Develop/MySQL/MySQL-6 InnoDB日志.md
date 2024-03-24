@@ -6,8 +6,10 @@
 ### Mini-Transaction
 为了保证一条插入语句因页面分裂而造成多个redo日志保存时候的原子性，InnoDB允许一组同时提交。
 
+### Log Sequence Number
 
 
+### checkpoint
 
 ![[MySQL-6 InnoDB日志-redo log.png]]
 
