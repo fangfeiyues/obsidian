@@ -10,12 +10,12 @@ MySQL存储要回答的几个问题（ 持续更新ing... ）
 ## 存储引擎
 
 
-[[MySQL-4 InnoDB索引#数据存储]]
+[[MySQL-4 InnoDB 索引#数据存储]]
 
 
 ## 事务
 
-[[MySQL-5 InnoDB事务]]
+[[MySQL-5 InnoDB 事务]]
 
 ## 日志
 
