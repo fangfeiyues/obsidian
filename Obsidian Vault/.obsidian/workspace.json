@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b05046042b7cb850",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 326.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
+                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
+                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md"
+                "file": "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md"
               }
             }
           }
@@ -184,10 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1781b013770dcfe4",
+  "active": "b05046042b7cb850",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL-5 InnoDB事务.md",
+    "Cause./Develop/Algo/287. 寻找重复数.md",
+    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+    "Cause./Develop/Algo/239. 滑动窗口最大值.md",
+    "Cause./Develop/Algo/255.  验证前序遍历序列二叉搜索树.md",
+    "Cause./Develop/Algo/279. 完全平方数.md",
+    "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB日志.md",
+    "Read./2024/八次危机（温铁军）.md",
+    "Interest./Product/聊聊飞书、企微和钉钉.md",
+    "Cause./Develop/Review/Tracking Week 5.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB事务.md",
     "MySQL-6 InnoDB日志-redo log.png",
     "Cause./Develop/MySQL/MySQL-4 Buffer Pool.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
@@ -196,25 +217,17 @@
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Algo/15. 三数之和.md",
     "Cause./Develop/Algo/159. 至多包含两个不同字符的最长子串.md",
-    "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/Algo/207. 课程表.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/Algo/131. 分割回文串.md",
     "Cause./Develop/Algo",
     "Cause./Develop/Untitled.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB索引.md",
-    "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/Review/Tracking Week 5.md",
-    "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
-    "Cause./Develop/Review/Tracking Week 4.md",
-    "Cause./Develop/Review/Tracking Week 2.md",
     "Untitled.canvas",
     "Interest./Product",
     "MySQL页目录.png",
