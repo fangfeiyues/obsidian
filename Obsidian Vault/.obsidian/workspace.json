@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,13 +200,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1781b013770dcfe4",
+  "active": "c5ffcdffb3711f4f",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
+    "Cause./Develop/Review/Tracking Week 6.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Review/Tracking Week 6.md",
+    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
     "Redis-1 存储.png",
     "Cause./Develop/MQ",
     "Cause./Develop/Algo/Untitled.md",
