@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Redis/Redis-2 查询.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -201,6 +201,7 @@
   },
   "active": "1781b013770dcfe4",
   "lastOpenFiles": [
+    "Redis-2 字典.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Read./2024/八次危机（温铁军）.md",
