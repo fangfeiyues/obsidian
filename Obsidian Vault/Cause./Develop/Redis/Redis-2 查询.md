@@ -184,7 +184,12 @@ redis> SADD numbers 1 3 5 7 9
 
 ### 压缩列表 Ziplist
 
-压缩列表（ziplist）是列表键和哈希键的底层实现之一。当列表键只包含少量列表项，并且每个列表项要么就是小整数值，要么就是长度比较短的字符串
+压缩列表（ziplist）是当元素比较少时，Redis会采用Ziplist或ListPack（Redis 7.0替换成了ListPack）
+
+
+### 紧凑列表 listpack
+
+
 
 
 ### 对象 Obj
@@ -209,3 +214,18 @@ Q：Redis为什么这么快？
 ![[Redis-2 查询-3.png|600]]
 
 
+
+
+---
+
+
+## 数据类型
+
+### Zset
+
+Redis 在 ZSet实现中有多种数据结构，大类的话有两种 `ziplist压缩列表（或listpack紧凑列表）` 和 `skiplist跳表`，当ZSet元素较少时候会采用 `ZipList` 来连续存储节省空间，当元素增多就会自动转换为 `SkipList` 。
+
+
+
+Q：Redis为什么被设计成是单线程的？
+首先的单线程是指 “其网络IO和键值对读写是由一个线程完成”，也就是说，Redis中只有网络请求模块和数据模块操作是单线程，其他如持久化存储模块、集群支撑模块等是多线程的。
