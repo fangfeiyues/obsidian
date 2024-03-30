@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-3 分布式.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -188,8 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c514e3480382a0a",
+  "active": "1781b013770dcfe4",
   "lastOpenFiles": [
+    "Redis-2 查询-3.png",
+    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Redis-2 查询-2.png",
@@ -206,7 +208,6 @@
     "Cause./Develop/Review/Tracking Week 5.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Interest./Product/聊聊飞书、企微和钉钉.md",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Redis/Redis-2.1 数据结构.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
     "MySQL-7 InnoDB 锁-2.png",
