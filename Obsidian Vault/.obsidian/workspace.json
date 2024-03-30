@@ -71,8 +71,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Review/Tracking Week 6.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Review/Tracking Week 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md"
+                "file": "Cause./Develop/Review/Tracking Week 6.md"
               }
             }
           }
@@ -199,11 +199,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1781b013770dcfe4",
+  "active": "ee34274b40d1187b",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-2 查询.md",
     "Redis-2 字典.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Review/Tracking Week 6.md",
@@ -242,7 +242,6 @@
     "Interest./Product",
     "MySQL页目录.png",
     "MySQL索引树.png",
-    "MySQL 客户端.png",
     "Interest./Invest",
     "Interest.",
     "Cause./Business/Youzan",
