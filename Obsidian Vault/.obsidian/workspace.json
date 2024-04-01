@@ -8,21 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee34274b40d1187b",
+            "id": "1781b013770dcfe4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 6.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "1781b013770dcfe4",
+            "id": "80a6e9d6aef004e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,32 +29,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "7c514e3480382a0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-3 分布式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bddf5f3ba336b1f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
             }
           }
         ],
@@ -188,17 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1781b013770dcfe4",
+  "active": "80a6e9d6aef004e1",
   "lastOpenFiles": [
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Redis-2 查询-3.png",
     "Cause./Develop/Redis/Redis-3 分布式.md",
-    "Redis-2 查询-2.png",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/Review/Tracking Week 6.md",
+    "Redis-2 查询-3.png",
+    "Redis-2 查询-2.png",
     "Redis-2 查询-1.png",
     "Redis-2 查询.png",
-    "Cause./Develop/Review/Tracking Week 6.md",
     "Redis-2 字典.png",
     "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Review/Tracking Week  1.md",
@@ -215,7 +188,6 @@
     "MySQL-7 InnoDB 锁.png",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
     "MySQL-4 Buffer Pool-1.png",
