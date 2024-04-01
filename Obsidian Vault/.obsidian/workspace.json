@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md"
+                "file": "Cause./Develop/Redis/Redis-1 存储.md"
               }
             }
           }
@@ -160,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80a6e9d6aef004e1",
+  "active": "1781b013770dcfe4",
   "lastOpenFiles": [
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Read./2024/八次危机（温铁军）.md",
