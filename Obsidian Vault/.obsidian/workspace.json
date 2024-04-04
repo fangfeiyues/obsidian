@@ -10,16 +10,31 @@
           {
             "id": "ab7170b2b121cd72",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Review/Tracking Week 7.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "aad793c09778477c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-3 集群.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 251.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-3 集群.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-3 集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md"
+                "file": "Cause./Develop/Redis/Redis-3 集群.md"
               }
             }
           }
@@ -134,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,15 +161,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab7170b2b121cd72",
+  "active": "aad793c09778477c",
   "lastOpenFiles": [
+    "Redis-3 分布式.png",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Review/Tracking Week 7.md",
+    "Cause./Develop/Review/Tracking Week 6.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/Review/Tracking Week 6.md",
     "Redis-2 查询-3.png",
     "Redis-2 查询-2.png",
     "Redis-2 查询-1.png",
@@ -184,7 +200,6 @@
     "Cause./Develop/Algo/279. 完全平方数.md",
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/Algo/15. 三数之和.md",
     "Cause./Develop/Algo",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
