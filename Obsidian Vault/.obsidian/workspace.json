@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1781b013770dcfe4",
+            "id": "ab7170b2b121cd72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Redis/Redis-1 存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80a6e9d6aef004e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -147,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,11 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1781b013770dcfe4",
+  "active": "ab7170b2b121cd72",
   "lastOpenFiles": [
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Review/Tracking Week 6.md",
@@ -178,7 +167,6 @@
     "Cause./Develop/MQ",
     "Cause./Develop/Algo/Untitled.md",
     "Cause./Develop/Review/Tracking Week 5.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
     "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Redis/Redis-2.1 数据结构.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
