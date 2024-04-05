@@ -56,8 +56,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e169a0402c601c41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c41408268672701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 7.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 7.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 7.md"
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
               }
             }
           }
@@ -184,26 +209,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab7170b2b121cd72",
+  "active": "e169a0402c601c41",
   "lastOpenFiles": [
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "MQ-3 消息消费-2.png",
+    "MQ-3 消息消费-1.png",
+    "MQ-3 消息消费.png",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "MQ-2 消息存储.png",
+    "MQ-1 消息发送-1.png",
+    "MQ-1 消息发送.png",
+    "Cause./Develop/Review/Tracking Week 7.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Redis-3 集群-2.png",
     "Redis-1 存储-1.png",
-    "Cause./Develop/Review/Tracking Week 7.md",
     "Redis-3 集群-1.png",
     "Redis-3 集群.png",
-    "Redis-3 集群-部分重同步-复制偏移量.png",
-    "Redis-3 分布式.png",
     "Cause./Develop/Review/Tracking Week 6.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Redis-2 查询-3.png",
-    "Redis-2 查询-2.png",
-    "Redis-2 查询-1.png",
-    "Redis-2 查询.png",
     "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/MQ",
@@ -219,9 +247,6 @@
     "Cause./Develop/Algo/287. 寻找重复数.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/255.  验证前序遍历序列二叉搜索树.md",
-    "Cause./Develop/Algo/279. 完全平方数.md",
-    "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/Algo",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
