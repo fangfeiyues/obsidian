@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md",
+                "file": "Cause./Develop/Review/Tracking Week 7.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md",
+                "file": "Cause./Develop/Review/Tracking Week 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md"
+                "file": "Cause./Develop/Review/Tracking Week 7.md"
               }
             }
           }
@@ -185,12 +184,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aad793c09778477c",
+  "active": "ab7170b2b121cd72",
   "lastOpenFiles": [
-    "Redis-3 集群-2.png",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Redis-3 集群-2.png",
     "Redis-1 存储-1.png",
     "Cause./Develop/Review/Tracking Week 7.md",
     "Redis-3 集群-1.png",
@@ -205,7 +204,6 @@
     "Redis-2 查询-2.png",
     "Redis-2 查询-1.png",
     "Redis-2 查询.png",
-    "Redis-2 字典.png",
     "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/MQ",
