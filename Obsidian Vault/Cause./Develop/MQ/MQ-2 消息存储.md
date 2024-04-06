@@ -1,15 +1,12 @@
 ## 存储过程
 
 
-
 ## 存储架构
 
-
-
-## Buffer
+### Buffer
 
 RocketMQ里使用的都是堆外内存池
-### DirectByteBuffer
+#### DirectByteBuffer
 
 ```java
 // 开辟对外内存池
@@ -28,7 +25,7 @@ public void init() {
 ```
 
 
-### MappedByteBuffer
+#### MappedByteBuffer
 
 ```java
 private void init(final String fileName, final int fileSize) throws IOException {
@@ -53,7 +50,7 @@ private void init(final String fileName, final int fileSize) throws IOException 
 
 ![[MQ-2 消息存储.png]]
 
-## 内存映射
+### 内存映射
 
 ```
   内存映射(mmap)是一种内存映射的方法即将一个文件或者其他对象映射到进程的地址空间，实现 ***文件磁盘地址***  和 ***应用程序进程虚拟空间*** 中一段虚拟地址的一一映射关系。实现这种映射关系后进程就可以采用指针的方式读写操作这一段内存。
@@ -61,3 +58,12 @@ private void init(final String fileName, final int fileSize) throws IOException 
 
 mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样可以跳过page cache，只使用一次数据拷贝
 
+
+
+
+---
+## 延迟消息
+
+延迟消息写到Broker后不会立刻被消费，需要等待指定时长后才可被处理。RocketMQ处理方式是：将消息先存储在内存中，然后使用Timer定时器进行消息延迟，到达指定时间后再存储到磁盘，投递给消费者
+
+但正常的Timer定时器是有缺陷的，比如某一时刻有大量任务执行，会导致性能下降影响投递。在RocketMQ 5.0 采用一种基于时间轮方式，能在O(1)时间内找到下一个即将执行的任务，并且能支持更高的消息精度

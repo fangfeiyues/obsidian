@@ -27,19 +27,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1c41408268672701",
+            "id": "ad32285464c19ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
               }
             }
           }
@@ -173,10 +173,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c41408268672701",
+  "active": "ad32285464c19ee2",
   "lastOpenFiles": [
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
+    "MQ-3 消息消费-3.png",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "MQ-1 消息发送-4.png",
     "MQ-1 消息发送-3.png",
@@ -191,7 +192,6 @@
     "Cause./Develop/Review/Tracking Week 7.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
-    "Redis-3 集群-2.png",
     "Cause./Develop/Review/Tracking Week 6.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
