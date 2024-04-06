@@ -17,15 +17,15 @@ RocketMQ的拉消费模型
 
 可以看到消费端的消费模型大致分为三个模块：负载队列，拉取消息，消息消费
 1. 服务端 `RebalanceImpl#doRebalance` 根据订阅的每个 topic 循环做消息队列负载
-2. 获取到每个topic在 Broker 的总队列及订阅tag 的客户端，再进行负载MessageQueue
-3. 每次负载可能MQ会有变更需要实时比较计算本地队列，然后 `MessageQueue + ProcessQueue + nextOffset` 构造成拉取的PullRequest
-4. PullMessageService 在阻塞队列下等待【3】的数据到来
+2. 服务端根据每个topic在Broker的总队列及订阅tag的客户端，进行负载MessageQueue
+3. 消费者在每次负载后会比较&计算本地队列，然后 `MessageQueue + ProcessQueue + nextOffset` 构造成拉取的PullRequest
+4. 消费者`PullMessageService`在阻塞队列下等待【3】的数据到来
 5. 待补充
-6. 利用PullRequest开始到Broker拉取实时数据，如果中断&队列processQueue缓存消息超过1000&大小超过100M 则会延迟再次消费，同时根据顺序非顺序控制消费...
-7. 如果拉到数据就是开始消费端消费；否则如果是暂时没消息继续拉取（服务端有长轮询机制）
-8. ConsumeMessageConcurrentlyService#submitConsumeRequest 消费在配置为 「20 无限大 64的线程池中进行... 这样只能保证
-9. 本地客户端接口开始接受到消费代码
-10. 根据消费结果ACK更新 Broker或Local 的消息进度
+6. 消费者利用`PullRequest`开始到 Broker 拉取实时数据，如果中断&队列processQueue缓存消息超过1000&大小超过100M 则会延迟再次消费，同时根据顺序非顺序控制消费...
+7. 消费者拉到数据开始消费，否则没消息继续拉取（服务端有长轮询机制）
+8. 消费者 `ConsumeMessageConcurrentlyService#submitConsumeRequest` 消费在配置为 「20 无限大 64的线程池中进行... 这样只能保证
+9. 本地接口开始接受到消费代码
+10. 消费者根据消费结果 ACK 更新 Broker或Local 的消息进度
 
 综上来看对于每个topic的消费者来看，想要达到限流的效果一方面可以控制内存中的队列多少（大小），一方面在线程池上加以控制避免在全量的消息冲击下服务击垮。所以可以看到在并发20个线程进行消费时如果后端消费能力不足的情况下会一次阻塞在线程队列中，这时 ProcessQueue 内存待消费消息不断积累阻塞消息的拉取
 
@@ -38,9 +38,7 @@ RocketMQ的拉消费模型
 
 这里对于单个topic的消费来说，每个topic都有4个 MessageQueue 同时每个MQ每次拉取都有8条消息下来，这样每个 MessageQueue 每次拉取32条消息的话在线程池中遍历消费。假设我们系统单条消息的消费能力是 40s，这样每分钟就会阻塞66条消息（20s重新负载拉取一次）大约在 15min后内存进度 ProcessQueue 的积累消息就会大于1000条了此时直接返回再等50ms重新拉取
 
-
 #### Q&A
-
 1. 此时消费线程池是所有topic共享的 如果只有一个服务消费不是默认的8个队列都在这个线程池了这必然会对其他topic的消费影响？？？消费线程池是单个topic的Consumer配置项，对consumeMessageBatchMaxSize 的批量大小消费值循环异步消费
 2. 在并发消费完成进行ACK的时候，removeMessage每次从ProcessQueue移除并取出最小到更新进度。那么每次并发消费前后顺序下可能会经常有消息重复消费问题？
 3. pullMessage(PullRequest) 的 pullRequest 对于上一次负载队列没有变化的情况下是怎么做到拉取新的消息的？
@@ -144,15 +142,19 @@ msg_timeout: 根据业务消费一条消息的时间来调整，如果消息里�
 
 
 ---
+
+---
 ## 消费顺序
 
+RocketMQ 的 `MessageListener` 回调函数提供了两种消费模式
+-  有序消费模式 `MessageListenerOrderly` 
+-  并发消费模式 `MessageListenerConcurrently`
+为了保证顺序消费，需要3把锁
+1. 消费者对`Broker`加分布式锁，消息只会发给这个Consumer ID
+2. 对 `MessageQueue消息队列` 加本地锁，确保同一时间一个队列只有一个线程处理（其他队列）
+3. 对 `ProcessQueue消费队列` 加本地锁，保证在broker重平衡后解锁本地ProcessQueue的时候消息处理完了，不会出现到新的Consumer B重复消费
 
-RocketMQ 的 MessageListener 回调函数提供了两种消费模式，有序消费模式MessageListenerOrderly 和 并发消费模式MessageListenerConcurrently 
-
-
-
-
-
+可以看出顺序消费是在消费者上加多次锁实现的，
 
 ---
 ## 消费异常
