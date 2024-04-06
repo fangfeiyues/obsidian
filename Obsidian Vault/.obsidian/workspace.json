@@ -22,48 +22,12 @@
             }
           },
           {
-            "id": "aad793c09778477c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad1f4ec8b5ecd8ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90ec750b21f0ce73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e169a0402c601c41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 258.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -148,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -165,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
               }
             }
           }
@@ -197,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 242.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,15 +173,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e169a0402c601c41",
+  "active": "1c41408268672701",
   "lastOpenFiles": [
     "Cause./Develop/MQ/MQ-1 消息发送.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "MQ-1 消息发送-3.png",
+    "MQ-1 消息发送-2.png",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "MQ-3 消息消费-2.png",
     "MQ-3 消息消费-1.png",
     "MQ-3 消息消费.png",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
     "MQ-2 消息存储.png",
     "MQ-1 消息发送-1.png",
     "MQ-1 消息发送.png",
@@ -226,8 +192,6 @@
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Redis-3 集群-2.png",
     "Redis-1 存储-1.png",
-    "Redis-3 集群-1.png",
-    "Redis-3 集群.png",
     "Cause./Develop/Review/Tracking Week 6.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",

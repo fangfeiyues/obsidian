@@ -8,17 +8,17 @@
  如上，其实解决这个问题的本身比较简单直接使用消息自己的消费能力就好了，在客户端消费跟不上的情况下自然会积压的。如果在这个时候我们第三方服务能扛得住完全OK，我们项目是在HTTP查询数据后直接DB其中的数据量大概是 4*9（线程） * 500 （单线程条数） = 3.6w 次插入DB操作那其实控制下还能接受但是如果这个时候是放大N倍的RPC调用那可就有一些危险了... 所以这里看下MQ的消费及限流策略还是很有必要的
 ```
 
-
 ## 消费模式
 ### 拉模式Pull
 
-先看看 RocketMQ 的消费模型吧
+RocketMQ的拉消费模型
+
 ![[MQ-3 消息消费.png]]
 
-可以看到消费端的消费模型大致分为三个模块：消息拉取队列负载，队列消息拉取，队列消息消费。我们一步一步看看那些地方可以有限流的效果
-1. RebalanceImpl#doRebalance 根据订阅的每个 topic 循环做消息队列负载
+可以看到消费端的消费模型大致分为三个模块：负载队列，拉取消息，消息消费
+1. 服务端 `RebalanceImpl#doRebalance` 根据订阅的每个 topic 循环做消息队列负载
 2. 获取到每个topic在 Broker 的总队列及订阅tag 的客户端，再进行负载MessageQueue
-3. 每次负载可能MQ会有变更需要实时比较计算本地队列，然后“ MessageQueue + ProcessQueue + nextOffset ” 构造成拉取的PullRequest
+3. 每次负载可能MQ会有变更需要实时比较计算本地队列，然后 `MessageQueue + ProcessQueue + nextOffset` 构造成拉取的PullRequest
 4. PullMessageService 在阻塞队列下等待【3】的数据到来
 5. 待补充
 6. 利用PullRequest开始到Broker拉取实时数据，如果中断&队列processQueue缓存消息超过1000&大小超过100M 则会延迟再次消费，同时根据顺序非顺序控制消费...
@@ -145,6 +145,12 @@ msg_timeout: 根据业务消费一条消息的时间来调整，如果消息里�
 
 ---
 ## 消费顺序
+
+
+RocketMQ 的 MessageListener 回调函数提供了两种消费模式，有序消费模式MessageListenerOrderly 和 并发消费模式MessageListenerConcurrently 
+
+
+
 
 
 
