@@ -161,8 +161,14 @@ RocketMQ 的 `MessageListener` 回调函数提供了两种消费模式
 
 ![[MQ-3 消息消费-3.png]]
 
+
 ---
+
 
 ## 消费异常
 
 
+
+## 延迟消费
+
+DelayQueue

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,9 +44,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b5b379e6284da84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
               }
             }
           }
@@ -173,13 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad32285464c19ee2",
+  "active": "4b5b379e6284da84",
   "lastOpenFiles": [
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Review/Tracking Week 7.md",
     "Cause./Develop/Algo/Untitled.md",
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "MQ-3 消息消费-3.png",
     "MQ-1 消息发送-4.png",
     "MQ-1 消息发送-3.png",
