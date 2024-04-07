@@ -1,6 +1,30 @@
 ## 1、存储过程
 
+![[MQ-2 消息存储-3.png|500]]
 
+### 存储核心
+-  CommitLog
+	消息存储文件，所有topic消息都存储在CommitLog文件
+-  ConsumeQueue
+	消息消费队列，消息到达CommitLog文件后，异步转发到消费队列，标记了在CommitLog中的起始offset、log size 和 Message Tag的hashCode ???
+-  IndexFile
+	消息索引文件，主要存储消息Key与Offset的对应关系
+
+### 存储优缺点
+
+	Kafka 和 RocketMQ 类似，每个Topic有多个 partition(queue)，Kafka 的 partition 是一个独立的物理文件，消息直接从里面读写。根据之前阿里中间件团队的测试，一旦 Kafka 的 Topic partitoin 数量过多，队列文件会过多，会给磁盘的IO读写造成很大的压力，造成tps迅速下降。
+	所以RocketMQ进行了上述这样设计，consumerQueue 中只存储很少的数据，消息主体都是通过 CommitLog 来进行读写
+
+- **优点**
+	1.  队列轻量化，单个队列数据非常少
+	2.  对磁盘访问穿行化，避免磁盘竞争
+
+- **缺点**
+	1.  写虽然是顺序写，但读却是完全随机读。读消息会先走 ConsumeQueue 再查 CommitLog
+
+- **解决方案**
+	1.  随机读尽可能命中 page cache，减少IO读操作所以内存越大越好
+	2.  
 
 ---
 ## 2、存储架构

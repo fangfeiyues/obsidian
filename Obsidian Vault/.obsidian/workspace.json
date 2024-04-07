@@ -185,8 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad32285464c19ee2",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
+    "Cause./Develop/Dubbo",
+    "MQ-2 消息存储-3.png",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
@@ -204,7 +206,6 @@
     "MQ-3 消息消费-2.png",
     "MQ-3 消息消费-1.png",
     "MQ-3 消息消费.png",
-    "MQ-2 消息存储.png",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Review/Tracking Week 6.md",
