@@ -1,6 +1,7 @@
 ## 存储过程
 
 
+---
 ## 存储架构
 
 ### Buffer
@@ -59,6 +60,9 @@ private void init(final String fileName, final int fileSize) throws IOException 
 mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样可以跳过page cache，只使用一次数据拷贝
 
 
+
+
+---
 
 
 ---

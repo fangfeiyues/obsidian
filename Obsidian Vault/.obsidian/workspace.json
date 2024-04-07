@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 413.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -176,9 +176,11 @@
   "active": "ad32285464c19ee2",
   "lastOpenFiles": [
     "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/Review/Tracking Week 7.md",
+    "Cause./Develop/Algo/Untitled.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "MQ-3 消息消费-3.png",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
     "MQ-1 消息发送-4.png",
     "MQ-1 消息发送-3.png",
     "MQ-1 消息发送-2.png",
@@ -189,7 +191,6 @@
     "MQ-2 消息存储.png",
     "MQ-1 消息发送-1.png",
     "MQ-1 消息发送.png",
-    "Cause./Develop/Review/Tracking Week 7.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Review/Tracking Week 6.md",
@@ -199,7 +200,6 @@
     "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/MQ",
-    "Cause./Develop/Algo/Untitled.md",
     "Cause./Develop/Review/Tracking Week 5.md",
     "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Redis/Redis-2.1 数据结构.md",
