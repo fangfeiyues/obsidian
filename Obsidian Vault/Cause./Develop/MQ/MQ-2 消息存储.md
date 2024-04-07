@@ -1,8 +1,9 @@
-## 存储过程
+## 1、存储过程
+
 
 
 ---
-## 存储架构
+## 2、存储架构
 
 ### Buffer
 
@@ -24,7 +25,6 @@ public void init() {
     }
 
 ```
-
 
 #### MappedByteBuffer
 
@@ -60,13 +60,8 @@ private void init(final String fileName, final int fileSize) throws IOException 
 mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样可以跳过page cache，只使用一次数据拷贝
 
 
-
-
 ---
-
-
----
-## 延迟消息
+## 3、延迟消息
 
 - 思路
 	Broker 将消息先存储在内存中，然后使用Timer定时器进行消息延迟，到达指定时间后再存储到磁盘，投递给消费者
@@ -75,8 +70,32 @@ mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样�
 	2、时间轮的每个槽位对应一个时间间隔，比如1秒、5秒、10秒等，每次时间轮的滴答，槽位向前移动一个时间间隔
 	3、当 Broker 接收到定时消息时，根据消息的过期时间计算出需要投递的槽位，并将消息放置到对应
 	4、当时间轮的滴答达到消息的过期时间时，时间轮会将槽位中的所有消息投递给消费者
-
-但正常的Timer定时器是有缺陷的，比如某一时刻有大量任务执行，会导致性能下降影响投递。在RocketMQ 5.0 采用一种基于`时间轮方式`。
-其能在O(1)时间内找到下一个即将执行的任务，并且能支持更高的消息精度。详见： [[时间轮定时器]]
+- 时间轮算法
+	但正常的Timer定时器是有缺陷的，比如某一时刻有大量任务执行，会导致性能下降影响投递。在RocketMQ 5.0 采用一种基于`时间轮方式`。
+	其能在O(1)时间内找到下一个即将执行的任务，并且能支持更高的消息精度。详见： [[时间轮定时器]]
 
 ![[MQ-2 消息存储-1.png|600]]
+
+
+## 4、消息重试
+
+-  重试场景
+	RocketMQ规定以下3种情况会发起重试
+	1.  业务消费方返回`ConsumeConcurrentlyStatus.RECONSUME_LATER`
+	2.  业务消费方返回 null
+	3.  业务消费方主动/被动 抛出异常
+-  重试流程
+	1、Consumer消费的时候，会订阅指定的 `TOPIC-NOMAL_TOPIC` 和 该ConsumerGroup对应的重试`TOPIC-RETRY_GROUP1_TOPIC` ，同时消费来自这两个TOPIC的消息
+	2、Consumer消费失败后，调用`sendMessageBack`将失败消息返回Broker
+	3、Broker 的 `SendMessageProcessor` 根据当前重试次数确定延时级别，将消息存入延时队列-SCHEDULE_TOPIC中
+	4、`ScheduleMessageService` 将到期消息重发到重试队列 `RETRY_GROUP1_TOPIC` 被 Consumer 重新消费 
+
+可以对比之前的延时消息流程，其实重试消息就是将失败的消息当作延时消息进行处理，只不过最后投入的是专门的重试消息队列中
+
+![[MQ-2 消息存储-2.png|600]]
+
+
+## 5、消息堆积
+
+
+

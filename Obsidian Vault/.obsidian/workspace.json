@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,13 +187,14 @@
   },
   "active": "ad32285464c19ee2",
   "lastOpenFiles": [
-    "MQ-2 消息存储-1.png",
-    "Cause./Develop/Design/时间轮定时器.md",
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
-    "Cause./Develop/Design",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Review/Tracking Week 7.md",
+    "MQ-2 消息存储-2.png",
+    "MQ-2 消息存储-1.png",
+    "Cause./Develop/Design/时间轮定时器.md",
+    "Cause./Develop/Design",
     "Cause./Develop/Algo/Untitled.md",
     "MQ-3 消息消费-3.png",
     "MQ-1 消息发送-4.png",
@@ -204,8 +205,6 @@
     "MQ-3 消息消费-1.png",
     "MQ-3 消息消费.png",
     "MQ-2 消息存储.png",
-    "MQ-1 消息发送-1.png",
-    "MQ-1 消息发送.png",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Review/Tracking Week 6.md",

@@ -27,41 +27,18 @@ RocketMQ的拉消费模型
 9. 本地接口开始接受到消费代码
 10. 消费者根据消费结果 ACK 更新 Broker或Local 的消息进度
 
-综上来看对于每个topic的消费者来看，想要达到限流的效果一方面可以控制内存中的队列多少（大小），一方面在线程池上加以控制避免在全量的消息冲击下服务击垮。所以可以看到在并发20个线程进行消费时如果后端消费能力不足的情况下会一次阻塞在线程队列中，这时 ProcessQueue 内存待消费消息不断积累阻塞消息的拉取
+综上来看对于每个topic的消费者来看，想要达到限流的效果 一方面可以控制内存中的队列多少（大小），一方面在线程池上加以控制避免在全量的消息冲击下服务击垮。
+所以可以看到在并发20个线程进行消费时如果后端消费能力不足的情况下会一次阻塞在线程队列中，这时 ProcessQueue 内存待消费消息不断积累阻塞消息的拉取
 
-![[MQ-3 消息消费-1.png|500]]
+![[MQ-3 消息消费-1.png|400]]
 
 由上的消息流转流程来看：
-1.  RebalanceImpl 每20s负载一次topic的 PullRequest 队列
-2.  PullMessageService 根据负载的队列去 Broker 上拉取数据
-3.  ConsumeMessage 并发消费数据并更新 ProcessQueue 内存中消息数据
+1.  `RebalanceImpl` 每20s负载一次topic的 PullRequest 队列
+2.  `PullMessageService` 根据负载的队列去 Broker 上拉取数据
+3.  `ConsumeMessage` 并发消费数据并更新 ProcessQueue 内存中消息数据
 
-这里对于单个topic的消费来说，每个topic都有4个 MessageQueue 同时每个MQ每次拉取都有8条消息下来，这样每个 MessageQueue 每次拉取32条消息的话在线程池中遍历消费。假设我们系统单条消息的消费能力是 40s，这样每分钟就会阻塞66条消息（20s重新负载拉取一次）大约在 15min后内存进度 ProcessQueue 的积累消息就会大于1000条了此时直接返回再等50ms重新拉取
+这里对于单个topic的消费来说，每个topic都有4个MessageQueue同时每个MQ每次拉取8条消息，这样 ProcessQueue 每次拉取32条消息的话在线程池中遍历消费。假设我们系统单条消息的消费能力是 40s，这样每分钟就会阻塞66条消息（20s重新负载拉取一次）大约在 15min后内存进度 ProcessQueue 的积累消息就会大于1000条，此时直接返回再等50ms重新拉取
 
-#### Q&A
-1. 此时消费线程池是所有topic共享的 如果只有一个服务消费不是默认的8个队列都在这个线程池了这必然会对其他topic的消费影响？？？消费线程池是单个topic的Consumer配置项，对consumeMessageBatchMaxSize 的批量大小消费值循环异步消费
-2. 在并发消费完成进行ACK的时候，removeMessage每次从ProcessQueue移除并取出最小到更新进度。那么每次并发消费前后顺序下可能会经常有消息重复消费问题？
-3. pullMessage(PullRequest) 的 pullRequest 对于上一次负载队列没有变化的情况下是怎么做到拉取新的消息的？
-
-
-### 推模式Push
-
-#### NSQ
-
-max_inflight: 允许当前消费处理的消息总数，此值包括所有并发的待ack的消息数量，如果超过会暂停接受消息直到消息被逐渐消费完毕。( pullThresholdForQueue )
-
-ready: 消费能力值，根据消费能力调整一般使用默认值。这里是3个分区每个分区批量消费数默认3，即保持3条正在消费消费一条再来一条（ ... ）
-
-max_attempt: 每条消息的最大重试消费次数。
-
-msg_timeout: 根据业务消费一条消息的时间来调整，如果消息里面有批量的任务需要适当调整消费超时 （ consumeTimeout: 消息可能阻止消费线程的最长时间，过期清理 ）
-
-并发消费数：建议设置为机器CPU*4 （ consumeThreadMin ）
-
-#### Q&A
-1. 此时消费线程池是所有topic共享的 如果只有一个服务消费不是默认的8个队列都在这个线程池了这必然会对其他topic的消费影响？？？消费线程池是单个topic的Consumer配置项，对consumeMessageBatchMaxSize 的批量大小消费值循环异步消费
-2. 在并发消费完成进行ACK的时候，removeMessage每次从ProcessQueue移除并取出最小到更新进度。那么每次并发消费前后顺序下可能会经常有消息重复消费问题？
-3. pullMessage(PullRequest) 的 pullRequest 对于上一次负载队列没有变化的情况下是怎么做到拉取新的消息的？
 
 
 ---
