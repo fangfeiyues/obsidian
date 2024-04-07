@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab7170b2b121cd72",
+            "id": "4b5b379e6284da84",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 7.md",
+                "file": "Interest./Product/2024.04.08 聊聊茶饮品.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,43 +22,33 @@
             }
           },
           {
-            "id": "e169a0402c601c41",
+            "id": "5cd61e2c24e45ad6",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/Review/Tracking Week 8.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "ad32285464c19ee2",
+            "id": "14e319ea1fd0d017",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b5b379e6284da84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-1 Provider.md"
               }
             }
           }
@@ -185,15 +175,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b5b379e6284da84",
+  "active": "14e319ea1fd0d017",
   "lastOpenFiles": [
+    "Dubbo-1 Provider.png",
+    "Interest./Product/2024.04.08 聊聊茶饮品.md",
+    "Cause./Develop/Review/Tracking Week 8.md",
+    "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
+    "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
+    "Cause./Develop/Dubbo/Dubbo-2 Process.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "Cause./Develop/Review/Tracking Week 7.md",
+    "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
     "MQ-2 消息存储-4.png",
     "Cause./Develop/Dubbo",
     "MQ-2 消息存储-3.png",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
-    "Cause./Develop/Review/Tracking Week 7.md",
     "MQ-2 消息存储-2.png",
     "MQ-2 消息存储-1.png",
     "Cause./Develop/Design/时间轮定时器.md",
@@ -205,7 +202,6 @@
     "MQ-1 消息发送-2.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "MQ-3 消息消费-2.png",
-    "MQ-3 消息消费-1.png",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Review/Tracking Week 6.md",
@@ -216,15 +212,9 @@
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/MQ",
     "Cause./Develop/Review/Tracking Week 5.md",
-    "Interest./Product/聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Redis/Redis-2.1 数据结构.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
-    "Cause./Develop/Algo/287. 寻找重复数.md",
-    "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
