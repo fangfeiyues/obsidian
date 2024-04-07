@@ -14,26 +14,34 @@
 
 	Kafka 和 RocketMQ 类似，每个Topic有多个 partition(queue)，Kafka 的 partition 是一个独立的物理文件，消息直接从里面读写。根据之前阿里中间件团队的测试，一旦 Kafka 的 Topic partitoin 数量过多，队列文件会过多，会给磁盘的IO读写造成很大的压力，造成tps迅速下降。
 	所以RocketMQ进行了上述这样设计，consumerQueue 中只存储很少的数据，消息主体都是通过 CommitLog 来进行读写
-
+	
 - **优点**
 	1.  队列轻量化，单个队列数据非常少
 	2.  对磁盘访问穿行化，避免磁盘竞争
-
 - **缺点**
 	1.  写虽然是顺序写，但读却是完全随机读。读消息会先走 ConsumeQueue 再查 CommitLog
-
 - **解决方案**
-	1.  随机读尽可能命中 page cache，减少IO读操作所以内存越大越好
-	2.  
+	1.  随机读尽可能命中 page cache 从而减少IO读操作，所以内存越大越好
+	2.  预热 CommitLog 数据
 
 ---
 ## 2、存储架构
 
-### Buffer
+![[MQ-2 消息存储-4.png|600]]
 
-RocketMQ里使用的都是堆外内存池
-#### DirectByteBuffer
+### 业务处理
+Broker端对消息进行读取和写入逻辑，如前置检查、decode序列化、构造Response等
 
+### 存储组件
+核心类 `DefaultMessageStore` 通过方法 `putMessage` 和 `getMessage` 完成对 CommitLog 的日志数据读写操作。另外在组件初始化时还会有 AllocateMappedFileService预分配线程、ReputMessageService 回放存储线程、HAService主从同步线程、IndexService索引文件线程等
+
+### 存储逻辑
+
+### 文件内存封装
+
+MappedByteBuffer 和 FileChannel 完成数据文件读写。
+
+ - DirectByteBuffer
 ```java
 // 开辟对外内存池
 public void init() {
@@ -50,8 +58,7 @@ public void init() {
 
 ```
 
-#### MappedByteBuffer
-
+ - MappedByteBuffer
 ```java
 private void init(final String fileName, final int fileSize) throws IOException {
         try {
@@ -75,13 +82,15 @@ private void init(final String fileName, final int fileSize) throws IOException 
 
 ![[MQ-2 消息存储.png]]
 
-### 内存映射
-
+- 内存映射
 ```
   内存映射(mmap)是一种内存映射的方法即将一个文件或者其他对象映射到进程的地址空间，实现 ***文件磁盘地址***  和 ***应用程序进程虚拟空间*** 中一段虚拟地址的一一映射关系。实现这种映射关系后进程就可以采用指针的方式读写操作这一段内存。
 ```
 
 mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样可以跳过page cache，只使用一次数据拷贝
+
+
+### 磁盘存储
 
 
 ---
