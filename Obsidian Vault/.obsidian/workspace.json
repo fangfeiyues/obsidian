@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 325.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
               }
             }
           }
@@ -185,10 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b5b379e6284da84",
+  "active": "ad32285464c19ee2",
   "lastOpenFiles": [
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "MQ-2 消息存储-1.png",
+    "Cause./Develop/Design/时间轮定时器.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/Design",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Review/Tracking Week 7.md",
     "Cause./Develop/Algo/Untitled.md",
@@ -222,7 +225,6 @@
     "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
     "Cause./Develop/Algo/287. 寻找重复数.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
-    "Cause./Develop/Algo/255.  验证前序遍历序列二叉搜索树.md",
     "Cause./Develop/Algo",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
@@ -232,7 +234,6 @@
     "Interest.",
     "Cause./Business/Youzan",
     "Cause./Business",
-    "Cause./Develop/DDD",
-    "Cause./Develop/Review"
+    "Cause./Develop/DDD"
   ]
 }
