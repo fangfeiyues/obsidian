@@ -17,7 +17,7 @@ RocketMQ的拉消费模型
 
 可以看到消费端的消费模型大致分为三个模块：负载队列，拉取消息，消息消费
 1. 服务端 `RebalanceImpl#doRebalance` 根据订阅的每个 topic 循环做消息队列负载
-2. 服务端根据每个topic在Broker的总队列及订阅tag的客户端，进行负载MessageQueue
+2. 服务端 根据topic在Broker的总队列及订阅tag的客户端，进行负载MessageQueue
 3. 消费者在每次负载后会比较&计算本地队列，然后 `MessageQueue + ProcessQueue + nextOffset` 构造成拉取的PullRequest
 4. 消费者`PullMessageService`在阻塞队列下等待【3】的数据到来
 5. 待补充

@@ -46,9 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "071fa77680933353",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
+                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
               }
             }
           }
@@ -175,17 +187,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14e319ea1fd0d017",
+  "active": "071fa77680933353",
   "lastOpenFiles": [
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/Review/Tracking Week 8.md",
     "MQ-2 消息存储-6.png",
     "MQ-2 消息存储-5.png",
     "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
-    "Cause./Develop/Review/Tracking Week 8.md",
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "Dubbo-1 Provider.png",
     "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
     "Cause./Develop/Dubbo/Dubbo-2 Process.md",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Review/Tracking Week 7.md",
     "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
@@ -201,7 +213,6 @@
     "MQ-3 消息消费-3.png",
     "MQ-1 消息发送-4.png",
     "MQ-1 消息发送-3.png",
-    "MQ-1 消息发送-2.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
