@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "071fa77680933353",
+            "id": "bcc892ec52d7d4b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,18 +187,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "071fa77680933353",
+  "active": "bcc892ec52d7d4b9",
   "lastOpenFiles": [
     "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Review/Tracking Week 8.md",
+    "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "MQ-2 消息存储-6.png",
     "MQ-2 消息存储-5.png",
     "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
-    "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "Dubbo-1 Provider.png",
     "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
     "Cause./Develop/Dubbo/Dubbo-2 Process.md",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Review/Tracking Week 7.md",
     "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
     "MQ-2 消息存储-4.png",

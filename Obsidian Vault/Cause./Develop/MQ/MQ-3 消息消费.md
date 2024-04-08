@@ -11,17 +11,17 @@
 ## 消费模式
 ### 拉模式Pull
 
-RocketMQ的拉消费模型
+RocketMQ 的拉消费模型
 
 ![[MQ-3 消息消费.png]]
 
 可以看到消费端的消费模型大致分为三个模块：负载队列，拉取消息，消息消费
-1. 服务端 `RebalanceImpl#doRebalance` 根据订阅的每个 topic 循环做消息队列负载
-2. 服务端 根据topic在Broker的总队列及订阅tag的客户端，进行负载MessageQueue
-3. 消费者在每次负载后会比较&计算本地队列，然后 `MessageQueue + ProcessQueue + nextOffset` 构造成拉取的PullRequest
-4. 消费者`PullMessageService`在阻塞队列下等待【3】的数据到来
+1. Broker `RebalanceImpl#doRebalance` 根据订阅的每个 topic 循环做消息队列负载
+2. Broker topic的总队列及订阅tag的客户端，做负载 MessageQueue
+3. Consumer 在每次负载后会比较计算本地队列，然后 `MessageQueue + ProcessQueue + nextOffset` 构造成拉取的 PullRequest
+4. Consumer `PullMessageService` 在阻塞队列下等待【3】的数据到来
 5. 待补充
-6. 消费者利用`PullRequest`开始到 Broker 拉取实时数据，如果中断&队列processQueue缓存消息超过1000&大小超过100M 则会延迟再次消费，同时根据顺序非顺序控制消费...
+6. 消费者利用`PullRequest`开始到 Broker 拉取实时数据，如果中断&队列 processQueue 缓存消息超过1000&大小超过100M则会延迟再次消费，同时根据顺序非顺序控制消费...
 7. 消费者拉到数据开始消费，否则没消息继续拉取（服务端有长轮询机制）
 8. 消费者 `ConsumeMessageConcurrentlyService#submitConsumeRequest` 消费在配置为 「20 无限大 64的线程池中进行... 这样只能保证
 9. 本地接口开始接受到消费代码
