@@ -17,8 +17,6 @@ sdscat(s, "Cluster")
 
 当 SDS 的 API 需要缩短 SDS 保存的字符串时，程序并不立即使用内存重分配来回收缩短后的字节，而是使用 free 属性将这些字节的数量记录起来，并等待将来使用
 
-
-
 ### 链表 Linked
 
 #### 使用
@@ -192,7 +190,6 @@ redis> SADD numbers 1 3 5 7 9
 ### 对象 Obj
 
 ![[Redis-2 查询-2.png|600]]
-
 
 Q：Redis为什么这么快？
 

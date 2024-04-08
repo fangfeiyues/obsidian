@@ -41,26 +41,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bcc892ec52d7d4b9",
+            "id": "b56f17907adb9a34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ca3a297bfcbe3ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95654e6ccc98b107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md"
               }
             }
           }
@@ -187,11 +211,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcc892ec52d7d4b9",
+  "active": "14e319ea1fd0d017",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
+    "Cause./Develop/MQ/MQ-4 -存储比较-.md",
+    "Cause./Develop/Review/Tracking Week 8.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/MySQL/MySQL-1 客户端.md",
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
-    "Cause./Develop/Review/Tracking Week 8.md",
+    "MySQL.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "MQ-2 消息存储-7.png",
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "MQ-2 消息存储-6.png",
     "MQ-2 消息存储-5.png",
@@ -204,7 +242,6 @@
     "MQ-2 消息存储-4.png",
     "Cause./Develop/Dubbo",
     "MQ-2 消息存储-3.png",
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "MQ-2 消息存储-2.png",
     "MQ-2 消息存储-1.png",
     "Cause./Develop/Design/时间轮定时器.md",
@@ -212,21 +249,9 @@
     "Cause./Develop/Algo/Untitled.md",
     "MQ-3 消息消费-3.png",
     "MQ-1 消息发送-4.png",
-    "MQ-1 消息发送-3.png",
-    "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Review/Tracking Week 6.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/Algo/309. 买卖股票的最佳时机含冷冻期.md",
-    "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/MQ",
-    "Cause./Develop/Review/Tracking Week 5.md",
-    "Cause./Develop/Redis/Redis-2.1 数据结构.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
     "Cause./Develop/Algo",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",

@@ -5,7 +5,8 @@
 
 ![[MQ-2 消息存储-6.png]]
 
-
+-  代码流程
+![[MQ-2 消息存储-7.png]]
 ### 存储核心
 -  CommitLog
 	消息存储文件，所有topic消息都存储在CommitLog文件
