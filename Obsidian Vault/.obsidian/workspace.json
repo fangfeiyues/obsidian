@@ -41,7 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfe5c5ced15b6a55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 8.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 8.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Review/Tracking Week 8.md"
+                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md"
               }
             }
           }
@@ -199,16 +211,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5cd61e2c24e45ad6",
+  "active": "cfe5c5ced15b6a55",
   "lastOpenFiles": [
-    "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
-    "Cause./Develop/MQ/MQ-4 -存储比较-.md",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
-    "Cause./Develop/Review/Tracking Week 8.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
+    "Cause./Develop/MQ/MQ-4 -存储比较-.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/Review/Tracking Week 8.md",
+    "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
