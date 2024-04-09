@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 内存与Buffer.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,21 +70,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "95654e6ccc98b107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 内存与Buffer.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md",
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 内存与Buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储比较-.md"
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 内存与Buffer.md"
               }
             }
           }
@@ -211,13 +199,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfe5c5ced15b6a55",
+  "active": "b56f17907adb9a34",
   "lastOpenFiles": [
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
-    "Cause./Develop/MQ/MQ-4 -存储比较-.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/MQ/MQ-4 -存储比较-.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 事务.md",
     "Cause./Develop/Review/Tracking Week 8.md",
     "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 索引.md",
@@ -225,7 +213,7 @@
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB Buffer Pool.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 内存与Buffer.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "MySQL.md",
