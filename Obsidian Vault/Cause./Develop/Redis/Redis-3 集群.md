@@ -17,7 +17,8 @@ Redis 的复制功能分为 同步(sync) 和 命令传播(command propagate)
 
 ### 新版同步
 
-Redis 从 2.8版本 开始使用 PSYNC命令 代替 SYNC命令 来执行复制时同步。PSYNC命令具有 完整重同步( full resynchronization ) 和 部分重同步( partial resynchronization )
+Redis 从 2.8版本 开始使用 `PSYNC命令` 代替 `SYNC命令` 来执行复制时同步。
+`PSYNC命令`具有 `完整重同步( full resynchronization ) ` 和 `部分重同步( partial resynchronization )`
 
 #### 部分重同步
 主要由三个部分构成
