@@ -13,12 +13,12 @@ Redis、MySQL、RocketMQ 三者都涉及到存储&查询。那其中的区别是
     3.  存储：
 	    1.  客户端发起请求
 	    2.  -> server检查 
-	    3.  -> buffer pool内存页 
-	    4.  -> redo log 
-	    5.  -> 刷脏
-	    6.  -> 落盘 
-	    7.  -> binlog 
-	    8.  -> 主从同步
+	    3.  -> 是否在内存？在-> 读&写 buffer pool，不在-> 写 change buffer
+	    5.  -> InnoDB  prepare  redo_log
+	    6.  -> 刷脏（异步）
+	    7.  -> 执行器 生产 binlog 并写入磁盘
+	    8.  -> InnoDB  commit  redo_log
+	    9.  -> 主从同步
     5.  缓存
     6.  事务：（原子性、持久性、隔离性、一致性）
     7.  索引：
