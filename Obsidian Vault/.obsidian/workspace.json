@@ -27,6 +27,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Interest./Invest/2024-04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9186e03062ef7368",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
                 "mode": "source",
                 "source": false
@@ -70,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 243.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,15 +209,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfe5c5ced15b6a55",
+  "active": "9186e03062ef7368",
   "lastOpenFiles": [
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "Interest./Invest/2024-04.md",
     "Cause./Develop/Review/Tracking Week 8.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
@@ -234,7 +247,6 @@
     "MQ-2 消息存储-1.png",
     "Cause./Develop/Design/时间轮定时器.md",
     "Cause./Develop/Design",
-    "Cause./Develop/Algo/Untitled.md",
     "MQ-3 消息消费-3.png",
     "MQ-1 消息发送-4.png",
     "Cause./Develop/MQ",
