@@ -49,14 +49,13 @@ LRU管理，线型管理缓存的数据。
 ## Change Pool
 
 -  **更新步骤**
-   在更新数据页时
 	1、如果数据在内存，则直接更新
 	2、否则会缓存操作到 change buffer，来避免读磁盘数据到内存
 	3、再等下次访问数据页时，会把数据读到内存再触发 merge，或 后台定期merge
 
 -  **使用条件**
 	1、唯一索引不能，由于数据唯一性限制
-	2、change buffer 用的是 buffer pool内存，不能无限大，innodb_change_buffer_max_size 控制
+	2、change buffer 用的是 buffer pool内存，不能无限大，`innodb_change_buffer_max_size` 控制
 
 -  **使用场景**
 	1、 写多读少的业务如账单、日志等。写多可以一次性merge；读少可以减少merge
