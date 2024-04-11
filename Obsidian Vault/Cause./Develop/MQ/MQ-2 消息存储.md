@@ -1,23 +1,38 @@
 记一次消息的存储之旅
 
-## 1、存储过程
+## 存储过程
 
-![[MQ-2 消息存储-5.png]]
+### 1、Netty网络传输
 
 
+### 2、写内存
+
+
+### 3、刷磁盘
+
+
+### 4、构建索引文件
+
+
+### 5、HA
+
+
+
+
+-  存储流程
 ![[MQ-2 消息存储-6.png]]
 
--  代码流程
-![[MQ-2 消息存储-7.png]]
-### 存储核心
+
+存储核心
 -  CommitLog
 	消息存储文件，所有topic消息都存储在CommitLog文件
 -  ConsumeQueue
 	消息消费队列，消息到达CommitLog文件后，异步转发到消费队列，标记了在CommitLog中的起始offset、log size 和 Message Tag的hashCode ???
 -  IndexFile
-	消息索引文件，主要存储消息Key与Offset的对应关系
+	消息索引文件，主要存储消息Key与Offset的对应关系。通过key或时间区间来查询消息
 
-### 存储优缺点
+
+xxx 存储优缺
 
 	Kafka 和 RocketMQ 类似，每个Topic有多个 partition(queue)，Kafka 的 partition 是一个独立的物理文件，消息直接从里面读写。根据之前阿里中间件团队的测试，一旦 Kafka 的 Topic partitoin 数量过多，队列文件会过多，会给磁盘的IO读写造成很大的压力，造成tps迅速下降。
 	所以RocketMQ进行了上述这样设计，consumerQueue 中只存储很少的数据，消息主体都是通过 CommitLog 来进行读写
@@ -32,19 +47,19 @@
 	2.  预热 CommitLog 数据
 
 ---
-## 2、存储架构
+## 存储架构
 
 ![[MQ-2 消息存储-4.png|600]]
 
-### 业务处理
+### 1、业务处理
 Broker端对消息进行读取和写入逻辑，如前置检查、decode序列化、构造Response等
 
-### 存储组件
+### 2、存储组件
 核心类 `DefaultMessageStore` 通过方法 `putMessage` 和 `getMessage` 完成对 CommitLog 的日志数据读写操作。另外在组件初始化时还会有 AllocateMappedFileService预分配线程、ReputMessageService 回放存储线程、HAService主从同步线程、IndexService索引文件线程等
 
-### 存储逻辑
+### 3、存储逻辑
 
-### 文件内存封装
+### 4、文件内存封装
 
 MappedByteBuffer 和 FileChannel 完成数据文件读写。
 
@@ -97,13 +112,18 @@ private void init(final String fileName, final int fileSize) throws IOException 
 
 mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样可以跳过page cache，只使用一次数据拷贝
 
-### 磁盘存储
+
+-  代码流程
+![[MQ-2 消息存储-7.png]]
+
+### 5、磁盘存储
 
 
 ---
 
-## 存储过程中一些问题的处理
-## 3、延迟消息
+
+## 存储过程中一些细节处理
+### 1、延迟消息
 
 - 思路
 	Broker 将消息先存储在内存中，然后使用Timer定时器进行消息延迟，到达指定时间后再存储到磁盘，投递给消费者
@@ -119,7 +139,7 @@ mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样�
 ![[MQ-2 消息存储-1.png|600]]
 
 
-## 4、消息重试
+### 2、消息重试
 
 -  重试场景
 	RocketMQ规定以下3种情况会发起重试
@@ -137,7 +157,7 @@ mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样�
 ![[MQ-2 消息存储-2.png|600]]
 
 
-## 5、消息堆积
+### 3、消息堆积
 
 
 
