@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 241.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,13 +199,13 @@
   },
   "active": "b56f17907adb9a34",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
-    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "Cause./Develop/Review/Tracking Week 8.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Redis-2 查询-4.png",
-    "Cause./Develop/Review/Tracking Week 8.md",
     "Interest./Invest/2024-04.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 日志.md",
     "MySQL-6 InnoDB 日志-2.png",
