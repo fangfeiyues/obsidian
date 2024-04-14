@@ -1,7 +1,18 @@
 
+## 节点注册
+
+![[MQ-1 消息发送-5.png|500]]
+
+1.  Broker启动的时候去向所有的NameServer注册，并保持长连接，每30s发送一次心跳
+2.  Producer在发送消息的时候从NameServer获取Broker服务器地址，根据负载均衡算法选择一台服务器来发送消息
+3.  Conusmer消费消息的时候同样从NameServer获取Broker地址，然后主动拉取消息来消费
+
+-  **为什么用的NameServer而不是ZK**
+
+
+
 ## 消息发送
 
----
 ## 消息分布式
 
 ### MQ

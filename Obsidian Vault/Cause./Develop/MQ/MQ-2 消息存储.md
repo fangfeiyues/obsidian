@@ -9,6 +9,7 @@
 
 #### CommitLog
 
+消息存储文件，所有topic消息都存储在CommitLog文件
 - **文件结构**
 	`CommitLog是RocketMQ消息存储的核心文件，所有topic消息都顺序写入文件中，默认大小为1GB，文件名由20数字组成表示文件的起始偏移量
 	`CommitLog的消息结构包括消息头（消息ID、topic、queueId等）、消息体、消息属性（延迟级别、事务相关等）、存储开销
@@ -30,26 +31,18 @@
 ### 3、构建索引文件
 
 #### ConsumeQueue
-
+消息消费队列，消息到达CommitLog文件后，异步转发到消费队列，标记了在CommitLog中的起始offset、log size 和 Message Tag的hashCode ???
 
 #### IndexFile
-
+消息索引文件，主要存储消息Key与Offset的对应关系。通过key或时间区间来查询消息
 
 ### 4、HA
 
 
 
+![[MQ-2 消息存储-9.png]]
 
-![[MQ-2 消息存储-8.png|500]]
 
-
-存储核心
--  CommitLog
-	消息存储文件，所有topic消息都存储在CommitLog文件
--  ConsumeQueue
-	消息消费队列，消息到达CommitLog文件后，异步转发到消费队列，标记了在CommitLog中的起始offset、log size 和 Message Tag的hashCode ???
--  IndexFile
-	消息索引文件，主要存储消息Key与Offset的对应关系。通过key或时间区间来查询消息
 
 ---
 ## 存储架构
@@ -133,7 +126,7 @@ mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样�
 	解决方案在于，随机读尽可能命中page cache减少IO操作；预热CommitLog数据
 	
 
-#### vs NSQ
+#### vs NSQ ???
 
 
 
