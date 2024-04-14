@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md"
               }
             }
           }
@@ -201,17 +201,17 @@
   },
   "active": "61252cb1991aa3ed",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "MQ-1 消息发送-5.png",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "MQ-2 消息存储-9.png",
