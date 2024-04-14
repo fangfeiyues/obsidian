@@ -13,12 +13,14 @@ Redis、MySQL、RocketMQ、HBase等都涉及到存储&查询。那其中的区�
     3.  存储：
 	    1.  客户端发起请求
 	    2.  -> server检查 
-	    3.  -> 是否在内存？在-> 读&写 buffer pool，不在-> 写 change buffer
-	    5.  -> InnoDB  prepare  redo_log
-	    6.  -> 刷脏（异步）
-	    7.  -> 执行器 生产 binlog 并写入磁盘
+	    3.  -> 记录undo log，保证回滚需要
+	    4.  -> 是否在内存？在-> 读&写 buffer pool，不在-> 写 change buffer
+	    5.  -> 设置数据页为脏页
+	    6.  -> InnoDB  prepare  redo_log
+	    7.  -> 执行器生产 binlog 并写入磁盘
 	    8.  -> InnoDB  commit  redo_log
-	    9.  -> 主从同步
+	    9.  -> 异步写入磁盘
+	    10.  -> 主从同步
     4.  查询：
 	    1.  客户端发起请求
 	    2.  -> server层连接管理、SQL解析、语义分析、查询优化、生成执行计划
@@ -47,7 +49,14 @@ Redis、MySQL、RocketMQ、HBase等都涉及到存储&查询。那其中的区�
 	    4.  -> RDB & AOF 保障内存数据，但不能完全保证持久化
 	    5.  -> 内存淘汰
 	    6.  -> 复制同步
-    4.  缓存：不用（本身就是内存）
+    4.  查询：
+	    1.  客户端发起请求
+	    2.  ->  I/O 多路复用 + 多线程
+	    3.  -> 解析&执行命令
+	    4.  -> 数据检索
+	    5.  -> 处理事务
+	    6.  -> 返回结果
+    5.  缓存：不用（本身就是内存）
 
 
 
@@ -68,7 +77,15 @@ Redis、MySQL、RocketMQ、HBase等都涉及到存储&查询。那其中的区�
 		4.  -> 同步 或 异步刷盘 （ MQ不追求实时性 是跟MySQL Redis本质区别之处 ）
 		5.  -> 异步构建 ConsumeQueue 和 IndexFile，并mmap持久化
 		6.  -> 消息确认给生产者
-	4.  缓存：主要依赖 page buffer（消息推送过程基本都是一次查询不太依赖缓存）
+	4.  查询（消费）：
+		1.  Consumer启动
+		2.  -> Consumer注册到Broker，并指定消费模式是集群还是广播
+		3.  -> Broker队列分配，负载均衡Topic下的消息队列给不同的消费者
+		4.  -> Consumer定时消息拉取到本地
+		5.  -> Consumer多线程并发消费
+		6.  -> Consumer推送消费给结果Broker
+		7.  -> Broker决定是重试还是完成
+	5. 缓存：主要依赖 page buffer（消息推送过程基本都是一次查询不太依赖缓存）
 
 
 
