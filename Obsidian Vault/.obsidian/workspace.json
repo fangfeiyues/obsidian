@@ -4,75 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b17897be43932dbc",
+        "id": "c82059e551aa3c1e",
         "type": "tabs",
         "children": [
           {
-            "id": "5cd61e2c24e45ad6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Review/Tracking Week 8.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9186e03062ef7368",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "61252cb1991aa3ed",
+            "id": "e061415077a01c65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-3 查询.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ca3a297bfcbe3ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b56f17907adb9a34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md"
               }
             }
           }
@@ -200,9 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9186e03062ef7368",
+  "active": "e061415077a01c65",
   "lastOpenFiles": [
+    "Cause./Develop/Dubbo/Dubbo-2 Process.md",
+    "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
+    "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+    "Cause./Develop/Review/Tracking Week 8.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
@@ -210,14 +164,10 @@
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
-    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "MQ-1 消息发送-5.png",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "MQ-2 消息存储-9.png",
     "MQ-2 消息存储-8.png",
-    "Cause./Develop/Review/Tracking Week 8.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Redis-2 查询-4.png",
     "Interest./Invest/2024-04.md",
@@ -230,11 +180,8 @@
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
-    "Cause./Develop/Dubbo/Dubbo-1 Provider.md",
     "MySQL.md",
     "MQ-2 消息存储-7.png",
-    "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
-    "Cause./Develop/Dubbo/Dubbo-2 Process.md",
     "Cause./Develop/Review/Tracking Week 7.md",
     "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Dubbo",
