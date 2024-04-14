@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,7 +200,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61252cb1991aa3ed",
+  "active": "2e86ba43270d0d19",
   "lastOpenFiles": [
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
