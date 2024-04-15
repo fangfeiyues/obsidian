@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c82059e551aa3c1e",
+        "id": "20e193c06ba2a640",
         "type": "tabs",
         "children": [
           {
-            "id": "e061415077a01c65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d51eacfb5c795b5b",
+            "id": "09686310a8d7487f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c4d2dad057d80ff7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 集群.md"
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
               }
             }
           }
@@ -171,18 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4d2dad057d80ff7",
+  "active": "09686310a8d7487f",
   "lastOpenFiles": [
+    "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
+    "MQ-2 消息存储-9.png",
+    "Cause./Develop/MQ/assets/MQ-2 消息存储/image-MQ-2 消息存储-20240415200422703.png",
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
+    "Cause./Develop/MQ/assets/MQ-2 消息存储",
+    "Cause./Develop/MQ/assets",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
-    "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
     "Cause./Develop/Dubbo/Dubbo-2 Process.md",
     "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Review/Tracking Week 8.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
@@ -193,7 +173,6 @@
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "MQ-1 消息发送-5.png",
-    "MQ-2 消息存储-9.png",
     "MQ-2 消息存储-8.png",
     "Redis-2 查询-4.png",
     "Interest./Invest/2024-04.md",
@@ -202,13 +181,10 @@
     "MySQL-6 InnoDB 日志.png",
     "MySQL-2 存储.png",
     "2024-04.png",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "MySQL.md",
-    "MQ-2 消息存储-7.png",
     "Cause./Develop/Review/Tracking Week 7.md",
-    "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Dubbo",
     "Cause./Develop/Design",
     "Cause./Develop/MQ",
@@ -218,8 +194,6 @@
     "Untitled.canvas",
     "Interest./Product",
     "Interest./Invest",
-    "Interest.",
-    "Cause./Business/Youzan",
-    "Cause./Business"
+    "Interest."
   ]
 }

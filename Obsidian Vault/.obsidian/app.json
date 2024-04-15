@@ -1,5 +1,6 @@
 {
   "promptDelete": true,
   "alwaysUpdateLinks": true,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "attachmentFolderPath": "./assets/MQ-2 消息存储"
 }
