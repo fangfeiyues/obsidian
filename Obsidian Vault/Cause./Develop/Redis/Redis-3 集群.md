@@ -100,7 +100,7 @@ REPLCONF ACK < replication_offset >
 
 ### 辅助实现 min-slaves
 
-Redis 的 `min-slaves-to-write` 和 `min-slaves-max-lag` 可以防止从在 ***服务器数量少于3个***  或  ***3个从的延迟lag都大于等于10***，主拒绝执行写命令
+Redis 的 `min-slaves-to-write` 和 `min-slaves-max-lag` 可以防止从在 服务器数量少于3个  或  3个从的延迟lag都大于等于10，主拒绝执行写命令
 
 
 ### 检测命令丢失
