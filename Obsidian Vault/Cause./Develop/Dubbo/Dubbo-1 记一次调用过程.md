@@ -24,7 +24,7 @@ proxy0#sayHello(String)
                               —> NioClientSocketChannel#write(Object)
 ```
 
-## 生成Invoker
+## 1、初始化
 
 ### 注册
 
@@ -32,8 +32,13 @@ proxy0#sayHello(String)
 ### 集群
 
 
-## 路由
+### 路由
 
+
+### 泛化？
+
+
+### 代理
 
 
 ## 2、控制
@@ -47,17 +52,25 @@ proxy0#sayHello(String)
 ### 过滤拦截
 
 
+### 获取Invoker
+
+
+
 ## 3、请求
 
-### 基本设置
+### 设置
 
-#### 超时
-
-#### 异步
+-  **超时**
 
 
+-  **异步**
 
-### 网络调用
+
+### 心跳
+
+
+
+### 网络IO
 
 
 
@@ -71,6 +84,7 @@ proxy0#sayHello(String)
 
 ## 6、返回
 
+### 缓存
 
 
 
