@@ -11,9 +11,11 @@
             "id": "09686310a8d7487f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Dubbo/assets/Dubbo-1 记一次调用过程/分层设计.png"
+                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -23,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
+                "file": "Cause./Develop/Distributed/Distributed-1 一致性算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fb636f595725cb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-3 集群.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
+                "file": "Cause./Develop/Distributed/Distributed-1 一致性算法.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
+                "file": "Cause./Develop/Distributed/Distributed-1 一致性算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md"
+                "file": "Cause./Develop/Distributed/Distributed-1 一致性算法.md"
               }
             }
           }
@@ -146,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -161,14 +174,16 @@
   },
   "active": "a89074cd2ba69057",
   "lastOpenFiles": [
-    "Cause./Develop/Dubbo/assets/Dubbo-1 记一次调用过程/分层设计.png",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Distributed/Distributed-1 一致性算法.md",
     "Cause./Develop/Dubbo/Dubbo-1 记一次调用过程.md",
+    "Cause./Develop/Dubbo/assets/Dubbo-1 记一次调用过程/分层设计.png",
+    "Cause./Develop/Distributed",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Dubbo/assets/Dubbo-1 记一次调用过程",
     "Cause./Develop/Dubbo/assets",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/image-MQ-2 消息存储-20240415200422703.png",
     "MQ-2 消息存储-9.png",
@@ -199,14 +214,12 @@
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "MySQL.md",
-    "Cause./Develop/Review/Tracking Week 7.md",
     "Cause./Develop/Dubbo",
     "Cause./Develop/Design",
     "Cause./Develop/MQ",
     "Cause./Develop/Algo",
     "Cause./Develop/Redis/Untitled",
     "Cause./Develop/DDD/🌹Untitled.canvas",
-    "Untitled.canvas",
-    "Interest./Product"
+    "Untitled.canvas"
   ]
 }
