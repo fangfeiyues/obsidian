@@ -2,5 +2,11 @@
   "promptDelete": true,
   "alwaysUpdateLinks": true,
   "focusNewTab": true,
-  "attachmentFolderPath": "./assets/Distributed-1  分布式基论CAP"
+  "attachmentFolderPath": "./assets/Distributed-1  分布式基论 CAP",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
