@@ -49,7 +49,7 @@ etcd、redis
 ### 过程
 
 在多副本状态机中，每个副本同时具有Proposer、Acceptor、Learner三种角色
-1. **第一阶段: Prepare阶段**；Proposer向Acceptors发出Prepare请求，Acceptors针对收到的Prepare请求进行Promise承诺。
+1. **第一阶段 : Prepare阶段** Proposer向Acceptors发出Prepare请求，Acceptors针对收到的Prepare请求进行Promise承诺
     1. `Prepare`: Proposer生成全局唯一且递增的Proposal ID (可使用时间戳加Server ID)，向所有Acceptors发送Prepare请求，这里无需携带提案内容，只携带Proposal ID即可。
     2. `Promise`: Acceptors收到Prepare请求后，做出“两个承诺，一个应答”。
         1. 承诺1: 不再接受Proposal ID小于等于(注意: 这里是<= )当前请求的Prepare请求;
@@ -62,11 +62,6 @@ etcd、redis
 
 3. **第三阶段: Learn阶段**; Proposer在收到多数Acceptors的Accept之后，标志着本次Accept成功，决议形成，将形成的决议发送给所有Learners。
 
-#### [#](#什么是raft算法)
-
----
-
-著作权归@pdai所有 原文链接：https://pdai.tech/md/interview/x-interview-2.html
 
 ### 落地
 
