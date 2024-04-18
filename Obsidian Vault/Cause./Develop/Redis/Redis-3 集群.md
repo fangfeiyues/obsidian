@@ -130,9 +130,8 @@ Sentinel 默认会以每十秒一次的频率，通过命令连接向被监视�
 
 ## 选举领头Sentinel
 
-Sentinel 设置局部零头的规则是先到先得：最先向目标Sentinel发送 is-master-down-by-addr 设置要求的，而之后接受到所有设置都会被目标Sentinel拒绝。得到半数以上的Sentinel将成为领头。否则将再次选举，就是一个 Raft选举算法 [[Distributed-1  分布式基论CAP]]
+Sentinel 设置局部零头的规则是先到先得：最先向目标 Sentinel 发送 is-master-down-by-addr 设置要求的，而之后接受到所有设置都会被目标 Sentinel 拒绝。得到半数以上的Sentinel将成为领头，否则将再次选举，就是一个 Raft选举算法 [[Distributed-4 分布式一致性#Raft]]
 
-https://www.pdai.tech/md/algorithm/alg-domain-distribute-x-raft.html
 
 ## 故障转移
 
@@ -144,9 +143,6 @@ SLAVEOF no one 将选中的从服务器转换为主服务器。（新的主数�
 
 
 ### Step3：将旧的主变为从服务器
-
-
-
 
 
 
