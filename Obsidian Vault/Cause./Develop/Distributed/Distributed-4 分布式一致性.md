@@ -17,7 +17,6 @@
     
 - `负载(Load)`: 负载问题实际上是从另一个角度看待分散性问题。既然不同的终端可能将相同的内容映射到不同的缓冲区中，那么对于一个特定的缓冲区而言，也可能被不同的用户映射为不同的内容。与分散性一样，这种情况也是应当避免的，因此好的哈希算法应能够尽量降低缓冲的负荷。
     
-
 ### 1.2 过程
 
 
@@ -60,7 +59,9 @@ Raft 使用 心跳(heartbeat) 触发Leader选举。当服务器启动时，初�
 
 ## 3、Paxos
 （帕克索斯）
+
 ![[image-Distributed-4 分布式一致性-20240419000311619.png]]
+
 ### 3.1 角色
 
 可以理解为 人大代表(Proposer) 在人大向 其它代表(Acceptors) 提案，通过后让 老百姓(Learner) 落实
@@ -77,24 +78,28 @@ Raft 使用 心跳(heartbeat) 触发Leader选举。当服务器启动时，初�
 ### 3.2 过程
 
 多副本状态机中，每个副本同时具有 Proposer、Acceptor、Learner 三种角色
- -  **第一阶段 : Prepare** 
-		Proposer 向 Acceptors 发出 Prepare请求，Acceptors 针对收到的 Prepare 请求进行 Promise承诺
-    1. `Prepare`: Proposer生成全局唯一且递增的Proposal ID (可使用时间戳加Server ID)，向所有Acceptors发送Prepare请求，这里无需携带提案内容，只携带Proposal ID即可
-    2. `Promise`: Acceptors收到Prepare请求后，做出「两个承诺，一个应答」
-        1. 承诺1:  不再接受Proposal ID小于等于(注意: 这里是<= )当前请求的Prepare请求
-        2. 承诺2:  不再接受Proposal ID小于(注意: 这里是< )当前请求的Propose请求
-        3. 应答:  不违背以前作出的承诺下，回复已经Acceptors过的提案中Proposal ID最大的那个提案的Value和Proposal ID，没有则返回空值
+ 
+```
+基本的 Paxos 算法非常简单，它由三个角色组成。
+1. Proposer：Proposer 可以有多个，Proposer 提出议案（value）。所谓 value，可以是任何操作，比如“设置某个变量的值为 value”。不同的 Proposer 可以提出不同的 value。但对同一轮 Paxos 过程，最多只有一个 value 被批准。
+2. Acceptor：Acceptor 有 N 个，Proposer 提出的 value 必须获得 Quorum 的 Acceptor 批准后才能通过。Acceptor 之间完全对等独立。
+3. Learner：上面提到只要 Quorum 的 Accpetor 通过即可获得通过，那么 Learner 角色的目的就是把通过的确定性取值同步给其他未确定的 Acceptor
 
- - **第二阶段: Accept**
-	  Proposer 收到 多数Acceptors 承诺的 Promise 后，向 Acceptors 发出 Propose 请求，Acceptors 针对收到的 Propose 请求进行 Accept 处理
-    1. `Propose`: Proposer 收到多数 Acceptors 的 Promise 应答后，从应答中选择 Proposal ID 最大的提案的Value，作为本次要发起的提案。如果所有应答的提案Value均为空值，则可以自己随意决定提案Value。然后携带当前Proposal ID，向所有Acceptors发送Propose请求。
-    2. `Accept`: Acceptor收到Propose请求后，在不违背自己之前作出的承诺下，接受并持久化当前Proposal ID和提案Value。
-
- -  **第三阶段: Learn**
-	   Proposer 在收到多数 Acceptors 的 Accept 之后，标志着本次Accept成功，决议形成，将形成的决议发送给所有Learners
+```
 
 
-### 3.3 落地
+### 3.3 Multi-Paxos
+
+这三个角色其实已经描述了一个值被提交的整个过程。其实基本的 Paxos 只是理论模型，因为在真实场景下，我们需要处理许多连续的值，并且这些值都是并发的。如果完全执行上面描述的过程，那性能消耗是任何生产系统都无法承受的，因此我们一般使用的是 Multi-Paxos。
+
+Multi-Paxos 可以并发执行多个 Paxos 协议，它优化的重点是把 Propose 阶段进行了合并，这就引入了一个 Leader 的角色，也就是领导节点。而后读写全部由 Leader 处理，同时这里与 ZAB 类似，Leader 也有任期的概念，Leader 与其他节点之间也用心跳进行互相探活。是不是感觉有那个味道了？后面我就会比较两者的异同。
+
+另外 Multi-Paxos 引入了两个重要的概念：`replicated log` 和 `state snapshot`
+1. `replicated log`：值被提交后写入到日志中。这种日志结构除了提供持久化存储外，更重要的是保证了消息保存的顺序性。而 Paxos 算法的目标是保证每个节点该日志内容的强一致性。
+2. `state snapshot`：由于日志结构保存了所有值，随着时间推移，日志会越来越大。故算法实现了一种状态快照，可以保存最新的日志消息。当快照生成后，我们就可以安全删除快照之前的日志了。
+
+
+### 34 落地
 
  - **Kafka ?**
  
