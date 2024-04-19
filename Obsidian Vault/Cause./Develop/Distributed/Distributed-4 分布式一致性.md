@@ -94,12 +94,14 @@ Raft 使用 心跳(heartbeat) 触发Leader选举。当服务器启动时，初�
 ### 3.3 落地
 
  - **Kafka ?**
+ 
 ```
 Kafka通过分区副本来提高数据的可靠性。
 每个主题（Topic）可以分成多个分区（Partition），每个分区可以有一个或多个副本（Replica），其中一个副本是Leader，其他的是Follower。所有的读写操作都通过Leader进行，Follower会定期从Leader同步数据。如果Leader失败，会从Follower中选举出一个新的Leader
 ```
 
-Hbase
+
+-  **Hbase**
 
 
 ## 4、Zab
