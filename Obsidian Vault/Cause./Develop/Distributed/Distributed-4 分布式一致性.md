@@ -37,7 +37,7 @@
 Raft将系统中的角色分为 `领导者(Leader)`、`跟从者(Follower)`和`候选人(Candidate)`
 
 -  **领导者 Leader**
-	接受客户端请求，并向Follower同步请求日志，当日志同步到大多数节点上后告诉Follower提交日志。
+	接受客户端请求，并向Follower同步请求日志，当日志同步到大多数节点上后告诉Follower提交日志
 
 -  **跟从者 Follower**
 	接受并持久化 Leader 同步的日志，在Leader告之日志可以提交之后，提交日志
@@ -106,7 +106,7 @@ Kafka通过分区副本来提高数据的可靠性。
 
 -  **Hbase**
 
-
+	Google的Chubby、Spanner，以及IBM的SVC
 ## 4、Zab
 
 ZooKeeper是一个分布式协调服务 它使用Zab算法来保证数据一致性。

@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -172,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eec9d8014907480b",
+  "active": "09686310a8d7487f",
   "lastOpenFiles": [
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
