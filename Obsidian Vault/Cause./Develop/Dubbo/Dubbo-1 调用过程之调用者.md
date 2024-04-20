@@ -28,14 +28,34 @@
 -  **核心流程**
 
 ```text
--> ReferenceConfig#createInvoker 开始创建Invoker
-	-> RegistryProtocol#refer
-		-> RegistryProtocol#getRegistry 获取注册Registry
-			-> AbstractRegistryFactory#getRegistry 管理注册类
+ReferenceConfig#createInvoker
+	-> RegistryProtocol#refer          -- 1. 生成消费者引用的集合类invoker
+		-> RegistryProtocol#getRegistry     -- 1.1 获取注册类
+			-> AbstractRegistryFactory#getRegistry  -- 管理注册类
 				-> ZookeeperRegistryFactory#createRegistry 
 				-> NacosRegistryFactory#createRegistry
-
-
+		-> RegistryDirectory<T>(type, url)  -- 1.2 生成目录？
+		-> FailbackRegistry#register(url)   -- 1.3 消费者节点注册
+		-> RegistryDirectory#subscribe(URL) -- 1.4 生产者节点订阅（订阅->invoker）
+		    -> FailbackRegistry.subscribe()    - 1.41 Failback正常失败
+				-> ZookeeperRegistry.doSubscribe  - 1.411 以zk为例
+				    -> zkClient.create(path, false)  - 消费者节点创建
+				    -> FailbackRegistry.notify       - Failback通知（通知->invoker）
+					    -> AbstractRegistry.notify()  
+					        -> RegistryDirectory.notify(List<URL>)  - Listener监听url
+						         -> refreshInvoker(invokerUrls)      - Listener刷新url    
+						            -> RegistryDirectory.toInvokers   - 生成新的invokers!  
+							            -> ProtocolListenerWrapper#refer - invoker的封装
+							            -> ProtocolFilterWrapper#refer
+							            -> DubboProtocol#refer
+								            -> DubboProtocol#getClients
+										        -> 网络?
+										-> Map<String, Invoker<T>>构造到RegistryDirectory
+						            -> destroyUnusedInvokers             - 销毁老的invokers
+		-> FailbackCluster#join(Directory)  -- 1.5 订阅的多个消费者聚合FailbackClusterInvoker
+	-> AbstractProxyFactory#getProxy(Invoker, generic) -- 2. 生成代理类
+		-> 2.1 JavassistProxyFactory#getProxy
+		-> 2.2 JdkProxyFactory#getProxy
 ```
 
 
@@ -46,9 +66,11 @@ Dubbo调用者在正式发起网络请求之前，会有一系列准备动作，
 4.  --> ...
 
 
-### 服务发现
+### 服务发现&注册
 
-Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，同时也支持 Kubernetes、Mesh体系的服务发现。其在Zookeeper的注册如下
+Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，同时也支持 Kubernetes、Mesh体系的服务发现。
+
+-  **Zookeeper**
 
 ![[image-Dubbo-1 调用过程之调用者-20240420225304815.png|450]]
 
