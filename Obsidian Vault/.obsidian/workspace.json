@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -184,10 +184,13 @@
   },
   "active": "f3e546753da14dba",
   "lastOpenFiles": [
-    "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
-    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Dubbo/assets/分层设计.png",
+    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
+    "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
+    "Cause./Develop/Register/Zookeeper.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
+    "Cause./Develop/Register",
+    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420205050456.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240419173613670.png",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
@@ -204,7 +207,6 @@
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/Design/时间轮定时器.md",
     "Cause./Develop/Distributed/assets/Distributed-1  分布式基论CAP/image-Distributed-1  分布式基论CAP-20240417135201767.png",
-    "Cause./Develop/Distributed/assets/Distributed-1  分布式基论CAP/image-Distributed-1  分布式基论CAP-20240417135150011.png",
     "Cause./Develop/Distributed/assets/Distributed-1  分布式基论CAP",
     "Cause./Develop/Distributed/assets",
     "Cause./Develop/Distributed",
@@ -225,10 +227,8 @@
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/Dubbo",
     "Cause./Develop/Design",
-    "Cause./Develop/MQ",
     "Cause./Develop/DDD/🌹Untitled.canvas",
     "Untitled.canvas"
   ]
