@@ -33,7 +33,7 @@ ReferenceConfig#createInvoker
 			-> AbstractRegistryFactory#getRegistry  -- 管理注册类
 				-> ZookeeperRegistryFactory#createRegistry 
 				-> NacosRegistryFactory#createRegistry
-		-> RegistryDirectory<T>(type, url)  -- 1.2 生成目录？
+		-> RegistryDirectory<T>(type, url)  -- 1.2 节点->目录
 		-> FailbackRegistry#register(url)   -- 1.3 消费者节点注册
 		-> RegistryDirectory#subscribe(URL) -- 1.4 生产者节点订阅（订阅->invoker）
 		    -> FailbackRegistry.subscribe()    - 1.41 Failback正常失败
@@ -51,14 +51,16 @@ ReferenceConfig#createInvoker
 										        -> 网络?
 										-> Map<String, Invoker<T>>构造到RegistryDirectory
 						            -> destroyUnusedInvokers             - 销毁老的invokers
-		-> FailbackCluster#join(Directory)  -- 1.5 订阅的多个消费者聚合FailbackClusterInvoker
+		-> FailbackCluster#join(Directory)  -- 1.5 目录->集群
 	-> AbstractProxyFactory#getProxy(Invoker, generic) -- 2. 生成invoker代理类
 		-> 2.1 JavassistProxyFactory#getProxy
 		-> 2.2 JdkProxyFactory#getProxy
 ```
 
 
-### 服务注册&订阅
+### 1.1、服务注册&订阅
+
+	Dubbo是在消费者初始化refer引用后，到注册中心创建调用者节点并订阅提供者节点后，再根据监听的订阅url信息开始封装invoker
 
 Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，同时也支持 Kubernetes、Mesh体系的服务发现。
 
@@ -70,13 +72,29 @@ Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，�
 	2、服务消费者启动时:  订阅 `/dubbo/com.foo.BarService/providers` 目录下的提供者 URL 地址，并向 `/dubbo/com.foo.BarService/consumers` 目录下写入自己的 URL 地址（用于监控）
 	3、 监控中心启动时: 订阅 `/dubbo/com.foo.BarService` 目录下的所有提供者和消费者 URL 地址
 
+### 1.2、生成Invoker
+
+	调用者在监听到调用者url节点后，更新本地 invoker 生成 Map<url, invoker>，并注入到 Directory
+
+#### 跟服务端预连接（非懒加载）
 
 
-### 监听器&拦截器
+
+#### 监听器&拦截器
+
+在生成 DubboInvoker 核心类后，会对其封装一层
 
 
 
-### 泛化？
+
+
+### 1.3、目录
+
+
+### 集群
+
+
+### 泛化
 
 
 ### 代理

@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "e748b8be45b51033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a6ff676500f5141d",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
+    "width": 365.5,
     "collapsed": true
   },
   "right": {
@@ -170,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +196,11 @@
   },
   "active": "f3e546753da14dba",
   "lastOpenFiles": [
-    "Cause./Develop/Dubbo/assets/分层设计.png",
+    "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
-    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420225304815.png",
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
+    "Cause./Develop/Dubbo/assets/分层设计.png",
+    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420225304815.png",
     "Cause./Develop/Register/Zookeeper.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Register",
