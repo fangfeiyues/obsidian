@@ -24,12 +24,11 @@
 ```
 
 
-
 -  **核心流程**
 
 ```text
 ReferenceConfig#createInvoker
-	-> RegistryProtocol#refer          -- 1. 生成消费者引用的集合类invoker
+	-> RegistryProtocol#refer(Class<T>, url)           -- 1. 生成集合类invoker
 		-> RegistryProtocol#getRegistry     -- 1.1 获取注册类
 			-> AbstractRegistryFactory#getRegistry  -- 管理注册类
 				-> ZookeeperRegistryFactory#createRegistry 
@@ -53,39 +52,28 @@ ReferenceConfig#createInvoker
 										-> Map<String, Invoker<T>>构造到RegistryDirectory
 						            -> destroyUnusedInvokers             - 销毁老的invokers
 		-> FailbackCluster#join(Directory)  -- 1.5 订阅的多个消费者聚合FailbackClusterInvoker
-	-> AbstractProxyFactory#getProxy(Invoker, generic) -- 2. 生成代理类
+	-> AbstractProxyFactory#getProxy(Invoker, generic) -- 2. 生成invoker代理类
 		-> 2.1 JavassistProxyFactory#getProxy
 		-> 2.2 JdkProxyFactory#getProxy
 ```
 
 
-Dubbo调用者在正式发起网络请求之前，会有一系列准备动作，其中核心步骤如下
-1.  --> 注册中心获取 Provider 地址
-2.  --> 地址列表封装成 Directory，供正式请求负载使用
-3.  --> 返回代理 Proxy
-4.  --> ...
-
-
-### 服务发现&注册
+### 服务注册&订阅
 
 Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，同时也支持 Kubernetes、Mesh体系的服务发现。
 
 -  **Zookeeper**
-
-![[image-Dubbo-1 调用过程之调用者-20240420225304815.png|450]]
+	![[image-Dubbo-1 调用过程之调用者-20240420225304815.png|450]]
 
 -  **流程**
-
-	-  服务提供者启动时: 向 `/dubbo/com.foo.BarService/providers` 目录下写入自己的 URL 地址。
-	-  服务消费者启动时: 订阅 `/dubbo/com.foo.BarService/providers` 目录下的提供者 URL 地址。并向 `/dubbo/com.foo.BarService/consumers` 目录下写入自己的 URL 地址
-	-  监控中心启动时: 订阅 `/dubbo/com.foo.BarService` 目录下的所有提供者和消费者 URL 地址
-
+	1、服务提供者启动时:  向 `/dubbo/com.foo.BarService/providers` 目录下写入自己的 URL 地址。
+	2、服务消费者启动时:  订阅 `/dubbo/com.foo.BarService/providers` 目录下的提供者 URL 地址，并向 `/dubbo/com.foo.BarService/consumers` 目录下写入自己的 URL 地址（用于监控）
+	3、 监控中心启动时: 订阅 `/dubbo/com.foo.BarService` 目录下的所有提供者和消费者 URL 地址
 
 
-### 集群
 
+### 监听器&拦截器
 
-### 路由
 
 
 ### 泛化？
