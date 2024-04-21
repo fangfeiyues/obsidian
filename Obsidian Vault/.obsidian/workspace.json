@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "09686310a8d7487f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f3e546753da14dba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e748b8be45b51033",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,16 +28,6 @@
                 "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3557ebf5a1024d49",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Cause./Develop/Dubbo/assets/分层设计.png"
               }
             }
           }
@@ -116,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -133,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -150,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md"
               }
             }
           }
@@ -182,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 250.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,15 +160,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3e546753da14dba",
+  "active": "a6ff676500f5141d",
   "lastOpenFiles": [
-    "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
-    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
-    "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
     "Cause./Develop/Dubbo/assets/分层设计.png",
+    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
+    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
+    "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
+    "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420225304815.png",
     "Cause./Develop/Register/Zookeeper.md",
-    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Register",
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420205050456.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240419173613670.png",
@@ -239,7 +205,6 @@
     "Cause./Develop/Review/Tracking Week 8.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/Dubbo",
     "Cause./Develop/Design",
     "Cause./Develop/DDD/🌹Untitled.canvas",

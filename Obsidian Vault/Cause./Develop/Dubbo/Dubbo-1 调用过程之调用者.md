@@ -71,12 +71,9 @@ ReferenceConfig#createInvoker
 	2、服务消费者启动时:  订阅 `/dubbo/com.foo.BarService/providers` 目录下的提供者 URL 地址，并向 `/dubbo/com.foo.BarService/consumers` 目录下写入自己的 URL 地址（用于监控）
 	3、 监控中心启动时: 订阅 `/dubbo/com.foo.BarService` 目录下的所有提供者和消费者 URL 地址
 
-
 #### Nacos
 
-
 #### Redis
-
 
 
 ### 1.2、Invoker（服务端）
