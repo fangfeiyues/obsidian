@@ -48,7 +48,7 @@ ReferenceConfig#createInvoker
 							            -> ProtocolFilterWrapper#refer
 							            -> DubboProtocol#refer
 								            -> DubboProtocol#getClients
-										        -> 网络?
+										        -> ...NettyClient#doOpen  - Netty连接
 										-> Map<String, Invoker<T>>构造到RegistryDirectory
 						            -> destroyUnusedInvokers             - 销毁老的invokers
 		-> FailbackCluster#join(Directory)  -- 1.5 目录->集群
@@ -58,13 +58,12 @@ ReferenceConfig#createInvoker
 ```
 
 
-### 1.1、服务注册&订阅
+### 1.1、Registry（注册） & subscribe（订阅）
 
 	Dubbo是在消费者初始化refer引用后，到注册中心创建调用者节点并订阅提供者节点后，再根据监听的订阅url信息开始封装invoker
 
-Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，同时也支持 Kubernetes、Mesh体系的服务发现。
+#### Zookeeper
 
--  **Zookeeper**
 	![[image-Dubbo-1 调用过程之调用者-20240420225304815.png|450]]
 
 -  **流程**
@@ -72,35 +71,64 @@ Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，�
 	2、服务消费者启动时:  订阅 `/dubbo/com.foo.BarService/providers` 目录下的提供者 URL 地址，并向 `/dubbo/com.foo.BarService/consumers` 目录下写入自己的 URL 地址（用于监控）
 	3、 监控中心启动时: 订阅 `/dubbo/com.foo.BarService` 目录下的所有提供者和消费者 URL 地址
 
-### 1.2、生成Invoker
+
+#### Nacos
+
+
+#### Redis
+
+
+
+### 1.2、Invoker（服务端）
 
 	调用者在监听到调用者url节点后，更新本地 invoker 生成 Map<url, invoker>，并注入到 Directory
 
 #### 跟服务端预连接（非懒加载）
 
+	Netty打开连接 DubboProtocol#getSharedClient
+
+#### 监听器Listener & 拦截器Filter
+
+	在生成 DubboInvoker 核心类后，会对其封装一层拦截
+
+- **核心过滤器**
+
+	1.  CacheFilter（缓存过滤器）
+	2.  ActiveLimitFilter（并发调用限制过滤器）：在请求的URL中
+	3.  GenericImplFilter（泛化过滤器）：用消费者提供的元数据组装 Dubbo请求体 RpcInvocation，同样在服务端 GenericFilter 过滤器反序列化
 
 
-#### 监听器&拦截器
+-  **自定义过滤器**
+	用户可根据需要，扩展 Filter SPI 的自定义过滤器
 
-在生成 DubboInvoker 核心类后，会对其封装一层
+### 1.3、Directory（目录）
+
+	目录维护Invoker列表 Map<String, Invoker<T>> urlInvokerMap，是一个集合类
+
+### 1.4、Cluster（集群）
+
+	集群聚合了Directory，来提供各种集群降级服务
+
+-  **1、FailoverClusterInvoker** 
+	快速失败集群（默认）：
+
+-  **2、FailfastClusterInvoker** 
+
+-  **3、BroadcastClusterInvoker** 
+
+-  **4、FailbackClusterInvoker** 
+
+-  **5、FailfastClusterInvoker** 
+
+-  **6、FailfastClusterInvoker** 
+
+## 2、生成代理
+常用的动态代理大概有 ASM、CGLIB、JAVAASSIST等
+
+###  Javassist
 
 
-
-
-
-### 1.3、目录
-
-
-### 集群
-
-
-### 泛化
-
-
-### 代理
-
-
-
+### JdkProxy
 
 
 
@@ -108,8 +136,4 @@ Dubbo主干目前支持的主流注册中心包括 Zookeeper、Nacos、Redis，�
 ![[分层设计.png|800]]
 
 
-
-
-
-## 2、生成代理
 
