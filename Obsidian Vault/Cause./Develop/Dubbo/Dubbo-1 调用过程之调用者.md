@@ -107,7 +107,9 @@ ReferenceConfig#createInvoker
 	集群聚合了Directory，来提供各种集群降级服务
 
 -  **1、FailoverClusterInvoker** 
-	快速失败集群（默认）：
+
+	默认执行策略，快速失败集群
+
 
 -  **2、FailfastClusterInvoker** 
 
@@ -128,9 +130,6 @@ ReferenceConfig#createInvoker
 ### JdkProxy
 
 
-
-
-![[分层设计.png|800]]
 
 
 

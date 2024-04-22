@@ -15,7 +15,8 @@
 		2、通过 Class.forName() 方法加载对应的类 
 **/
    public static void main(String[] args) {
-        ServiceLoader<ProgrammingLanguageService> serviceLoader = ServiceLoader.load(ProgrammingLanguageService.class);
+        ServiceLoader<ProgrammingLanguageService> serviceLoader =  
+					         ServiceLoader.load(ProgrammingLanguageService.class);
         Iterator<ProgrammingLanguageService> iterator = serviceLoader.iterator();
         while (iterator.hasNext()) {
             ProgrammingLanguageService service = iterator.next();
