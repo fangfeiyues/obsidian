@@ -106,9 +106,9 @@ Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞�
 Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
 
 
-## 控制与切面
+## 注解
 
-### 2.1 实现类控制：SPI
+### 2.1 控制与包装：SPI
 
 - **例子**
 
@@ -150,9 +150,68 @@ public static void main(String[] args) (
 
 ### 2.2 自适应扩展： Adaptive
 
--  **原理**
+- **例子**
+
+```java
+@SPI("javassist")  
+public interface ProxyFactory {  
+  
+    /**  
+     * create proxy.     *     * @param invoker  
+     * @return proxy  
+     */    @Adaptive({Constants.PROXY_KEY})  
+    <T> T getProxy(Invoker<T> invoker) throws RpcException;  
+  
+    /**  
+     * create proxy.     *     * @param invoker  
+     * @return proxy  
+     */    @Adaptive({Constants.PROXY_KEY})  
+    <T> T getProxy(Invoker<T> invoker, boolean generic) throws RpcException;  
+  
+    /**  
+     * create invoker.     *     * @param <T>  
+     * @param proxy  
+     * @param type  
+     * @param url  
+     * @return invoker  
+     */    @Adaptive({Constants.PROXY_KEY})  
+    <T> Invoker<T> getInvoker(T proxy, Class<T> type, URL url) throws RpcException;  
+  
+}
+
+public class ProxyFactory$Adaptive implements org.apache.dubbo.rpc.ProxyFactory {  
+
+    public java.lang.Object getProxy(org.apache.dubbo.rpc.Invoker arg0, boolean arg1) {  
+       // 取URL中 proxy = 'xxx' 参数，如果不存在用默认的 ‘javassist’
+        String extName = url.getParameter("proxy", "javassist");  
+        // extName -> ProxyFactory 如 JavassistProxyFactory
+        org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader  .getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);  
+        return extension.getProxy(arg0, arg1);  
+    }  
+  
+    public org.apache.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1,  org.apache.dubbo.common.URL arg2)   {  
+        String extName = url.getParameter("proxy", "javassist");  
+        org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader  .getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);  
+        return extension.getInvoker(arg0, arg1, arg2);  
+    }  
+}
+
+```
+
+
+-  **使用**
 
 	Adaptive 解决的是在类似装饰器模式场景下，接口注入中有其他接口的时候，怎么识别其实现类的问题
+
+
+- **实现**
+
+	动态生成的 xxx$Adaptive 类可以得知，每个默认实现都会从`URL`中提取`Adaptive参数值`，并以此为依据动态加载扩展点，调用 `getExtension(extName)`。  
+	1.  优先通过 `©Adaptive`注解传入的值去查找扩展实现类
+	2.  如果没找，到则通过`@SPI`注解中的 key 去查找
+	3.  如果`@SPI`注解中没有默认值，则把类名转化为key，再去查找
+
+
 
 
 [dubbo系列-扩展点机制-Dubbo SPI](https://www.jianshu.com/p/317ea9559ee2)
