@@ -20,7 +20,7 @@ proxy0#sayHello(String)
 
 ## 2、请求
 
-### 2.1 代理处理
+### 2.1 动态代理
 
 	InvokerInvocationHandler 从进入代理类开始
 
@@ -36,11 +36,9 @@ proxy0#sayHello(String)
 
 #### 2.23 集群策略
 
-默认 FailoverClusterInvoker 执行策略，但在这个过程中会先 select invoker 做负载处理
+	 FailoverClusterInvoker 默认执行策略，但在这个过程中会先 select invoker 做负载均衡处理
 
-
-
-### 2.3 拦截器&监听器处理
+### 2.3 拦截器&监听器
 
 	拦截器 Filter 开始对请求的 invoker 做一些逻辑上的处理
 

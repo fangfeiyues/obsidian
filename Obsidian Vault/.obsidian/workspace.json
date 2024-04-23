@@ -159,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 250.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +174,8 @@
   "active": "757abaa5860ce9a4",
   "lastOpenFiles": [
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
-    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Dubbo/assets/分层设计.png",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420225304815.png",

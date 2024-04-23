@@ -27,11 +27,10 @@
 
 # Dubbo SPI
 
-Dubbo的SPI在Java基础上解决什么问题？
-
+Dubbo SPI 在 Java SPI 基础上解决什么问题？
 ## 能力扩展
 
-### 可按需加载扩展点
+### 1、可按需加载扩展点
 
 Java SPI 会通过 ServiceLoader 一次性加载所有扩展点，而 Dubbo SPI 通过注解 @SPI 实现了按需加载
 
@@ -64,14 +63,9 @@ public static void main(String[] args) (
 }
 ```
 
-### 可异常处理
+### 2、可支持AOP
 
-Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
-Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
-
-### 可支持AOP
-
-简单来说就是如果扩展点A,B之间发生了互相依赖，Dubbo SPI支持注入 如 ProtocolFilterWrapper、ProtocolListenerWrapper（dubbo是通过识别 xxxWrapper 名称来识别是否是包装类的）就可以把这两个方法包装增强核心的 DubboProtocol 类
+简单来说就是如果扩展点A,B之间发生了互相依赖，Dubbo SPI 支持注入 如 ProtocolFilterWrapper、ProtocolListenerWrapper（ dubbo是通过识别 xxxWrapper 名称来识别是否是包装类的）就可以把这两个方法包装增强核心的 DubboProtoco l 类
 
 ```java
 private T createExtension(String name){
@@ -100,15 +94,22 @@ private T createExtension(String name){
 }
 ```
 
-## 2、源码
+
+### 3、可异常处理
+
+Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
+Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
+
+
+## 源码
 
 ### 2.1 SPI可配置源码
 
-其核心就是根据注解@SPI **加载配置的实现类并初始化**，然后对该类进行 **注入属性** 与 **IOC包装**
+核心是通过注解 `@SPI` 加载配置的实现类并初始化，然后对该类进行 注入属性 与 IOC包装
 
 ```java
 /**
- * 1、加载定义文件中的各个子类，然后将目标name对应的子类返回后进行实例化。
+ * 1、加载定义文件中的各个子类，然后将目标name对应的子类返回后进行实例化
  * 2、通过目标子类的set方法为其注入其所依赖的bean，这里既可以通过SPI，也可以通过Spring的BeanFactory获取所依赖的bean，injectExtension(instance)。
  * 3、获取定义文件中定义的wrapper对象，然后使用该wrapper对象封装目标对象，并且还会调用其set方法为wrapper对象注入其所依赖的属性
  * @param name
