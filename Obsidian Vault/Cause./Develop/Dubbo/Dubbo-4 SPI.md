@@ -145,59 +145,59 @@ public static void main(String[] args) (
 
 - **原理**
 
-	Dubbo SPI 解决的是一个怎么控制动态接口实现类的问题
+	Dubbo SPI 解决的是一个怎么加载自定义类的问题
 
 
 ### 2.2 自适应扩展： Adaptive
 
-- **例子**
-
-```java
-@SPI("javassist")  
-public interface ProxyFactory {  
-  
-    /**  
-     * create proxy.     *     * @param invoker  
-     * @return proxy  
-     */    @Adaptive({Constants.PROXY_KEY})  
-    <T> T getProxy(Invoker<T> invoker) throws RpcException;  
-  
-    /**  
-     * create proxy.     *     * @param invoker  
-     * @return proxy  
-     */    @Adaptive({Constants.PROXY_KEY})  
-    <T> T getProxy(Invoker<T> invoker, boolean generic) throws RpcException;  
-  
-    /**  
-     * create invoker.     *     * @param <T>  
-     * @param proxy  
-     * @param type  
-     * @param url  
-     * @return invoker  
-     */    @Adaptive({Constants.PROXY_KEY})  
-    <T> Invoker<T> getInvoker(T proxy, Class<T> type, URL url) throws RpcException;  
-  
-}
-
-public class ProxyFactory$Adaptive implements org.apache.dubbo.rpc.ProxyFactory {  
-
-    public java.lang.Object getProxy(org.apache.dubbo.rpc.Invoker arg0, boolean arg1) {  
-       // 取URL中 proxy = 'xxx' 参数，如果不存在用默认的 ‘javassist’
-        String extName = url.getParameter("proxy", "javassist");  
-        // extName -> ProxyFactory 如 JavassistProxyFactory
-        org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader  .getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);  
-        return extension.getProxy(arg0, arg1);  
-    }  
-  
-    public org.apache.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1,  org.apache.dubbo.common.URL arg2)   {  
-        String extName = url.getParameter("proxy", "javassist");  
-        org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader  .getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);  
-        return extension.getInvoker(arg0, arg1, arg2);  
-    }  
-}
-
-```
-
+-  **例子**
+	
+	```java
+	@SPI("javassist")  
+	public interface ProxyFactory {  
+	  
+	    /**  
+	     * create proxy.     *     * @param invoker  
+	     * @return proxy  
+	     */    @Adaptive({Constants.PROXY_KEY})  
+	    <T> T getProxy(Invoker<T> invoker) throws RpcException;  
+	  
+	    /**  
+	     * create proxy.     *     * @param invoker  
+	     * @return proxy  
+	     */    @Adaptive({Constants.PROXY_KEY})  
+	    <T> T getProxy(Invoker<T> invoker, boolean generic) throws RpcException;  
+	  
+	    /**  
+	     * create invoker.     *     * @param <T>  
+	     * @param proxy  
+	     * @param type  
+	     * @param url  
+	     * @return invoker  
+	     */    @Adaptive({Constants.PROXY_KEY})  
+	    <T> Invoker<T> getInvoker(T proxy, Class<T> type, URL url) throws RpcException;  
+	  
+	}
+	
+	public class ProxyFactory$Adaptive implements org.apache.dubbo.rpc.ProxyFactory {  
+	
+	    public java.lang.Object getProxy(org.apache.dubbo.rpc.Invoker arg0, boolean arg1) {  
+	       // 取URL中 proxy = 'xxx' 参数，如果不存在用默认的 ‘javassist’
+	        String extName = url.getParameter("proxy", "javassist");  
+	        // extName -> ProxyFactory 如 JavassistProxyFactory
+	        org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader  .getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);  
+	        return extension.getProxy(arg0, arg1);  
+	    }  
+	  
+	    public org.apache.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1,  org.apache.dubbo.common.URL arg2)   {  
+	        String extName = url.getParameter("proxy", "javassist");  
+	        org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader  .getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);  
+	        return extension.getInvoker(arg0, arg1, arg2);  
+	    }  
+	}
+	
+	```
+	
 
 -  **使用**
 
@@ -208,13 +208,21 @@ public class ProxyFactory$Adaptive implements org.apache.dubbo.rpc.ProxyFactory 
 
 	动态生成的 xxx$Adaptive 类可以得知，每个默认实现都会从`URL`中提取`Adaptive参数值`，并以此为依据动态加载扩展点，调用 `getExtension(extName)`。  
 	1.  优先通过 `©Adaptive`注解传入的值去查找扩展实现类
-	2.  如果没找，到则通过`@SPI`注解中的 key 去查找
+	2.  如果没找，到则通过`@SPI`注解中的值去查找
 	3.  如果`@SPI`注解中没有默认值，则把类名转化为key，再去查找
 
 
-总结来说，结合上面SPI注解 IOC和AOP，以及Adaptive的方法路由可以推演整个流程如下
-1.   请求接口 A 的方法 a 时，
+结合上面SPI注解 IOC和AOP 以及 Adaptive 的方法路由，可以推演扩展一种代理方式的实现大概如下
+-  **初始化配置**
+	1.  实现接口 `ProxyFactory（SPI = "javassist") ，Adaptive = "proxy" ）`自定义实现类 AsmProxyFactory
+	2.  文件 `resources/META-INF/dubbo/org.apache.dubbo.rpc.ProxyFactory` 内容  `asm = org.apache.dubbo.samples.extensibility.proxy.AsmProxyFactory`
+	3.  配置 `<dubbo:protocol proxy="asm" />`
+- **请求过程**
+	1.  Dubbo框架触发扩展点加载，通过`ExtensionLoader`加载`ProxyFactory`的实现
+	2.  Dubbo调用`ProxyFactory`的`getProxy`方法来创建代理对象，通过 SPI 机制
+	3.  代理对象在 URL 中选择参数动态选择一个实现类，通过Adaptive参数实现
 
 
+所以总结来说，Dubbo SPI机制核心就是为了给各个接口提供动态的自定义扩展能力，其实现方式是通过 SPI注解 和 Adaptive注解 生成代理对象然后根据URL传参路由到具体的实现类。
 
 [dubbo系列-扩展点机制-Dubbo SPI](https://www.jianshu.com/p/317ea9559ee2)
