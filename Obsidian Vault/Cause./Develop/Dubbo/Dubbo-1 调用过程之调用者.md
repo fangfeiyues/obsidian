@@ -106,24 +106,15 @@ ReferenceConfig#createInvoker
 
 	集群聚合了Directory，来提供各种集群降级服务
 
--  **1、FailoverClusterInvoker** 
-
-	默认执行策略，快速失败集群
-
-
+-  **1、FailoverClusterInvoker**  默认执行策略，快速失败集群
 -  **2、FailfastClusterInvoker** 
-
 -  **3、BroadcastClusterInvoker** 
-
 -  **4、FailbackClusterInvoker** 
-
 -  **5、FailfastClusterInvoker** 
-
 -  **6、FailfastClusterInvoker** 
 
 ## 2、生成代理
 常用的动态代理大概有 ASM、CGLIB、JAVAASSIST等
-
 ###  Javassist
 
 
