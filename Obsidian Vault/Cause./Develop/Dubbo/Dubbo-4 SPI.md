@@ -212,6 +212,9 @@ public class ProxyFactory$Adaptive implements org.apache.dubbo.rpc.ProxyFactory 
 	3.  如果`@SPI`注解中没有默认值，则把类名转化为key，再去查找
 
 
+总结来说，结合上面SPI注解 IOC和AOP，以及Adaptive的方法路由可以推演整个流程如下
+1.   请求接口 A 的方法 a 时，
+
 
 
 [dubbo系列-扩展点机制-Dubbo SPI](https://www.jianshu.com/p/317ea9559ee2)
