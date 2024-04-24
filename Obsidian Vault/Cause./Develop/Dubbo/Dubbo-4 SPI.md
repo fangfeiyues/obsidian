@@ -1,7 +1,7 @@
  
  Dubbo框架中各层之间的引用注入都是依赖了 SPI 强大的能力，抛弃了 Spring IOC 的注入和 Spring AOP 的切面
 
-# Java SPI
+## Java SPI
 
 -  **定义**
 	SPI 全名为 Service Provider Interface，其思想是解耦，通过可插拔的方式把装配的控制权移到程序外
@@ -25,12 +25,12 @@
     }
 ```
 
-# Dubbo SPI
+## Dubbo SPI
 
 Dubbo SPI 在 Java SPI 基础上解决什么问题？
-## vs Java SPI
+### vs Java SPI
 
-### 1、可按需加载扩展点
+#### 1、可按需加载扩展点
 
 Java SPI 会通过 ServiceLoader 一次性加载所有扩展点，而 Dubbo SPI 通过注解 @SPI 实现了按需加载
 
@@ -63,7 +63,7 @@ public static void main(String[] args) (
 }
 ```
 
-### 2、IOC 和 AOP机制
+#### 2、IOC 和 AOP机制
 
 -  **扩展点的自动扩展特性**
 
@@ -100,15 +100,15 @@ private T createExtension(String name){
 }
 ```
 
-### 3、异常处理
+#### 3、异常处理
 
 Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
 Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
 
 
-## 注解
+### 注解
 
-### 2.1 控制与包装：SPI
+#### 2.1 控制与包装：SPI
 
 - **例子**
 
@@ -148,7 +148,7 @@ public static void main(String[] args) (
 	Dubbo SPI 解决的是一个怎么加载自定义类的问题
 
 
-### 2.2 自适应扩展： Adaptive
+#### 2.2 自适应扩展： Adaptive
 
 -  **例子**
 	
@@ -212,15 +212,18 @@ public static void main(String[] args) (
 	3.  如果`@SPI`注解中没有默认值，则把类名转化为key，再去查找
 
 
+
+## 总结
+
 结合上面SPI注解 IOC和AOP 以及 Adaptive 的方法路由，可以推演扩展一种代理方式的实现大概如下
 -  **初始化配置**
 	1.  实现接口 `ProxyFactory（SPI = "javassist") ，Adaptive = "proxy" ）`自定义实现类 AsmProxyFactory
 	2.  文件 `resources/META-INF/dubbo/org.apache.dubbo.rpc.ProxyFactory` 内容  `asm = org.apache.dubbo.samples.extensibility.proxy.AsmProxyFactory`
 	3.  配置 `<dubbo:protocol proxy="asm" />`
 - **请求过程**
-	1.  Dubbo框架触发扩展点加载，通过`ExtensionLoader`加载`ProxyFactory`的实现
-	2.  Dubbo调用`ProxyFactory`的`getProxy`方法来创建代理对象，通过 SPI 机制
-	3.  代理对象在 URL 中选择参数动态选择一个实现类，通过Adaptive参数实现
+	1.  Dubbo框架触发扩展点加载。-- 通过`ExtensionLoader`加载`ProxyFactory`的实现
+	2.  Dubbo调用`ProxyFactory`的`getProxy`方法来创建代理对象。-- 通过 SPI 机制
+	3.  代理对象在 URL 中选择参数动态选择一个实现类。-- 通过Adaptive参数实现
 
 
 所以总结来说，Dubbo SPI机制核心就是为了给各个接口提供动态的自定义扩展能力，其实现方式是通过 SPI注解 和 Adaptive注解 生成代理对象然后根据URL传参路由到具体的实现类。

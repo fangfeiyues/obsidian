@@ -60,8 +60,7 @@ ReferenceConfig#createInvoker
 
 ### 1.1、Registry（注册） & subscribe（订阅）
 
-	Dubbo是在消费者初始化refer引用后，到注册中心创建调用者节点并订阅提供者节点后，再根据监听的订阅url信息开始封装invoker
-
+	消费者初始化refer引用中，会到注册中心创建调用者节点，并订阅提供者，再根据监听的生产者url开始封装invoker
 
 
 
@@ -82,9 +81,6 @@ ReferenceConfig#createInvoker
 
 
 #### Nacos
-
-
-
 
 
 
@@ -129,12 +125,11 @@ ReferenceConfig#createInvoker
 
 ## 2、生成代理
 常用的动态代理大概有 ASM、CGLIB、JAVAASSIST等
-###  Javassist
+###  javassist
 
+### jdkProxy
 
-### JdkProxy
-
-只能代理接口的原因是，生成的`$Proxy0`代理类要继承接口信息，做反射。其主要流程是
+只能代理接口，原因是生成的`$Proxy0`代理类要继承接口信息，做反射。其主要流程是
 -  `ProxyGenerator` 自动生成 Proxy 的具体类 `$Proxy0`
 -  由static初始化块初始化接口方法：2个IUserService接口中的方法，3个Object中的接口方法
 -  由构造函数注入InvocationHandler
@@ -199,6 +194,7 @@ public class UserLogProxy {
          * loader: 代理对象使用的类加载器.
          * interfaces: 指定代理对象的类型. 即代理代理对象中可以有哪些方法.
          * h: 当具体调用代理对象的方法时, 应该如何进行响应, 实际上就是调用 InvocationHandler 的 invoke 方法
+         * proxy：这里是继承接口的代理类
          */
         proxy = (IUserService) Proxy.newProxyInstance(loader, interfaces, h);
         return proxy;
@@ -259,16 +255,16 @@ public final class $Proxy0 extends Proxy implements IUserService {
 
 
 
-### CGLIB
+### cglib
 
 ![[image-Dubbo-1 调用过程之调用者-20240423204123623.png|500]]
 
 - 最底层是字节码
-- ASM是操作字节码的工具
-- cglib基于ASM字节码工具操作字节码（即动态生成代理，对方法进行增强）
-- SpringAOP基于cglib进行封装，实现cglib方式的动态代理
+- asm 是操作字节码的工具
+- cglib 基于ASM字节码工具操作字节码（即动态生成代理，对方法进行增强）
+- springAOP 基于 cglib 进行封装，实现 cglib 方式的动态代理
 
-![[image-Dubbo-1 调用过程之调用者-20240423204456809.png|600]]
+![[image-Dubbo-1 调用过程之调用者-20240423204456809.png|650]]
 
 ```java
 public class UserLogProxy implements MethodInterceptor {
@@ -305,7 +301,6 @@ public class UserLogProxy implements MethodInterceptor {
         return null;
     }
 }
-
 
 
 public class ProxyDemo {
