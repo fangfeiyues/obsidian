@@ -18,23 +18,23 @@ proxy0#sayHello(String)
 ```
 
 
-## 2、请求
+## 2、Request
 
-### 2.1 动态代理
+### 2.1 Proxy
 
 	InvokerInvocationHandler 从进入代理类开始
 
-### 2.2 集群处理
+### 2.2 Cluster
 
-#### 2.21 集群Mock
+#### 2.21 Mock
 
 	MockClusterInvoker 是 MockClusterWrapper 作为 Cluster 的自适应切面注入时候包的
 
-#### 2.22 集群路由
+#### 2.22 Route
 
 	从 Directory 中获取到初始化时候保存的 invoker list，但在这个过程中要脚本路由？
 
-#### 2.23 集群策略
+#### 2.23 LoadBalance
 
 	 FailoverClusterInvoker 默认执行策略，但在这个过程中会先 select invoker 做负载均衡处理
 
@@ -51,12 +51,11 @@ proxy0#sayHello(String)
 	按照请求的顺序轮流从服务提供者列表中选择一个进行调用，类似于轮询的方式。它也考虑了权重，如果权重相同，则请求顺序轮流；如果权重不同，则权重越大的提供者越容易被选中
 
 
-
-### 2.3 拦截器&监听器
+### 2.3 Filter & Listener
 
 	拦截器 Filter 开始对请求的 invoker 做一些逻辑上的处理
 
-### 2.4 请求处理
+### 2.4 Request
 
 	到 DubboInvoker 这算是选中一个服务端的Provider了，开始真正的请求之路
 
@@ -64,8 +63,16 @@ proxy0#sayHello(String)
 
 -  **异步请求**
 
+	![[image-Dubbo-2 调用过程之请求-20240424174326417.png|500]]
+
+
+
+
+
+
 -  **一次请求**
 
-### 2.5 网络请求
+### 2.5 Netty
 
 	Netty 发送信息
+
