@@ -62,8 +62,6 @@ ReferenceConfig#createInvoker
 
 	消费者初始化refer引用中，会到注册中心创建调用者节点，并订阅提供者，再根据监听的生产者url开始封装invoker
 
-
-
 #### Zookeeper
 
 	![[image-Dubbo-1 调用过程之调用者-20240420225304815.png|450]]
