@@ -66,10 +66,6 @@ proxy0#sayHello(String)
 	![[image-Dubbo-2 调用过程之请求-20240424174326417.png|500]]
 
 
-
-
-
-
 -  **一次请求**
 
 ### 2.5 Netty
