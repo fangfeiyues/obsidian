@@ -11,9 +11,11 @@
             "id": "6002965b22078068",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2024-04.png"
+                "file": "Cause./Develop/JVM/JVM-05 内存管理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 320.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-04.png",
+                "file": "Cause./Develop/JVM/JVM-05 内存管理.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-04.png",
+                "file": "Cause./Develop/JVM/JVM-05 内存管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-04.png"
+                "file": "Cause./Develop/JVM/JVM-05 内存管理.md"
               }
             }
           }
@@ -147,32 +149,42 @@
   },
   "active": "6002965b22078068",
   "lastOpenFiles": [
+    "MQ-2 消息存储-1.png",
+    "Cause./Develop/JVM/JVM-05 内存管理.md",
+    "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004510656.png",
+    "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004439201.png",
+    "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004403396.png",
+    "Cause./Develop/JVM/JVM-04 垃圾回收机制.md",
+    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
+    "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035.png",
+    "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004221540.png",
+    "Cause./Develop/JVM/JVM-02 类加载机制.md",
+    "Cause./Develop/JVM/assets/image-类加载机制-20240425004106023.png",
+    "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md",
+    "Cause./Develop/JVM/assets/Untitled.png",
+    "Cause./Develop/JVM/assets",
+    "Cause./Develop/Algo/15. 三数之和.md",
+    "Cause./Develop/JVM",
+    "Cause./Develop/Untitled.md",
     "Interest./Invest/2024-04.md",
+    "Cause./Business/Youzan/上门取件.md",
+    "2024-04.png",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240424214835325.png",
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
     "Cause./Develop/Dubbo/assets/image-Dubbo-2 调用过程之请求-20240424174326417.png",
-    "Cause./Develop/Algo/15. 三数之和.md",
     "Cause./Develop/Algo/Untitled.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Design/patterns/设计模式01-动态代理.md",
     "Cause./Develop/Design/algo/时间轮定时器算法.md",
     "Cause./Develop/Design/algo",
-    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240424172050449.png",
     "Cause./Develop/Design/patterns",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
-    "Cause./Develop/Dubbo/assets/分层设计.png",
-    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240423204456809.png",
-    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240423204123623.png",
-    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420225304815.png",
-    "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420205050456.png",
     "Cause./Develop/Register/Zookeeper.md",
     "Cause./Develop/Register",
-    "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240419173613670.png",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
-    "Cause./Develop/Distributed/assets/image-Distributed-4 分布式一致性-20240419000311619.png",
     "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
@@ -183,16 +195,6 @@
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Dubbo/assets/Dubbo-1 记一次调用过程",
     "Cause./Develop/Dubbo/assets",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
-    "Cause./Develop/MQ/assets/MQ-2 消息存储",
-    "Cause./Develop/MQ/assets",
-    "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/Dubbo/Dubbo-2 Process.md",
-    "Cause./Develop/Dubbo/Dubbo-3 Consumer.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/DDD/🌹Untitled.canvas",
     "Untitled.canvas"
   ]
