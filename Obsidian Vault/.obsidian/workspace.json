@@ -20,19 +20,18 @@
             }
           },
           {
-            "id": "798bbd95bcbb0980",
+            "id": "f2fc60c647c186a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "file": "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md"
               }
             }
           }
@@ -159,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "798bbd95bcbb0980",
+  "active": "f3e546753da14dba",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Dubbo/assets/分层设计.png",
@@ -169,7 +169,6 @@
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240423204123623.png",
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420225304815.png",
     "Cause./Develop/Dubbo/assets/image-Dubbo-1 调用过程之调用者-20240420205050456.png",
-    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Register/Zookeeper.md",
     "Cause./Develop/Register",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240419173613670.png",
