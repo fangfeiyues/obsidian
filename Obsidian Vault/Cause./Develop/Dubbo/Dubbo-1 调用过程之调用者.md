@@ -64,6 +64,7 @@ ReferenceConfig#createInvoker
 
 #### Zookeeper
 
+- **架构**
 	![[image-Dubbo-1 调用过程之调用者-20240420225304815.png|450]]
 
 -  **流程**
@@ -73,6 +74,20 @@ ReferenceConfig#createInvoker
 
 
 #### Redis
+
+- **架构**
+
+	![[image-Dubbo-1 调用过程之调用者-20240424214835325.png|600]]
+	- 主 Key 为服务名和类型
+	- Map 中的 Key 为 URL 地址
+	- Map 中的 Value 为过期时间，用于判断脏数据，脏数据由监控中心删除
+
+
+- **通知过程**
+	使用 Redis 的 Publish/Subscribe 事件通知数据变更：
+	- 通过事件的值区分事件类型：`register`, `unregister`, `subscribe`, `unsubscribe`
+	- 普通消费者直接订阅指定服务提供者的 Key，只会收到指定服务的 `register`, `unregister` 事件
+	- 监控中心通过 `psubscribe` 功能订阅 `/dubbo/*`，会收到所有服务的所有变更事件
 
 #### Nacos
 
