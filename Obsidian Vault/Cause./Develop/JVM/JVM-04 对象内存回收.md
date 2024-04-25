@@ -1,5 +1,23 @@
+## 可达性分析
 
-## 垃圾清理算法
+引用计数法：可以用来判断对象被引用的次数，在任何某一具体时刻如果引用次数为0，则代表可以被回收。
+
+## 新生代回收
+
+Minor GC触发机制：当年轻代满时就会触发Minor GC，这里的年轻代满指的是Eden代满如果是Survivor满不会引发GC。
+
+## 老年代回收
+
+Full GC 触发机制
+1.  调用System.gc时系统建议执行Full GC但不是必然执行
+2.  老年代空间不足
+3.  方法区不足
+4.  通过Minor GC后进入老年代的平均大小大于老年代的可用内存
+5.  由Eden区、survivor space1（From Space）区向survivor space2（To Space）区复制时对象大小大于To Space可用内存则把该对象转存到老年代，且老年代的可用内存小于该大小
+6.  永久代满时也会引发Full GC，会导致Class、Method元信息的卸载
+
+
+垃圾清理算法
 
 "分代收集理论"
 
@@ -70,10 +88,9 @@ CMS收集器是以获得 _**最短回收停顿时间**_ 为目标的收集器。
 3. 重新标记。修正并发期间因用户线程继续运作而导致标记产生变动的那一部分对象的标记
 4. 并发清除。
 
-_其中初始标记和重新标记仍然需要“Stop The World”_
+其中初始标记和重新标记仍然需要 “Stop The World”
 
 缺点：
-
 1. CMS收集器对CPU资源非常敏感。虽然在两个并发阶段不会导致用户线程停顿但是因为占用了一部分线程而导致应用程序变慢，总吞吐量下降
 2. CMS是无法处理浮动垃圾。由于并发清除阶段用户线程还在运行，伴随着程序还在产生新的垃圾
 3. 由于CMS收集器是一个基于 _标记-清除_ 算法的收集器，那么意味着收集结束会产生大量碎片
@@ -92,10 +109,9 @@ _其中初始标记和重新标记仍然需要“Stop The World”_
 
 ## Full GC
 
-几个区别：
-
-1. Full GC == Major GC指的是对老年代、永久代的stop the world的GC
-2. Full GC的次数 == 老年代GC时 stop the world的次数
-3. Full GC的时间 == 老年代GC时 stop the world的总时间
-4. CMS 不等于Full GC，我们可以看到CMS分为多个阶段，只有stop the world的阶段被计算到了Full GC的次数和时间，而和业务线程并发的GC的次数和时间则不被认为是Full GC
-5. Full GC本身不会先进行Minor GC，我们可以配置，让Full GC之前先进行一次Minor GC，因为老年代很多对象都会引用到新生代的对象，先进行一次Minor GC可以提高老年代GC的速度。比如老年代使用CMS时，设置CMSScavengeBeforeRemark优化，让CMS remark之前先进行一次Minor GC**
+几个区别
+1.  Full GC == Major GC指的是对老年代、永久代的stop the world的GC
+2.  Full GC的次数 == 老年代GC时 stop the world的次数
+3.  Full GC的时间 == 老年代GC时 stop the world的总时间
+4.  CMS 不等于Full GC，我们可以看到CMS分为多个阶段，只有stop the world的阶段被计算到了Full GC的次数和时间，而和业务线程并发的GC的次数和时间则不被认为是Full GC
+5.  Full GC本身不会先进行Minor GC，我们可以配置，让Full GC之前先进行一次Minor GC，因为老年代很多对象都会引用到新生代的对象，先进行一次Minor GC可以提高老年代GC的速度。比如老年代使用CMS时，设置CMSScavengeBeforeRemark优化，让CMS remark之前先进行一次Minor GC**
