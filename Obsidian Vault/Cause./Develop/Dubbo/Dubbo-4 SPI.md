@@ -25,6 +25,8 @@
     }
 ```
 
+
+
 ## Dubbo SPI
 
 Dubbo SPI 在 Java SPI 基础上解决什么问题？
@@ -76,34 +78,34 @@ public static void main(String[] args) (
 	
 	在上面这个创建扩展点的方法中，扩展点自动装配以后，会继续对包装类对象进行注入。这个和aop原理一样，称为dubbo spi中的aop，也叫**扩展点的自动包装**
 
-
-```java
-private T createExtension(String name){
-             //这里省略了部分代码
-             .......
-            /**
-             * 向扩展类注入其依赖的扩展点属性，这里是体现了扩展点自动装配的特性
-             */
-            injectExtension(instance);
-            /**
-             * （ cachedWrapperClasses 对象在执行 getExtensionClasses 方法时已经赋值 ）
-             * 扩展点自动包装特性，ExtensionLoader在加载扩展时，如果发现这个扩展类包含其他扩展点作为构造函数的参数，则这个扩展类会被认为是wrapper类，那么这个wrapper类也会被实例化并且注入扩展点属性
-             */
-            Set<Class<?>> wrapperClasses = cachedWrapperClasses;
-            if (CollectionUtils.isNotEmpty(wrapperClasses)) {
-                for (Class<?> wrapperClass : wrapperClasses) {
-                    //  wrapper对象的实例化（injectExtension():向扩展类注入其依赖的属性,如扩展类A又依赖了扩展类B，那么就向A中注入扩展类B）
-                    instance = injectExtension((T) wrapperClass.getConstructor(type).newInstance(instance));
-                }
-            }
-          //  .......
-}
+	
+	```java
+	private T createExtension(String name){
+	             //这里省略了部分代码
+	             .......
+	            /**
+	             * 向扩展类注入其依赖的扩展点属性，这里是体现了扩展点自动装配的特性
+	             */
+	            injectExtension(instance);
+	            /**
+	             * （ cachedWrapperClasses 对象在执行 getExtensionClasses 方法时已经赋值 ）
+	             * 扩展点自动包装特性，ExtensionLoader在加载扩展时，如果发现这个扩展类包含其他扩展点作为构造函数的参数，则这个扩展类会被认为是wrapper类，那么这个wrapper类也会被实例化并且注入扩展点属性
+	             */
+	            Set<Class<?>> wrapperClasses = cachedWrapperClasses;
+	            if (CollectionUtils.isNotEmpty(wrapperClasses)) {
+	                for (Class<?> wrapperClass : wrapperClasses) {
+	                    //  wrapper对象的实例化（injectExtension():向扩展类注入其依赖的属性,如扩展类A又依赖了扩展类B，那么就向A中注入扩展类B）
+	                    instance = injectExtension((T) wrapperClass.getConstructor(type).newInstance(instance));
+	                }
+	            }
+	          //  .......
+	}
 ```
 
 #### 3、异常处理
 
-Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
-Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
+	Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
+	Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
 
 
 ### 注解
@@ -112,35 +114,35 @@ Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志�
 
 - **例子**
 
-```java
-/** PrintService接口的Dubbo SPI改造
-① 在目录META-INF/dubbo/internal下建立配置文com.test.spi.Printservice,文件内容如下
-impl=com.test.spi.PrintServiceImpl 
-
-② 为接口类添加SPI注解，设置默认实现为impl
-**/
-@SPI("impl")   
-public interface Printservice {
-    void printlnfo();
-)
-
-// ③ 实现类不变
-public class PrintServicelmpl implements Printservice ( 
-Override
-public void printlnfo() (
-      System.out println("hello world");
-} 
-}
-
-// ④ 调用Dubbo SPI
-public static void main(String[] args) ( 
-    //通过 ExtensionLoader 获取接口PrintService.class 的默认实现
-    PrintService printservice = ExtensionLoader
-    .getExtensionLoader(PrintService.class).getDefaultExtension();
-    //此处会输出 PrintServicelmpl 打印的 hello world
-    printService.printInfo();
-}
-```
+	```java
+	/** PrintService接口的Dubbo SPI改造
+	① 在目录META-INF/dubbo/internal下建立配置文com.test.spi.Printservice,文件内容如下
+	impl=com.test.spi.PrintServiceImpl 
+	
+	② 为接口类添加SPI注解，设置默认实现为impl
+	**/
+	@SPI("impl")   
+	public interface Printservice {
+	    void printlnfo();
+	)
+	
+	// ③ 实现类不变
+	public class PrintServicelmpl implements Printservice ( 
+	Override
+	public void printlnfo() (
+	      System.out println("hello world");
+	} 
+	}
+	
+	// ④ 调用Dubbo SPI
+	public static void main(String[] args) ( 
+	    //通过 ExtensionLoader 获取接口PrintService.class 的默认实现
+	    PrintService printservice = ExtensionLoader
+	    .getExtensionLoader(PrintService.class).getDefaultExtension();
+	    //此处会输出 PrintServicelmpl 打印的 hello world
+	    printService.printInfo();
+	}
+	```
 
 
 - **原理**
@@ -204,12 +206,13 @@ public static void main(String[] args) (
 	Adaptive 解决的是在类似装饰器模式场景下，接口注入中有其他接口的时候，怎么识别其实现类的问题
 
 
-- **实现**
+-  **实现**
 
 	动态生成的 xxx$Adaptive 类可以得知，每个默认实现都会从`URL`中提取`Adaptive参数值`，并以此为依据动态加载扩展点，调用 `getExtension(extName)`。  
 	1.  优先通过 `©Adaptive`注解传入的值去查找扩展实现类
 	2.  如果没找，到则通过`@SPI`注解中的值去查找
 	3.  如果`@SPI`注解中没有默认值，则把类名转化为key，再去查找
+
 
 
 
