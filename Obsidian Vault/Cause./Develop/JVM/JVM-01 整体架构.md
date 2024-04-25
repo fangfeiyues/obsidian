@@ -17,7 +17,6 @@
    Java线程之间的通信由Java内存模型（简称JMM）控制，JMM决定一个线程对共享变量的写入何时对另一个线程可见。从抽象角度来看，JMM定义了线程和主内存之间的抽象关系：线程之间的共享变量存储在主内存（main memory）中，每个线程都有一个私有的本地内存（local memory）
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85733981-05c5-4fc5-9e39-016e2b6e0751/Untitled.png)
 
 为了保证线程之间通信的可见性、原子性就出现了以下三个关键字
 
