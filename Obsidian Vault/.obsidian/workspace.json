@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 整体架构.md",
+                "file": "Cause./Develop/JVM/JVM-05 实战经验.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 整体架构.md",
+                "file": "Cause./Develop/JVM/JVM-05 实战经验.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 整体架构.md",
+                "file": "Cause./Develop/JVM/JVM-05 实战经验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 整体架构.md"
+                "file": "Cause./Develop/JVM/JVM-05 实战经验.md"
               }
             }
           }
@@ -149,9 +150,11 @@
   },
   "active": "6002965b22078068",
   "lastOpenFiles": [
+    "Cause./Develop/JVM/assets/image-JVM-05 实战经验-20240426004232615.png",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
-    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
+    "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/JVM/JVM-01 整体架构.md",
+    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/JVM/JVM-05 内存管理.md",
     "Cause./Develop/Design/patterns/设计模式01-动态代理.md",
@@ -191,7 +194,6 @@
     "Cause./Develop/Distributed/assets/Distributed-1  分布式基论CAP",
     "Cause./Develop/Distributed/assets",
     "Cause./Develop/Distributed",
-    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Dubbo/assets/Dubbo-1 记一次调用过程",
     "Cause./Develop/Dubbo/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas",
