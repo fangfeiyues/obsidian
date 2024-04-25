@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md",
+                "file": "Cause./Develop/Design/patterns/设计模式01-动态代理.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 337.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md",
+                "file": "Cause./Develop/Design/patterns/设计模式01-动态代理.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md",
+                "file": "Cause./Develop/Design/patterns/设计模式01-动态代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md"
+                "file": "Cause./Develop/Design/patterns/设计模式01-动态代理.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "6002965b22078068",
   "lastOpenFiles": [
+    "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
-    "Cause./Develop/JVM/JVM-01 内存结构与内存模型.md",
     "Cause./Develop/JVM/JVM-05 内存管理.md",
     "MQ-2 消息存储-1.png",
     "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004510656.png",
