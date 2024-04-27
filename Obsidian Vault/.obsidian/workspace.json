@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "9fcb670467f8777c",
+            "id": "819ef3124411f664",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
+                "file": "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1e9a43c1294c5060",
+            "id": "9fcb670467f8777c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
+                "file": "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-00 基本特性.md",
+                "file": "Cause./Develop/JVM/JVM-04 对象内存回收.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-00 基本特性.md",
+                "file": "Cause./Develop/JVM/JVM-04 对象内存回收.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-00 基本特性.md"
+                "file": "Cause./Develop/JVM/JVM-04 对象内存回收.md"
               }
             }
           }
@@ -182,17 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6002965b22078068",
+  "active": "f194375ed28bd8d0",
   "lastOpenFiles": [
+    "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
+    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
     "Cause./Develop/JVM/JVM-00 基本特性.md",
+    "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240428003947623.png",
+    "Cause./Develop/JVM/assets/image-JVM-00 基本特性-20240428000602190.png",
     "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240426202013784.png",
     "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240426201639985.png",
-    "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/JVM/assets/image-JVM-02 对象初始化与加载-20240426195642675.png",
     "Cause./Develop/JVM/assets/image-JVM-02 对象初始化与加载-20240426194717071.png",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
-    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/JVM/assets/image-JVM-05 实战经验-20240426110338688.png",
     "Cause./Develop/JVM/assets/image-JVM-05 实战经验-20240426004232615.png",
@@ -204,8 +207,6 @@
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "MQ-2 消息存储-1.png",
     "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004510656.png",
-    "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004439201.png",
-    "Cause./Develop/JVM/assets/image-JVM-05 内存管理-20240425004403396.png",
     "Cause./Develop/JVM/assets",
     "Cause./Develop/Algo/15. 三数之和.md",
     "Cause./Develop/JVM",
@@ -224,7 +225,6 @@
     "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/Distributed/assets/Distributed-1  分布式基论CAP",
     "Cause./Develop/Distributed/assets",
     "Cause./Develop/Distributed",
