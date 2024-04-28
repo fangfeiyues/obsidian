@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
+                "file": "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
+                "file": "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
+                "file": "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/JVM/JVM-02 对象初始化与加载.md"
+                "file": "Cause./Develop/JVM/JVM-03 对象创建与访问.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "819ef3124411f664",
   "lastOpenFiles": [
-    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
+    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/assets/image-JVM-02 对象初始化与加载-20240428113641860.png",
     "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
