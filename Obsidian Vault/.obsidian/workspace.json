@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -185,6 +185,10 @@
   },
   "active": "a1c6b33f166c37b4",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-4 多功能.md",
+    "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 锁结构-20240429020637185.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 锁结构-20240429020608359.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 锁结构-20240429020524289.png",
@@ -194,7 +198,6 @@
     "Cause./Develop/Concurrent/assets/image-Concurrent-02 内存模型-20240429020257338.png",
     "Cause./Develop/Concurrent/assets",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
-    "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/Concurrent",
@@ -202,10 +205,7 @@
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/Review/Tracking Week 2.md",
     "Cause./Develop/Review/Tracking Week  1.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
@@ -220,7 +220,6 @@
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160930475.png",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160854123.png",
-    "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Cause./Develop/DDD/assets",
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/JVM/JVM-00 基本特性.md",
