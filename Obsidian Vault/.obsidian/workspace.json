@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md"
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md"
               }
             }
           }
@@ -160,10 +160,10 @@
   },
   "active": "c93db5ad4e721225",
   "lastOpenFiles": [
+    "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
     "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240428003947623.png",
-    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
-    "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
     "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035 1 1.png",
     "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035 1.png",
     "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035.png",
