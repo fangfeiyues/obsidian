@@ -180,7 +180,7 @@ redis> SADD numbers 1 3 5 7 9
 
 ### Ziplist
 
-压缩列表（ziplist）是当元素比较少时，Redis会采用Ziplist或ListPack（Redis 7.0替换成了ListPack）
+压缩列表（ziplist）是当元素比较少时，Redis 会采用 Ziplist 或 ListPack（Redis 7.0替换成了ListPack）
 
 ### listpack
 
