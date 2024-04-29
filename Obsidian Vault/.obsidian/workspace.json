@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64a5fabb2ed7547f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 锁结构.md"
+                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md"
               }
             }
           }
@@ -146,16 +158,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "683255d2eb7eca30",
+  "active": "c93db5ad4e721225",
   "lastOpenFiles": [
+    "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
+    "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240428003947623.png",
+    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+    "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
     "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035 1 1.png",
     "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035 1.png",
     "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035.png",
     "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
-    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
-    "Cause./Develop/Concurrent/Concurrent-03 锁结构.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
@@ -182,11 +196,8 @@
     "Cause./Develop/Algo/131. 分割回文串.md",
     "Cause./Develop/Algo/207. 课程表.md",
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
-    "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428161006860.png",
-    "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/DDD/assets",
     "Cause./Develop/DDD/DDD-04 落地.md",
-    "Cause./Develop/JVM/JVM-00 基本特性.md",
     "Cause./Develop/JVM/assets",
     "Cause./Develop/JVM",
     "Cause./Develop/Design/algo",
