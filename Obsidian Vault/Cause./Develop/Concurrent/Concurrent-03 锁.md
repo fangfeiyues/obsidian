@@ -1,8 +1,22 @@
-## 与Synchronized
+## Synchronized
+
+### 使用
+
+-  **阻塞性**
+
+-  **互斥性**
+
+-  **可重入性**
 
 同步原理：数据同步需要依赖锁，锁的同步依赖谁呢？Synchronized是在软件层面依赖JVM，juc.Lock是在硬件层面依赖特殊的CPU指令
 
-Synchronized主要三种用法
+
+
+
+
+
+
+
 ## AbstractQueuedSynchronizer
 
 AQS是为了解决多个线程同时抢占一个或多个资源时出现的并发问题，其同时出现抢占的场景有
