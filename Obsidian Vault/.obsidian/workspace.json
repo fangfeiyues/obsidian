@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md"
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md"
               }
             }
           }
@@ -183,11 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c93db5ad4e721225",
+  "active": "ba54d131c7a0c288",
   "lastOpenFiles": [
+    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
-    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
     "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
     "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240428003947623.png",
