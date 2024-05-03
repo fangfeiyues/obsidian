@@ -1,4 +1,4 @@
-## Synchronized
+## 1、Synchronized
 
 ### 使用
 
@@ -8,14 +8,18 @@
 
 -  **可重入性**
 
+### 原理
+
+同步代码使用monitor_enter 和 monit_exit 实现，每个对象维护着一个记录着被锁次数的计数器，未被锁定对象的该计数器为0，当一个线程获得锁后自增为1，释放自减，当计数器为0的时候，锁将被释放，其他线程可以获得锁
+
+### 特性
+
+-  **原子性**
+
+通过 monitor_enter 和 
 
 
-
-同步原理：数据同步需要依赖锁，锁的同步依赖谁呢？Synchronized是在软件层面依赖JVM，juc.Lock是在硬件层面依赖特殊的CPU指令
-
-
-
-## AbstractQueuedSynchronizer
+## 2、AbstractQueuedSynchronizer
 
 AQS是为了解决多个线程同时抢占一个或多个资源时出现的并发问题，其同时出现抢占的场景有
 
@@ -96,9 +100,9 @@ public final boolean release(int arg) {
 
 </aside>
 
-## Reentrant重入锁
+### Reentrant重入锁
 
-### 重入
+ - **重入**
 
 ```java
 protected final boolean tryAcquire(int acquires) {
@@ -123,15 +127,16 @@ protected final boolean tryAcquire(int acquires) {
         }
 ```
 
-### 公平
 
-在nonfairTryAcquire的地方新加hasQueuedPredecessors即加入了同步队列中当前节点是否有前驱节点的判断
+- **公平**
 
-非公平可能使得线程发生饥饿的情况，为什么还被设置为默认？极少的线程上下文切换保证了吞吐量。
+	nonfairTryAcquire 新加 hasQueuedPredecessors 即加入了同步队列中当前节点是否有前驱节点的判断
+	
+	非公平可能使得线程发生饥饿的情况，为什么还被设置为默认？极少的线程上下文切换保证了吞吐量
 
-## LockSupport
+### LockSupport
 
-## Condition
+### Condition
 
 [Untitled Database](https://www.notion.so/31055187e7f749a2aa1cfa96898b6db7?pvs=21)
 
