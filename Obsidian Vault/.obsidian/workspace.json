@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md"
+                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md"
               }
             }
           }
@@ -196,10 +196,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2407b940888f7d3e",
+  "active": "ba54d131c7a0c288",
   "lastOpenFiles": [
-    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162726721.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162631647.png",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",

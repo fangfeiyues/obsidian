@@ -110,7 +110,7 @@ AQS（AbstractQueuedSynchronizer）是为了解决多个线程同时抢占一个
 
 ```
 
-在AQS内部，维护了 一个FIFO队列 和 一个volatile的state变量，在 state = 1 的时候表示当前对象锁已经被占有，state的修改动作通过CAS完成。
+AQS内部，维护了 一个FIFO队列 和 一个 volatile 的 state 变量，在 state = 1 的时候表示当前对象锁已经被占有，state 的修改动作通过CAS完成
 
 #### FIFO队列
 
