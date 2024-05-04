@@ -97,14 +97,9 @@ Thread_2 在判断 singleton != null 后直接返回就可能造成NPE，因为 
 
 ## 3、AQS
 
-### 原理
+### 3.1 原理
 
-AQS（AbstractQueuedSynchronizer）是为了解决多个线程同时抢占一个或多个资源时出现的并发问题，其同时出现抢占的场景有
-1. `ReetrantLock` 对一个资源读写抢占
-2. `Semaphore` 多个信号量抢占
-3. `CountDownLatch` 并发资源等待通知
-4. `ReetrantReadWriteLock` 读写资源
-
+AQS（AbstractQueuedSynchronizer）是为了解决多个线程同时抢占一个或多个资源时出现的并发问题
 ```text
 抽象同步队列器是实现锁的关键，在锁的实现中聚合同步器利用同步器实现锁的语义。
 
@@ -114,8 +109,6 @@ AQS（AbstractQueuedSynchronizer）是为了解决多个线程同时抢占一个
 锁和同步器很好的隔离了使用者和实现者锁需要关注的领域
 
 ```
-
-
 
 在AQS内部，维护了 一个FIFO队列 和 一个volatile的state变量，在 state = 1 的时候表示当前对象锁已经被占有，state的修改动作通过CAS完成。
 
@@ -139,7 +132,7 @@ FIFO的简单流程
 `waitStatus = SIGNAL（值为-1）`，后继节点的线程处于等待状态，而当前节点的线程如果释放了同步状态或被取消将会通知后续节点，使得后续节点的线程得以运行
 `waitStatus = CANCELLED（值为1）`，由于在同步队列中等待的线程等待超时或者被中断，需要从同步队列中取消等待节点进入该状态将不再变化
 
-#### 同步状态state
+#### State状态
 
 volatile 修饰变量，state = 1 表示当前对象锁已被占用
 
@@ -163,7 +156,17 @@ volatile 修饰变量，state = 1 表示当前对象锁已被占用
 	5.  Thread_1 -> CAS success.
 	
 	解决方案：版本号
-### 模式
+
+
+
+#### 等待与唤醒
+
+AQS中的等待与唤醒主要依赖 park 和 unpark 实现，当一个线程尝试获取失败，AQS会将该线程封装成一个Node并添加到等待队列，然后通过 LockSupport.park() 将该线程阻塞
+
+此外AQS还提供了条件变量 Condition实现 ？？？
+
+
+### 3.2 模式
 #### 独占模式
 
 独占模式意味着一次只有一个线程可以获取同步状态，通常用于互斥如 ReentrantLock（读写锁）
@@ -204,7 +207,8 @@ public final boolean release(int arg) {
 
 
 
-### 公平与非公平
+
+### 3.3 公平与非公平
 
 -  **公平锁**
 
@@ -219,7 +223,8 @@ public final boolean release(int arg) {
 	优点是减少开销，吞吐率会高不少，但可能会一直等待锁取不到
 
 
-### 上层实现
+
+### 3.4 实现方法
 
 -  **ReentrantLock**
 
@@ -252,6 +257,17 @@ protected final boolean tryAcquire(int acquires) {
 	
 	非公平可能使得线程发生饥饿的情况，为什么还被设置为默认？极少的线程上下文切换保证了吞吐量
 
-#### LockSupport
 
-#### Condition
+-  **CountDownLatch**
+
+	计数器，允许一个或多个线程等待其他线程完成操作后，再继续执行
+
+
+-  **CyclicBarrier**
+
+	同步屏障，允许多个线程等待直到某个公共屏障点，才能继续执行
+
+
+-  **Semaphore**
+
+	计数信号量，允许多个线程同时访问共享资源，并通过计数器控制访问数量
