@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -197,6 +198,8 @@
   },
   "active": "2407b940888f7d3e",
   "lastOpenFiles": [
+    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162726721.png",
+    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162631647.png",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
@@ -217,7 +220,6 @@
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 锁结构-20240429020608359.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 锁结构-20240429020524289.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 锁结构-20240429020505420.png",
-    "Cause./Develop/Concurrent/assets/image-Concurrent-02 内存模型-20240429020340523.png",
     "Cause./Develop/Concurrent/assets",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/Concurrent",

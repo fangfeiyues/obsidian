@@ -74,16 +74,6 @@ A: JDK 1.6 及之前版本，如果对象被锁线程就会进入阻塞知道锁
 - 自旋实现用C++ 的 inline函数
 
 
-
-
-
-
-
-
-
-
-
-
 ## 2、volatile
 
 为什么总感觉实际开发中很少使用volatile？
@@ -104,7 +94,10 @@ Thread_2 在判断 singleton != null 后直接返回就可能造成NPE，因为 
 
 
 
+
 ## 3、AQS
+
+### 原理
 
 AQS（AbstractQueuedSynchronizer）是为了解决多个线程同时抢占一个或多个资源时出现的并发问题，其同时出现抢占的场景有
 1. `ReetrantLock` 对一个资源读写抢占
@@ -122,7 +115,58 @@ AQS（AbstractQueuedSynchronizer）是为了解决多个线程同时抢占一个
 
 ```
 
-### 独占锁
+
+
+在AQS内部，维护了 一个FIFO队列 和 一个volatile的state变量，在 state = 1 的时候表示当前对象锁已经被占有，state的修改动作通过CAS完成。
+
+#### FIFO队列
+
+FIFO队列来实现多线程的排队工作，当线程加锁失败时，该线程会被封装成一个Node节点置于队尾
+
+![[image-Concurrent-03 并发锁-20240504162631647.png|600]]
+
+当持有锁的线程释放锁时，AQS会将等待队列中的第一个线程唤醒，并让其重新尝试获取锁
+
+![[image-Concurrent-03 并发锁-20240504162726721.png|500]]
+
+FIFO的简单流程
+
+![[image-Concurrent-03 锁结构-20240429020505420.png|500]]
+
+
+![[image-Concurrent-03 锁结构-20240429020524289.png|500]]
+
+`waitStatus = SIGNAL（值为-1）`，后继节点的线程处于等待状态，而当前节点的线程如果释放了同步状态或被取消将会通知后续节点，使得后续节点的线程得以运行
+`waitStatus = CANCELLED（值为1）`，由于在同步队列中等待的线程等待超时或者被中断，需要从同步队列中取消等待节点进入该状态将不再变化
+
+#### 同步状态state
+
+volatile 修饰变量，state = 1 表示当前对象锁已被占用
+
+#### CAS
+
+-  **应用**
+
+	Compare And Swap 在进行并发修改时，会先比较预期和取出的值是否相等，相等则会把值替换成新值
+	CAS主要应用的就是乐观锁和锁自旋
+
+-  **原理**
+
+	Unsafe是CAS核心类，因为Java无法直接访问底层操作系统，而是通过本地native方法来访问，不过尽管如此，JVM还是开了后门Unsafe类来提供原子级别操作
+
+-  **ABA问题**
+
+	1.  Thread_1 -> A
+	2.  Thread_2 -> A
+	3.  Thread_2 -> A to B
+	4.  Thread_2 -> B to A
+	5.  Thread_1 -> CAS success.
+	
+	解决方案：版本号
+### 模式
+#### 独占模式
+
+独占模式意味着一次只有一个线程可以获取同步状态，通常用于互斥如 ReentrantLock（读写锁）
 
 **acquire阻塞获取独占锁**
 
@@ -134,25 +178,6 @@ public final void acquire(int arg) {
     }
 ```
 
-1. 首先调用自定义同步器实现的tryAcquire，保证线程安全的校验当前state是否被占用（获取同步状态）
-2. 获取失败，则构造同步节点并加入到同步队列器的尾部
-3. 最后以死循环的方式获取同步状态，如果获取不到则阻塞节点中的线程而阻塞的只能通过前置节点唤醒或线程中断退出（这也是可支持外部中断实现关键）
-
-**实现同步队列FIFO**
-
-![[image-Concurrent-03 锁结构-20240429020505420.png|500]]
-
-
-如果现在节点来了发现没有状态同步了就要加入到FIFO队尾挂起等待避免CPU，那么当有机会来了直接通过前置节点通知？
-
-![[image-Concurrent-03 锁结构-20240429020524289.png|500]]
-
-
-
-
-waitStatus = SIGNAL 值为-1，后继节点的线程处于等待状态，而当前节点的线程如果释放了同步状态或被取消将会通知后续节点，使得后续节点的线程得以运行。
-
-waitStatus = CANCELLED 值为1，由于在同步队列中等待的线程等待超时或者被中断，需要从同步队列中取消等待节点进入该状态将不再变化。
 
 **release释放同步状态**
 
@@ -168,7 +193,6 @@ public final boolean release(int arg) {
     }
 ```
 
-会唤醒头节点的后继节点线程，unparkSuccessor方法使用LockSupport来唤醒处于等待状态的线程。
 
 **tryAcquireNanos独占式超时获取同步状态**
 
@@ -178,13 +202,26 @@ public final boolean release(int arg) {
 
 
 
-<aside> 💡 **关于interrupt i**nterrupt：实例方法，将线程中断状态标记为true interrupted: 类方法，清楚中断标记并返回当前线程中断状态。即连续两次调用一定返回false isInterrupted: 是否中断
 
-</aside>
 
-### Reentrant重入锁
+### 公平与非公平
 
- - **重入**
+-  **公平锁**
+
+	多个线程按照申请锁的顺序去获取锁，保证队列第一个先得到
+	
+	优点是所有线程都能得到资源不会饿死在队列，但他存在吞吐量下降，除了第一个线程其他都会阻塞，CPU唤醒阻塞开销也会很大缺点
+
+-  **非公平**
+
+	多个线程不按申请顺序去获取锁，而是直接尝试，获取不到再进入等待队列。如 ReentrantLock默认非公平
+	
+	优点是减少开销，吞吐率会高不少，但可能会一直等待锁取不到
+
+
+### 上层实现
+
+-  **ReentrantLock**
 
 ```java
 protected final boolean tryAcquire(int acquires) {
@@ -197,7 +234,7 @@ protected final boolean tryAcquire(int acquires) {
                     return true;
                 }
             }
-						// 是否能重入标识
+			// 是否能重入标识
             else if (current == getExclusiveOwnerThread()) {
                 int nextc = c + acquires;
                 if (nextc < 0)
@@ -210,28 +247,11 @@ protected final boolean tryAcquire(int acquires) {
 ```
 
 
-- **公平**
 
 	nonfairTryAcquire 新加 hasQueuedPredecessors 即加入了同步队列中当前节点是否有前驱节点的判断
 	
 	非公平可能使得线程发生饥饿的情况，为什么还被设置为默认？极少的线程上下文切换保证了吞吐量
 
-### LockSupport
+#### LockSupport
 
-### Condition
-
-[Untitled Database](https://www.notion.so/31055187e7f749a2aa1cfa96898b6db7?pvs=21)
-
-### 等待队列
-
-等待队列是一个FIFO的队列，在队列中的每个节点都包含了一个线程引用。如果调用了Condition.await()方法
-
-
-![[image-Concurrent-03 锁结构-20240429020637185.png|600]]
-
-
-在Object的监视器模型上一个对象拥有一个同步队列和等待队列，而并发包的Lock（更确切的说是同步器）拥有一个同步队列和多个等待队列。这也是它与Object在区别公平，超时等之后其能支持多个线程的等待唤醒，能力更强。
-
-<aside> 💡 与Object.wait区别 使用上 **Object.wait** **不能单独使用必须是在synchronized下才能使用；必须通过Notify唤醒** **Condition.await 必须是当前线程被排斥锁lock后才能使用；必须通过sign唤醒**
-
-</aside>
+#### Condition
