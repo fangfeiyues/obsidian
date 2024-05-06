@@ -1,4 +1,4 @@
-### 2.3 多线程编排
+### 多线程编排
 
 #### CompletableFuture
 

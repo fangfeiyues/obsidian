@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
+                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-02 内存模型.md"
+                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "c93db5ad4e721225",
   "lastOpenFiles": [
+    "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
-    "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162726721.png",
