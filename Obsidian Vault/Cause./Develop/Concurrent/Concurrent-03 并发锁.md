@@ -234,7 +234,7 @@ public final boolean release(int arg) {
 
 
 
-### 3.4 实现方法
+### 3.4 实现类
 
 -  **ReentrantLock**
 
