@@ -2,11 +2,15 @@
 
 ### 使用
 
--  **阻塞性**
+-  **vs Lock**
 
--  **互斥性**
+	lock 与 sychronized 都能保证线程的原子性、可见性、一致性，但 lock 比 sychronied 更灵活
+	1. lock 是 jdk 层面上的实现，sychronized是jvm 层面的关键字
+	2. b.lock.lock()与lock.unlock()可以主动获取锁释放锁，sychronized是被动的释放锁，sychronized 释放锁的时机：i、代码执行执行 ii、产生异常了
+	3. lock可以判断锁的状态，sychronized 是一个关键字，没法去判断锁的状态
+	4. lock可以指定公平锁和非公平锁，sychronized只能作为非公平锁
+	5. lock可以有共享锁与排他锁，例如读写锁的实现。而sychronized是一个可重入的排他锁
 
--  **可重入性**
 
 ### 原理
 
@@ -18,6 +22,7 @@
 
 	1. 性能消耗：加锁、解锁过程中的损
 	2.  产生阻塞：基于Monitor对象，当对线程同时访问一段同步代码时，首先会进入Entry Set，当一个线程获得对象的锁后，才能进入The Owner区域，其他线程还在继续等待
+
 
 
 ### 特性
@@ -260,7 +265,6 @@ protected final boolean tryAcquire(int acquires) {
             return false;
         }
 ```
-
 
 
 	nonfairTryAcquire 新加 hasQueuedPredecessors 即加入了同步队列中当前节点是否有前驱节点的判断
