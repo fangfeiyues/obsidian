@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 361.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-04 并发编程.md"
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
               }
             }
           }
@@ -147,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,13 +162,17 @@
   },
   "active": "3e0e3d3a62e43495",
   "lastOpenFiles": [
-    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
+    "Cause./Develop/DDD/DDD-04 落地.md",
+    "Cause./Develop/DDD/DDD-03 战术设计.md",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/DDD/DDD-01 业务逻辑.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+    "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
+    "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Compact行格式.png",
     "2024-04.png",
     "Dubbo-1 Provider.png",
     "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
-    "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162726721.png",
@@ -183,10 +188,8 @@
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Concurrent/assets",
-    "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/Concurrent",
     "Cause./Develop/Review/Tracking Week 3.md",
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/Review/Tracking Week 2.md",
     "Cause./Develop/Review/Tracking Week  1.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
@@ -194,7 +197,6 @@
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
-    "Cause./Develop/DDD/DDD-01 业务逻辑.md",
     "Cause./Develop/Algo/131. 分割回文串.md",
     "Cause./Develop/Algo/207. 课程表.md",
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
