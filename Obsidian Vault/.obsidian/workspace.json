@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/DDD/DDD-04 落地.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/DDD/DDD-04 落地.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/DDD/DDD-04 落地.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
+                "file": "Cause./Develop/DDD/DDD-04 落地.md"
               }
             }
           }
@@ -147,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 506.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,27 +163,28 @@
   },
   "active": "3e0e3d3a62e43495",
   "lastOpenFiles": [
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145510127.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145452224.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145425442.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145401334.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145341954.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145305590.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145226624.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145157008.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145118907.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145041432.png",
+    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510144843373.png",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/DDD-01 业务逻辑.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
-    "Compact行格式.png",
-    "2024-04.png",
-    "Dubbo-1 Provider.png",
     "Cause./Develop/Concurrent/Concurrent-02 内存模型.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
-    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162726721.png",
-    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504162631647.png",
-    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240504154404478.png",
     "Cause./Develop/JVM/JVM-01 内存结构&模型.md",
-    "Cause./Develop/JVM/assets/image-JVM-01 内存结构&模型-20240428003947623.png",
-    "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035 1 1.png",
-    "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035 1.png",
-    "Cause./Develop/JVM/assets/image-JVM-03 对象创建与访问-20240425004244035.png",
     "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
@@ -198,7 +201,6 @@
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
     "Cause./Develop/Algo/131. 分割回文串.md",
     "Cause./Develop/Algo/207. 课程表.md",
-    "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/DDD/assets",
     "Cause./Develop/JVM/assets",
     "Cause./Develop/JVM",
