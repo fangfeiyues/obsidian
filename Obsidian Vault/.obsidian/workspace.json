@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-04 落地.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-04 落地.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-04 落地.md"
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md"
               }
             }
           }
@@ -160,11 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e0e3d3a62e43495",
+  "active": "fbfaa30003ec1ecf",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-01 业务逻辑.md",
-    "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145510127.png",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145452224.png",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145425442.png",
