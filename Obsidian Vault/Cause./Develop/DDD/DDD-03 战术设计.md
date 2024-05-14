@@ -233,8 +233,6 @@
 	2.  DO是和表映射的Java数据载体，一张表对应一个DO
 	3.  Entit（或VO）和DO之间的关系是一对一或一对多的关系
 
-
-
 ## 资料参考
 
 https://mp.weixin.qq.com/s/_VehzjU22Z1AUAPrEoswHQ

@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md"
               }
             }
           }
@@ -171,13 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a16eab1b26804c53",
+  "active": "fbfaa30003ec1ecf",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/DDD-04 落地.md",
+    "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240513165925248.png",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240513165729086.png",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
-    "Cause./Develop/DDD/DDD-03 战术设计.md",
-    "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/DDD-01 业务逻辑.md",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145510127.png",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145452224.png",
@@ -187,7 +186,6 @@
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145305590.png",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145226624.png",
     "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145157008.png",
-    "Cause./Develop/DDD/assets/image-DDD-04 落地-20240510145118907.png",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
