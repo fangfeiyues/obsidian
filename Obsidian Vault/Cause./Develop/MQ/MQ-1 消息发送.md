@@ -9,11 +9,7 @@
 
 -  **为什么用的NameServer而不是ZK？**
 
-
-
 ## 消息发送
-
-
 
 
 ## 顺序消息
@@ -56,5 +52,6 @@ public static void main(String[] args) throws UnsupportedEncodingException {
 
 
 -  **消费者**
+
 [[MQ-3 消息消费#消费顺序]]
 

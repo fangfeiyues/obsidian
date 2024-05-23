@@ -11,6 +11,8 @@ mysql> CREATE TABLE record_format_demo (
 
 #### COMPACT行格式
 
+
+
 ![[Compact行格式.png|500]]
 
 ##### 1、额外信息
