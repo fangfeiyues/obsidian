@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 业务逻辑.md",
+                "file": "Cause./Develop/DDD/DDD-01 概况.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0254932c3595c2a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 231.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 业务逻辑.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 业务逻辑.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 业务逻辑.md"
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
               }
             }
           }
@@ -147,19 +160,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73e42fde0c4c9d88",
+  "active": "0254932c3595c2a0",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/DDD-01 概况.md",
+    "Cause./Develop/DDD/DDD-03 战术设计.md",
+    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173510103.png",
+    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173450181.png",
+    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173355422.png",
+    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173352782.png",
+    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173324523.png",
+    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173235424.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524103103999.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102941054.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102919194.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102108539.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101835903.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101629979.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101342420.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101214442.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101150700.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101136857.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101009908.png",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
@@ -184,8 +198,6 @@
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Interest./Product/2024.05.22 为什么要做这件事？.md",
     "Interest./Product/2024.04.08 聊聊茶饮品.md",
-    "Cause./Develop/DDD/DDD-03 战术设计.md",
-    "Cause./Develop/DDD/DDD-01 业务逻辑.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
     "Cause./Develop/Concurrent/assets",
