@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "2d865a15985ca951",
+        "id": "5d6331ac60b71537",
         "type": "tabs",
         "children": [
           {
-            "id": "73e42fde0c4c9d88",
+            "id": "157b0bbce81b8f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 概况.md",
+                "file": "Cause./Develop/Algo/15. 三数之和.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0254932c3595c2a0",
+            "id": "5d9af906c0c260aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
               }
             }
           }
@@ -147,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,10 +160,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0254932c3595c2a0",
+  "active": "5d9af906c0c260aa",
   "lastOpenFiles": [
-    "Cause./Develop/DDD/DDD-01 概况.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-4 多功能.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/Algo/15. 三数之和.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173510103.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173450181.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173355422.png",
@@ -174,17 +184,13 @@
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102941054.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102919194.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102108539.png",
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
-    "Cause./Develop/Algo/15. 三数之和.md",
     "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/Algo/131. 分割回文串.md",
     "Interest./Invest/2024-04.md",
     "Interest./Invest/assets",
-    "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MySQL/assets/MySQL.md",
@@ -193,13 +199,8 @@
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/assets",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB  Buffer Pool.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
-    "Interest./Product/2024.05.22 为什么要做这件事？.md",
-    "Interest./Product/2024.04.08 聊聊茶饮品.md",
-    "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
-    "Cause./Develop/Concurrent/Concurrent-04 并发编程.md",
     "Cause./Develop/Concurrent/assets",
     "Cause./Develop/Concurrent",
     "Cause./Develop/DDD/assets",

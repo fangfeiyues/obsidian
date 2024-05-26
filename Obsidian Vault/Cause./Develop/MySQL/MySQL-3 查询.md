@@ -12,6 +12,7 @@ MySQL查找要回答的几个问题（ 持续更新ing... ）
 4. range：范围查询
 5. index：不用回表的二级索引查询
 6. all：扫描聚簇索引
+
 #### 查询原理
 ##### Intersection & Union合并
 
