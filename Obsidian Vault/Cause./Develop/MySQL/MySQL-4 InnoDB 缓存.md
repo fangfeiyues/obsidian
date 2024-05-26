@@ -13,7 +13,6 @@ InnoDB 用缓冲池 buffer pool 管理内存，能加快读写性能，但也必
 	innodb_buffer_pool_size = 268435456 （ 265M，默认128M ）
 ```
 
-
 ### 链表
 
 ![[MySQL-4 Buffer Pool.png|600]]

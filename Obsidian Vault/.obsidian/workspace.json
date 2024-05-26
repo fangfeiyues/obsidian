@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md"
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
               }
             }
           }
@@ -161,10 +161,12 @@
   },
   "active": "ec27b58d9f734260",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
@@ -195,8 +197,6 @@
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524102108539.png",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
-    "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
-    "Interest./Invest/2024-04.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
