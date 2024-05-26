@@ -155,4 +155,45 @@ mysql> CREATE TABLE record_format_demo (
 
 -  **索引交集** 
 
+### 5.23 索引失效
 
+-  **explain**
+
+	1.  id：执行计划中唯一标识
+	2.  select_type：操作类型，包括SIMPLE、PRIMARY、SUBQUERY、UNION等
+	3.  table：涉及的表
+	4.  partitions：涉及的分区
+	5.  `type：查询时所使用的索引类型，包括ALL、index、range、ref、eq_ref、const等
+		1.  system：系统表，少量数据，不需要磁盘IO
+		2.  const：常数索引，如唯一索引
+		3.  eq_ref：唯一索引扫描
+		4.  ref：非唯一索引
+		5.  range：范围扫描
+		6.  index：全索引，如不符合前缀匹配的
+		7. all：全表扫描
+	6.  `possible_keys：可能被使用索引
+	7.  `key：选择使用索引
+	8.  key_len：索引长度，越短越高
+	9.  ref：那些列或常量被用来与key列中命名的索引比较
+	10.  rows：扫描的行数
+	11.  filtered：过滤的行数占扫描行数的百分比，值越大查询越准确
+	12.  `extra：额外信息如 Using index、Using filesort、Using temporary等
+		1.  Using where：非索引字段查询 或 未索引覆盖
+		2.  Using index：使用覆盖索引无需回表
+		3.  Using index condition：索引上使用条件过滤，如索引下推
+		4.  Using where; Using index：查询的列被覆盖且where是索引列但不是前缀参数
+		5.  Using join buffer：连接缓存
+		6.  Using temporary：临时表存储查询结果，如排序或分组？？？
+		7.  Using filesort：文件排序而非索引排序，如无法索引排序时
+		8.  ... 
+
+-  **索引失效**
+
+	1.  利用 explain 的 key（索引值） + type（索引类型） + extra（索引方式）确定是否走索引
+		1.  type = ALL, key = NULL, extra = Using where  为没走索引
+		2.  type = index, key = index_abc, extra = Using index  走索引
+	2.  分析没走索引原因
+		1.  索引是否匹配最左原则
+		2.  索引区分度不高
+		3.  表太小
+		4.  查询语句使用函数等

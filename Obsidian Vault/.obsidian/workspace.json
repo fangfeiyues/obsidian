@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
+                "file": "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "ec27b58d9f734260",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
@@ -198,7 +199,6 @@
     "Interest./Invest/2024-04.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MySQL/assets",
     "Cause./Develop/Concurrent/assets",
     "Cause./Develop/Concurrent",
