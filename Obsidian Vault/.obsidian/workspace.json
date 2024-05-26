@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "213ea5809769444b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md"
               }
             }
           }
@@ -161,12 +173,14 @@
   },
   "active": "ec27b58d9f734260",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
@@ -175,8 +189,6 @@
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/Algo/159. 至多包含两个不同字符的最长子串.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
