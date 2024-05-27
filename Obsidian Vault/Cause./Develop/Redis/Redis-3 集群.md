@@ -172,7 +172,7 @@ Q：Redisson框架
 
 	Redisson watchdog或者它实现了RedLock方式
 
-###  2、 缓存问题
+###  2、缓存问题
 
 Q：缓存穿透
 

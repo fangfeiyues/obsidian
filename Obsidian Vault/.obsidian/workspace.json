@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1bfe2c013dcb9702",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -171,13 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "213ea5809769444b",
+  "active": "1bfe2c013dcb9702",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
-    "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
@@ -192,10 +207,7 @@
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/Algo/159. 至多包含两个不同字符的最长子串.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
