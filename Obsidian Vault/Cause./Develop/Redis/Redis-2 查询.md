@@ -146,7 +146,9 @@ redis> ZADD fruits-price 5 'banana' 6.5 'cherry'
 
 #### 构造
 
-Redis 的跳跃表由 `zskiplistNode` 和 `zskiplist` 两个结构定义，其中 `zskiplistNode` 结构用于表示 **跳跃表节点**，而 `zskiplist` 用于保存跳跃表节点的相关信息如节点的数量以及指向表头节点和表尾节点指针等
+Redis zset 由跳跃表由 `zskiplistNode` 和 `zskiplist` 两个结构定义，
+1. `zskiplistNode` 结构用于表示跳跃表节点
+2. `zskiplist` 用于保存跳跃表节点的相关信息如节点的数量以及指向表头节点和表尾节点指针等
 
 ![[Redis-2 查询.png|600]]
 
@@ -164,7 +166,7 @@ Redis 的跳跃表由 `zskiplistNode` 和 `zskiplist` 两个结构定义，其�
 	3.  score：分值，跳跃表所有节点都按分值从小到大排序
 	4.  obj：成员对象 ，是个指针，指向一个字符串对象
 
--  **层数**
+-  **`level`**
 
 	跳表的相邻两层的节点数量最理想比例是 2:1 ，查找复杂度可以降低到 O(logN)
 	
@@ -173,7 +175,7 @@ Redis 的跳跃表由 `zskiplistNode` 和 `zskiplist` 两个结构定义，其�
 - **vs 红黑树** 
 
 	1.  内存占用来说，跳表更灵活。平衡树每个节点2个指针，跳表每个节点为25%即1.25
-	2.  范围查找上，跳表更有优势
+	2.  **范围查找上，跳表更有优势**
 	3.  算法实现难度，跳表更简单
 
 
