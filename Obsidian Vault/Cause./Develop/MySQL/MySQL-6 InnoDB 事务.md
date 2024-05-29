@@ -129,6 +129,11 @@ undo log是一种用于回退的日志，在事务没提交之前，MySQL会先�
 		1. `trx_id in m_ids` 说明创建 ReadView 时生成该版本的事务 **还是活跃**的，该版本不可以被访问
 		2. `trx_id not in m_ids`说明创建ReadView时生成该版本的事务已经被提交，该版本可以被访问
 
+	![[image-MySQL-6 InnoDB 事务-20240530010109723.png]]
+
+
+
+
 - **RC vs RR**
 
 	`READ COMMITTED` 和 `REPEATABLE READ` 视图区别就是它们生成ReadView的时机不同
