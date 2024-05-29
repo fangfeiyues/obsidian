@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "37c6611cd88a7191",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -160,6 +148,7 @@
   },
   "active": "ec27b58d9f734260",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
@@ -189,7 +178,6 @@
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/Algo/159. 至多包含两个不同字符的最长子串.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173510103.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173450181.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173355422.png",
