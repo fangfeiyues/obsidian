@@ -88,12 +88,12 @@
 
 ## MVCC
 
+
 ### Undo log
 
 undo log是一种用于回退的日志，在事务没提交之前，MySQL会先把数据记录到undo log日志文件里，当事务回滚或数据库奔溃时，可以用 undo log来回退。这些提交前记录的日志，也是用于MVCC实现
 
 那么一条记录同一时刻可能被多个事务操作，undo log也会有一条记录的多个快照，那么在这一时刻SELECT进行快照读的时候，读取的是那个？
-
 
 ### 隐式字段
 
@@ -113,15 +113,11 @@ undo log是一种用于回退的日志，在事务没提交之前，MySQL会先�
 最核心的问题：有了快照链后，下一步怎么判断链中的哪个版本是可见的
 
 -  **ReadView**
-
-	`Read Uncommitted`：直接读取最新的版本
-	`Read Committed `：读事务可见的版本
-	`Serializable`： 只能有一个最新的版本
   
-1. `m_ids`：在生成 ReadView 时当前系统活跃的读写事务 trx_id 列表
-2. `min_trx_id`：在生成 ReadView 时当前系统中活跃的读写事务中最小的事务ID，也就是 m_ids 最小值
-3. `max_trx_id`：生成 ReadView 时系统中应该分配给下一个事务的ID值
-4. `creator_trx_id`：生成该 ReadView 的事务id
+	1. `m_ids`：在生成 ReadView 时当前系统活跃的读写事务 trx_id 列表
+	2. `min_trx_id`：在生成 ReadView 时当前系统中活跃的读写事务中最小的事务ID，也就是 m_ids 最小值
+	3. `max_trx_id`：生成 ReadView 时系统中应该分配给下一个事务的ID值
+	4. `creator_trx_id`：生成该 ReadView 的事务id
 
 -  **版本判断**
 
