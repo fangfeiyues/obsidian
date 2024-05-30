@@ -6,7 +6,7 @@
 -- 0.开始事务
 begin; 
 -- 1.查询出商品库存信息, 这里用for update当前读防止读到MVCC快照下其他view之后的操作
-select quantity from items where id=1 for update;
+select quantity from items where id = 1 for update;
 -- 2.修改商品库存为2
 update items set quantity=2 where id = 1;
 -- 3.提交事务
