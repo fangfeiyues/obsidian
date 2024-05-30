@@ -42,6 +42,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0d18169da9d44f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -173,6 +185,15 @@
   },
   "active": "090acd3c022863b0",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210614078.png",
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210548077.png",
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210507100.png",
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210453466.png",
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
+    "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
+    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200334073.png",
+    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200159971.png",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
@@ -183,17 +204,11 @@
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530010109723.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
-    "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240527235945983.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240527203013150.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240527200520140.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240527195818772.png",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
@@ -206,8 +221,6 @@
     "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173510103.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173450181.png",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
