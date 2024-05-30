@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md"
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
               }
             }
           }
@@ -147,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,13 +162,14 @@
   },
   "active": "19f373fdaabc9343",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530135122344.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114215725.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114002400.png",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530010109723.png",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
@@ -195,8 +197,6 @@
     "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173510103.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173450181.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173355422.png",
-    "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524173352782.png",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
