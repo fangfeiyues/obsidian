@@ -18,57 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "19f373fdaabc9343",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "090acd3c022863b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0ded9ade803038c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1c23d2d92d64e15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/DDD/DDD-01 概况.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -196,13 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0ded9ade803038c",
+  "active": "ec27b58d9f734260",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
-    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210614078.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210548077.png",
@@ -212,7 +164,6 @@
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200334073.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200159971.png",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530135122344.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114215725.png",
