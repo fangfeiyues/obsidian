@@ -37,26 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e0d18169da9d44f2",
+            "id": "b0ded9ade803038c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1c23d2d92d64e15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/DDD/DDD-01 概况.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md"
+                "file": "Cause./Develop/DDD/DDD-03 战术设计.md"
               }
             }
           }
@@ -171,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,15 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "090acd3c022863b0",
+  "active": "b0ded9ade803038c",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/DDD/DDD-03 战术设计.md",
+    "Cause./Develop/DDD/DDD-01 概况.md",
+    "Cause./Develop/DDD/DDD-04 落地.md",
+    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+    "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210614078.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210548077.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210507100.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210453466.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
-    "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
-    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200334073.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200159971.png",
     "Cause./Develop/Redis/Redis-2 查询.md",
@@ -202,7 +219,6 @@
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114002400.png",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530010109723.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
@@ -218,9 +234,6 @@
     "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
     "Cause./Develop/Algo/15. 三数之和（多指针）.md",
-    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
-    "Cause./Develop/Algo/236. 二叉树的最近公共祖先.md",
-    "Cause./Develop/Algo/154. 寻找旋转排序数组中的最小值 II.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
