@@ -4,28 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "5d6331ac60b71537",
+        "id": "474813fdbbb056bd",
         "type": "tabs",
         "children": [
           {
-            "id": "ec27b58d9f734260",
+            "id": "45731fd5ba9a0f42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Register/Zookeeper.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d11b18458ab425fa",
+            "id": "f36b61614199e5c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
+                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61647ea51cfd9e44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 260.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Register/Zookeeper.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Register/Zookeeper.md",
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Register/Zookeeper.md"
+                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md"
               }
             }
           }
@@ -158,15 +170,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec27b58d9f734260",
+  "active": "45731fd5ba9a0f42",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Register/Zookeeper.md",
+    "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
@@ -186,16 +201,13 @@
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530135122344.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114215725.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114002400.png",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
