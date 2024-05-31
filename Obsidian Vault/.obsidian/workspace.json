@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f36b1a8d726f57da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f36b61614199e5c9",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md"
+                "file": "Cause./Develop/Redis/Redis-1 存储.md"
               }
             }
           }
@@ -170,13 +183,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45731fd5ba9a0f42",
+  "active": "61647ea51cfd9e44",
   "lastOpenFiles": [
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Register/Zookeeper.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
