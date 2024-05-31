@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d11b18458ab425fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 326.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md"
+                "file": "Cause./Develop/Distributed/Distributed-5 分布式限流.md"
               }
             }
           }
@@ -134,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec27b58d9f734260",
+  "active": "d11b18458ab425fa",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
+    "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
+    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
@@ -163,7 +179,6 @@
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200334073.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200159971.png",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530135122344.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114215725.png",
@@ -182,9 +197,6 @@
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
-    "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
-    "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
-    "Cause./Develop/Algo/15. 三数之和（多指针）.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
