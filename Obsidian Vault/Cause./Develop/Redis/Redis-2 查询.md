@@ -73,15 +73,15 @@ redis> ZADD fruits-price 5 'banana' 6.5 'cherry'
 > 6.5
 
 - 单个查询 O(1)
-> 
+> ZSCORE fruits-price 'banana'
+> 5
 ```
 
 
 -  **数据结构**
 
-	`zset` 也称为 sorted set 是Redis中一种特殊的数据结构，它内部维护了一个有序的字典，这个字典的元素既包括一个成员member，也包括一个double类型的分值score，这个结构可以帮用户实现积分类型的排行榜数据、还有滑动窗口数据等
-	
-	当数据元素比较少时，Redis会采用 `zipList`（紧凑列表） 来存储，当增多后会自动转换为 `skipList`
+	1、字典：内部维护了一个有序的字典，这个字典的元素既包括`成员member`，也包括`double分值score
+	2、跳表：数据元素比较少时，会采用 `zipList（紧凑列表）` ，当增多后自动转换为 `skipList（跳表）`
 
 ### 2.22 String 字符串
 
