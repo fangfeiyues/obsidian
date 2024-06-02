@@ -4,11 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "474813fdbbb056bd",
+        "id": "d80983eaf77ed563",
         "type": "tabs",
         "children": [
           {
-            "id": "45731fd5ba9a0f42",
+            "id": "b13913d7ede0a229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdb3598cc2c5bc0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04a0c6b6ae02fab5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbcb60774aabdfcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +54,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f36b1a8d726f57da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f36b61614199e5c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61647ea51cfd9e44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 273.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md"
+                "file": "Cause./Develop/MySQL/MySQL-9 SQL调优.md"
               }
             }
           }
@@ -171,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,12 +183,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61647ea51cfd9e44",
+  "active": "b13913d7ede0a229",
   "lastOpenFiles": [
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
+    "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240602161809122.png",
+    "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240602161411817.png",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MySQL/MySQL-1 客户端.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Register/Zookeeper.md",
@@ -198,7 +206,6 @@
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/DDD-01 概况.md",
@@ -212,15 +219,7 @@
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200334073.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200159971.png",
     "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530135122344.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114215725.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530114002400.png",
     "Cause./Develop/Algo/148. 排序链表（分割 + 合并 = 归并）.md",
-    "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/MySQL-9 SQL调优.md",
-    "Cause./Develop/Algo/239. 滑动窗口最大值.md",
-    "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",

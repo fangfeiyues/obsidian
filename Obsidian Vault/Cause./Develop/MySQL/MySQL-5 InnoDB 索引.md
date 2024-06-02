@@ -55,7 +55,7 @@ mysql> CREATE TABLE record_format_demo (
 	那 InnoDB 会一条一条的把记录从磁盘上读出来么？-- 不，那样会慢死
 	InnoDB采取的方式是：将数据划分为若干个页，以 页 作为 磁盘 和 内存 之间交互的基本单位，页的大小一般为 _**16**_ KB
 
-- **Page Directory 页目录**
+-  **Page Directory 页目录**
 
 	记录存放在数据页后，那下一个问题是怎么在页面里找到这些记录？一条一条的过去不现实
 	
@@ -71,22 +71,25 @@ mysql> CREATE TABLE record_format_demo (
 	2.  通过记录 `next_record` 遍历该槽所在组的记录
 
 
-- **Page 数据页**
+-  **Page 数据页**
 
 	1.  `File Header`：38字节，？
 	2.  `Page Header`：56字节
-	3.  `Infimum + supermum`：
+	3.  `Infimum + supermum`：最小记录 和 最大记录
 	4.  `User Records`：大小不确定，存储记录的核心字段。大小从Free区域部分迁移过来
 	5.  `Free Space`：大小不确定
 	6.  `Page Directory`：大小不确定
 	7.  `File Trailer`：8字节
 
+-  **存储估算**
+
+	1.  非叶子节点：假设存储一个主键（bigint 8bit） + 一个指针（6bit），16KB * 1024 / ( 8+ 6 )  = 1170 即根节点可以扩展出1170个子节点，同理2层 1170 * 1170 = 136w 节点（页）
+	2.  叶子节点：假设单行1KB（10个bigint），一页16条记录，
+	   
+	   故3层索引结构可以存储记录：1170 * 1170 * 16 = 2000w，也就是说4层内还无需分表
+
 
 ## 5.2、数据查询
-
--  **索引**
-
-	如上在说到数据存放在页的时候，提到了页也是有目录的。就是为了解决在一页又一页中寻找一条记录的问题。这个页目录页就是索引
 
 ### 5.21 构建索引
 
@@ -113,9 +116,39 @@ mysql> CREATE TABLE record_format_demo (
 ### 5.22 使用索引
 
 -  **索引查询**
+  
 	1. 确定目录项记录页
 	2. 目录项 -->  真实页
-	3. 真实页 --> 具体记录
+	3. 真实页 --> 分组槽slot
+	4. 分组槽slot --> 具体页
+
+
+-  **1、目录项**
+
+	目录项包括两部分
+	1.  页的用户记录中最小的主键值，用key来表示
+	2.  页号，用 page_表示
+	   
+	![[image-MySQL-5 InnoDB 索引-20240602161411817.png|500]]
+	
+
+-  **2、目录项 --> 记录页**
+
+	目录项中根据二分法快速确定出主键值为`20`的记录在`目录项3`中，因为 `12 < 20 < 209`，它对应的页是`页9`
+
+
+-  **3、记录页 --> 分组槽**
+
+	`InnoDB`会把页中的记录划分为若干个组，每个组的最后一个记录的地址偏移量作为一个`槽`。
+	再通过二分法确定该记录所在的槽
+	![[image-MySQL-5 InnoDB 索引-20240602161809122.png]]
+
+
+-  **分组槽 --> 具体记录**
+
+	通过记录的 `next_record` 属性遍历该槽所在的组中的各个记录
+
+
 
 #### 聚簇索引
 
@@ -156,6 +189,7 @@ mysql> CREATE TABLE record_format_demo (
 
 -  **索引交集** 
 
+
 ### 5.23 索引失效
 
 -  **explain**
@@ -164,24 +198,24 @@ mysql> CREATE TABLE record_format_demo (
 	2.  select_type：操作类型，包括SIMPLE、PRIMARY、SUBQUERY、UNION等
 	3.  table：涉及的表
 	4.  partitions：涉及的分区
-	5.  `type：查询时所使用的索引类型，包括ALL、index、range、ref、eq_ref、const等
+	5.  **`type：查询时所使用的索引类型，包括ALL、index、range、ref、eq_ref、const等
 		1.  system：系统表，少量数据，不需要磁盘IO
 		2.  const：常数索引，如唯一索引
 		3.  eq_ref：唯一索引扫描
 		4.  ref：非唯一索引
 		5.  range：范围扫描
 		6.  index：全索引，如不符合前缀匹配的
-		7. all：全表扫描
-	6.  `possible_keys：可能被使用索引
-	7.  `key：选择使用索引
+		7.  all：全表扫描
+	6.  **`possible_keys：可能被使用索引
+	7.  **`key：选择使用索引
 	8.  key_len：索引长度，越短越高
 	9.  ref：那些列或常量被用来与key列中命名的索引比较
 	10.  rows：扫描的行数
 	11.  filtered：过滤的行数占扫描行数的百分比，值越大查询越准确
-	12.  `extra：额外信息如 Using index、Using filesort、Using temporary等
+	12.  **`extra：额外信息如 Using index、Using filesort、Using temporary等
 		1.  Using where：非索引字段查询 或 未索引覆盖
 		2.  Using index：使用覆盖索引无需回表
-		3.  Using index condition：索引上使用条件过滤，如索引下推
+		3.  Using index condition：索引使用条件过滤，如索引下推
 		4.  Using where; Using index：查询的列被覆盖且where是索引列但不是前缀参数
 		5.  Using join buffer：连接缓存
 		6.  Using temporary：临时表存储查询结果，如排序或分组？？？
@@ -205,3 +239,4 @@ mysql> CREATE TABLE record_format_demo (
 	2.  数据分布不均
 	3.  SQL语句存在问题
 	4.  数据库设计不合理
+	5. ...
