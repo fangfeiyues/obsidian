@@ -204,7 +204,7 @@ mysql> CREATE TABLE record_format_demo (
 		3.  eq_ref：唯一索引扫描
 		4.  ref：非唯一索引
 		5.  range：范围扫描
-		6.  index：全索引，如不符合前缀匹配的
+		6.  index：走全索引，如不符合前缀匹配导致的只返回索引值匹配
 		7.  all：全表扫描
 	6.  **`possible_keys：可能被使用索引
 	7.  **`key：选择使用索引

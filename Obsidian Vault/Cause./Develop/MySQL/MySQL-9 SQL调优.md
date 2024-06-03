@@ -7,10 +7,10 @@
 -  **explain**
 
 	首先explain执行的SQL，关键查看几个核心字段
-	1.  type：是否走索引
+	1.  type：是否走索引，理想情况下应该是`const`、`eq_ref`、`ref`
 	2.  possible_keys：可能走的索引
 	3.  keys：实际走的索引
-	4.  extra：查询信息（索引覆盖、join、sort..）
+	4.  extra：查询信息，理想情况不应包含`Using filesort` 或 `Using tempory`
 	[[MySQL-5 InnoDB 索引#5.23 索引失效]]
 	
 
