@@ -45,20 +45,36 @@
 
 ## binlog（归档日志） 
 
-### 日志结构
+### 格式
 
--  **作用**
+-  **statement**
 
+	记录SQL原文，但在 `RC + statement` 条件下会导致不一致问题，用的比较少
+	如 insert 和 delete 执行，但在`RR`级别下数据更新时候会增加 GAP锁 和 next-key锁，这样就session1加锁后卡住session2，然后先提交
+	
+	![[image-MySQL-7 InnoDB 日志-20240603234602666.png|600]]
+
+-  **row**
+
+	记录数据更改行的细节，意味着日志中会详细列出发生变更的内容。就不会导致主从不一致问题，但也会记录更多的内容
+
+- **mixed**
+
+	MySQL会根据SQL情况，自动在 row 和 statement 互相切换
+
+### 结构
 
 ### 写入机制
 
 两个操作
 -  **write** ：把日志写入文件系统的page cache，并没有持久化到磁盘
 -  **fsync**：持久到磁盘
+
+
 两个操作时机都是由 `sync_binlog` 控制
 1.  `sync_binlog = 0`，每次都只 `write` 不 `fsync`
 2.  `sync_binlog = 1`，每次都会 `fsync`
-3.  `sync_binlog = N`，每次都`write` 等 N 次事务后`fsync`
+3.  `sync_binlog = N`，每次都 `write` 等 N 次事务后`fsync`
 
 ![[MySQL-6 InnoDB 日志.png|600]]
 

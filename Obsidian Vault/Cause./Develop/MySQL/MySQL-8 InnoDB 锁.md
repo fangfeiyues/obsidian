@@ -2,6 +2,8 @@
 
 ### 悲观锁
 
+-  **案例**
+
 ```sql
 -- 0.开始事务
 begin; 
@@ -22,32 +24,44 @@ select quantity from items where id=1
 update items set quantity=2 where id=1 and quantity = 3 and version = 2;;
 ```
 
-怎么解决脏读、不可重复读、幻读这些问题呢？其实有两种可选的解决方案：
-1. 读操作利用多版本并发控制（MVCC），写操作进行加锁
-2. 读、写操作都采用加锁的方式。如银行转帐这些不允许读快照场景
 
 ### 一致性读
 
-事务利用MVCC进行的读取操作称之为一致性读，或者一致性无锁读，有的地方也称之为快照读。所有普通的SELECT语句（plain SELECT）在 READ COMMITTED、REPEATABLE READ 隔离级别下都算是一致性读
+-  **原理**
 
-比方说：SELECT * FROM t1 INNER JOIN t2 ON t1.col1 = t2.col2
+	事务利用MVCC进行的读取操作称之为一致性读，或者一致性无锁读，有的地方也称之为快照读。
+	普通的`SELECT`语句（plain SELECT）在`READ COMMITTED`、`REPEATABLE READ`隔离级别下都算是一致性读
 
-### 一致性锁定度
+-  **SQL**
 
-显示地对数据库读操作进行加锁以保证数据逻辑的一致性，如：
+	`SELECT * FROM t1 INNER JOIN t2 ON t1.col1 = t2.col2`
 
-SELECT ... FOR UPDATE
+### 一致性锁定读
 
-SELECT ... LOCK IN SHARE MODE
+-  **SQL**
+
+	显示地对数据库读操作进行加锁以保证数据逻辑的一致性，如：
+	`SELECT ... FOR UPDATE`
+	`SELECT ... LOCK IN SHARE MODE`
 
 ### 自增长与锁
 
-系统实现自动给列修饰 AUTO_INCRMENT 的原因主要有两个
+-  **原理**
 
-1. 采用AUTO_INC锁，为每个插入的行加上锁待语句执行结束后释放那么在加锁的过程中其他的插入都要阻塞
-2. 采用轻量级的锁，在为插入语句生成AUTO_INCREMENT修饰的列的值时获取一下这个轻量级锁，然后生成本次插入语句需要用到的AUTO_INCREMENT列的值之后，就把该轻量级锁释放掉，并不需要等到整个插入语句执行完才释放锁
+	 `AUTO_INCRMENT` 自增列锁的两种方案：
+	1. AUTO_INC锁，插入的行加上锁，语句执行结束释放，那么加锁的过程中其他的插入都要阻塞
+	2. 轻量级的锁，插入的行操作完成，就锁释放掉，并不需要等到整个插入语句执行完才释放锁
 
-设计InnoDB的大叔提供了一个称之为innodb_autoinc_lock_mode的系统变量来控制到底使用上述两种方式中的哪种来为AUTO_INCREMENT修饰的列进行赋值，当innodb_autoinc_lock_mode值为0时，一律采用AUTO-INC锁；当innodb_autoinc_lock_mode值为2时，一律采用轻量级锁；当innodb_autoinc_lock_mode值为1时，两种方式混着来（也就是在插入记录数量确定时采用轻量级锁，不确定时使用AUTO-INC锁）。不过当innodb_autoinc_lock_mode值为2时，可能会造成不同事务中的插入语句为AUTO_INCREMENT修饰的列生成的值是交叉的，在有主从复制的场景中是不安全的
+```
+innodb_autoinc_lock_mode=0 : AUTO-INC锁
+innodb_autoinc_lock_mode=1 : 混着，插入记录数量确定时采用轻量级锁，不确定时使用AUTO-INC锁
+innodb_autoinc_lock_mode=2 : 
+```
+
+
+-  **SQL**
+
+	insert 主键自增
 
 ### 行锁
 
@@ -61,47 +75,15 @@ Next-Key Lock：gap-lock + 行锁 即 (3,8]
 
 见死锁。
 
-## 锁解决一些隔离性问题
+## 锁作用
 
 ### 不可重复读
-
-不可重复读和脏读的区别是：脏读是读到未提交的数据而不可重复读读到的却是已经提交的数据。
 
 通过 `Next-Key Lock` 算法来避免不可重复读的问题
 
 ### 幻读
 
-幻读指的是一个事务在前后两次查询同一个范围的时候，后一次查询看到了前一次查询没有看到的行
 
--  **幻读带来的问题**
-
-	![[MySQL-7 InnoDB 锁.png|500]]
-	因为这三个查询都是加了 `for update`（当前读），当前读的规则，就是要能读到所有已经提交的记录的最新值。并且，session B 和 sessionC 的两条语句，执行后就会提交，所以 Q2 和 Q3 就是应该看到这两个事务的操作效果，而且也看到了，这跟事务的可见性规则并不矛盾。
-
-
--  **语义上**
-
-	![[MySQL-7 InnoDB 锁-1.png|500]]
-	如果 Session A 在T1时刻就声明了要把所有 d=5 的行锁住，但是 Session B 的更新还是能执行因为并没有把 id = 0 的锁住。这样就破坏了A的语义
-
-
--  **数据一致性上**
-
-	![[MySQL-7 InnoDB 锁-2.png|500]]
-
-	如果由于 session A 把所有的行都加了写锁，所以 session B 在执行第一个 update 语句的时候就被锁住了。需要等到 T6 时刻 session A 提交以后，session B 才能继续执行
-
-```sql
-insert into t values(1,1,5); /*(1,1,5)*/
-update t set c=5 where id=1; /*(1,5,5)*/
-
-update t set d=100 where d=5;/*所有d=5的行，d改成100*/
-
-update t set d=5 where id=0; /*(0,0,5)*/
-update t set c=5 where id=0; /*(0,5,5)*/
-```
-
-这样第三行还是会把新插入的(1,5,5) 修改成 (1,5,100) ，还是阻止不了新插入的行的更新
 
 ## 死锁
 
