@@ -223,6 +223,14 @@ mysql> CREATE TABLE record_format_demo (
 		7.  Using filesort：文件排序而非索引排序，如无法索引排序时
 		8.  ... 
 
+
+	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
+
+
+	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
+
+
+
 -  **索引失效**
 
 	1.  利用 explain 的 key（索引值） + type（索引类型） + extra（索引方式）确定是否走索引
