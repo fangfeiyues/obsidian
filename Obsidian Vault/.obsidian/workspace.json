@@ -8,27 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b13913d7ede0a229",
+            "id": "3a14558d1f72cd35",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
+                "file": "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "fdb3598cc2c5bc0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -37,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-9 集群.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md"
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md"
               }
             }
           }
@@ -171,19 +161,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fdb3598cc2c5bc0b",
+  "active": "cbcb60774aabdfcb",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240604143803113.png",
+    "Cause./Develop/MySQL/MySQL-9 集群.md",
+    "Cause./Develop/MySQL/assets/image-MySQL-9 集群-20240604143553623.png",
+    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
+    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/assets/image-MySQL-7 InnoDB 日志-20240603234602666.png",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
-    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/Design/design02-patterns/设计模式01-动态代理.md",
     "Cause./Develop/Design/design03-scene",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
@@ -201,15 +194,12 @@
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
-    "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210614078.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210548077.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210507100.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210453466.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200334073.png",
-    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530200159971.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-6 InnoDB 事务-20240530135122344.png",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
