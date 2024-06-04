@@ -216,7 +216,7 @@ mysql> CREATE TABLE record_format_demo (
 	12.  **`extra：额外信息如 Using index、Using filesort、Using temporary等
 		1.  Using where：非索引字段查询 或 未索引覆盖
 		2.  Using index：使用覆盖索引无需回表
-		3.  Using index condition：索引使用条件过滤，如索引下推
+		3.  Using index condition：索引使用条件过滤，如索引下推情况对如like未能走索引的也进行过滤
 		4.  Using where; Using index：查询的列被覆盖且where是索引列但不是前缀参数
 		5.  Using join buffer：连接缓存
 		6.  Using temporary：临时表存储查询结果，如排序或分组？？？
