@@ -13,7 +13,7 @@ MySQL查找要回答的几个问题（ 持续更新ing... ）
 5. index：不用回表的二级索引查询
 6. all：扫描聚簇索引
 
-### 查询原理
+## 查询SQL
 
 `SELECT、FROM、JOIN、WHERE、GROUP BY、HAVING、ORDER BY、LIMIT` 执行顺序
 1. FROM：第一步识别查询涉及的表
@@ -26,6 +26,10 @@ MySQL查找要回答的几个问题（ 持续更新ing... ）
 8.  LIMIT：限制返回的行数
 
 
-##### Intersection & Union合并
+### join
 
-##### Join
+
+### order by
+
+
+

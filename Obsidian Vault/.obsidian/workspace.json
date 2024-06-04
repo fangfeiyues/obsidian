@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
+                "file": "Cause./Develop/Redis/Redis-1 存储.md"
               }
             }
           }
@@ -149,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,21 +164,24 @@
   },
   "active": "cbcb60774aabdfcb",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/Redis/Redis-4 多功能.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
+    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+    "Cause./Develop/MySQL/assets/image-MySQL-8 InnoDB 锁-20240604193320558.png",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240604170246246.png",
     "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240604170214147.png",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240604143803113.png",
     "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/MySQL/assets/image-MySQL-9 集群-20240604143553623.png",
-    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/assets/image-MySQL-7 InnoDB 日志-20240603234602666.png",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/Design/design02-patterns/设计模式01-动态代理.md",
     "Cause./Develop/Design/design03-scene",
@@ -186,7 +190,6 @@
     "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240602161411817.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Register/Zookeeper.md",
@@ -198,8 +201,6 @@
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210614078.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210548077.png",
-    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210507100.png",
-    "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210453466.png",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",

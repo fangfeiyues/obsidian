@@ -1,6 +1,6 @@
-## 锁类型
+## 1、锁类型
 
-### 悲观锁
+### 1.1 悲观锁
 
 -  **案例**
 
@@ -15,7 +15,7 @@ update items set quantity=2 where id = 1;
 commit;
 ```
 
-### 乐观锁
+### 1.2 乐观锁
 
 ```sql
 -- 查询出商品库存信息，quantity = 3
@@ -25,7 +25,7 @@ update items set quantity=2 where id=1 and quantity = 3 and version = 2;;
 ```
 
 
-### 一致性读
+### 1.3 一致性读
 
 -  **原理**
 
@@ -36,7 +36,7 @@ update items set quantity=2 where id=1 and quantity = 3 and version = 2;;
 
 	`SELECT * FROM t1 INNER JOIN t2 ON t1.col1 = t2.col2`
 
-### 一致性锁定读
+### 1.4 一致性锁定读
 
 -  **SQL**
 
@@ -44,7 +44,7 @@ update items set quantity=2 where id=1 and quantity = 3 and version = 2;;
 	`SELECT ... FOR UPDATE`
 	`SELECT ... LOCK IN SHARE MODE`
 
-### 自增长与锁
+### 1.5 自增长与锁
 
 -  **原理**
 
@@ -63,7 +63,7 @@ innodb_autoinc_lock_mode=2 :
 
 	insert 主键自增
 
-### 行锁
+### 1.6 行锁
 
 Record Lock：记录锁
 
@@ -75,21 +75,20 @@ Next-Key Lock：gap-lock + 行锁 即 (3,8]
 
 见死锁。
 
-## 锁作用
+## 2、锁作用
 
-### 不可重复读
+### 2.1 不可重复读
 
 通过 `Next-Key Lock` 算法来避免不可重复读的问题
 
-### 幻读
+### 2.2 幻读
 
 
+## 3、死锁
 
-## 死锁
+### 3.1 死锁原因
 
-### 死锁原因
-
-### 解决死锁
+### 3.2 解决死锁
 
 -  **超时等待**
 
@@ -100,6 +99,16 @@ Next-Key Lock：gap-lock + 行锁 即 (3,8]
 	发现死锁，主动回滚死锁中的一个事务，让其他事务得以继续执行。参数：_innodb_deadline_detect = on_但这个检测是有额外负担的，要控制负担有两个思路
 	1.  确保不会死锁可以将死锁检测关闭
 	2.  控制并发。如限流、热点更新HotKey（核心：处理流程异步化如内存-写日志-日志消费）待确认：业务延迟怎么办？
+
+
+### 3.3 死锁case
+
+-  **锁ID + 锁索引 -> 冲突**
+
+	![[image-MySQL-8 InnoDB 锁-20240604193320558.png|600]]
+
+
+
 
 ## 加锁分析
 
