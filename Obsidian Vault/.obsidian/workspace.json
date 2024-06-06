@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-3 集群.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/Redis/Redis-3 集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md"
+                "file": "Cause./Develop/Redis/Redis-3 集群.md"
               }
             }
           }
@@ -185,20 +185,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e369f55c6895722",
+  "active": "cbcb60774aabdfcb",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/assets/image-Redis-2 查询-20240605010645151.png",
-    "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/assets/image-Redis-3 集群-20240605005202697.png",
-    "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Distributed/Untitled.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/assets/image-MySQL-8 InnoDB 锁-20240604193320558.png",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
@@ -221,7 +222,6 @@
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/Register/Zookeeper.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
-    "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
