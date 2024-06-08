@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "df861d68fb6baf3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read./2024/八次危机（温铁军）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f2aaf9fb90eed877",
             "type": "leaf",
             "state": {
@@ -46,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -161,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,22 +185,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16dfa0789ee1e2ac",
+  "active": "df861d68fb6baf3f",
   "lastOpenFiles": [
+    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
+    "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
+    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/assets/image-Redis-2 查询-20240608150725299.png",
     "Cause./Develop/IO",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
-    "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/15. 三数之和（多指针）.md",
-    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论CAP.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/assets/image-Redis-2 查询-20240605010645151.png",
     "Cause./Develop/Redis/assets/image-Redis-3 集群-20240605005202697.png",
     "Cause./Develop/Distributed/Untitled.md",
@@ -213,7 +224,6 @@
     "Cause./Develop/Design/design02-patterns/设计模式01-动态代理.md",
     "Cause./Develop/Design/design03-scene",
     "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240602161809122.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-5 InnoDB 索引-20240602161411817.png",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
