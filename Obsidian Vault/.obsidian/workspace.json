@@ -24,25 +24,15 @@
           {
             "id": "df861d68fb6baf3f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Read./2024/八次危机（温铁军）.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "f2aaf9fb90eed877",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -58,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 261.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -124,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read./2024/八次危机（温铁军）.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -173,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,11 +176,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df861d68fb6baf3f",
+  "active": "16dfa0789ee1e2ac",
   "lastOpenFiles": [
-    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
-    "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
+    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
+    "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Cause./Develop/Redis/assets/image-Redis-2 查询-20240608150725299.png",
     "Cause./Develop/IO",
     "Cause./Develop/Redis/Redis-1 存储.md",
