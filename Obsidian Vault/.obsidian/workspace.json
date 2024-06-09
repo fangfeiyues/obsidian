@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md"
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md"
               }
             }
           }
@@ -178,8 +178,11 @@
   },
   "active": "16dfa0789ee1e2ac",
   "lastOpenFiles": [
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+    "Cause./Develop/AI/AI-01 大模型全栈",
+    "Cause./Develop/AI",
+    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/IO/IO-01 Linux IO.md",
@@ -221,8 +224,6 @@
     "Cause./Develop/MySQL/assets",
     "Cause./Develop/Concurrent/assets",
     "Cause./Develop/Concurrent",
-    "Cause./Develop/DDD/assets",
-    "Cause./Develop/JVM/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas",
     "Untitled.canvas"
   ]
