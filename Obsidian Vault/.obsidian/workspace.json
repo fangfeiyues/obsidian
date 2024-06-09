@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-2 查询.md"
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md"
               }
             }
           }
@@ -178,9 +178,10 @@
   },
   "active": "16dfa0789ee1e2ac",
   "lastOpenFiles": [
-    "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/IO/IO-01 Linux IO.md",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165204217.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165102117.png",
@@ -205,7 +206,6 @@
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/Distributed/Untitled.md",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
