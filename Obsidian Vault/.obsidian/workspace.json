@@ -46,6 +46,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad48b8cc23c543b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -178,16 +190,19 @@
   },
   "active": "16dfa0789ee1e2ac",
   "lastOpenFiles": [
+    "Cause./Develop/IO/IO-01 Linux IO.md",
+    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240610003102559.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
-    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/AI/AI-01 大模型全栈",
     "Cause./Develop/AI",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/IO/IO-01 Linux IO.md",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165204217.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165102117.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165027034.png",
@@ -198,10 +213,8 @@
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609160841578.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609155322458.png",
     "Cause./Develop/IO/assets",
-    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
     "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
-    "Cause./Develop/Redis/assets/image-Redis-2 查询-20240608150725299.png",
     "Cause./Develop/IO",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
@@ -212,9 +225,7 @@
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/Distributed/Untitled.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
