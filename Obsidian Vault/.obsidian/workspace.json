@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md"
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
               }
             }
           }
@@ -160,8 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad48b8cc23c543b5",
+  "active": "57e2546dbb9ed5c2",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611230214482.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225757055.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225142312.png",
@@ -170,12 +174,9 @@
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224022542.png",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/IO/IO-01 Linux IO.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240610003102559.png",
@@ -187,7 +188,6 @@
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165204217.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165102117.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165027034.png",
-    "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609164320376.png",
     "Cause./Develop/IO/assets",
     "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
     "Cause./Develop/IO",

@@ -130,7 +130,7 @@ mysql> CREATE TABLE record_format_demo (
 	2.  页号，用 page_表示
 	   
 	![[image-MySQL-5 InnoDB 索引-20240602161411817.png|500]]
-	
+
 
 -  **2、目录项 --> 记录页**
 
@@ -222,14 +222,11 @@ mysql> CREATE TABLE record_format_demo (
 		6.  Using temporary：临时表存储查询结果，如排序或分组？？？
 		7.  Using filesort：文件排序而非索引排序，如无法索引排序时
 		8.  ... 
-
-
+	
 	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
 
 
 	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
-
-
 
 -  **索引失效**
 
@@ -252,3 +249,20 @@ mysql> CREATE TABLE record_format_demo (
 	6.  JOIN查询：块排序时候考虑驱动表
 	7.  索引的大小和深度
 	8.  ...
+
+
+
+
+
+
+### 5.24 热点数据
+
+-  **问题**
+
+	1.  锁竞争，热点数据更新update会有排他锁，这就会导致大量请求被阻塞
+	2.  占用数据库连接，当有大量update更新同一条记录被阻塞，他们持有连接不会释放导致连接不够
+	3.  耗尽CPU，大量锁等待就会导致大量自旋，从而导致消耗大量CPU
+	4.  死锁风险
+	5.  索引开销维护大
+	6.  主从不一致，热点数据频繁更新，如果在主从复制出现延迟的情况下，会放大不一致概率
+

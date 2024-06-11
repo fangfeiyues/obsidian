@@ -1,3 +1,8 @@
+
+	一些好用的Prompt查询网站
+	1.  https://promptbase.com/
+	2.  https://github.com/f/awesome-chatgpt-prompts
+
 ## Prompt 简介
 
 ### Prompt 目的
@@ -50,16 +55,12 @@
 
 如果可能，用英文撰写核心 prompt
 
-
 ### 自洽性
-
- 
 
 
 ### 思维树
 
 ![[image-01 Prompt-20240611224645738.png]]
-
 
 
 ### 防止 Prompt 攻击
@@ -84,4 +85,8 @@
 ### Moderation API  
 
 ![[image-01 Prompt-20240611225757055.png]]
+
+
+
+
 
