@@ -224,8 +224,7 @@ mysql> CREATE TABLE record_format_demo (
 		8.  ... 
 	
 	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
-
-
+	
 	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
 
 -  **索引失效**
@@ -251,9 +250,11 @@ mysql> CREATE TABLE record_format_demo (
 	8.  ...
 
 
+-  **order by id**
 
-
-
+	MySQL为了避免额外的排序，如果这个字段有索引，那么优化器为了减少file sort，会愿意选择使用这个索引，因为索引天然有序。
+	
+	如 `select ... order by id limit 100` 会默认 `key = PRIMARY（主键索引）`，然后在加上 `extra = Using where（使用where过滤不走二级索引）`，直接导致慢查。优化的话就可以使用索引字段进行排序
 
 ### 5.24 热点数据
 
