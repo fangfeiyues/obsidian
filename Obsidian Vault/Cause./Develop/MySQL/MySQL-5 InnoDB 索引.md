@@ -196,7 +196,7 @@ mysql> CREATE TABLE record_format_demo (
 -  **explain**
 
 	1.  id：执行计划中唯一标识
-	2.  select_type：操作类型，包括SIMPLE、PRIMARY、SUBQUERY、UNION等
+	2.  select_type：操作类型，包括 SIMPLE、PRIMARY、SUBQUERY、UNION 等
 	3.  table：涉及的表
 	4.  partitions：涉及的分区
 	5.  **`type：查询时所使用的索引类型，包括ALL、index、range、ref、eq_ref、const等
@@ -205,7 +205,7 @@ mysql> CREATE TABLE record_format_demo (
 		3.  eq_ref：唯一索引扫描
 		4.  ref：非唯一索引
 		5.  range：范围扫描
-		6.  index：走全索引，如不符合前缀匹配导致的只返回索引值匹配
+		6.  index：走全索引，如不符合前缀匹配导致的只返回索引值匹配（注意 index 不是索引匹配）
 		7.  all：全表扫描
 	6.  **`possible_keys：可能被使用索引
 	7.  **`key：选择使用索引

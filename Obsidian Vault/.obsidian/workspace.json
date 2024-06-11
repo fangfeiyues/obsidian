@@ -32,9 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57e2546dbb9ed5c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md",
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-1 存储.md"
+                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
               }
             }
           }
@@ -162,15 +174,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad48b8cc23c543b5",
+  "active": "57e2546dbb9ed5c2",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/IO/IO-01 Linux IO.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240610003102559.png",
@@ -179,7 +192,6 @@
     "Cause./Develop/AI/AI-01 大模型全栈",
     "Cause./Develop/AI",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165204217.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165102117.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165027034.png",
