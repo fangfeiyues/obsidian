@@ -53,14 +53,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -188,13 +188,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16dfa0789ee1e2ac",
+  "active": "df861d68fb6baf3f",
   "lastOpenFiles": [
-    "Cause./Develop/IO/IO-01 Linux IO.md",
     "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/IO/IO-01 Linux IO.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240610003102559.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
@@ -229,7 +230,6 @@
     "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/Design/design03-scene",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
