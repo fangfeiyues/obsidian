@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
+                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md"
               }
             }
           }
@@ -160,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57e2546dbb9ed5c2",
+  "active": "ad48b8cc23c543b5",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611230214482.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225757055.png",
