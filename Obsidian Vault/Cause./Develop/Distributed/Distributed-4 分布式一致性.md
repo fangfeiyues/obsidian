@@ -53,7 +53,7 @@ Raft 使用 心跳(heartbeat) 触发Leader选举。当服务器启动时，初�
 
 ### 2.3 落地
 
-1.  Redis [[Redis-3 集群#Sentinel 哨兵]]
+1.  Redis [[Redis-3 分布式#Sentinel 哨兵]]
 2.  Etcd
 
 
