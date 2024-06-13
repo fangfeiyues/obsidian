@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md",
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-3 消息消费.md"
+                "file": "Cause./Develop/MQ/MQ-2 消息存储.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "57e2546dbb9ed5c2",
   "lastOpenFiles": [
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
+    "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",

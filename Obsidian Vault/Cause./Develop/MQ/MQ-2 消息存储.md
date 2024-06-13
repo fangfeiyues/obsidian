@@ -10,31 +10,36 @@
 #### CommitLog
 
 消息存储文件，所有topic消息都存储在CommitLog文件
+
 - **文件结构**
 	`CommitLog是RocketMQ消息存储的核心文件，所有topic消息都顺序写入文件中，默认大小为1GB，文件名由20数字组成表示文件的起始偏移量
 	`CommitLog的消息结构包括消息头（消息ID、topic、queueId等）、消息体、消息属性（延迟级别、事务相关等）、存储开销
 
 - **内存映射**
 	`page cache 页面缓存：是操作系统内核维护的一个内存区域，当RocketMQ写入消息到CommitLog文件时消息数据会先写入到page cache，来提高写入速度减少磁盘IO 以及 保证顺序写入后预读
-
+	
 	`mmap 内存映射：RocketMQ主要通过MappedByteBuffer，直接在内存读写数据而无需读写的系统调用。
 	`利用了NIO中的 FileChannel模型 直接将磁盘上的 物理文件 映射到 用户态的内存地址。这种Mmap的方式减少了传统IO将 磁盘文件数据在 操作系统内核地址空间的缓冲区 和 用户应用程序地址空间的缓冲区 之间来回进行拷贝的性能开销，将对文件的操作转化为直接对内存地址进行操作，从而极大地提高了文件的读写效率
 
 #### 刷盘
 
 - **同步刷盘**
+  
 	`在这种模式下，消息写入CommitLog后，Broker会等待操作系统将数据刷写到磁盘中的PageCache。一旦数据被刷写到PageCache，Broker会向生产者确认消息已经存储成功。这种方式确保了消息的持久化，即使系统崩溃，消息也不会丢失
 
 - **异步刷盘**
+  
 	`在这种模式下，消息写入CommitLog后，Broker会立即向生产者确认消息存储成功，而消息刷写到磁盘的过程是在后台异步进行的。这种方式提高了性能，但在某些极端情况下，如果系统崩溃，可能会丢失尚未刷写到磁盘的消息。
 
 ### 3、构建索引文件
 
-#### ConsumeQueue
-消息消费队列，消息到达CommitLog文件后，异步转发到消费队列，标记了在CommitLog中的起始offset、log size 和 Message Tag的hashCode ???
+-  **ConsumeQueue**
 
-#### IndexFile
-消息索引文件，主要存储消息Key与Offset的对应关系。通过key或时间区间来查询消息
+	消息消费队列，消息到达CommitLog文件后，异步转发到消费队列，标记了在CommitLog中的起始offset、log size 和 Message Tag的hashCode ???
+
+-  **IndexFile**
+
+	消息索引文件，主要存储消息Key与Offset的对应关系。通过key或时间区间来查询消息
 
 ### 4、HA
 
