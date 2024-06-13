@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "ad48b8cc23c543b5",
   "lastOpenFiles": [
+    "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+    "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
@@ -187,7 +189,6 @@
     "Cause./Develop/IO",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
-    "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Design/design03-scene",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
