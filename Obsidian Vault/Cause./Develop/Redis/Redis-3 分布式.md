@@ -2,7 +2,7 @@
 -  **Redis is AP or CP?**
 
 	**AP** 。Redis设计的目标是*高性能、高可扩展和高可复用性*，Redis的一致性模型是最终一致性，没法保证强一致性的原因是它分布式设计采用的是异步复制，导致节点之间存在的数据同步延迟和不一致的可能
-	[[Distributed-1  分布式基论CAP]]
+	[[Distributed-1  分布式基论·CAP]]
 
 
 Redis集群同步的3种方式：主从、哨兵、cluster
@@ -140,7 +140,7 @@ Sentinel 默认会以每十秒一次的频率，通过命令连接向被监视�
 
 ### 选举领头Sentinel
 
-Sentinel 设置局部零头的规则是 **先到先得**：最先向目标 Sentinel 发送 `is-master-down-by-addr`设置要求的，而之后接受到所有设置都会被目标 Sentinel 拒绝。得到半数以上的Sentinel将成为领头，否则将再次选举，就是一个 `Raft选举算法` （详见： [[Distributed-4 分布式一致性#Raft]]）
+Sentinel 设置局部零头的规则是 **先到先得**：最先向目标 Sentinel 发送 `is-master-down-by-addr`设置要求的，而之后接受到所有设置都会被目标 Sentinel 拒绝。得到半数以上的Sentinel将成为领头，否则将再次选举，就是一个 `Raft选举算法` （详见： [[Distributed-4 分布式一致性算法#Raft]]）
 
 ### 故障转移
 
