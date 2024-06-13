@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md"
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md"
               }
             }
           }
@@ -159,31 +160,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad48b8cc23c543b5",
+  "active": "57e2546dbb9ed5c2",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-2 查询.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-3 集群.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
-    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611230214482.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225757055.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225142312.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224756473.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224645738.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224022542.png",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Interest./Product/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
-    "Cause./Develop/Redis/Redis-3 集群.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/IO/IO-01 Linux IO.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240610003102559.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/AI/AI-01 大模型全栈",
     "Cause./Develop/AI",
-    "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165204217.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165102117.png",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165027034.png",
@@ -201,7 +203,6 @@
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/Design/design03-scene",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
