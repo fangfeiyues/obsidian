@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 247.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -148,6 +148,8 @@
   },
   "active": "ad48b8cc23c543b5",
   "lastOpenFiles": [
+    "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613231607053.png",
+    "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
@@ -181,14 +183,12 @@
     "Cause./Develop/AI/AI-01 大模型全栈",
     "Cause./Develop/AI",
     "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165204217.png",
-    "Cause./Develop/IO/assets/image-IO-01 Linux IO-20240609165102117.png",
     "Cause./Develop/IO/assets",
     "Cause./Develop/Algo/131. 分割回文串（动态 + 递归）.md",
     "Cause./Develop/IO",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
     "Cause./Develop/Algo/103 锯齿遍历树（深度遍历 + 双向队列）.md",
-    "Cause./Develop/Algo/15. 三数之和（多指针）.md",
     "Cause./Develop/Design/design03-scene",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
