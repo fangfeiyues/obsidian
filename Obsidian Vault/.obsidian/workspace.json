@@ -22,14 +22,6 @@
             }
           },
           {
-            "id": "72b73cb4b2a7e603",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "0b2de6a4b02100d8",
             "type": "leaf",
             "state": {
@@ -42,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,12 +163,13 @@
   },
   "active": "0b2de6a4b02100d8",
   "lastOpenFiles": [
+    "Interest./Product/2024.06.14 为什么理想LI颓势来的如此之快？.md",
+    "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
     "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/JVM/JVM-01 内存结构 and 模型.md",
     "Cause./Develop/JVM/JVM-00 基本特性.md",
-    "Interest./Product/2024.06.14 为什么理想LI颓势来的如此之快？.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
@@ -197,7 +190,6 @@
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/JVM/JVM-05 实战经验.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611230214482.png",
