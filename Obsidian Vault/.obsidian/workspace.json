@@ -8,26 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad48b8cc23c543b5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interest./Product/2024.06.14 为什么理想LI颓势来的如此之快？.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "0b2de6a4b02100d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "306744bcb9883766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Redis/Redis-1 存储.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md"
+                "file": "Cause./Develop/MySQL/MySQL-2 存储.md"
               }
             }
           }
@@ -174,17 +171,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be1151797025b17b",
+  "active": "0b2de6a4b02100d8",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+    "Cause./Develop/Redis/assets/image-Redis-1 存储-20240616234757462.png",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Interest./Product/2024.06.14 为什么理想LI颓势来的如此之快？.md",
+    "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240527235945983.png",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+    "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
+    "Cause./Develop/MySQL/MySQL-9 集群.md",
+    "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240604143803113.png",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
     "Cause./Develop/JVM/JVM-05 实战经验.md",
-    "Interest./Product/2024.06.14 为什么理想LI颓势来的如此之快？.md",
     "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
     "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
     "Cause./Develop/JVM/JVM-01 内存结构 and 模型.md",
@@ -192,26 +201,13 @@
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
-    "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
-    "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
-    "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613231607053.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
-    "Cause./Develop/AI/AI-01 大模型全栈/01 Prompt.md",
     "Cause./Develop/Redis/assets/Redis-3 集群-2.png",
-    "Cause./Develop/MQ/MQ-2 消息存储.md",
-    "Cause./Develop/MQ/MQ-3 消息消费.md",
-    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611230214482.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225757055.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611225142312.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224756473.png",
-    "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224645738.png",
-    "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240611224022542.png",
-    "Cause./Develop/AI/AI-01 大模型全栈/assets/image-01 Prompt-20240610003102559.png",
     "Cause./Develop/AI/AI-01 大模型全栈/assets",
     "Cause./Develop/AI/AI-01 大模型全栈",
     "Cause./Develop/AI",

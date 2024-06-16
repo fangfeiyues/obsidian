@@ -8,11 +8,11 @@ MySQL存储要回答的几个问题（持续更新ing...）
 
 ## MySQL的一次存储更新之旅
 
-![[image-MySQL-2 存储-20240604143803113.png]]
-
 1、客户端处理
 
-2、写入Buffer
+2、写入buffer pool
+
+3、记录变更前undo log
 
 3、记录redo log
 
@@ -23,8 +23,9 @@ MySQL存储要回答的几个问题（持续更新ing...）
 6、主从同步
 
 
+![[image-MySQL-2 存储-20240527235945983.png]]
 
-![[image-MySQL-2 存储-20240604143803113.png]]
+
 ## InnoDB  vs  MyISAM
 
 1.  InnoDB 支持事务，MyISAM 不支持
@@ -36,8 +37,8 @@ MySQL存储要回答的几个问题（持续更新ing...）
 
 
 
-![[image-MySQL-2 存储-20240527235945983.png]]
 
 
-![[image-MySQL-2 存储-20240604143803113.png]]
+
+
 

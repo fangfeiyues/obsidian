@@ -1,14 +1,13 @@
 
-## redo log（重做日志）
+## 1、redo log（重做日志）
 
 `WAL技术` 全称 Write-Ahead Logging，先写日志再写磁盘
 
 -  **作用**
 
 	MySQL用于奔溃恢复和数据持久性的一种机制，在事务进行时，MySQL会将事务做了什么改动到redo log，当系统崩溃或者发生异常时，MySQL会利用Redo log记录信息进行恢复
-
-	防止奔溃的话，为什么不直接保存记录到磁盘，而要在redo log上走一次？
-
+	
+	防止奔溃的话，为什么不直接保存记录到磁盘，而要在redo log上走一次？-- redo log是保证的buffer可用性
 
 ### 日志结构
 
@@ -22,11 +21,11 @@
 
 -  **checkpoint** 
 
-	 write pos 记录当前位置，一边写一边后移
-	 check point 擦除当前位置
+	 `write pos` 记录当前位置，一边写一边后移
+	 `check point` 擦除当前位置
 	 write pos 和 check point 之间是空着部分还可以继续记录，如果write 追上 check 表示内存满了，则需要停下来清楚数据
-
-![[MySQL-6 InnoDB日志-redo log.png|400]]
+	 
+	![[MySQL-6 InnoDB日志-redo log.png|400]]
 
 ### 写入机制
 
@@ -38,12 +37,13 @@
 -  2、后台线程每隔1s，会把 redo log buffer 中的日志写到 page cache，然后调用 fsync 持久化
 
 -  3、其他场景的持久化
+  
 	-  1、redo log buffer 占用空间到一半，主动写到page cache
 	-  2、并行事务的时候会顺带提交
+	  
+	![[MySQL-6 InnoDB 日志-1.png|500]]
 
-![[MySQL-6 InnoDB 日志-1.png|500]]
-
-## binlog（归档日志） 
+## 2、binlog（归档日志） 
 
 ### 格式
 
@@ -93,7 +93,7 @@ Q&A
 -  binlog 为什么不能用于奔溃恢复？
 
 
-## undo log
+## 3、undo log
 
 为了实现事务的原子性，InnoDB存储引擎在实际进行增删改一条记录时，都需要先把对应的undo日志记录下来。一般每对一条记录做一次改动就对应着一条undo日志。
 有两个作用：一是提供回滚；二是实现MVCC功能。
