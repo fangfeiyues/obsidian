@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5,
+    "width": 264.5,
     "collapsed": true
   },
   "right": {
@@ -165,7 +165,9 @@
   },
   "active": "fb7d7116b810f71f",
   "lastOpenFiles": [
+    "Cause./Develop/-Review/Processing.md",
     "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/-Review/Tracking Week 8.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
@@ -192,8 +194,6 @@
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Redis/Redis-4 多功能.md",
-    "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613231607053.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
     "Cause./Develop/Redis/assets/Redis-3 集群-2.png",
