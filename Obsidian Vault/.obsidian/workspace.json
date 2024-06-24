@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d01b403aef6f6d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ca75be9e34e3afa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md",
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md",
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md"
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md"
               }
             }
           }
@@ -160,16 +184,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7d7116b810f71f",
+  "active": "d01b403aef6f6d43",
   "lastOpenFiles": [
-    "Read./2024/八次危机（温铁军）.md",
+    "Cause./Develop/Redis/Redis-3 分布式.md",
+    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625020254052.png",
+    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625015959234.png",
+    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625014143549.png",
+    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013904873.png",
+    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013849650.png",
+    "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
+    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013240882.png",
     "Cause./Develop/-Review/Tracking Week 9.md",
+    "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/-Review/2024-06-25 Before/Tracking Week  1.md",
     "Cause./Develop/-Review/2024-06-25 Before/Tracking Week 8.md",
     "Cause./Develop/-Review/2024-06-25 Before/Tracking Week 2.md",
     "Cause./Develop/-Review/2024-06-25 Before",
     "Cause./Develop/-Review/Processing.md",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
@@ -189,16 +220,8 @@
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
     "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240604143803113.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613231607053.png",
-    "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
-    "Cause./Develop/Redis/assets/Redis-3 集群-2.png",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-01 Prompt-20240611230214482.png",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-01 Prompt-20240611225757055.png",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-01 Prompt-20240611225142312.png",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-01 Prompt-20240611224756473.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划",
     "Cause./Develop/AI",
