@@ -10,15 +10,13 @@
           {
             "id": "0b2de6a4b02100d8",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Read./2024/八次危机（温铁军）.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -27,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
+                "file": "Cause./Develop/-Review/Tracking Week 9.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -101,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
+                "file": "Cause./Develop/-Review/Tracking Week 9.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
+                "file": "Cause./Develop/-Review/Tracking Week 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md"
+                "file": "Cause./Develop/-Review/Tracking Week 9.md"
               }
             }
           }
@@ -165,9 +162,14 @@
   },
   "active": "fb7d7116b810f71f",
   "lastOpenFiles": [
-    "Cause./Develop/-Review/Processing.md",
     "Read./2024/八次危机（温铁军）.md",
-    "Cause./Develop/-Review/Tracking Week 8.md",
+    "Cause./Develop/-Review/Tracking Week 9.md",
+    "Cause./Develop/-Review/2024-06-25 Before/Tracking Week  1.md",
+    "Cause./Develop/-Review/2024-06-25 Before/Tracking Week 8.md",
+    "Cause./Develop/-Review/2024-06-25 Before/Tracking Week 2.md",
+    "Cause./Develop/-Review/2024-06-25 Before",
+    "Cause./Develop/-Review/Processing.md",
+    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
@@ -189,11 +191,7 @@
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
-    "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240604143803113.png",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
-    "Cause./Develop/Redis/Redis-4 多功能.md",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613231607053.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
     "Cause./Develop/Redis/assets/Redis-3 集群-2.png",
@@ -210,7 +208,6 @@
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
     "Cause./Develop/MySQL/assets",
-    "Cause./Develop/Concurrent/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas",
     "Untitled.canvas"
   ]

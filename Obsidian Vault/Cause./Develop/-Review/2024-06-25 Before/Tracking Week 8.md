@@ -3,6 +3,7 @@
 
 
 ## 2024-04-09 周二
+
 「 Traget：MySQL  vs  Redis  vs  MQ 」
 -  晚起 九点，匆忙去上班
 -  上午 搞定日常，但也无心沉淀`algo`
