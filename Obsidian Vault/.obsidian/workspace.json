@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 分布式.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md"
               }
             }
           }
@@ -159,8 +160,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb7d7116b810f71f",
+  "active": "d01b403aef6f6d43",
   "lastOpenFiles": [
+    "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
@@ -195,7 +197,6 @@
     "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240527235945983.png",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240604143803113.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613231607053.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
