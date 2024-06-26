@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 分布式.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 分布式.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 分布式.md",
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-3 分布式.md"
+                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md"
               }
             }
           }
@@ -174,9 +174,9 @@
   },
   "active": "f7809ed8ef1804bd",
   "lastOpenFiles": [
+    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626021738740.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626020222462.png",
