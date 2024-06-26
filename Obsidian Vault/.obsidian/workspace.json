@@ -10,34 +10,36 @@
           {
             "id": "fb7d7116b810f71f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cause./Develop/-Review/Tracking Week 9.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "d01b403aef6f6d43",
+            "id": "db80d2bcccf114c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f7809ed8ef1804bd",
+            "id": "82cadfa24d3df380",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "file": "Cause./Develop/DDD/DDD-01 概况.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "file": "Cause./Develop/DDD/DDD-01 概况.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+                "file": "Cause./Develop/DDD/DDD-01 概况.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md"
+                "file": "Cause./Develop/DDD/DDD-01 概况.md"
               }
             }
           }
@@ -159,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 407.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,18 +173,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7809ed8ef1804bd",
+  "active": "82cadfa24d3df380",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/-Review/Tracking Week 9.md",
+    "Cause./Develop/DDD/DDD-01 概况.md",
+    "Cause./Develop/DDD/DDD-04 落地.md",
+    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
     "Cause./Develop/Dubbo/Dubbo-3 调用过程之提供者.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
-    "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626021738740.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626020222462.png",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
-    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
@@ -206,9 +210,6 @@
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
     "Cause./Develop/JVM/JVM-04 对象内存回收.md",
-    "Cause./Develop/JVM/JVM-03 对象创建与访问.md",
-    "Cause./Develop/JVM/JVM-02 对象初始化与加载.md",
-    "Cause./Develop/JVM/JVM-01 内存结构 and 模型.md",
     "Cause./Develop/Redis/assets/image-Redis-1 存储-20240616234757462.png",
     "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240527235945983.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
