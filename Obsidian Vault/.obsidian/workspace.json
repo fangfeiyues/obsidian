@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 概况.md",
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 305.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 概况.md",
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 概况.md",
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-01 概况.md"
+                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md"
               }
             }
           }
@@ -149,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,10 +161,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e86ba43270d0d19",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-2 存储.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+    "Cause./Develop/DDD/DDD-03 战术设计.md",
+    "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/DDD/DDD-01 概况.md",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
@@ -190,16 +198,8 @@
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013904873.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013849650.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013240882.png",
-    "Cause./Develop/-Review/2024-06-25 Before/Tracking Week  1.md",
-    "Cause./Develop/-Review/2024-06-25 Before/Tracking Week 8.md",
-    "Cause./Develop/-Review/2024-06-25 Before/Tracking Week 2.md",
     "Cause./Develop/-Review/2024-06-25 Before",
-    "Cause./Develop/-Review/Processing.md",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
-    "Cause./Develop/JVM/JVM-04 对象内存回收.md",
     "Cause./Develop/Redis/assets/image-Redis-1 存储-20240616234757462.png",
-    "Cause./Develop/MySQL/assets/image-MySQL-2 存储-20240527235945983.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划",
     "Cause./Develop/AI",
