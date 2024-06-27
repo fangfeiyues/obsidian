@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "db80d2bcccf114c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "82cadfa24d3df380",
             "type": "leaf",
             "state": {
@@ -46,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,11 +161,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82cadfa24d3df380",
+  "active": "2e86ba43270d0d19",
   "lastOpenFiles": [
     "Cause./Develop/DDD/DDD-02 战略设计.md",
-    "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/DDD/DDD-01 概况.md",
+    "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
