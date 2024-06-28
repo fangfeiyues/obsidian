@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "left join",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md"
+                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md"
               }
             }
           }
@@ -161,22 +161,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82cadfa24d3df380",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
+    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
+    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
     "Untitled.canvas",
-    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/-Review/Tracking Week 9.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/DDD/DDD-01 概况.md",
