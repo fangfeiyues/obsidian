@@ -14,27 +14,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/-Review/Tracking Week 9.md",
+                "file": "Cause./Develop/00-Review/Tracking Week 9.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "82cadfa24d3df380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 346.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+                "file": "Cause./Develop/00-Review/Tracking Week 9.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+                "file": "Cause./Develop/00-Review/Tracking Week 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md"
+                "file": "Cause./Develop/00-Review/Tracking Week 9.md"
               }
             }
           }
@@ -149,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,22 +149,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "683255d2eb7eca30",
+  "active": "fb7d7116b810f71f",
   "lastOpenFiles": [
+    "Cause./Develop/00-Review/2024 Reviewing/2024-06-09 网易云音乐一面.md",
+    "Cause./Develop/00-Review/Tracking Week 9.md",
+    "Cause./Develop/00-Review/Processing.md",
+    "Cause./Develop/00-Review/2024 Reviewing",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
     "Untitled.canvas",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/Dubbo/Dubbo-1 调用过程之调用者.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
-    "Cause./Develop/-Review/Tracking Week 9.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
@@ -191,15 +182,13 @@
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-2 查询.md",
-    "Cause./Develop/Dubbo/Dubbo-2 调用过程之请求.md",
-    "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625020254052.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625015959234.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625014143549.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013904873.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013849650.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013240882.png",
-    "Cause./Develop/-Review/2024-06-25 Before",
+    "Cause./Develop/00-Review/2024-06-25 Before",
     "Cause./Develop/Redis/assets/image-Redis-1 存储-20240616234757462.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划",
@@ -209,7 +198,6 @@
     "Cause./Develop/Design/design03-scene",
     "Interest./Invest/assets",
     "Cause./Develop/Redis/assets",
-    "Cause./Develop/MySQL/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
