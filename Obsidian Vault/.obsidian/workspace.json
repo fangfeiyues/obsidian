@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
+                "file": "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针）.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
+                "file": "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
+                "file": "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md"
+                "file": "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针）.md"
               }
             }
           }
@@ -162,14 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "683255d2eb7eca30",
+  "active": "1748d92649c19707",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
+    "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针）.md",
     "Cause./Develop/Algo/algo-05 排序",
     "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）.md",
     "Cause./Develop/Algo/algo-02 前缀和/238. 除自身以外数组的乘积（左右前缀积）.md",
     "Cause./Develop/Algo/algo-04 动态规划",
     "Cause./Develop/Algo/algo-03 遍历树",
-    "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Algo/algo-02 前缀和",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
@@ -210,7 +211,6 @@
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划",
     "Cause./Develop/AI",
-    "Cause./Develop/IO/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
