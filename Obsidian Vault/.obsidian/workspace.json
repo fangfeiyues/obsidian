@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md"
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md"
               }
             }
           }
@@ -176,8 +176,10 @@
   },
   "active": "1748d92649c19707",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/algo-04 动态规划/313. 超级丑数.md",
+    "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
+    "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
     "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md",
+    "Cause./Develop/Algo/algo-04 动态规划/313. 超级丑数.md",
     "Cause./Develop/Algo/algo-03 递归回溯/323. 无向图中连通分量的数目.md",
     "Cause./Develop/Algo/algo-07 二叉树/333. 最大二叉搜索子树.md",
     "Cause./Develop/Algo/algo-02 前缀积和/334. 递增的三元子序列 👍.md",
@@ -206,8 +208,6 @@
     "Cause./Develop/Algo/algo-03 递归回溯/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/algo-02 前缀积和/560. 和为K的子数组.md",
     "Cause./Develop/Algo/algo-02 前缀积和/238. 除自身以外数组的乘积（左右前缀积）.md",
-    "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/15. 三数之和（多指针）.md",
-    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Algo/algo-05 排序",
     "Cause./Develop/Algo/algo-04 动态规划",
     "Cause./Develop/Algo/algo-03 递归回溯",
