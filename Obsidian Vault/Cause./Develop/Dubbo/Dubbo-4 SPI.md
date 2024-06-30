@@ -1,12 +1,14 @@
  
  Dubbo框架中各层之间的引用注入都是依赖了 SPI 强大的能力，抛弃了 Spring IOC 的注入和 Spring AOP 的切面
 
-## Java SPI
+## 1、Java SPI
 
 -  **定义**
+  
 	SPI 全名为 Service Provider Interface，其思想是解耦，通过可插拔的方式把装配的控制权移到程序外
 
 -  **约定**
+  
 	服务提供者提供接口实现 xxxImpl 后，在 jar 包的 `META-INF/services/` 目录创建一个以 服务接口命名 的文件，该文件内就是具体的实现类，然后通过`ServiceLoader`类对所有的实现进行加载
 
 ```java
@@ -26,44 +28,15 @@
 ```
 
 
+## 2、Dubbo SPI
 
-## Dubbo SPI
+	Dubbo SPI 在 Java SPI 基础上解决什么问题？
 
-Dubbo SPI 在 Java SPI 基础上解决什么问题？
 ### vs Java SPI
 
 #### 1、可按需加载扩展点
 
 Java SPI 会通过 ServiceLoader 一次性加载所有扩展点，而 Dubbo SPI 通过注解 @SPI 实现了按需加载
-
-```java
-// PrintService接口的Dubbo SPI改造
-// ① 在目录META-INF/dubbo/internal下建立配置文com.test.spi.Printservice,文件内容如下
-// impl=com.test.spi.PrintServiceImpl 
-
-// ② 为接口类添加SPI注解，设置默认实现为impl
-@SPI("impl")   
-public interface Printservice {
-    void printlnfo();
-)
-
-// ③实现类不变
-public class PrintServicelmpl implements Printservice ( 
-Override
-public void printlnfo() (
-      System.out println("hello world");
-} 
-}
-
-// ④调用Dubbo SPI
-public static void main(String[] args) ( 
-    //通过 ExtensionLoader 获取接口PrintService.class 的默认实现
-    PrintService printservice = ExtensionLoader
-    .getExtensionLoader(PrintService.class).getDefaultExtension();
-    //此处会输出 PrintServicelmpl 打印的 hello world
-    printService.printInfo();
-}
-```
 
 #### 2、IOC 和 AOP机制
 
@@ -71,15 +44,13 @@ public static void main(String[] args) (
 
 	如A中注入了B，那么在实现A的时候也会扩展实现B，这个和spring的IOC原理类似，所以称它为dubbo spi中的 IOC，也称为扩展点的自动扩展特性
 
-
 -  **扩展点的自动包装特效**
 
 	如上，在扩展B时如何决定要注入依赖扩展点的哪个实现？ 在设计模式中有一个 装饰器模式，它通常用来在不改变原有对象的行为方法的同时，用来对原有对象进行方法增强。在dubbo中，实例化一个扩展点实现的同时，也会判断此对象有没有作为一个包装类对象中构造方法的对象，如果是，也会实例化该 `wrapper`包装
 	
 	在上面这个创建扩展点的方法中，扩展点自动装配以后，会继续对包装类对象进行注入。这个和aop原理一样，称为dubbo spi中的aop，也叫**扩展点的自动包装**
 
-	
-	```java
+```java
 	private T createExtension(String name){
 	             //这里省略了部分代码
 	             .......
@@ -104,13 +75,12 @@ public static void main(String[] args) (
 
 #### 3、异常处理
 
-	Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
-	Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
-
+Java SPI 加载失败，可能会因为各种原因导致异常信息被“吞掉”，导致开发人员问题追踪比较困难。
+Dubbo SPI 在扩展加载失败的时候会先抛出真实异常并打印日志，扩展点在被动加载的时候，即使有部分扩展加载失败也不会影响其他扩展点和整个框架的使用
 
 ### 注解
 
-#### 2.1 控制与包装：SPI
+#### 1、控制与包装：SPI
 
 - **例子**
 
@@ -118,7 +88,6 @@ public static void main(String[] args) (
 	/** PrintService接口的Dubbo SPI改造
 	① 在目录META-INF/dubbo/internal下建立配置文com.test.spi.Printservice,文件内容如下
 	impl=com.test.spi.PrintServiceImpl 
-	
 	② 为接口类添加SPI注解，设置默认实现为impl
 	**/
 	@SPI("impl")   
@@ -149,11 +118,75 @@ public static void main(String[] args) (
 
 	Dubbo SPI 解决的是一个怎么加载自定义类的问题
 
+```java
+    public T getExtension(String name) {
+        if (StringUtils.isEmpty(name)) {
+            throw new IllegalArgumentException("Extension name == null");
+        }
+        if ("true".equals(name)) {
+            // 获取默认的扩展点实现
+            return getDefaultExtension();
+        }
+        final Holder<Object> holder = getOrCreateHolder(name);
+        Object instance = holder.get();
+        // 从缓存中获取，缓存中没有，则创建，这里使用了双重检查锁
+        if (instance == null) {
+            synchronized (holder) {
+                instance = holder.get();
+                if (instance == null) {
+                    // 创建扩展点实现类
+                    instance = createExtension(name);
+                    holder.set(instance);
+                }
+            }
+        }
+        return (T) instance;
+    }
+    
+	/**
+	 * 1、
+	 * 2、通过目标子类的set方法为其注入其所依赖的bean，这里既可以通过SPI，也可以通过Spring的BeanFactory获取所依赖的bean，injectExtension(instance)。
+	 * 3、获取定义文件中定义的wrapper对象，然后使用该wrapper对象封装目标对象，并且还会调用其set方法为wrapper对象注入其所依赖的属性
+	 * @param name
+	 * @return
+	 */
+	@SuppressWarnings("unchecked")
+	private T createExtension(String name) {
+	    // 1、加载定义文件中的各个子类，然后将目标name对应的子类返回后进行实例化。
+	    Class<?> clazz = getExtensionClasses().get(name);
+	    if (clazz == null) {
+	        throw findException(name);
+	    }
+	    try {
+		    // 2、向扩展类注入其依赖的扩展点属性，这里是体现了扩展点自动装配的特性
+	        T instance = (T) EXTENSION_INSTANCES.get(clazz);
+	        if (instance == null) {
+	            EXTENSION_INSTANCES.putIfAbsent(clazz, clazz.newInstance());
+	            instance = (T) EXTENSION_INSTANCES.get(clazz);
+	        }
+	        injectExtension(instance);
+	        
+	        // 3、扩展点自动包装特性，ExtensionLoader在加载扩展时，如果发现这个扩展类包含其他扩展点作为构造函数的参数，则这个扩展类会被认为是wrapper类，比如 ProtocolFilterWrapper, 
+	        Set<Class<?>> wrapperClasses = cachedWrapperClasses;
+	        if (CollectionUtils.isNotEmpty(wrapperClasses)) {
+	            for (Class<?> wrapperClass : wrapperClasses) {
+	                instance = injectExtension((T) wrapperClass.getConstructor(type).newInstance(instance));
+	            }
+	        }
+	        return instance;
+	    } catch (Throwable t) {
+	        throw new IllegalStateException("Extension instance (name: " + name + ", class: " +
+	                type + ") couldn't be instantiated: " + t.getMessage(), t);
+	    }
+   }
 
-#### 2.2 自适应扩展： Adaptive
+```
+
+
+#### 2、自适应扩展： Adaptive
 
 -  **例子**
-	
+
 	```java
 	@SPI("javassist")  
 	public interface ProxyFactory {  
@@ -167,7 +200,8 @@ public static void main(String[] args) (
 	    /**  
 	     * create proxy.     *     * @param invoker  
 	     * @return proxy  
-	     */    @Adaptive({Constants.PROXY_KEY})  
+	     */    
+	     @Adaptive({Constants.PROXY_KEY})  
 	    <T> T getProxy(Invoker<T> invoker, boolean generic) throws RpcException;  
 	  
 	    /**  
@@ -176,7 +210,8 @@ public static void main(String[] args) (
 	     * @param type  
 	     * @param url  
 	     * @return invoker  
-	     */    @Adaptive({Constants.PROXY_KEY})  
+	     */    
+	     @Adaptive({Constants.PROXY_KEY})  
 	    <T> Invoker<T> getInvoker(T proxy, Class<T> type, URL url) throws RpcException;  
 	  
 	}
@@ -199,7 +234,7 @@ public static void main(String[] args) (
 	}
 	
 	```
-	
+
 
 -  **使用**
 
@@ -214,16 +249,19 @@ public static void main(String[] args) (
 	3.  如果`@SPI`注解中没有默认值，则把类名转化为key，再去查找
 
 
-
-
 ## 总结
 
 结合上面SPI注解 IOC和AOP 以及 Adaptive 的方法路由，可以推演扩展一种代理方式的实现大概如下
+
 -  **初始化配置**
+  
 	1.  实现接口 `ProxyFactory（SPI = "javassist") ，Adaptive = "proxy" ）`自定义实现类 AsmProxyFactory
 	2.  文件 `resources/META-INF/dubbo/org.apache.dubbo.rpc.ProxyFactory` 内容  `asm = org.apache.dubbo.samples.extensibility.proxy.AsmProxyFactory`
 	3.  配置 `<dubbo:protocol proxy="asm" />`
+	   
+   
 - **请求过程**
+  
 	1.  Dubbo框架触发扩展点加载。-- 通过`ExtensionLoader`加载`ProxyFactory`的实现
 	2.  Dubbo调用`ProxyFactory`的`getProxy`方法来创建代理对象。-- 通过 SPI 机制
 	3.  代理对象在 URL 中选择参数动态选择一个实现类。-- 通过Adaptive参数实现

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Concurrent/Concurrent-03 并发锁.md"
+                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md"
               }
             }
           }
@@ -149,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,6 +164,8 @@
   },
   "active": "1748d92649c19707",
   "lastOpenFiles": [
+    "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
+    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-01 线程&进程-20240630153438718.png",
     "Cause./Develop/00-Review/reviewing/2024-06-28 网易云音乐一面.md",
@@ -197,7 +200,6 @@
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Untitled.canvas",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626021738740.png",
@@ -207,7 +209,6 @@
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625014143549.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013904873.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013849650.png",
-    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013240882.png",
     "Cause./Develop/00-Review/review-tracking/2024-06-25 Before",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas"
