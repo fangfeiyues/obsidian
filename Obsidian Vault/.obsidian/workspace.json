@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
+                "file": "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 436.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
+                "file": "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
+                "file": "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md"
+                "file": "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md"
               }
             }
           }
@@ -176,10 +176,11 @@
   },
   "active": "683255d2eb7eca30",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右窗口）.md",
+    "Cause./Develop/Algo/algo-07 二叉树/450. 删除二叉搜索树中的节点.md",
     "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
-    "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
     "Cause./Develop/Algo/alg.md",
-    "Cause./Develop/Algo/algo-07 树",
+    "Cause./Develop/Algo/algo-07 二叉树",
     "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
@@ -202,10 +203,9 @@
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右窗口）.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/239. 滑动窗口最大值 👍.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/76. 最小覆盖子串 👍.md",
-    "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右窗口）.md",
     "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Algo/algo-05 排序",
-    "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）.md",
+    "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md",
     "Cause./Develop/Algo/algo-04 动态规划",
     "Cause./Develop/Algo/algo-03 递归遍历",
     "Cause./Develop/Algo/algo-02 前缀积和",
