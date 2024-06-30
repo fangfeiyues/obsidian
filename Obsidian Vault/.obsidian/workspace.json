@@ -27,7 +27,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b4e739e2be9fb3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 299.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -100,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
+                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Dubbo/Dubbo-4 SPI.md"
+                "file": "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md"
               }
             }
           }
@@ -162,8 +174,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1748d92649c19707",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
+    "Cause./Develop/Algo/algo-07 树/450. 删除二叉搜索树中的节点.md",
+    "Cause./Develop/Algo/alg.md",
+    "Cause./Develop/Algo/algo-07 树",
+    "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
+    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
+    "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
@@ -173,7 +192,6 @@
     "Cause./Develop/00-Review/review-tracking/Tracking Week 9.md",
     "Cause./Develop/00-Review/reviewing/2024-06.md",
     "Cause./Develop/00-Review/review-tracking",
-    "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
     "Cause./Develop/Algo/algo-03 递归遍历/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/algo-02 前缀积和/560. 和为K的子数组.md",
     "Cause./Develop/Algo/algo-02 前缀积和/238. 除自身以外数组的乘积（左右前缀积）.md",
@@ -194,12 +212,7 @@
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
-    "Cause./Develop/DDD/DDD-01 概况.md",
-    "Cause./Develop/00-Review/Processing.md",
     "Cause./Develop/00-Review/reviewing",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
-    "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Untitled.canvas",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626021738740.png",
@@ -210,7 +223,6 @@
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013904873.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013849650.png",
     "Cause./Develop/00-Review/review-tracking/2024-06-25 Before",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
