@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 遍历树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+                "file": "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 遍历树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+                "file": "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 遍历树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+                "file": "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 遍历树/103 锯齿遍历树（深度遍历 + 双向队列）.md"
+                "file": "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md"
               }
             }
           }
@@ -162,10 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1748d92649c19707",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/algo-02 前缀和/560. 和为K的子数组.md",
-    "Cause./Develop/Algo/algo-02 前缀和/238. 除自身以外数组的乘积（左右前缀积）.md",
+    "Cause./Develop/Algo/algo-03 递归遍历/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+    "Cause./Develop/Algo/algo-03 递归遍历/473. 火柴拼正方形.md",
+    "Cause./Develop/Algo/algo-02 前缀积和/560. 和为K的子数组.md",
+    "Cause./Develop/Algo/algo-02 前缀积和/238. 除自身以外数组的乘积（左右前缀积）.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/15. 三数之和（多指针）.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/00-Review/Tracking Week 9.md",
@@ -179,12 +181,11 @@
     "Cause./Develop/Algo/algo-05 排序",
     "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）.md",
     "Cause./Develop/Algo/algo-04 动态规划",
-    "Cause./Develop/Algo/algo-03 遍历树",
-    "Cause./Develop/Algo/algo-02 前缀和",
+    "Cause./Develop/Algo/algo-03 递归遍历",
+    "Cause./Develop/Algo/algo-02 前缀积和",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针",
     "Cause./Develop/Algo/230 二叉搜索树的前中后序.md",
     "Cause./Develop/Algo/239. 滑动窗口最大值.md",
-    "Cause./Develop/Algo/algo-03 遍历树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/00-Review/2024 Reviewing/2024-06-09 网易云音乐一面.md",
     "Cause./Develop/00-Review/Processing.md",
@@ -195,7 +196,6 @@
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
-    "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
     "Untitled.canvas",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626021738740.png",
