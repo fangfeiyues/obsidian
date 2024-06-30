@@ -24,6 +24,10 @@
 	CPU密集型（计算占主导，增加线程不会提升性能，因为大多数时间都在CPU计算）则 设置 N + 1
 	IO密集型（等待占主导，可以分配更多的线程，来提升CPU的利用率） 则 设置 2N + 1
 
+-  **线程状态**
+
+	![[image-Concurrent-01 线程&进程-20240630153438718.png|600]]
+
 
 ### 1.2 线程并发&安全
 
@@ -124,30 +128,72 @@ public ThreadPoolExecutor(int corePoolSize,
 
 ```
 
--  **corePoolSize**
+-  **参数**
 
-	核心线程数量，可以类比正式员工数量
+	1.  corePoolSize：核心线程数量，可以类比正式员工数量
+	2.  maximumPoolSize：最大线程数量，常驻+临时线程
+	3.  workQueue：多余任务等待队列，再多的人都处理不过来了，需要等着，在这个地方等
+	4.  keepAliveTime：非核心线程空闲时间
+	5.  threadFactory：创建线程的工厂
+	6.  handler：拒绝策略
 
--  **maximumPoolSize**
+-  **线程池生命周期**
 
-	最大线程数量，常驻+临时线程
+	1.  Running：线程池处于运行状态，接受新任务并处理正在执行的任务
+	2.  Shutting Down：调用shoudown()方法，不再接受新任务，但回继续处理已提交的任务
+	3.  Stop：调用 shutdownNew() 方法，不再接受新任务并尝试停止正在执行的任务
+	4.  Terminated：所有任务已停止，线程池关闭
 
--  **workQueue**
+-  **线程池关闭**
 
-	多余任务等待队列，再多的人都处理不过来了，需要等着，在这个地方等
+	1. **shutdown()**
+	    - 调用`shutdown()`方法会使线程池进入`Shutting Down`状态
+	    - 它不会立即停止线程池，而是等待已提交的任务完成后关闭
+	      
+	2. **shutdownNow()**
+	    - 调用`shutdownNow()`方法会使线程池尝试停止所有正在执行的任务，并返回等待执行的任务列表
+	    - 线程池会进入`Stop`状态
+	    
+	3. **awaitTermination()**
+	    - 这个方法用于等待线程池关闭
+	    - 如果线程池已经关闭，这个方法会立即返回
+	      
+	4. **allowCoreThreadTimeOut(boolean)**
+	    - 设置允许核心线程超时，如果设置为`true`，核心线程在空闲时也会超时并终止
 
--  **keepAliveTime**
+```java
 
-	非核心线程空闲时间
+import java.util.concurrent.*;
 
--  **threadFactory**
+public class ThreadPoolDemo {
+    public static void main(String[] args) {
+        ExecutorService executorService = Executors.newFixedThreadPool(5);
 
-	创建线程的工厂
+        // 提交任务
+        for (int i = 0; i < 10; i++) {
+            final int taskNumber = i;
+            executorService.submit(() -> {
+                System.out.println("Task " + taskNumber + " is running");
+            });
+        }
 
--  **handler**
+        // 关闭线程池，不再接受新任务，等待已提交的任务执行完毕
+        executorService.shutdown();
+        try {
+            // 等待线程池关闭
+            if (!executorService.awaitTermination(60, TimeUnit.SECONDS)) {
+                System.out.println("Timeout waiting for tasks to complete");
+            }
+        } catch (InterruptedException e) {
+            System.out.println("Tasks interrupted");
+        }
 
-	拒绝策略
+        // 如果需要立即停止线程池，可以调用shutdownNow()
+        // List<Runnable> droppedTasks = executorService.shutdownNow();
+    }
+}
 
+```
 
 #### 实现
 
