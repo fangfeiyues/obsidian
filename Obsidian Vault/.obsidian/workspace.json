@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 414.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md"
+                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md"
               }
             }
           }
@@ -160,9 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b4e739e2be9fb3d",
+  "active": "1748d92649c19707",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-07 二叉树/333. 最大二叉搜索子树 👍.md",
+    "Cause./Develop/Algo/algo-07 二叉树/450. 删除二叉搜索树中的节点.md",
+    "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
+    "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
     "Cause./Develop/Algo/algo-07 二叉树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
     "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
     "Cause./Develop/Algo/algo-04 动态规划/313. 超级丑数.md",
@@ -181,13 +185,8 @@
     "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
     "Cause./Develop/Algo/algo-06 TOP K/395. 至少有K个重复字符的最长子串 👍（递归回溯）.md",
     "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素（优先队列｜桶排序）.md",
-    "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
     "Cause./Develop/00-Review/review-tracking/Tracking Week 9.md",
-    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
-    "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
-    "Cause./Develop/Algo/algo-07 二叉树/333. 最大二叉搜索子树.md",
     "Cause./Develop/Algo/algo-08 递归回溯",
-    "Cause./Develop/Algo/algo-07 二叉树/450. 删除二叉搜索树中的节点.md",
     "Cause./Develop/Algo/alg.md",
     "Cause./Develop/Algo/algo-07 二叉树",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
