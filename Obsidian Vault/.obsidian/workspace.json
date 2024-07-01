@@ -8,26 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fb7d7116b810f71f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/00-Review/review-tracking/Tracking Week 9.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "1748d92649c19707",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
+                "file": "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436.5
+    "width": 360.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -112,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
+                "file": "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
+                "file": "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md"
+                "file": "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md"
               }
             }
           }
@@ -174,18 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1748d92649c19707",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
+    "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍.md",
+    "Cause./Develop/Algo/algo-06 TOP K/395. 至少有K个重复字符的最长子串 👍.md",
+    "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
     "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
+    "Cause./Develop/00-Review/review-tracking/Tracking Week 9.md",
+    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
+    "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
     "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Algo/algo-04 动态规划/313. 超级丑数.md",
     "Cause./Develop/Algo/algo-03 递归回溯/323. 无向图中连通分量的数目.md",
     "Cause./Develop/Algo/algo-07 二叉树/333. 最大二叉搜索子树.md",
     "Cause./Develop/Algo/algo-02 前缀积和/334. 递增的三元子序列 👍.md",
     "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
-    "Cause./Develop/Algo/algo-06 TOP K/395. 至少有K个重复字符的最长子串 👍.md",
-    "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍.md",
     "Cause./Develop/Algo/algo-08 递归回溯",
     "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右窗口）.md",
@@ -193,8 +181,6 @@
     "Cause./Develop/Algo/algo-03 递归回溯/473. 火柴拼正方形.md",
     "Cause./Develop/Algo/alg.md",
     "Cause./Develop/Algo/algo-07 二叉树",
-    "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素.md",
-    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Concurrent/Concurrent-03 并发锁.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
@@ -202,7 +188,6 @@
     "Cause./Develop/Concurrent/assets/image-Concurrent-01 线程&进程-20240630153438718.png",
     "Cause./Develop/00-Review/reviewing/2024-06-28 网易云音乐一面.md",
     "Cause./Develop/Algo/algo-06 TOP K",
-    "Cause./Develop/00-Review/review-tracking/Tracking Week 9.md",
     "Cause./Develop/00-Review/reviewing/2024-06.md",
     "Cause./Develop/00-Review/review-tracking",
     "Cause./Develop/Algo/algo-03 递归回溯/103 锯齿遍历树（深度遍历 + 双向队列）.md",
