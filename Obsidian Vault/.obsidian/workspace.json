@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
+                "file": "Cause./Develop/Algo/algo-07 二叉树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md"
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md"
               }
             }
           }
@@ -159,14 +160,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1748d92649c19707",
+  "active": "1b4e739e2be9fb3d",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-07 二叉树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
+    "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
+    "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
     "Cause./Develop/Algo/algo-04 动态规划/313. 超级丑数.md",
     "Cause./Develop/Algo/algo-04 动态规划/309. 买卖股票的最佳时机含冷冻期.md",
     "Cause./Develop/Algo/algo-04 动态规划/131. 分割回文串（动态 + 递归）👍.md",
     "Cause./Develop/Algo/algo-03 递归回溯/473. 火柴拼正方形.md",
     "Cause./Develop/Algo/algo-03 递归回溯/323. 无向图中连通分量的数目.md",
-    "Cause./Develop/Algo/algo-07 二叉树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Algo/algo-02 前缀积和/560. 和为K的子数组.md",
     "Cause./Develop/Algo/algo-02 前缀积和/334. 递增的三元子序列 👍.md",
     "Cause./Develop/Algo/algo-02 前缀积和/238. 除自身以外数组的乘积（左右前缀积）.md",
@@ -183,12 +186,10 @@
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
     "Cause./Develop/Algo/algo-07 二叉树/333. 最大二叉搜索子树.md",
-    "Cause./Develop/Algo/algo-04 动态规划/343. 整数拆分.md",
     "Cause./Develop/Algo/algo-08 递归回溯",
     "Cause./Develop/Algo/algo-07 二叉树/450. 删除二叉搜索树中的节点.md",
     "Cause./Develop/Algo/alg.md",
     "Cause./Develop/Algo/algo-07 二叉树",
-    "Cause./Develop/Dubbo/Dubbo-4 SPI.md",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-01 线程&进程-20240630153438718.png",
     "Cause./Develop/Algo/algo-06 TOP K",
