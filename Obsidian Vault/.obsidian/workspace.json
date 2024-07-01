@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md"
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md"
               }
             }
           }
@@ -146,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5,
-    "collapsed": true
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1748d92649c19707",
+  "active": "1b4e739e2be9fb3d",
   "lastOpenFiles": [
+    "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701203910561.png",
+    "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701201858151.png",
+    "Cause./Develop/Design/design03-scene/assets",
+    "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
     "Cause./Develop/Algo/algo-07 二叉树/333. 最大二叉搜索子树 👍.md",
     "Cause./Develop/Algo/algo-07 二叉树/450. 删除二叉搜索树中的节点.md",
     "Cause./Develop/Algo/algo-07 二叉树/255. 验证二叉搜索树的前序遍历序列 👍.md",
-    "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
     "Cause./Develop/Algo/algo-07 二叉树/103 锯齿遍历树（深度遍历 + 双向队列）.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/Algo/algo-05 排序/148. 排序链表（分割 + 合并 = 归并）.md",
@@ -187,7 +190,6 @@
     "Cause./Develop/Algo/algo-06 TOP K/347. 前K个高频元素（优先队列｜桶排序）.md",
     "Cause./Develop/00-Review/review-tracking/Tracking Week 9.md",
     "Cause./Develop/Algo/algo-08 递归回溯",
-    "Cause./Develop/Algo/alg.md",
     "Cause./Develop/Algo/algo-07 二叉树",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
     "Cause./Develop/Concurrent/assets/image-Concurrent-01 线程&进程-20240630153438718.png",
@@ -198,7 +200,6 @@
     "Cause./Develop/Algo/algo-03 递归回溯",
     "Cause./Develop/Algo/algo-02 前缀积和",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针",
-    "Cause./Develop/00-Review/reviewing",
     "Untitled.canvas",
     "Cause./Develop/DDD/assets/image-DDD-03 战术设计-20240428160951392.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240626021738740.png",
@@ -207,7 +208,6 @@
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625015959234.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625014143549.png",
     "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013904873.png",
-    "Cause./Develop/Redis/assets/image-Redis-3 分布式-20240625013849650.png",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
