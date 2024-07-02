@@ -22,51 +22,19 @@
             }
           },
           {
-            "id": "9c6526dc49a60b1b",
+            "id": "88b29582bbc07ce7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/00-Review/reviewing/2024-06-28 WYY -> Dead.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "616d1ae9f044c7e9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Cause./Develop/00-Review/reviewing/assets/image-2024-06-28 网易云音乐一面-20240701222055701.png"
-              }
-            }
-          },
-          {
-            "id": "b8e02e0ccb1915aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/00-Review/reviewing/2024-07-02 PDD -> Dead.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93c1b72efd9f14e1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -194,10 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93c1b72efd9f14e1",
+  "active": "88b29582bbc07ce7",
   "lastOpenFiles": [
-    "Cause./Develop/00-Review/reviewing/2024-07-02 PDD -> Dead.md",
     "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
+    "Untitled.canvas",
+    "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
+    "Cause./Develop/00-Review/reviewing/2024-07-02 PDD -> Dead.md",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-06-28 网易云音乐一面-20240701222055701.png",
     "Cause./Develop/00-Review/reviewing/2024-06-28 WYY -> Dead.md",
     "Cause./Develop/Algo/algo-06 TOP K/395. 至少有K个重复字符的最长子串 👍（递归回溯）.md",
@@ -205,7 +175,6 @@
     "Cause./Develop/Algo/algo-08 数组/402. 移调.md",
     "Cause./Develop/Algo/algo-08 数组",
     "Cause./Develop/Algo/Untitled.md",
-    "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240702235518625.png",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240702235518625 1.png",
@@ -241,7 +210,6 @@
     "Cause./Develop/Algo/algo-05 排序",
     "Cause./Develop/Algo/algo-04 动态规划",
     "Cause./Develop/Algo/algo-03 递归回溯",
-    "Untitled.canvas",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
