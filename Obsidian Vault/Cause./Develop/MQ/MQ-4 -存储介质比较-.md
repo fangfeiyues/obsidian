@@ -43,9 +43,6 @@ Redis、MySQL、RocketMQ、HBase等都涉及到存储&查询，那其中的区�
 
 	无
 
-
-
-
 ### 2、Redis
 
 -  **特征**
