@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
+                "file": "Cause./Develop/Redis/Redis-2 查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-4 -存储介质比较-.md"
+                "file": "Cause./Develop/Redis/Redis-2 查询.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "1748d92649c19707",
   "lastOpenFiles": [
+    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
@@ -157,7 +158,6 @@
     "Cause./Develop/Dubbo/Dubbo-1 调用过程-调用者.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
-    "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/00-Review/reviewing/2024-06-28 网易云音乐一面 -> Dead.md",
     "Cause./Develop/Algo/algo-03 递归回溯/337. 打家劫舍III.md",
     "Cause./Develop/Algo/algo-07 二叉树/236. 二叉树的最近公共祖先（深度递归）👍.md",
