@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5
+    "width": 353.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md",
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MQ/MQ-1 消息发送.md"
+                "file": "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md"
               }
             }
           }
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5,
-    "collapsed": true
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,6 +148,7 @@
   },
   "active": "1748d92649c19707",
   "lastOpenFiles": [
+    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
@@ -181,7 +181,6 @@
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针 + Flag标志）.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右指针 + 二维数组）.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/15. 三数之和（三指针）.md",
-    "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/76. 最小覆盖子串 👍.md",
     "Cause./Develop/Algo/algo-08 递归回溯",
     "Cause./Develop/Algo/algo-07 二叉树",
     "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
