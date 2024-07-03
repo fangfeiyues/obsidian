@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 295.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md",
+                "file": "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md",
+                "file": "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md"
+                "file": "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md"
               }
             }
           }
@@ -162,13 +161,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88b29582bbc07ce7",
+  "active": "1748d92649c19707",
   "lastOpenFiles": [
+    "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md",
     "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Read./2024/八次危机（温铁军）.md",
     "Cause./Develop/Algo/algo-01 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右指针 + 二维数组）.md",
     "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
-    "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md",
     "Untitled.canvas",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
     "Cause./Develop/00-Review/reviewing/2024-07-02 PDD -> Dead.md",
