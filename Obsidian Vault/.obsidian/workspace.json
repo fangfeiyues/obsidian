@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "01efb9d962bfe15e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read./2024/八次危机（温铁军）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 295.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
+                "file": "Read./2024/八次危机（温铁军）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md"
+                "file": "Read./2024/八次危机（温铁军）.md"
               }
             }
           }
@@ -148,11 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e442bdb45fc8483",
+  "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704232526696.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704230916573.png",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
     "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md",
     "Cause./Develop/Algo/algo-06 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
     "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
@@ -191,7 +203,6 @@
     "Cause./Develop/Design/design03-scene/assets",
     "Cause./Develop/Algo/algo-08 递归回溯",
     "Cause./Develop/Algo/algo-07 二叉树",
-    "Cause./Develop/Concurrent/assets/image-Concurrent-03 并发锁-20240630162556819.png",
     "Cause./Develop/Algo/algo-06 TOP K",
     "Cause./Develop/00-Review/review-tracking",
     "Cause./Develop/Algo/algo-05 排序",
