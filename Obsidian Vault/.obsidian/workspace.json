@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/343. 整数拆分.md",
+                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/343. 整数拆分.md",
+                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/343. 整数拆分.md"
+                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md"
               }
             }
           }
@@ -176,8 +176,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52ba58c7ae9b4751",
+  "active": "4311d1e7bff6578f",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-09 动态规划/343. 整数拆分.md",
     "Cause./Develop/Algo/algo-07 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
     "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
     "Cause./Develop/Algo/algo-01 堆栈",
