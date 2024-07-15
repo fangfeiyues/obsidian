@@ -10,45 +10,16 @@
           {
             "id": "01efb9d962bfe15e",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read./2024.07.06 撒哈拉的故事（三毛）.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "4311d1e7bff6578f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b52e5efa4d18d304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Algo/algo-07 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/00-Review/tracking/Tracking Week 11.md"
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md"
               }
             }
           }
@@ -176,11 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4311d1e7bff6578f",
+  "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
     "Read./2024.07.06 撒哈拉的故事（三毛）.md",
-    "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
+    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/Algo/algo-07 TOP K/402. 移掉K位数字 👍 （双端队列）.md",
+    "Cause./Develop/00-Review/tracking/Tracking Week 11.md",
     "Cause./Develop/Concurrent/Concurrent-01 线程&进程.md",
     "Cause./Develop/Algo/algo-09 动态规划/343. 整数拆分.md",
     "Cause./Develop/Algo/algo-01 堆栈",
@@ -212,7 +184,6 @@
     "Cause./Develop/MQ/MQ-4 -存储介质比较-.md",
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "Cause./Develop/MQ/MQ-2 消息存储.md",
-    "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701235428904.png",
     "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701235142734.png",
     "Cause./Develop/00-Review/reviewing/assets",
