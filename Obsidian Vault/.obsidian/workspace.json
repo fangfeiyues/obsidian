@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/42. 接雨水.md",
+                "file": "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 349.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/42. 接雨水.md",
+                "file": "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/42. 接雨水.md",
+                "file": "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-09 动态规划/42. 接雨水.md"
+                "file": "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md"
               }
             }
           }
@@ -164,10 +165,10 @@
   },
   "active": "a4b1f13a12734144",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-09 动态规划/42. 接雨水.md",
     "Cause./Develop/Algo/algo-09 动态规划/assets/image-42. 接雨水-20240717002704891.png",
     "Cause./Develop/Algo/algo-09 动态规划/assets",
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/438. 找到字符串中所有字母的异位词.md",
-    "Cause./Develop/Algo/algo-09 动态规划/42. 接雨水.md",
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/76. 最小覆盖字符串（双指针 + Map）.md",
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针 + Flag标志）.md",
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右指针 + 二维数组）.md",
@@ -204,7 +205,6 @@
     "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701235428904.png",
     "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701235142734.png",
     "Cause./Develop/00-Review/reviewing/assets",
-    "Cause./Develop/Design/design03-scene/assets/image-01. 设计一个秒杀系统-20240701203910561.png",
     "Cause./Develop/Design/design03-scene/assets",
     "Cause./Develop/Algo/algo-08 递归回溯",
     "Cause./Develop/Algo/algo-08 二叉树",
