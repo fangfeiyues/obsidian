@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "a4b1f13a12734144",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md"
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md"
               }
             }
           }
@@ -162,8 +149,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4b1f13a12734144",
+  "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
+    "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md",
+    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/Algo/algo-02 数组/41. 缺失的第一个正数（困难）.md",
     "Cause./Develop/Algo/algo-01 堆栈/484. 寻找排列.md",
     "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
@@ -175,9 +164,7 @@
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/487. 最大连续1的个数II（左右指针 + Flag标志）.md",
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/1100. 长度为K的无重复字符子串（左右指针 + 二维数组）.md",
     "Cause./Develop/Algo/algo-04 滑动窗口 + 多指针/239. 滑动窗口最大值 👍.md",
-    "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md",
     "Cause./Develop/Algo/algo-02 数组/1198. 找出所有行中最小公共元素（二维数组搜索）.md",
-    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-16 SELF-20240716021427682.png",
     "Cause./Develop/00-Review/reviewing/2024-07-02 PDD -> Dead.md",
     "Read./2024.07.06 撒哈拉的故事（三毛）.md",
