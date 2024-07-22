@@ -4,24 +4,28 @@
 
 ### 1、Netty网络传输
 
-
 ### 2、写内存 & 刷磁盘
 
 #### CommitLog
 
-消息存储文件，所有topic消息都存储在CommitLog文件
+消息存储文件，所有 Topic 消息都存储在 CommitLog 文件
 
 - **文件结构**
+  
 	`CommitLog是RocketMQ消息存储的核心文件，所有topic消息都顺序写入文件中，默认大小为1GB，文件名由20数字组成表示文件的起始偏移量
 	`CommitLog的消息结构包括消息头（消息ID、topic、queueId等）、消息体、消息属性（延迟级别、事务相关等）、存储开销
 
-- **内存映射**
+
+- **内存映射???**
+  
 	`page cache 页面缓存：是操作系统内核维护的一个内存区域，当RocketMQ写入消息到CommitLog文件时消息数据会先写入到page cache，来提高写入速度减少磁盘IO 以及 保证顺序写入后预读
 	
 	`mmap 内存映射：RocketMQ主要通过MappedByteBuffer，直接在内存读写数据而无需读写的系统调用。
 	`利用了NIO中的 FileChannel模型 直接将磁盘上的 物理文件 映射到 用户态的内存地址。这种Mmap的方式减少了传统IO将 磁盘文件数据在 操作系统内核地址空间的缓冲区 和 用户应用程序地址空间的缓冲区 之间来回进行拷贝的性能开销，将对文件的操作转化为直接对内存地址进行操作，从而极大地提高了文件的读写效率
 
 #### 刷盘
+
+flushDiskType = ASYNC_FLUSH 默认异步刷盘
 
 - **同步刷盘**
   
@@ -43,27 +47,27 @@
 
 ### 4、HA
 
-![[MQ-2 消息存储-9.png]]
+	![[MQ-2 消息存储-9.png]]
 
 
----
 ## 存储架构
 
 ![[MQ-2 消息存储-4.png|600]]
 
 ### 1、业务处理
+
 Broker端对消息进行读取和写入逻辑，如前置检查、decode序列化、构造Response等
 
 ### 2、存储组件
+
 核心类 `DefaultMessageStore` 通过方法 `putMessage` 和 `getMessage` 完成对 CommitLog 的日志数据读写操作。另外在组件初始化时还会有 AllocateMappedFileService预分配线程、ReputMessageService 回放存储线程、HAService主从同步线程、IndexService索引文件线程等
 
-### 3、存储逻辑
-
-### 4、文件内存封装
+### 3、存储内存
 
 MappedByteBuffer 和 FileChannel 完成数据文件读写。
 
  - DirectByteBuffer
+   
 ```java
 // 开辟对外内存池
 public void init() {
@@ -81,6 +85,7 @@ public void init() {
 ```
 
  - MappedByteBuffer
+   
 ```java
 private void init(final String fileName, final int fileSize) throws IOException {
         try {
@@ -139,39 +144,45 @@ mmap的优势在于，把磁盘文件与进程虚拟地址做了映射，这样�
 #### vs NSQ ???
 
 
-## 存储细节
+## 核心逻辑
 ### 1、延迟消息
 
-- 思路
+	![[MQ-2 消息存储-1.png]]
+
+- **思路**
+  
 	Broker 将消息先存储在内存中，然后使用Timer定时器进行消息延迟，到达指定时间后再存储到磁盘，投递给消费者
-- 实现
+
+- **时间轮算法**
+  
 	1、RocketMQ 在 Broker 端使用一个时间轮来管理定时消息
 	2、时间轮的每个槽位对应一个时间间隔，比如1秒、5秒、10秒等，每次时间轮的滴答，槽位向前移动一个时间间隔
 	3、当 Broker 接收到定时消息时，根据消息的过期时间计算出需要投递的槽位，并将消息放置到对应
-	4、当时间轮的滴答达到消息的过期时间时，时间轮会将槽位中的所有消息投递给消费者
-- 时间轮算法
-	但正常的Timer定时器是有缺陷的，比如某一时刻有大量任务执行，会导致性能下降影响投递。在RocketMQ 5.0 采用一种基于`时间轮方式`。
-	其能在O(1)时间内找到下一个即将执行的任务，并且能支持更高的消息精度。详见： [[时间轮定时器算法]]
-
-![[MQ-2 消息存储-1.png|600]]
+	4、当时间轮的滴答达到消息的过期时间时，时间轮会将槽位中的所有消息投递给消费
+	
+	正常的Timer定时器是有缺陷的，比如某一时刻有大量任务执行，会导致性能下降影响投递。在RocketMQ 5.0 采用一种基于`时间轮方式`。其能在O(1)时间内找到下一个即将执行的任务，并且能支持更高的消息精度。详见： [[时间轮定时器算法]]
 
 
 ### 2、消息重试
 
--  重试场景
-	RocketMQ规定以下3种情况会发起重试
+	![[MQ-2 消息存储-2.png]]
+
+-  **重试场景**
+  
+	RocketMQ 以下3种情况会发起重试
 	1.  业务消费方返回`ConsumeConcurrentlyStatus.RECONSUME_LATER`
 	2.  业务消费方返回 null
 	3.  业务消费方主动/被动 抛出异常
--  重试流程
+
+-  **重试流程**
+  
 	1、Consumer消费的时候，会订阅指定的 `TOPIC-NOMAL_TOPIC` 和 该ConsumerGroup对应的重试`TOPIC-RETRY_GROUP1_TOPIC` ，同时消费来自这两个TOPIC的消息
 	2、Consumer消费失败后，调用`sendMessageBack`将失败消息返回Broker
 	3、Broker 的 `SendMessageProcessor` 根据当前重试次数确定延时级别，将消息存入延时队列-SCHEDULE_TOPIC中
 	4、`ScheduleMessageService` 将到期消息重发到重试队列 `RETRY_GROUP1_TOPIC` 被 Consumer 重新消费 
 
-可以对比之前的延时消息流程，其实重试消息就是将失败的消息当作延时消息进行处理，只不过最后投入的是专门的重试消息队列中
+	可以对比之前的延时消息流程，其实重试消息就是将失败的消息当作延时消息进行处理，只不过最后投入的是专门的重试消息队列中
 
-![[MQ-2 消息存储-2.png|600]]
 
 
 ### 3、消息堆积

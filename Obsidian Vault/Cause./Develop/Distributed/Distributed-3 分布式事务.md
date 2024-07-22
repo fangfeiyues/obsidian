@@ -154,17 +154,8 @@
 
 ## 落地案例
 ### RocketMQ
-消息的目的是解耦但彻底的解耦又必然带来一致性的问题
 
-![[MQ-1 消息发送.png|700]]
-
-主要步骤如下：
-1.  生产者发送 `Half` 不消费的消息（如发送失败，half -> unknow -> 删除）
-2.  服务端 Broker 存储完成后，回写给生产者
-3.  生产者调用回调方法 `TransactionListener` 执行本地方法
-4.  本地执行的结果来决定 Broker 是 `Commit` 还是 `RollBack` 消息
-5.  二次确认消息如果 Broker 没收到消息
-6.  Producer 回调 Local 确认
+[[MQ-1 消息发送#事务消息]]
 
 ### 本地消息表
 
