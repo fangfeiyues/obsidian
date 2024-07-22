@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "ce9bb5ac6550947c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/Algo/algo-03 排序/215. 数组中的第K个最大元素（快排 or 堆排）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 225.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 排序/215. 数组中的第K个最大元素（快排 or 堆排）.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 排序/215. 数组中的第K个最大元素（快排 or 堆排）.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/Algo/algo-03 排序/215. 数组中的第K个最大元素（快排 or 堆排）.md"
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md"
               }
             }
           }
@@ -162,9 +149,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce9bb5ac6550947c",
+  "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
-    "Cause./Develop/Algo/algo-03 排序/215. 数组中的第K个最大元素（快排 or 堆排）.md",
+    "Cause./Develop/Algo/algo-03 排序/215. 数组中的第K个最大元素 👍🏻👍🏻（快排 or 堆排）.md",
+    "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
     "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/Algo/algo-02 数组/189. 轮转数组.md",
     "Cause./Develop/Algo/algo-02 数组/41. 缺失的第一个正数（困难）.md",
@@ -192,13 +180,12 @@
     "Read./2024.06 八次危机（温铁军）.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704232526696.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704230916573.png",
-    "Interest./Product/2024.07.02 没想到什么，瞎聊聊吧～.md",
-    "Interest./Product/2024.04.01 聊聊飞书、企微和钉钉.md",
+    "Interest./Event/2024.07.02 没想到什么，瞎聊聊吧～.md",
+    "Interest./Event/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Untitled.canvas",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-06-28 网易云音乐一面-20240701222055701.png",
     "Cause./Develop/00-Review/reviewing/2024-06-28 WYY -> Dead.md",
-    "Cause./Develop/Algo/algo-07 TOP K/395. 至少有K个重复字符的最长子串 👍（递归回溯）.md",
     "Cause./Develop/Algo/algo-02 数组",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240702235518625.png",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240702235518625 1.png",
