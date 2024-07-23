@@ -2,7 +2,7 @@
 -  **Redis is AP or CP?**
 
 	**AP** 。Redis设计的目标是*高性能、高可扩展和高可复用性*，Redis的一致性模型是最终一致性，没法保证强一致性的原因是它分布式设计采用的是异步复制，导致节点之间存在的数据同步延迟和不一致的可能
-	[[Distributed-1  分布式基论·CAP]]
+	[[Distributed-1  分布式基论 CAP]]
 
 
 Redis集群同步的3种方式：主从、哨兵、cluster
