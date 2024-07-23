@@ -41,9 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "28e4ccabee07294f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png"
               }
             }
           }
@@ -178,11 +188,13 @@
   },
   "active": "c5cc10e6a0b18498",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
+    "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
     "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
-    "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论·CAP.md",
     "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
@@ -192,7 +204,6 @@
     "Cause./Develop/MQ/MQ-3 消息消费.md",
     "清晰定义业务职责，严格规则出入参。 `比如订单结算能力，就应该只关注「在什么时候谁给谁多少钱」的问题，而不应该在结算前后去关注分佣的状态或资金的统计.md",
     "避免大煤球式的设计，希望对外别的边界更清晰、对内部的分层更稳定.md",
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/MQ-3 消息消费.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
@@ -216,7 +227,6 @@
     "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
     "Cause./Develop/00-Review/reviewing/assets/image-2024-06-28 网易云音乐一面-20240701222055701.png",
     "Cause./Develop/Algo/algo-02 数组",
-    "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240702235518625.png",
     "Cause./Develop/00-Review/reviewing/assets",
     "Cause./Develop/Design/design03-scene/assets",
     "Cause./Develop/Algo/algo-08 递归回溯",
