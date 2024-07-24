@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 344.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +178,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5cc10e6a0b18498",
+  "active": "2e86ba43270d0d19",
   "lastOpenFiles": [
     "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
