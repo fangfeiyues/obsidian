@@ -115,7 +115,7 @@ mysql> CREATE TABLE record_format_demo (
 
 ### 5.22 使用索引
 
--  **索引查询**
+-  **0、索引查询**
   
 	1. 确定目录项记录页
 	2. 目录项 -->  真实页
@@ -144,10 +144,9 @@ mysql> CREATE TABLE record_format_demo (
 	![[image-MySQL-5 InnoDB 索引-20240602161809122.png]]
 
 
--  **分组槽 --> 具体记录**
+-  **4、分组槽 --> 具体记录**
 
 	通过记录的 `next_record` 属性遍历该槽所在的组中的各个记录
-
 
 #### 聚簇索引
 
