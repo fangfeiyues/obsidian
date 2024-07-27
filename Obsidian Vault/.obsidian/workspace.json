@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "c5cc10e6a0b18498",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "406c0e7930bcc741",
             "type": "leaf",
             "pinned": true,
@@ -76,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-1 客户端.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-1 客户端.md",
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-1 客户端.md"
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md"
               }
             }
           }
@@ -204,20 +190,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e64295c144a8178",
+  "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
+    "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
+    "Cause./Develop/MySQL/MySQL-1 客户端.md",
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
+    "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
+    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
-    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
-    "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
-    "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
     "避免大煤球式的设计，希望对外别的边界更清晰、对内部的分层更稳定.md",
     "清晰定义业务职责，严格规则出入参。 `比如订单结算能力，就应该只关注「在什么时候谁给谁多少钱」的问题，而不应该在结算前后去关注分佣的状态或资金的统计.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
