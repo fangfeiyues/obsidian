@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Interest./Event/2024.04.01 聊聊飞书、企微和钉钉.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Interest./Event/2024.04.01 聊聊飞书、企微和钉钉.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Interest./Event/2024.04.01 聊聊飞书、企微和钉钉.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md"
+                "file": "Interest./Event/2024.04.01 聊聊飞书、企微和钉钉.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
+    "Interest./Invest/2024-04.md",
+    "Interest./Invest/assets/2024-04.png",
+    "Interest./Invest/assets/image-2024-04-20240523221558014.png",
+    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
     "Cause./Develop/MySQL/MySQL-9 集群.md",
     "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
@@ -158,7 +162,6 @@
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Register/Zookeeper.md",
-    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
     "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
@@ -173,8 +176,6 @@
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/MQ/MQ-1 消息发送.md",
-    "Cause./Develop/Distributed/Distributed-1  分布式基论 CAP.md",
-    "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
     "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/MQ-3 消息消费.png",
@@ -186,8 +187,6 @@
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704232526696.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704230916573.png",
     "Untitled.canvas",
-    "Cause./Develop/00-Review/reviewing/assets/image-2024-07-02 PDD -> Dead-20240703000823254.png",
-    "Cause./Develop/00-Review/reviewing/assets/image-2024-06-28 网易云音乐一面-20240701222055701.png",
     "Cause./Develop/Algo/algo-02 数组",
     "Cause./Develop/00-Review/reviewing/assets",
     "Cause./Develop/Design/design03-scene/assets",
