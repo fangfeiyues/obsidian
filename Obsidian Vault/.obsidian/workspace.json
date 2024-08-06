@@ -8,49 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b29edfb6b3bc0e0e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "01efb9d962bfe15e",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "406c0e7930bcc741",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 312.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -180,18 +149,23 @@
   },
   "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
+    "Cause./Develop/MySQL/MySQL-9 集群.md",
+    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+    "Cause./Develop/MySQL/MySQL-3 查询.md",
+    "Cause./Develop/MySQL/MySQL-1 客户端.md",
+    "Cause./Develop/Redis/Redis-1 存储.md",
+    "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
+    "Cause./Develop/Register/Zookeeper.md",
+    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
-    "Cause./Develop/MySQL/MySQL-1 客户端.md",
-    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
-    "Cause./Develop/MySQL/MySQL-7 InnoDB 日志.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
-    "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "避免大煤球式的设计，希望对外别的边界更清晰、对内部的分层更稳定.md",
     "清晰定义业务职责，严格规则出入参。 `比如订单结算能力，就应该只关注「在什么时候谁给谁多少钱」的问题，而不应该在结算前后去关注分佣的状态或资金的统计.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
@@ -201,13 +175,8 @@
     "Cause./Develop/MQ/MQ-1 消息发送.md",
     "Cause./Develop/Distributed/Distributed-1  分布式基论 CAP.md",
     "Cause./Develop/Distributed/Distributed-5 分布式限流.md",
-    "Cause./Develop/Distributed/Distributed-4 分布式一致性算法.md",
-    "Cause./Develop/Distributed/Distributed-3 分布式事务.md",
-    "Cause./Develop/Distributed/Distributed-2 分布式锁.md",
     "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
-    "Cause./Develop/Design/design03-scene/01. 设计一个秒杀系统.md",
-    "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/MQ-3 消息消费.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
     "Cause./Develop/Algo/algo-09 动态规划/assets/image-42. 接雨水-20240717002704891.png",
