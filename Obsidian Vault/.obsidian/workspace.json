@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Interest./Point/2024.08.05 跨境这门生意.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Interest./Point/2024.08.05 跨境这门生意.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Interest./Point/2024.08.05 跨境这门生意.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md"
+                "file": "Interest./Point/2024.08.05 跨境这门生意.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "01efb9d962bfe15e",
   "lastOpenFiles": [
-    "Read./2024.07.06 撒哈拉的故事（三毛）.md",
     "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
-    "Interest./Event/2024.04.01 聊聊飞书、企微和钉钉.md",
+    "Interest./Point/2024.08.05 跨境这门生意.md",
+    "Read./2024.07.06 撒哈拉的故事（三毛）.md",
+    "Interest./Point/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Interest./Invest/2024-04.md",
     "Interest./Invest/assets/2024-04.png",
     "Interest./Invest/assets/image-2024-04-20240523221558014.png",
@@ -164,7 +165,7 @@
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Register/Zookeeper.md",
-    "Interest./Event/2024.07.22 研读二十届三中全会《决定》.md",
+    "Interest./Point/2024.07.22 研读二十届三中全会《决定》.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
     "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
@@ -176,7 +177,6 @@
     "Cause./Develop/DDD/DDD-03 战术设计.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
-    "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/MQ-3 消息消费.png",
