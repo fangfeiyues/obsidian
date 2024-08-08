@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a53e2dd14b9ee94a",
+        "id": "5ef524675dc04223",
         "type": "tabs",
         "children": [
           {
-            "id": "01efb9d962bfe15e",
+            "id": "f3c90ba4f4c72c94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interest./Point/2024.08.05 跨境这门生意.md",
+                "file": "Interest./每周产品&市场/【目录】.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5536eae18a289948",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 283.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interest./Point/2024.08.05 跨境这门生意.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interest./Point/2024.08.05 跨境这门生意.md",
+                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interest./Point/2024.08.05 跨境这门生意.md"
+                "file": "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md"
               }
             }
           }
@@ -147,14 +160,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01efb9d962bfe15e",
+  "active": "5536eae18a289948",
   "lastOpenFiles": [
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
+    "Interest./每周产品&市场/【目录】.md",
+    "Interest./每周产品&市场/2024.08.05 聊聊跨境这门生意.md",
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809000313791.png",
     "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
-    "Interest./Point/2024.08.05 跨境这门生意.md",
+    "Cause./Develop/Redis/Redis-3 分布式.md",
+    "Fighting 2024.md",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Cause./Develop/DDD/DDD-01 概况.md",
+    "Interest./一些兴趣爱好/2024-04.md",
+    "Interest./每周产品&市场/2024.07.22 研读二十届三中全会《决定》.md",
+    "Interest./事情->思考&复盘",
     "Read./2024.07.06 撒哈拉的故事（三毛）.md",
-    "Interest./Point/2024.04.01 聊聊飞书、企微和钉钉.md",
-    "Interest./Invest/2024-04.md",
-    "Interest./Invest/assets/2024-04.png",
+    "Interest./每周产品&市场/2024.04.01 聊聊飞书、企微和钉钉.md",
+    "Interest./一些兴趣爱好/assets/2024-04.png",
     "Interest./Invest/assets/image-2024-04-20240523221558014.png",
     "Cause./Develop/MySQL/MySQL-10 SQL调优.md",
     "Cause./Develop/MySQL/MySQL-9 集群.md",
@@ -165,37 +189,26 @@
     "Cause./Develop/Redis/Redis-1 存储.md",
     "Cause./Develop/Redis/Redis-0 缓存的伤寒杂病论.md",
     "Cause./Develop/Register/Zookeeper.md",
-    "Interest./Point/2024.07.22 研读二十届三中全会《决定》.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/01-Prompt Engineering.md",
-    "Cause./Develop/00-Review/reviewing/2024-07-16 BY-SELF.md",
+    "Cause./Develop/Review/reviewing/2024-07-16 BY-SELF.md",
     "Cause./Develop/MySQL/MySQL-8 InnoDB 锁.md",
-    "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
-    "Cause./Develop/MySQL/MySQL-2 存储.md",
-    "避免大煤球式的设计，希望对外别的边界更清晰、对内部的分层更稳定.md",
-    "清晰定义业务职责，严格规则出入参。 `比如订单结算能力，就应该只关注「在什么时候谁给谁多少钱」的问题，而不应该在结算前后去关注分佣的状态或资金的统计.md",
-    "Cause./Develop/DDD/DDD-03 战术设计.md",
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
-    "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/MQ-3 消息消费.png",
     "Cause./Develop/Distributed/assets/image-Distributed-3 分布式事务-20240613230434468.png",
     "Cause./Develop/Algo/algo-09 动态规划/assets/image-42. 接雨水-20240717002704891.png",
     "Cause./Develop/Algo/algo-09 动态规划/assets",
-    "Cause./Develop/00-Review/reviewing/assets/image-2024-07-16 SELF-20240716021427682.png",
+    "Cause./Develop/Review/reviewing/assets/image-2024-07-16 SELF-20240716021427682.png",
     "Cause./Develop/Algo/algo-01 堆栈",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704232526696.png",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704230916573.png",
     "Untitled.canvas",
     "Cause./Develop/Algo/algo-02 数组",
-    "Cause./Develop/00-Review/reviewing/assets",
+    "Cause./Develop/Review/reviewing/assets",
     "Cause./Develop/Design/design03-scene/assets",
     "Cause./Develop/Algo/algo-08 递归回溯",
     "Cause./Develop/Algo/algo-08 二叉树",
     "Cause./Develop/Algo/algo-07 TOP K",
-    "Cause./Develop/00-Review/tracking",
-    "Cause./Develop/Algo/algo-03 排序",
+    "Cause./Develop/Review/tracking",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
