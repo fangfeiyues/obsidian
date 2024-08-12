@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1862b1c90da4ab35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5536eae18a289948",
             "type": "leaf",
             "state": {
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,13 +174,13 @@
   },
   "active": "5536eae18a289948",
   "lastOpenFiles": [
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
+    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Interest./每周产品&市场/【目录】.md",
-    "Interest./每周产品&市场/2024.08.05 聊聊跨境这门生意.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
+    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
+    "Interest./每周产品&市场/2024.08.05 聊聊跨境这门生意.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809000313791.png",
-    "Read./2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Cause./Develop/Redis/Redis-3 分布式.md",
     "Fighting 2024.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
@@ -200,7 +212,6 @@
     "Cause./Develop/Algo/algo-09 动态规划/assets",
     "Cause./Develop/Review/reviewing/assets/image-2024-07-16 SELF-20240716021427682.png",
     "Cause./Develop/Algo/algo-01 堆栈",
-    "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240704232526696.png",
     "Untitled.canvas",
     "Cause./Develop/Algo/algo-02 数组",
     "Cause./Develop/Review/reviewing/assets",
