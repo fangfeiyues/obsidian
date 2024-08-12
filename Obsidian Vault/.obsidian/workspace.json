@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md"
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md"
               }
             }
           }
@@ -149,17 +149,17 @@
   },
   "active": "f3c90ba4f4c72c94",
   "lastOpenFiles": [
+    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
     "Cause./Develop/MySQL/MySQL-2 存储.md",
     "Cause./Develop/MySQL/MySQL-1 客户端.md",
     "Cause./Develop/MySQL/MySQL-3 查询.md",
     "Cause./Develop/MySQL/MySQL-6 InnoDB 事务.md",
-    "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Interest./产品市场/2024.08.05 聊聊跨境这门生意.md",
     "Interest./产品市场/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Interest./兴趣爱好/投资/2024-04.md",
     "Interest./兴趣爱好/投资",
-    "Interest./我的阅读/2024-08-12 如何阅读一本书.md",
+    "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
     "Interest./我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Interest./我的阅读/2024.06 八次危机（温铁军）.md",
