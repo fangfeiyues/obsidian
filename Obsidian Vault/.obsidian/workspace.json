@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md"
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md"
               }
             }
           }
@@ -149,17 +149,19 @@
   },
   "active": "c3de7cc7ce19eded",
   "lastOpenFiles": [
+    "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
+    "Interest./产品市场/2024.08.19 黑神话：悟空 ！！！.md",
+    "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
     "Cause./Develop/Design/design01-algo/时间轮定时器算法.md",
     "Cause./Develop/DDD/DDD-04 落地.md",
     "Cause./Develop/DDD/DDD-03 战术设计.md",
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/DDD-01 概况.md",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101342420.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524101136857.png",
     "Cause./Develop/DDD/assets/image-DDD-01 业务逻辑-20240524100908774.png",
     "Cause./Develop/IO/IO-01 Linux IO.md",
     "Cause./Project/2024.08.15 快速回款反欺诈风控策略.md",
-    "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
     "Cause./Project/2024.08.13 有赞寄件结算优化.md",
     "Cause./Develop/MySQL/MySQL-4 InnoDB 缓存.md",
     "Cause./Develop/MySQL/MySQL-5 InnoDB 索引.md",
@@ -180,12 +182,9 @@
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/02-Function Calling & Plugins.md",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809000313791.png",
-    "Cause./Develop/Redis/Redis-3 分布式.md",
-    "Fighting 2024.md",
     "Interest./自我救赎",
     "Interest./兴趣爱好/投资/assets/2024-04.png",
     "Interest./Invest/assets/image-2024-04-20240523221558014.png",
-    "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Cause./Develop/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Cause./Develop/MQ/assets/MQ-2 消息存储/MQ-3 消息消费.png",
     "Cause./Develop/Algo/algo-09 动态规划/assets",
