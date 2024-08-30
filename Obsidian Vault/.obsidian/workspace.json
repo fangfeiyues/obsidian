@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去.md",
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去.md"
+                "file": "Cause./Develop/DDD/DDD-02 战略设计.md"
               }
             }
           }
@@ -160,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a8e20d1ebf8c12c",
+  "active": "c3de7cc7ce19eded",
   "lastOpenFiles": [
-    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去.md",
+    "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Interest./产品市场/【目录】.md",
     "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Interest./产品市场/2024.08.19 黑神话：悟空 ！！！.md",
