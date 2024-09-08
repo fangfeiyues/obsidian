@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ae0bc9ad7bf568c7",
+        "id": "1f7bc2890796005e",
         "type": "tabs",
         "children": [
           {
-            "id": "c3de7cc7ce19eded",
+            "id": "6ed5833992c0f48e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a8e20d1ebf8c12c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cause./Develop/DDD/DDD-02 战略设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cause./Develop/DDD/DDD-02 战略设计.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,7 +139,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3de7cc7ce19eded",
+  "active": "6ed5833992c0f48e",
   "lastOpenFiles": [
     "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
