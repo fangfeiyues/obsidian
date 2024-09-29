@@ -14,14 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interest./产品市场/2024.09.23 三只羊的故事？.md",
+                "file": "Interest./产品市场/2024.09.23 从三只羊看网红故事.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1fefbcfd2e83e304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interest./产品市场/2024.09.23 三只羊的故事？.md",
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interest./产品市场/2024.09.23 三只羊的故事？.md",
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interest./产品市场/2024.09.23 三只羊的故事？.md"
+                "file": "Interest./我的阅读/2024.08.12 如何阅读一本书.md"
               }
             }
           }
@@ -149,14 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfe4df11fede028c",
+  "active": "1fefbcfd2e83e304",
   "lastOpenFiles": [
+    "Interest./产品市场/2024.09.23 从三只羊看网红故事.md",
+    "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
+    "Interest./产品市场/2024.09.24  降准降息是不是中国经济新的开始？.md",
     "Interest./产品市场/2024.08.26 拼多多H1业绩：从哪里来到哪里去？.md",
-    "Interest./产品市场/2024.09.23 三只羊的故事？.md",
     "Interest./产品市场/「说在前面」.md",
     "Interest./产品市场/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Interest./产品市场/2024.09.09 中国经济宏观困局？.md",
-    "Interest./我的阅读/2024.08.12 如何阅读一本书.md",
     "Cause./Develop/DDD/DDD-02 战略设计.md",
     "Cause./Develop/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Interest./产品市场/2024.08.19 黑神话：悟空 ！！！.md",
@@ -181,7 +195,6 @@
     "Interest./兴趣爱好/投资/2024-04.md",
     "Interest./兴趣爱好/投资",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
-    "Interest./我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Interest./我的阅读",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
     "Cause./Develop/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809000313791.png",
