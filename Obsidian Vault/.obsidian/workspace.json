@@ -35,8 +35,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
+                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md"
+                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md"
               }
             }
           }
@@ -164,12 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "acb57397a5a67f23",
+  "active": "87768880062732f0",
   "lastOpenFiles": [
+    "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Loving/我的阅读/assets/image-2024.07.15 转型中的地方政府（官员激励与治理）-20241006023150718.png",
     "Loving/我的阅读/assets",
     "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
-    "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
     "Loving/产品市场/2024.09.23 从三只羊看网红经济.md",
     "Loving/一些思考/2024.10.02 20~24年得与失的思考.md",
@@ -207,7 +206,6 @@
     "Loving/自我救赎",
     "Loving/兴趣爱好/投资之道/assets/2024-04.png",
     "Interest./Invest/assets/image-2024-04-20240523221558014.png",
-    "Doing/技术工程/Distributed/assets/image-Distributed-2 分布式锁-20240530210301679.png",
     "Doing/技术工程/Algo/algo-09 动态规划/assets",
     "Doing/技术工程/Algo/algo-01 堆栈",
     "Untitled.canvas",
