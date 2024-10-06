@@ -44,8 +44,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fbe83344f9e4f40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/产品市场/「说在前面」.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
+                "file": "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
+                "file": "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md"
+                "file": "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md"
               }
             }
           }
@@ -173,12 +186,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87768880062732f0",
+  "active": "564860c5cf654913",
   "lastOpenFiles": [
+    "Loving/产品市场/「说在前面」.md",
+    "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
     "Loving/我的阅读/2024.08.12 如何阅读一本书.md",
     "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
     "Loving/我的阅读/2024.10.07 战后日本经济史.md",
-    "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
     "Loving/我的阅读/assets/image-2024.08.12 如何阅读一本书-20241006213256283.png",
     "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Loving/产品市场/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241006180224760.png",
@@ -187,7 +201,6 @@
     "Loving/我的阅读/assets",
     "Loving/产品市场/2024.09.23 从三只羊看网红经济.md",
     "Loving/一些思考/2024.10.02 20~24年得与失的思考.md",
-    "Loving/产品市场/「说在前面」.md",
     "Loving/一些思考/2024.10.01 优与劣的思考ing.md",
     "Loving/兴趣爱好/投资之道/2024-04.md",
     "Loving/一些思考/assets/image-2024.10.01 差与优-20241002004830425.png",
