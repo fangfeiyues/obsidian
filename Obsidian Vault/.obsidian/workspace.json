@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loving/我的阅读/2024.10.07 战后日本经济史.md",
+                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loving/我的阅读/2024.10.07 战后日本经济史.md",
+                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/我的阅读/2024.10.07 战后日本经济史.md"
+                "file": "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md"
               }
             }
           }
@@ -186,13 +185,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "acb57397a5a67f23",
+  "active": "87768880062732f0",
   "lastOpenFiles": [
+    "Loving/产品市场/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
+    "Loving/我的阅读/2024.10.07 战后日本经济史.md",
     "Loving/我的阅读/2024.08.12 如何阅读一本书.md",
     "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
     "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
     "Loving/产品市场/「说在前面」.md",
-    "Loving/我的阅读/2024.10.07 战后日本经济史.md",
     "Loving/我的阅读/assets/image-2024.08.12 如何阅读一本书-20241006213256283.png",
     "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
     "Loving/产品市场/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241006180224760.png",
@@ -225,7 +225,6 @@
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524100908774.png",
     "Doing/技术工程/IO/IO-01 Linux IO.md",
     "Doing/技术工程/MySQL/MySQL-4 InnoDB 缓存.md",
-    "Doing/技术工程/MySQL/MySQL-5 InnoDB 索引.md",
     "Loving/兴趣爱好/投资之道",
     "Loving/我的阅读",
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
