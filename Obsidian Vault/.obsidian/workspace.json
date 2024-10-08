@@ -20,42 +20,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "acb57397a5a67f23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loving/我的阅读/2024.10.07 战后日本经济史.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "564860c5cf654913",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fbe83344f9e4f40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loving/产品市场/「说在前面」.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -187,11 +151,11 @@
   },
   "active": "87768880062732f0",
   "lastOpenFiles": [
-    "Loving/产品市场/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
     "Loving/我的阅读/2024.10.07 战后日本经济史.md",
-    "Loving/我的阅读/2024.08.12 如何阅读一本书.md",
-    "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
     "Loving/产品市场/2024.10.04 看懂伊朗看懂中东.md",
+    "Loving/产品市场/2024.09.24 从降准降息看这一轮牛市？.md",
+    "Loving/产品市场/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
+    "Loving/我的阅读/2024.08.12 如何阅读一本书.md",
     "Loving/产品市场/「说在前面」.md",
     "Loving/我的阅读/assets/image-2024.08.12 如何阅读一本书-20241006213256283.png",
     "Loving/我的阅读/2024.07.15 转型中的地方政府（官员激励与治理）.md",
@@ -228,7 +192,6 @@
     "Loving/兴趣爱好/投资之道",
     "Loving/我的阅读",
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
-    "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809000313791.png",
     "Loving/自我救赎",
     "Doing/技术工程/Algo/algo-09 动态规划/assets",
     "Doing/技术工程/Algo/algo-01 堆栈",
