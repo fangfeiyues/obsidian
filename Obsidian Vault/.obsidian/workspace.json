@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/每周学习/2024.10.07 两河流域怎么孕育的中华民族.md",
+                "file": "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "b0ec2188d6973640",
+            "id": "af58fa4a485054ef",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/每周学习/「说在前面」.md",
+                "file": "Loving/阅读&思考/2024.10.07 战后日本经济史.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loving/每周学习/「说在前面」.md",
+                "file": "Loving/阅读&思考/2024.10.07 战后日本经济史.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loving/每周学习/「说在前面」.md",
+                "file": "Loving/阅读&思考/2024.10.07 战后日本经济史.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/每周学习/「说在前面」.md"
+                "file": "Loving/阅读&思考/2024.10.07 战后日本经济史.md"
               }
             }
           }
@@ -162,12 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0ec2188d6973640",
+  "active": "af58fa4a485054ef",
   "lastOpenFiles": [
-    "Loving/每周学习/2024.10.07 两河流域怎么孕育的中华民族.md",
+    "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
+    "Loving/每周学习/「说在前面」.md",
     "Loving/每周学习/2024.09.30 看懂伊朗看懂中东.md",
     "Loving/规划安排/日作息的规划.md",
-    "Loving/每周学习/「说在前面」.md",
     "Loving/每周学习/2024.09.24 从降准降息看这一轮牛市？.md",
     "Loving/规划安排.md",
     "Loving/规划安排",
@@ -181,12 +183,12 @@
     "Loving/阅读&思考/assets/image-2024.07.15 转型中的地方政府（官员激励与治理）-20241006023150718.png",
     "Loving/阅读&思考/assets",
     "Loving/每周学习/2024.09.23 从三只羊看网红经济.md",
-    "Loving/一些思考/2024.10.02 20~24年得与失的思考.md",
-    "Loving/一些思考/2024.10.01 优与劣的思考ing.md",
+    "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
+    "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
     "Loving/兴趣爱好/投资之道/2024-04.md",
     "Loving/一些思考/assets/image-2024.10.01 差与优-20241002004830425.png",
-    "Loving/一些思考/assets",
-    "Loving/一些思考",
+    "Loving/一些想法/assets",
+    "Loving/一些想法",
     "Doing/Project/2024.08.15 快速回款反欺诈风控策略.md",
     "Doing/Project/2024.08.13 有赞寄件结算优化.md",
     "Loving/阅读&思考/2024.07.06 撒哈拉的故事（三毛）.md",
