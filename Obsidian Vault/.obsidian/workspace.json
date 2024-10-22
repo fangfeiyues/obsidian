@@ -46,8 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a0375cdc493d549",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/阅读&思考/2024.10.21 大冰的书.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
+                "file": "Loving/阅读&思考/2024.10.21 大冰的书.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
+                "file": "Loving/阅读&思考/2024.10.21 大冰的书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md"
+                "file": "Loving/阅读&思考/2024.10.21 大冰的书.md"
               }
             }
           }
@@ -175,11 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce1bc29d83186530",
+  "active": "1a0375cdc493d549",
   "lastOpenFiles": [
+    "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
+    "Loving/阅读&思考/2024.10.21 大冰的书.md",
     "Loving/阅读&思考/2024.10.07 野口悠纪雄 * 日本战后经济史.md",
     "Loving/阅读&思考/2024.10.14 荜路维艰.md",
-    "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
     "Loving/阅读&思考/2024.04 毛泽东选集一.md",
     "Loving/阅读&思考/2024.05 置身之内.md",
     "Loving/每周学习/「说在前面」.md",
@@ -213,7 +227,6 @@
     "Doing/技术工程/DDD/DDD-02 战略设计.md",
     "Doing/技术工程/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Loving/每周学习/2024.08.19 黑神话：悟空 ！！！.md",
-    "Doing/技术工程/Design/design01-algo/时间轮定时器算法.md",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101342420.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101136857.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524100908774.png",
