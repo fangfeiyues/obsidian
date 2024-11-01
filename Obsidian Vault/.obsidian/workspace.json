@@ -40,13 +40,13 @@
             }
           },
           {
-            "id": "f6526f47d3c906b4",
+            "id": "1036d525dfb0b34a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/每周学习/2024.10.21 马斯克与共和党.md",
+                "file": "Loving/每周观察/2024.10.21 马斯克与共和党.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,8 @@
               "title": "2024.10.21 马斯克与共和党"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,30 +198,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af58fa4a485054ef",
+  "active": "683255d2eb7eca30",
   "lastOpenFiles": [
     "Loving/阅读&思考/2024.10.14 荜路维艰.md",
-    "Loving/每周学习/2024.10.21 马斯克与共和党.md",
-    "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
-    "Loving/每周学习/2024.09.30 看懂伊朗看懂中东.md",
+    "Loving/兴趣爱好/德扑",
     "Loving/阅读&思考/2024.10.07 野口悠纪雄 * 日本战后经济史.md",
+    "Loving/每周观察/2024.10.21 马斯克与共和党.md",
+    "Loving/每周观察/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
+    "Loving/每周观察/2024.09.30 看懂伊朗看懂中东.md",
     "Loving/阅读&思考/2024.10.21 大冰的书.md",
     "Loving/阅读&思考/2024.04 毛泽东选集一.md",
     "Loving/阅读&思考/2024.05 置身之内.md",
-    "Loving/每周学习/「说在前面」.md",
+    "Loving/每周观察/「说在前面」.md",
     "Loving/规划安排/日作息的规划.md",
-    "Loving/每周学习/2024.09.24 从降准降息看这一轮牛市？.md",
+    "Loving/每周观察/2024.09.24 从降准降息看这一轮牛市？.md",
     "Loving/规划安排.md",
     "Loving/规划安排",
-    "Loving/每周学习/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
+    "Loving/每周观察/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
     "Loving/阅读&思考/2024.08.12 如何阅读一本书.md",
     "Loving/阅读&思考/assets/image-2024.08.12 如何阅读一本书-20241006213256283.png",
     "Loving/阅读&思考/2024.07.15 转型中的地方政府（官员激励与治理）.md",
-    "Loving/每周学习/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241006180224760.png",
-    "Loving/每周学习/assets",
+    "Loving/每周观察/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241006180224760.png",
+    "Loving/每周观察/assets",
     "Loving/阅读&思考/assets/image-2024.07.15 转型中的地方政府（官员激励与治理）-20241006023150718.png",
     "Loving/阅读&思考/assets",
-    "Loving/每周学习/2024.09.23 从三只羊看网红经济.md",
+    "Loving/每周观察/2024.09.23 从三只羊看网红经济.md",
     "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
     "Loving/兴趣爱好/投资之道/2024-04.md",
@@ -231,10 +233,9 @@
     "Doing/Project/2024.08.13 有赞寄件结算优化.md",
     "Loving/阅读&思考/2024.07.06 撒哈拉的故事（三毛）.md",
     "Loving/阅读&思考/2024.06 八次危机（温铁军）.md",
-    "Loving/每周学习/2024.08.26 拼多多H1业绩：从哪里来到哪里去？.md",
-    "Loving/每周学习/2024.09.09 中国经济宏观困局？.md",
-    "Loving/每周学习/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
-    "Doing/技术工程/DDD/DDD-02 战略设计.md",
+    "Loving/每周观察/2024.08.26 拼多多H1业绩：从哪里来到哪里去？.md",
+    "Loving/每周观察/2024.09.09 中国经济宏观困局？.md",
+    "Loving/每周观察/2024.05.26 为什么拼多多的业绩如此炸裂？.md",
     "Doing/技术工程/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101342420.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101136857.png",
@@ -244,7 +245,6 @@
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
     "Loving/自我救赎",
     "Doing/技术工程/Algo/algo-09 动态规划/assets",
-    "Doing/技术工程/Algo/algo-01 堆栈",
     "Untitled.canvas",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
