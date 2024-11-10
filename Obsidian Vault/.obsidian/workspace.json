@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "学习记录"
             }
+          },
+          {
+            "id": "6d350ed5e2fedd8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/阅读&思考/2024.10.14 荜路维艰.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.10.14 荜路维艰"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6480be927636896c",
+  "active": "6d350ed5e2fedd8c",
   "lastOpenFiles": [
-    "Loving/阅读&思考/2024.10.14 荜路维艰.md",
     "Loving/兴趣爱好/德扑/学习记录.md",
+    "Loving/阅读&思考/2024.10.14 荜路维艰.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
     "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/兴趣爱好/投资/2024-11-05 周二.md",
