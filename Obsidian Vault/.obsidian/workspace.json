@@ -8,22 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6480be927636896c",
+            "id": "6d350ed5e2fedd8c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/兴趣爱好/德扑/学习记录.md",
+                "file": "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "学习记录"
+              "title": "2024.10.21 马斯克与共和党 and 中与美"
             }
           },
           {
-            "id": "6d350ed5e2fedd8c",
+            "id": "aced964cc3eb5e53",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/每周观察/2024.11.11 《SaaS工作手册2.0》读感~.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2024.11.11 《SaaS工作手册2.0》读感~"
+            }
+          },
+          {
+            "id": "2244ae19fa459b2d",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -31,12 +50,13 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "2024.10.14 荜路维艰"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 372.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -178,17 +198,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d350ed5e2fedd8c",
+  "active": "2244ae19fa459b2d",
   "lastOpenFiles": [
-    "Loving/兴趣爱好/德扑/学习记录.md",
+    "Loving/每周观察/2024.11.11 《SaaS工作手册2.0》读感~.md",
+    "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
+    "Loving/每周观察/2024.11.04 投资小得.md",
     "Loving/阅读&思考/2024.10.14 荜路维艰.md",
+    "Loving/兴趣爱好/德扑/学习记录.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
     "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/兴趣爱好/投资/2024-11-05 周二.md",
     "Loving/兴趣爱好/投资/2024-11-04 周一.md",
     "Loving/兴趣爱好/投资/2024-04.md",
     "Loving/兴趣爱好/股市/Untitled",
-    "Loving/每周观察/2024.10.21 马斯克与共和党.md",
     "Loving/兴趣爱好/德扑",
     "Loving/阅读&思考/2024.10.07 野口悠纪雄 * 日本战后经济史.md",
     "Loving/每周观察/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
@@ -216,8 +238,6 @@
     "Doing/Project/2024.08.15 快速回款反欺诈风控策略.md",
     "Doing/Project/2024.08.13 有赞寄件结算优化.md",
     "Loving/阅读&思考/2024.07.06 撒哈拉的故事（三毛）.md",
-    "Loving/阅读&思考/2024.06 八次危机（温铁军）.md",
-    "Loving/每周观察/2024.08.26 拼多多H1业绩：从哪里来到哪里去？.md",
     "Doing/技术工程/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101342420.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101136857.png",
