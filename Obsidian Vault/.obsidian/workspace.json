@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d350ed5e2fedd8c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2024.10.21 马斯克与共和党 and 中与美"
-            }
-          },
-          {
             "id": "aced964cc3eb5e53",
             "type": "leaf",
             "pinned": true,
@@ -53,6 +37,22 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "2024.10.14 荜路维艰"
+            }
+          },
+          {
+            "id": "7e5b5496791467d3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/每周观察/2024.11.04 投资小得.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2024.11.04 投资小得"
             }
           }
         ],
@@ -198,11 +198,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2244ae19fa459b2d",
+  "active": "7e5b5496791467d3",
   "lastOpenFiles": [
     "Loving/每周观察/2024.11.11 《SaaS工作手册2.0》读感~.md",
-    "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
     "Loving/每周观察/2024.11.04 投资小得.md",
+    "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
     "Loving/阅读&思考/2024.10.14 荜路维艰.md",
     "Loving/兴趣爱好/德扑/学习记录.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
