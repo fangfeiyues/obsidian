@@ -54,6 +54,36 @@
               "icon": "lucide-file",
               "title": "2024.11.04 投资小得"
             }
+          },
+          {
+            "id": "3cbc4a3ecc2b9de8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/每周观察/2024.11.15 回顾2018：中美贸易战.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2024.11.15 回顾2018：中美贸易战"
+            }
+          },
+          {
+            "id": "f7801c2aa0f898a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/一些想法/2024.11.17 伴侣关系.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024.11.17 伴侣关系"
+            }
           }
         ],
         "currentTab": 2
@@ -112,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 301.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -200,12 +231,14 @@
   },
   "active": "7e5b5496791467d3",
   "lastOpenFiles": [
-    "Loving/每周观察/2024.11.11 《SaaS工作手册2.0》读感~.md",
+    "Loving/一些想法/2024.11.17 伴侣关系.md",
     "Loving/每周观察/2024.11.04 投资小得.md",
-    "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
     "Loving/阅读&思考/2024.10.14 荜路维艰.md",
-    "Loving/兴趣爱好/德扑/学习记录.md",
+    "Loving/每周观察/2024.11.11 《SaaS工作手册2.0》读感~.md",
+    "Loving/每周观察/2024.11.15 回顾2018：中美贸易战.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
+    "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
+    "Loving/兴趣爱好/德扑/学习记录.md",
     "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/兴趣爱好/投资/2024-11-05 周二.md",
     "Loving/兴趣爱好/投资/2024-11-04 周一.md",
@@ -236,8 +269,6 @@
     "Loving/一些想法/assets",
     "Loving/一些想法",
     "Doing/Project/2024.08.15 快速回款反欺诈风控策略.md",
-    "Doing/Project/2024.08.13 有赞寄件结算优化.md",
-    "Loving/阅读&思考/2024.07.06 撒哈拉的故事（三毛）.md",
     "Doing/技术工程/DDD/assets/image-DDD-02 战略设计-20240428160754907.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101342420.png",
     "Doing/技术工程/DDD/assets/image-DDD-01 业务逻辑-20240524101136857.png",
