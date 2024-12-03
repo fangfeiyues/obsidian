@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/每周观察/2024.11.18  Q3 阿里&拼多多&腾讯&美团... 财报解读.md",
+                "file": "Loving/每周学习/2024.11.30 Q3 阿里&拼多多&腾讯&美团... 财报解读.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2024.11.18  Q3 阿里&拼多多&腾讯&美团... 财报解读"
+              "title": "2024.11.30 Q3 阿里&拼多多&腾讯&美团... 财报解读"
             }
           },
           {
@@ -40,37 +40,21 @@
             }
           },
           {
-            "id": "1a68d46e7e9584e1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loving/每周观察/2024.11.25 AI 到底在干嘛啊？我真是服了！！！.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2024.11.25 AI 到底在干嘛啊？我真是服了！！！"
-            }
-          },
-          {
-            "id": "6146cbad34127d7f",
+            "id": "48d79641c885f55a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/每周观察/2024.11.15 回顾2018：中美贸易战.md",
+                "file": "Loving/生活启示录/二零二四年十二月.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024.11.15 回顾2018：中美贸易战"
+              "title": "二零二四年十二月"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,17 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6146cbad34127d7f",
+  "active": "48d79641c885f55a",
   "lastOpenFiles": [
-    "Loving/每周观察/2024.11.25 AI 到底在干嘛啊？我真是服了！！！.md",
-    "Loving/每周观察/2024.11.18  Q3 阿里&拼多多&腾讯&美团... 财报解读.md",
     "Loving/阅读&思考/2024.10.14 荜路维艰.md",
+    "Loving/生活启示录/二零二四年十二月.md",
+    "Loving/生活启示录",
+    "Loving/每周学习/2024.11.25 AI 到底在干嘛啊？我真是服了！！！.md",
+    "Loving/每周学习/2024.11.30 Q3 阿里&拼多多&腾讯&美团... 财报解读.md",
+    "Loving/每周学习/2024.11.15 回顾2018：中美贸易战.md",
     "Loving/阅读&思考/2024.11.20 风云录二零二三.md",
     "Loving/阅读&思考/2024.10.21 大冰的书.md",
     "Loving/阅读&思考/2024.10.07 日本战后经济史.md",
-    "Loving/每周观察/2024.11.15 回顾2018：中美贸易战.md",
-    "Loving/每周观察/2024.11.11 《SaaS工作手册2.0》读感~.md",
-    "Loving/每周观察/2024.11.04 投资小得.md",
+    "Loving/每周学习/2024.11.11 《SaaS工作手册2.0》读感~.md",
+    "Loving/每周学习/2024.11.04 投资小得.md",
     "Loving/一些想法/2024.11.17 伴侣关系.md",
     "Loving/阅读&思考/2024.08.12 如何阅读一本书.md",
     "Loving/阅读&思考/2024.07.15 转型中的地方政府（官员激励与治理）.md",
@@ -231,7 +217,7 @@
     "Loving/阅读&思考/2024.05 置身之内.md",
     "Loving/阅读&思考/2024.04 毛泽东选集一.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
-    "Loving/每周观察/2024.10.21 马斯克与共和党 and 中与美.md",
+    "Loving/每周学习/2024.10.21 马斯克与共和党 and 中与美.md",
     "Loving/兴趣爱好/德扑/学习记录.md",
     "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/兴趣爱好/投资/2024-11-05 周二.md",
@@ -239,14 +225,13 @@
     "Loving/兴趣爱好/投资/2024-04.md",
     "Loving/兴趣爱好/股市/Untitled",
     "Loving/兴趣爱好/德扑",
-    "Loving/每周观察/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
-    "Loving/每周观察/2024.09.30 看懂伊朗看懂中东.md",
-    "Loving/每周观察/「说在前面」.md",
+    "Loving/每周学习/2024.10.07  解读2024.10.12财政部一揽子增量政策.md",
+    "Loving/每周学习/2024.09.30 看懂伊朗看懂中东.md",
     "Loving/规划安排",
-    "Loving/每周观察/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
+    "Loving/每周学习/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241007233744897.png",
     "Loving/阅读&思考/assets/image-2024.08.12 如何阅读一本书-20241006213256283.png",
-    "Loving/每周观察/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241006180224760.png",
-    "Loving/每周观察/assets",
+    "Loving/每周学习/assets/image-2024.09.24 从降准降息看这一轮牛市？-20241006180224760.png",
+    "Loving/每周学习/assets",
     "Loving/阅读&思考/assets/image-2024.07.15 转型中的地方政府（官员激励与治理）-20241006023150718.png",
     "Loving/阅读&思考/assets",
     "Loving/一些思考/assets/image-2024.10.01 差与优-20241002004830425.png",
@@ -259,7 +244,6 @@
     "Loving/兴趣爱好/投资",
     "Loving/阅读&思考",
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/assets/image-03-LangChain-20240809002126086.png",
-    "Loving/自我救赎",
     "Untitled.canvas",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
