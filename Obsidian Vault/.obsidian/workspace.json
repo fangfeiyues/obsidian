@@ -10,18 +10,37 @@
           {
             "id": "b5963c39d5b47f30",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/阅读&思考/2024.11.20 风云录二零二三.md",
+                "file": "Loving/每周学习/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "2024.11.20 风云录二零二三"
+              "title": "2024.12.16 从「稳健」到「适度宽松」的货币政策"
+            }
+          },
+          {
+            "id": "e6639c69a0faaec6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/阅读&思考/2024.12.16 M型社会（中产阶级消失的危机与商机）.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2024.12.16 M型社会（中产阶级消失的危机与商机）"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,9 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5963c39d5b47f30",
+  "active": "e6639c69a0faaec6",
   "lastOpenFiles": [
     "Loving/每周学习/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
+    "Loving/阅读&思考/2024.12.16 M型社会（中产阶级消失的危机与商机）.md",
+    "Loving/阅读&思考/2024.11.20 风云录二零二三.md",
+    "Loving/阅读&思考/2024.10.21 大冰的书.md",
     "Loving/每周学习/2024.12.02 付鹏 & 高善文～中国经济的风险与机遇.md",
     "Loving/每周学习/2024.12.09 中东之叙利亚.md",
     "Loving/每周学习/assets/image-2024.12.09 中东之叙利亚-20241209200301705.png",
@@ -183,8 +205,6 @@
     "Loving/生活启示录",
     "Loving/每周学习/2024.11.25 AI 到底在干嘛啊？我真是服了！！！.md",
     "Loving/每周学习/2024.11.15 回顾2018：中美贸易战.md",
-    "Loving/阅读&思考/2024.11.20 风云录二零二三.md",
-    "Loving/阅读&思考/2024.10.21 大冰的书.md",
     "Loving/阅读&思考/2024.10.07 日本战后经济史.md",
     "Loving/每周学习/2024.11.11 《SaaS工作手册2.0》读感~.md",
     "Loving/每周学习/2024.11.04 投资小得.md",
@@ -200,7 +220,6 @@
     "Loving/兴趣爱好/德扑/学习记录.md",
     "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/兴趣爱好/投资/2024-11-05 周二.md",
-    "Loving/兴趣爱好/投资/2024-11-04 周一.md",
     "Loving/兴趣爱好/股市/Untitled",
     "Loving/兴趣爱好/德扑",
     "Loving/规划安排",
