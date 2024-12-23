@@ -42,6 +42,7 @@
           {
             "id": "5e4151aa7ef59b3d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -49,12 +50,13 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "2024.12.20 电商私域&微信小店送礼"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +198,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e4151aa7ef59b3d",
+  "active": "e6639c69a0faaec6",
   "lastOpenFiles": [
     "Loving/每周学习/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
     "Loving/每周学习/2024.12.20 电商私域&微信小店送礼.md",
