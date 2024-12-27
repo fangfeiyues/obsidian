@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5963c39d5b47f30",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loving/每周学习/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2024.12.16 从「稳健」到「适度宽松」的货币政策"
-            }
-          },
-          {
             "id": "e6639c69a0faaec6",
             "type": "leaf",
             "pinned": true,
@@ -53,6 +37,20 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "2024.12.20 电商私域 & 微信小店送礼"
+            }
+          },
+          {
+            "id": "c0ff0867374bac52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/兴趣爱好/投资/2024-11 第一周.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11 第一周"
             }
           }
         ],
@@ -198,8 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e4151aa7ef59b3d",
+  "active": "c0ff0867374bac52",
   "lastOpenFiles": [
+    "Loving/兴趣爱好/投资/2024-11-05 周二.md",
+    "Loving/兴趣爱好/投资/2024-11 第一周.md",
+    "Loving/兴趣爱好/投资/2024-04.md",
     "Loving/阅读&思考/2024.12.16 M型社会（中产阶级消失的危机与商机）.md",
     "Loving/每周学习/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
     "Loving/每周学习/2024.12.20 电商私域 & 微信小店送礼.md",
@@ -233,9 +234,6 @@
     "Loving/阅读&思考/2024.05 置身之内.md",
     "Loving/阅读&思考/2024.04 毛泽东选集一.md",
     "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
-    "Loving/每周学习/2024.10.21 马斯克与共和党 and 中与美.md",
-    "Loving/兴趣爱好/德扑/学习记录.md",
-    "Loving/一些想法/2024.10.02 20~24年得与失的思考.md",
     "Loving/兴趣爱好/股市/Untitled",
     "Loving/兴趣爱好/德扑",
     "Loving/规划安排",
