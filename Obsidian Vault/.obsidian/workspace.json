@@ -40,17 +40,17 @@
             }
           },
           {
-            "id": "c0ff0867374bac52",
+            "id": "f9401cdb0236b723",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/兴趣爱好/投资/2024-11 第一周.md",
+                "file": "Loving/兴趣爱好/投资/2024.12 第四周.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11 第一周"
+              "title": "2024.12 第四周"
             }
           }
         ],
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 339.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -196,14 +196,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0ff0867374bac52",
+  "active": "f9401cdb0236b723",
   "lastOpenFiles": [
-    "Loving/兴趣爱好/投资/2024-11-05 周二.md",
-    "Loving/兴趣爱好/投资/2024-11 第一周.md",
+    "Loving/兴趣爱好/投资/2024.11 第一周.md",
+    "Loving/兴趣爱好/投资/2024.12 第四周.md",
     "Loving/兴趣爱好/投资/2024-04.md",
+    "Loving/每周学习/2024.12.20 电商私域 & 微信小店送礼.md",
+    "Loving/兴趣爱好/投资/2024-11-05 周二.md",
     "Loving/阅读&思考/2024.12.16 M型社会（中产阶级消失的危机与商机）.md",
     "Loving/每周学习/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
-    "Loving/每周学习/2024.12.20 电商私域 & 微信小店送礼.md",
     "Loving/阅读&思考/2024.11.20 风云录二零二三.md",
     "Loving/阅读&思考/2024.10.21 大冰的书.md",
     "Loving/每周学习/2024.12.02 付鹏 & 高善文～中国经济的风险与机遇.md",
@@ -233,7 +234,6 @@
     "Loving/阅读&思考/2024.06 八次危机（温铁军）.md",
     "Loving/阅读&思考/2024.05 置身之内.md",
     "Loving/阅读&思考/2024.04 毛泽东选集一.md",
-    "Loving/一些想法/2024.10.01 优与劣的思考ing.md",
     "Loving/兴趣爱好/股市/Untitled",
     "Loving/兴趣爱好/德扑",
     "Loving/规划安排",
