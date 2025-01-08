@@ -39,7 +39,8 @@
               "title": "2025.01.06 DeepSeek"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,13 +182,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fedd445530e46df",
+  "active": "edf30225199c0d8c",
   "lastOpenFiles": [
-    "Loving/01-每周学习/2025.01.06 DeepSeek.md",
-    "Loving/05-规划安排/作息规划 2025-01.md",
     "Loving/05-规划安排/OKR 2025.md",
-    "Loving/02-阅读/2024.12.16 M型社会（中产阶级消失的危机与商机）.md",
+    "Loving/01-每周学习/2025.01.06 DeepSeek.md",
     "Loving/03-兴趣爱好/投资/202501 新年第一割.md",
+    "Loving/05-规划安排/作息规划 2025-01.md",
+    "Loving/02-阅读/2024.12.16 M型社会（中产阶级消失的危机与商机）.md",
     "Loving/03-兴趣爱好/投资/2014/2024-04.md",
     "Loving/03-兴趣爱好/投资/2014",
     "Doing/技术工程/MQ/MQ-1 消息发送.md",
