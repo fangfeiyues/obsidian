@@ -22,8 +22,25 @@
               "icon": "lucide-file",
               "title": "202502 第一割"
             }
+          },
+          {
+            "id": "1b35051c3bcf0f96",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loving/02-阅读/2025.01.06 M型社会（中产阶级消失的危机与商机）.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2025.01.06 M型社会（中产阶级消失的危机与商机）"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,10 +182,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b76567903dbc3706",
+  "active": "1b35051c3bcf0f96",
   "lastOpenFiles": [
-    "Loving/05-规划安排/OKR 2025.md",
     "Loving/03-兴趣爱好/投资/202502 第一割.md",
+    "Loving/05-规划安排/OKR 2025.md",
     "Loving/02-阅读/2025.01.06 M型社会（中产阶级消失的危机与商机）.md",
     "Loving/02-阅读/2024/2024.04 毛泽东选集一.md",
     "Loving/02-阅读/2024",
