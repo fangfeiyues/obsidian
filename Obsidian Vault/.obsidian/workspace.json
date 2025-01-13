@@ -173,10 +173,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/每周学习/2024.10.21 马斯克与共和党.md"
+                "file": "Doing/技术工程/AI/AI-02 极客时间AI大模型.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024.10.21 马斯克与共和党"
+              "title": "Outline of AI-02 极客时间AI大模型"
             }
           }
         ],
@@ -184,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {

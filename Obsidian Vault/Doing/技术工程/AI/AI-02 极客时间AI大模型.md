@@ -5,10 +5,7 @@
 1.  Complete 可以让模型根据你的输入自动续写
 2.  Embedding 可以将你输入的文本转化成向量
 
-
 ### Complete
-
-
 
 
 ### Embedding
