@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Loving/05-规划安排/2025 OKR.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
