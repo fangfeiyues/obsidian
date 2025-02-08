@@ -38,9 +38,23 @@
               "icon": "lucide-file",
               "title": "2025.01.22 历史大脉络 许倬云"
             }
+          },
+          {
+            "id": "4aa1f97c1ad0b8c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doing/技术工程/AI/AI-02 极客时间AI大模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI-02 极客时间AI大模型"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -182,10 +197,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3178a772f9cb59ad",
+  "active": "4aa1f97c1ad0b8c2",
   "lastOpenFiles": [
-    "Loving/05-规划安排/2025 OKR.md",
     "Loving/02-阅读/2025.01.22 历史大脉络 许倬云.md",
+    "Loving/02-阅读/assets/image-2025.01.22 历史大脉络 许倬云-20250209000520885.png",
+    "Loving/02-阅读/assets",
+    "Loving/05-规划安排/2025 OKR.md",
     "Loving/02-阅读/2025.01.06 M 型社会，中产阶级消失的危机与商机.md",
     "Loving/03-兴趣爱好/投资/2025.01.22 未知风险袭来...md",
     "Loving/03-兴趣爱好/投资/2025.01.11 单日最大回撤.md",
@@ -215,7 +232,6 @@
     "Loving/01-每周学习/year-2024/2024.04.01 聊聊飞书、企微和钉钉.md",
     "Loving/01-每周学习/year-2024",
     "Loving/01-每周学习/year-2024/2024.12.20 电商私域 & 微信小店送礼.md",
-    "Loving/兴趣爱好/投资/2024-11-05 周二.md",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.09 中东之叙利亚-20241209200301705.png",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205203005381.png",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205202654729.png",
@@ -223,13 +239,11 @@
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205200502391.png",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205200330151.png",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205200318543.png",
-    "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241204215428103.png",
     "Loving/04-启示录",
     "Loving/兴趣爱好/股市/Untitled",
     "Loving/03-兴趣爱好/德扑",
     "Loving/05-规划安排",
     "Loving/01-每周学习/year-2024/assets",
-    "Loving/02-阅读/2024/assets",
     "Untitled.canvas",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
