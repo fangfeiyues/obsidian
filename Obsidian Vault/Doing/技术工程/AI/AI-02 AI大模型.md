@@ -25,8 +25,11 @@
 
 ### LangChain
 
-LangChain开源库
+LangChain 开源库
 
+LLMChain 对 LangChain 多步的封装
+
+![[image-AI-02 AI大模型-20250209155600840.png|600]]
 
 
 
