@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/02-阅读/2025.02.10 中国历代政治得失.md",
+                "file": "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2025.02.10 中国历代政治得失"
+              "title": "2025.02.10 中国历代政治得失 钱穆"
             }
           },
           {
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doing/技术工程/AI/AI-02 AI大模型.md"
+                "file": "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AI-02 AI大模型"
+              "title": "Outline of 2025.02.10 中国历代政治得失 钱穆"
             }
           }
         ],
@@ -196,14 +196,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32da89453c928177",
+  "active": "218aa8067370c7ce",
   "lastOpenFiles": [
+    "Doing/技术工程/AI/AI-02 AI大模型.md",
+    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Doing/技术工程/AI/assets/image-AI-02 AI大模型-20250210205940439.png",
-    "Loving/02-阅读/2025.02.10 中国历代政治得失.md",
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
     "Loving/05-规划安排/2025 OKR.md",
     "Loving/02-阅读/2025.01.22 历史大脉络 许倬云.md",
-    "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Loving/05-规划安排/2025 作息规划.md",
     "Doing/技术工程/AI/assets/image-AI-02 AI大模型-20250209155600840.png",
     "Doing/技术工程/AI/assets",
@@ -239,7 +239,6 @@
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205202654729.png",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205200511613.png",
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205200502391.png",
-    "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205200330151.png",
     "Loving/04-启示录",
     "Loving/兴趣爱好/股市/Untitled",
     "Loving/03-兴趣爱好/德扑",
