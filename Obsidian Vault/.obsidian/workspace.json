@@ -42,6 +42,23 @@
           {
             "id": "32da89453c928177",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Doing/技术工程/AI/DeepSeek.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "DeepSeek"
+            }
+          },
+          {
+            "id": "b602af96efae0c49",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -49,12 +66,13 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "AI-02 AI大模型"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -172,10 +190,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md"
+                "file": "Doing/技术工程/AI/AI-02 AI大模型.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025.02.10 中国历代政治得失 钱穆"
+              "title": "Outline of AI-02 AI大模型"
             }
           }
         ],
@@ -196,13 +214,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "218aa8067370c7ce",
+  "active": "b602af96efae0c49",
   "lastOpenFiles": [
-    "Doing/技术工程/AI/AI-02 AI大模型.md",
+    "Doing/技术工程/AI/DeepSeek.md",
     "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
+    "Doing/技术工程/AI/AI-02 AI大模型.md",
+    "Loving/05-规划安排/2025 OKR.md",
     "Doing/技术工程/AI/assets/image-AI-02 AI大模型-20250210205940439.png",
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
-    "Loving/05-规划安排/2025 OKR.md",
     "Loving/02-阅读/2025.01.22 历史大脉络 许倬云.md",
     "Loving/05-规划安排/2025 作息规划.md",
     "Doing/技术工程/AI/assets/image-AI-02 AI大模型-20250209155600840.png",
