@@ -71,7 +71,8 @@
               "title": "DeepSeek"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -213,12 +214,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b057dae6411d9b69",
+  "active": "32da89453c928177",
   "lastOpenFiles": [
-    "Doing/技术工程/AI/DeepSeek.md",
     "Doing/技术工程/AI/AI-02 AI大模型.md",
-    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
+    "Doing/技术工程/AI/DeepSeek.md",
     "Loving/05-规划安排/2025 OKR.md",
+    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Doing/技术工程/AI/assets/image-AI-02 AI大模型-20250210205940439.png",
     "Doing/技术工程/AI/AI-01 大模型全栈工程师培养计划/03-LangChain.md",
     "Loving/02-阅读/2025.01.22 历史大脉络 许倬云.md",
