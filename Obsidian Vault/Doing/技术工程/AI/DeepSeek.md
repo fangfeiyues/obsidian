@@ -1,7 +1,7 @@
 
-RL: Reinforcent Learning (强化学习)
-CoT: Chain of Thoughts (思维链)
-SFT: Supervised Fine-Tuning (监督微调)
+	RL: Reinforcent Learning (强化学习)
+	CoT: Chain of Thoughts (思维链)
+	SFT: Supervised Fine-Tuning (监督微调)
 
 ##  模型差异
 
@@ -25,7 +25,11 @@ SFT: Supervised Fine-Tuning (监督微调)
 
 -  **推理模型**
 
-
+	1.  提示语更简洁，只需明确任务目标和需求，因其已内化推理逻辑
+	2.  无需逐步指导，模型自动生成结构化推理过程，若强行拆解步骤反而限制其能力
 
 
 -  **非推理模型**
+
+	1.  需显示引导推理步骤，如通过Cot提示，否则可能跳过关键步骤
+	2.  依赖提示语补偿能力短板，如要求分步思考、提供示例
