@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -225,15 +226,16 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "32da89453c928177",
+  "active": "b602af96efae0c49",
   "lastOpenFiles": [
     "Loving/03-兴趣爱好/投资/02.12 科技大爆发？.md",
+    "Doing/技术工程/AI/DeepSeek.md",
     "Loving/03-兴趣爱好/投资/01.22 未知风险袭来...md",
     "Loving/03-兴趣爱好/投资/01.11 单日最大回撤.md",
-    "Doing/技术工程/AI/DeepSeek.md",
     "Doing/技术工程/AI/assets/image-DeepSeek-20250212163838671.png",
     "Loving/05-规划安排/2025 OKR.md",
     "Doing/技术工程/AI/AI-02 AI大模型.md",
