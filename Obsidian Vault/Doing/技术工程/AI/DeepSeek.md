@@ -1,4 +1,7 @@
-
+---
+link: https://www.notion.so/DeepSeek-199f162c88878190b0e4e4090268afc1
+notionID: 199f162c-8887-8190-b0e4-e4090268afc1
+---
 	RL: Reinforcent Learning (强化学习)
 	CoT: Chain of Thoughts (思维链)
 	SFT: Supervised Fine-Tuning (监督微调)
