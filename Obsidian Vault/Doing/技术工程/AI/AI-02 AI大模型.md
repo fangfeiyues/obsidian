@@ -21,7 +21,7 @@ GPT 的诞生要归于 NLP 的快速发展，从 2018年 到 2021年，是第一
 		![[image-AI-02 AI大模型-20250210205940439.png|500]]
 
 
-## 大模型底座
+## 底座
 
 大模型接口很简单，像OpenAI 就只提供了 Complete 和 Embedding 两个接口，
 1.  Complete 可以让模型根据你的输入自动续写
@@ -44,7 +44,6 @@ GPT 的诞生要归于 NLP 的快速发展，从 2018年 到 2021年，是第一
 
 
 
-
 ### LangChain 链式调用粘合剂
 
 LangChain 
@@ -52,6 +51,12 @@ LangChain
 LLMChain 对 LangChain 多步的封装
 
 ![[image-AI-02 AI大模型-20250209155600840.png|600]]
+
+
+
+## 系统建模
+
+
 
 
 
