@@ -55,8 +55,7 @@
               "title": "AI-02 AI大模型"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,10 +174,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doing/技术工程/AI/AI-02 AI大模型.md"
+                "file": "Loving/05-规划安排/2025 OKR.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AI-02 AI大模型"
+              "title": "Outline of 2025 OKR"
             }
           }
         ],
@@ -200,10 +199,10 @@
       "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "b602af96efae0c49",
+  "active": "b057dae6411d9b69",
   "lastOpenFiles": [
-    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Doing/技术工程/AI/AI-02 AI大模型.md",
+    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Loving/05-规划安排/2025 OKR.md",
     "Doing/技术工程/AI/DeepSeek.md",
     "Loving/05-规划安排/2025 作息规划.md",
