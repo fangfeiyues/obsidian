@@ -61,16 +61,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doing/技术工程/Sprint/S2/Untitled.md",
+                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Tracking Week 01"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,10 +188,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doing/技术工程/AI/AI-02 AI大模型.md"
+                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AI-02 AI大模型"
+              "title": "Outline of Tracking Week 01"
             }
           }
         ],
@@ -213,16 +213,17 @@
       "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "b602af96efae0c49",
+  "active": "8281363c01cef363",
   "lastOpenFiles": [
-    "Doing/技术工程/Sprint/S2/Untitled.md",
+    "Doing/技术工程/Sprint/S1/track/Tracking Week 9.md",
+    "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+    "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Doing/技术工程/Sprint/S1/ing/2024-07-16 BY-SELF.md",
     "Doing/技术工程/Sprint/S2",
     "Doing/技术工程/Sprint/S1.md",
     "Doing/技术工程/Sprint/S1",
     "Doing/技术工程/Sprint/S1/ing/2024-07-02 PDD -> Dead.md",
     "Doing/技术工程/Sprint/S1/ing/2024-06-28 WYY -> Dead.md",
-    "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Loving/05-规划安排/2025 OKR.md",
     "Doing/技术工程/Review/ing/assets/2024-07-02 PDD.md",
@@ -230,7 +231,6 @@
     "Doing/技术工程/Review/Untitled.md",
     "Doing/技术工程/Register/Zookeeper.md",
     "Doing/技术工程/Sprint/S1/track/Tracking Week 11.md",
-    "Doing/技术工程/Sprint/S1/track/Tracking Week 9.md",
     "Doing/技术工程/AI/DeepSeek.md",
     "Loving/05-规划安排/2025 作息规划.md",
     "Doing/技术工程/AI/assets/image-DeepSeek-20250213114712463.png",
