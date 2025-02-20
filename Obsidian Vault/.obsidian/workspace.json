@@ -89,7 +89,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -188,7 +189,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md"
+                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of Tracking Week 01"
@@ -199,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,10 +218,11 @@
   },
   "active": "8281363c01cef363",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
     "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Loving/05-规划安排/2025 OKR.md",
     "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
-    "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
     "Doing/技术工程/Sprint/S1/track/Tracking Week 9.md",
     "Doing/技术工程/Sprint/S1/ing/2024-07-16 BY-SELF.md",
     "Doing/技术工程/Sprint/S2",
@@ -249,7 +253,6 @@
     "Loving/01-每周学习/year-2024/2024.12.02 付鹏 & 高善文～中国经济的风险与机遇.md",
     "Loving/01-每周学习/「说在前面」.md",
     "Loving/01-每周学习/year-2024/2024.12.09 中东之叙利亚.md",
-    "Loving/01-每周学习/year-2024/2024.12.16 从「稳健」到「适度宽松」的货币政策.md",
     "Loving/02-阅读/2024",
     "Loving/03-兴趣爱好/投资/2014",
     "Loving/01-每周学习/assets/image-2025.01.04 Deep Seek-20250104125125904.png",
