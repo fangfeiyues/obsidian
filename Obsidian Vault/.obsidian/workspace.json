@@ -24,19 +24,19 @@
             }
           },
           {
-            "id": "218aa8067370c7ce",
+            "id": "ad247fcab90784a9",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
-                "mode": "source",
+                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2025.02.10 中国历代政治得失 钱穆"
+              "title": "Tracking Week 01"
             }
           },
           {
@@ -54,23 +54,9 @@
               "icon": "lucide-file",
               "title": "AI-02 AI大模型"
             }
-          },
-          {
-            "id": "8281363c01cef363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tracking Week 01"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,12 +202,15 @@
       "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "8281363c01cef363",
+  "active": "ad247fcab90784a9",
   "lastOpenFiles": [
-    "Doing/技术工程/AI/AI-02 AI大模型.md",
-    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Loving/05-规划安排/2025 OKR.md",
+    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
+    "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "conflict-files-obsidian-git.md",
     "Doing/技术工程/Sprint/S1/track/Tracking Week 9.md",
     "Doing/技术工程/Sprint/S1/ing/2024-07-16 BY-SELF.md",
@@ -252,7 +241,6 @@
     "Loving/02-阅读/2025.01.06 M 型社会，中产阶级消失的危机与商机.md",
     "Loving/01-每周学习/year-2024/2024.12.02 付鹏 & 高善文～中国经济的风险与机遇.md",
     "Loving/01-每周学习/「说在前面」.md",
-    "Loving/01-每周学习/year-2024/2024.12.09 中东之叙利亚.md",
     "Loving/02-阅读/2024",
     "Loving/03-兴趣爱好/投资/2014",
     "Loving/01-每周学习/assets/image-2025.01.04 Deep Seek-20250104125125904.png",
@@ -264,7 +252,6 @@
     "Loving/01-每周学习/year-2024/assets/image-2024.12.02 付鹏 & 高善文-20241205202654729.png",
     "Loving/04-启示录",
     "Loving/兴趣爱好/股市/Untitled",
-    "Untitled.canvas",
     "Cause./Develop/DDD/🌹Untitled.canvas"
   ]
 }
