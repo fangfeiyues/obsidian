@@ -127,7 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 232.5
   },
   "right": {
     "id": "f2d09e0854e4b43b",
@@ -218,11 +218,11 @@
   },
   "active": "8281363c01cef363",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
     "Doing/技术工程/AI/AI-02 AI大模型.md",
-    "Loving/05-规划安排/2025 OKR.md",
     "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
+    "Loving/05-规划安排/2025 OKR.md",
+    "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+    "conflict-files-obsidian-git.md",
     "Doing/技术工程/Sprint/S1/track/Tracking Week 9.md",
     "Doing/技术工程/Sprint/S1/ing/2024-07-16 BY-SELF.md",
     "Doing/技术工程/Sprint/S2",
