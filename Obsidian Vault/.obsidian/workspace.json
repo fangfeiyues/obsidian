@@ -189,7 +189,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md"
+                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of Tracking Week 01"
@@ -200,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {

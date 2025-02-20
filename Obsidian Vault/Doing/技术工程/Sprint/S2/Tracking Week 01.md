@@ -1,4 +1,7 @@
-
+---
+link: https://www.notion.so/Tracking-Week-01-1a0f162c88878105a55ec175a03bcefe
+notionID: 1a0f162c-8887-8105-a55e-c175a03bcefe
+---
 ### 02-19 周三
 
 	 07:00 早起失败
