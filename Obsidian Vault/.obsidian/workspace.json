@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loving/03-兴趣爱好/投资/02.17 乘胜追击.md",
+                "file": "Loving/03-兴趣爱好/投资/02.17 开大会，发财报.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "02.17 乘胜追击"
+              "title": "02.17 开大会，发财报"
             }
           },
           {
@@ -55,7 +55,8 @@
               "title": "Tracking Week 01"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,10 +199,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b057dae6411d9b69",
+  "active": "e4dead1e9196795e",
   "lastOpenFiles": [
-    "Loving/03-兴趣爱好/投资/02.17 乘胜追击.md",
     "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+    "Loving/03-兴趣爱好/投资/02.17 开大会，发财报.md",
     "Loving/05-规划安排/2025 OKR.md",
     "conflict-files-obsidian-git.md",
     "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
