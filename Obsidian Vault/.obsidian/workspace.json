@@ -55,8 +55,7 @@
               "title": "AI-02 AI大模型"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+                "file": "Loving/05-规划安排/2025 OKR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tracking Week 01"
+              "title": "Outline of 2025 OKR"
             }
           }
         ],
@@ -202,12 +201,12 @@
       "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "ad247fcab90784a9",
+  "active": "b057dae6411d9b69",
   "lastOpenFiles": [
-    "Loving/05-规划安排/2025 OKR.md",
-    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Doing/技术工程/Sprint/S2/Tracking Week 01.md",
+    "Loving/05-规划安排/2025 OKR.md",
+    "Loving/02-阅读/2025.02.10 中国历代政治得失 钱穆.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
