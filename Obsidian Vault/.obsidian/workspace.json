@@ -68,9 +68,21 @@
               "icon": "lucide-file",
               "title": "Tracking Week 01"
             }
+          },
+          {
+            "id": "906e646f9cefebee",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +101,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -213,7 +226,7 @@
       "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "8281363c01cef363",
+  "active": "906e646f9cefebee",
   "lastOpenFiles": [
     "Doing/技术工程/AI/AI-02 AI大模型.md",
     "Loving/05-规划安排/2025 OKR.md",
