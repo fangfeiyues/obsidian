@@ -186,3 +186,7 @@ BERT 通过引入双向语言模型和更大规模的预训练数据，在各种
 ## GPT
 
 它的全称是 Generative Pre-trained Transformer，其中集合了我们大模型关注的各种要素，包括预训练大模型（Pre-trained Transformer）和 生成式 AI（Generative AI）。
+
+
+另外一边，DeepSeek开源周连出三刀，是刀刀见血。
+第一天发布的 FlashMLA（多层注意力机制），可以大幅提升GPU的计算速度，相较传统算法，效率提升30%以上
