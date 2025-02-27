@@ -5,21 +5,20 @@
 ### 1、后端
 
 	1. Java核心与底层原理
-		1. MySQL -> next
+		1. MySQL -> doing
 		2. 并发编程  
 		3. JVM
 		4. ...
 		   
 	2. 分布式系统与中间件
-		1. Dubbo 
+		1. Dubbo -> next
 		2. MQ  
 		3. Redis 
 		4. Seata
 		   
 	3. 系统架构与性能优化
-		1. DDD -> 各领域图，doing
-		2. 秒杀 
-		3. ...
+		1. DDD -> 各领域图，done
+		2. ...
 
 ### 2、场景
 
