@@ -80,7 +80,8 @@ mysql> select * from t1 join t2 using(id) where t1.c = 10 and t2.d = 20;
 		 3.  `MyISAM` 数据文件和索引文件分开，不支持原子性恢复（？？？）
 	2.  `InnoDB` 是聚集索引，`MyISAM` 是非聚集索引；`MyISAM` 采用了一种索引和数据分的存储方式
 	3.  `InnoDB` 最小粒度是行锁，`MyISAM` 的最小粒度是表锁
-
+	   
+	![[Pasted image 20250228115935.png|500]]
 
 ## 查询
 
