@@ -183,7 +183,7 @@ BERT 通过引入双向语言模型和更大规模的预训练数据，在各种
 是一种神经网络架构，用于自然语言处理中序列到序列任务，作为 AI 大模型的核心技术之一，Transformer 并非仅限于对话和回答功能。其多头注意力机制可以并行处理文本中的所有词，这与传统的循环神经网络（RNN）逐词处理的方式不同，从而显著提升了模型的并行能力和训练效率。
 
 
-## GPT
+## 6、GPT
 
 它的全称是 Generative Pre-trained Transformer，其中集合了我们大模型关注的各种要素，包括预训练大模型（Pre-trained Transformer）和 生成式 AI（Generative AI）。
 
