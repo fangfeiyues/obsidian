@@ -87,6 +87,7 @@ LRU管理，线型管理缓存的数据
 	1.  设置redo log写磁盘能力 `innodb_io_capacity`  看SSD硬盘
 	2.  控制脏页比例 `innodb_max_dirty_pages_pct` 默认75%
 
+
 ## Change Pool
 
 -  **更新步骤**
