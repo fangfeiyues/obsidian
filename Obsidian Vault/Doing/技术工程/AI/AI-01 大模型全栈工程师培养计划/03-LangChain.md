@@ -20,8 +20,6 @@ LangChain 是一套面向大模型的开发框架，是AGI时代软件呢工程�
 -  OutputParser：解析输出
 
 
-
-
 ### 封装数据连接
 
 ![[image-03-LangChain-20240704232526696.png]]
