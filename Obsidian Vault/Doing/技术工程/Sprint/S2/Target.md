@@ -223,9 +223,10 @@
 
 -  **SQL优化**
 
-		1. order by id（主键索引 + where）
-	    2. left join（被驱动大表 + 索引 ）
-	    3. 索引字段区分度不高，如 kdt_id + state
+		1. 最左匹配丢失
+		2. 使用大量函数查询
+		3. order by id（主键索引 + where）
+	    1. 索引字段区分度不高，如 kdt_id + state
 
 -  **资损防控**
 
