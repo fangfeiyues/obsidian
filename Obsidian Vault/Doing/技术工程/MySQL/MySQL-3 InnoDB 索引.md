@@ -93,17 +93,17 @@ mysql> CREATE TABLE record_format_demo (
 
 ### 5.21 构建索引
 
+
 ![[MySQL索引树.png]]
 
-- **索引构成**
+**索引构成**
 
 	1. 页号：并不是连续，只是建立双向链表关系
 	2. record_type：0（用户记录）、1（目录项纪录）、2（最小记录）、3（最大记录）
 	3. 下一页最小值
 	4. 下一页号
 
-
-- **B+树**
+**B+树**
 
 	1.  B+树是一颗平衡树，每个叶子节点到根节点的路径长度相同，查询效率高
 	2.  B+树非叶子节点：不存储实际数据，可以存放更多索引（vs 红黑树）
@@ -115,62 +115,64 @@ mysql> CREATE TABLE record_format_demo (
 
 ### 5.22 使用索引
 
--  **0、索引查询**
+**0、索引查询**
   
 	1. 确定目录项记录页
 	2. 目录项 -->  真实页
 	3. 真实页 --> 分组槽slot
 	4. 分组槽slot --> 具体页
 
-
--  **1、目录项**
+**1、目录项**
 
 	目录项包括两部分
 	1.  页的用户记录中最小的主键值，用key来表示
 	2.  页号，用 page_表示
-	   
-	![[image-MySQL-5 InnoDB 索引-20240602161411817.png|500]]
+
+![[image-MySQL-5 InnoDB 索引-20240602161411817.png|500]]
 
 
--  **2、目录项 --> 记录页**
+**2、目录项 --> 记录页**
 
-	目录项中根据二分法快速确定出主键值为`20`的记录在`目录项3`中，因为 `12 < 20 < 209`，它对应的页是`页9`
+	根据二分法快速确定出主键值为`20`的记录在`目录项3`中，因为 `12 < 20 < 209`，它对应的页是`页9`
 
 
--  **3、记录页 --> 分组槽**
+ **3、记录页 --> 分组槽**
 
 	`InnoDB`会把页中的记录划分为若干个组，每个组的最后一个记录的地址偏移量作为一个`槽`。
 	再通过二分法确定该记录所在的槽
-	![[image-MySQL-5 InnoDB 索引-20240602161809122.png]]
+
+![[image-MySQL-5 InnoDB 索引-20240602161809122.png]]
 
 
--  **4、分组槽 --> 具体记录**
+ **4、分组槽 --> 具体记录**
 
 	通过记录的 `next_record` 属性遍历该槽所在的组中的各个记录
 
 #### 聚簇索引
 
--  **主键值的大小记录和排序**
+**主键值的大小记录和排序**
 
 	1. 页内记录按照主键大小单向链表排序（为什么不是双向？）
 	2. 目录页也按照主键大小双向链表排序
 	3. 存放记录页的不同层次也按照页中主键大小双向链表排序
 
 
--  **叶子节点存储的是完整的用户记录**
+**叶子节点存储的是完整的用户记录**
 
 #### 二级索引
 
 （参考MyISAM设计，要查数据必要先查询数据所在的地址，因为它的节点存的并不是数据而是地址）
 
-- **二级**
+**二级**
 
 	1. 同上（主键 换成 对应的列）
 	2. B+树叶子节点存储只是 列 + 主键 两列的值
 
--  **回表**
+**回表**
 
-	当我们根据非聚簇索引查询的时候，会先查询到主键的值，再通过主键查询一次才能得到想要的数据，这个过程就是回表。可以依赖索引覆盖、索引下推等优化
+	当我们根据非聚簇索引查询的时候，会先查询到主键的值，
+	再通过主键查询一次才能得到想要的数据，这个过程就是回表。
+	可以依赖索引覆盖、索引下推等优化
 
 
 #### 联合索引
@@ -192,13 +194,13 @@ mysql> CREATE TABLE record_format_demo (
 
 ### 5.23 索引失效
 
--  **explain**
+**explain**
 
-	1.  id：执行计划中唯一标识
-	2.  select_type：操作类型，包括 SIMPLE、PRIMARY、SUBQUERY、UNION 等
-	3.  table：涉及的表
-	4.  partitions：涉及的分区
-	5.  **`type：查询时所使用的索引类型，包括ALL、index、range、ref、eq_ref、const等
+	1. id：执行计划中唯一标识
+	2. select_type：操作类型，包括 SIMPLE、PRIMARY、SUBQUERY、UNION 等
+	3. table：涉及的表
+	4. partitions：涉及的分区
+	5. type：查询时所使用的索引类型，包括ALL、index、range、ref、eq_ref、const等
 		1.  system：系统表，少量数据，不需要磁盘IO
 		2.  const：常数索引，如唯一索引
 		3.  eq_ref：唯一索引扫描
@@ -206,13 +208,13 @@ mysql> CREATE TABLE record_format_demo (
 		5.  range：范围扫描
 		6.  index：走全索引，如不符合前缀匹配导致的只返回索引值匹配（注意 index 不是索引匹配）
 		7.  all：全表扫描
-	6.  **`possible_keys：可能被使用索引
-	7.  **`key：选择使用索引
-	8.  key_len：索引长度，越短越高
-	9.  ref：那些列或常量被用来与key列中命名的索引比较
-	10.  rows：扫描的行数
-	11.  filtered：过滤的行数占扫描行数的百分比，值越大查询越准确
-	12.  **`extra：额外信息如 Using index、Using filesort、Using temporary等
+	6. possible_keys：可能被使用索引
+	7. key：选择使用索引
+	8. key_len：索引长度，越短越高
+	9. ref：那些列或常量被用来与key列中命名的索引比较
+	10. rows：扫描的行数
+	11. filtered：过滤的行数占扫描行数的百分比，值越大查询越准确
+	12. extra：额外信息如 Using index、Using filesort、Using temporary等
 		1.  Using where：非索引字段查询 或 未索引覆盖
 		2.  Using index：使用覆盖索引无需回表
 		3.  Using index condition：索引使用条件过滤，如索引下推情况对如like未能走索引的也进行过滤
@@ -221,12 +223,14 @@ mysql> CREATE TABLE record_format_demo (
 		6.  Using temporary：临时表存储查询结果，如排序或分组？？？
 		7.  Using filesort：文件排序而非索引排序，如无法索引排序时
 		8.  ... 
-	
-	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
-	
-	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
 
--  **索引失效**
+
+-  **图**
+  
+	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
+	![[image-MySQL-5 InnoDB 索引-20240604170214147.png]]
+
+ **索引失效**
 
 	1.  利用 explain 的 key（索引值） + type（索引类型） + extra（索引方式）确定是否走索引
 		1.  type = ALL, key = NULL, extra = Using where  为没走索引
@@ -237,7 +241,7 @@ mysql> CREATE TABLE record_format_demo (
 		3.  表太小
 		4.  查询语句使用函数等
 
--  **选错索引**
+ **选错索引**
 
 	1.  区分度：区分度越高优化器越倾向使用，如`kdt_id + state` 这种就直接走全表扫描
 	2.  选择性：过滤数据的能力 -> 扫描行数
@@ -248,9 +252,9 @@ mysql> CREATE TABLE record_format_demo (
 	7.  索引的大小和深度
 	8.  ...
 
--  **order by id**
+**order by id**
 
-	MySQL为了避免额外的排序，如果这个字段有索引，那么优化器为了减少file sort，会愿意选择使用这个索引，因为索引天然有序
+	MySQL为了避免额外的排序，如果这个字段有索引，那么优化器为了减少file sort，会愿意选择使用这个索引
 	
 	如 `select ... order by id limit 100` 会默认 `key = PRIMARY（主键索引）`，然后在加上 `extra = Using where（使用where过滤不走二级索引）`，直接导致慢查。优化的话就可以使用索引字段进行排序
 
