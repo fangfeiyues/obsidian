@@ -74,16 +74,16 @@
  
 ### 一次更新
 
-	1. 客户端处理
-	2. 写入 buffer pool
-	3. 记录变更前 undo log
+	1. 加载缓存数据
+	2. 记录变更前 undo log
+	3. 写入 buffer pool 内存数据
 	4. 记录 redo log
-	5. 刷脏
-	6. 记录binlog 
+	5. redo log 写入磁盘
+	6. 提交事务，binlog 写入磁盘
 	7. 主从同步
-	
 
--  **数据更新流程**
+
+-  **更新流程**
 	![[image-MySQL-2 存储-20240527235945983.png]]
 
 
