@@ -1,6 +1,6 @@
-## 5.1、数据存储
+## 索引结构
 
-###  5.11、InnoDB 行
+###  1、InnoDB 行
 
 InnoDB支持了4种不同类型的行格式，分别是 `Compact`、`Redundant`、`Dynamic` 和 `Compressed` 
 
@@ -48,7 +48,7 @@ mysql> CREATE TABLE record_format_demo (
 ##### Redundant
 是MySQL5.0前的格式，比较老了
 
-###  5.12、InnoDB 页
+### 2、InnoDB 页
 
 -  **页格式**
 
@@ -89,9 +89,9 @@ mysql> CREATE TABLE record_format_demo (
 	   故3层索引结构可以存储记录：1170 * 1170 * 16 = 2000w，也就是说4层内还无需分表
 
 
-## 5.2、数据查询
+## 索引查询
 
-### 5.21 构建索引
+### 1、构建索引
 
 
 ![[MySQL索引树.png]]
@@ -113,7 +113,7 @@ mysql> CREATE TABLE record_format_demo (
 	6.  B+树叶子节点：之间通过双向链表链接，方便进行范围查询
 
 
-### 5.22 使用索引
+### 2、使用索引
 
 **0、索引查询**
   
@@ -192,7 +192,7 @@ mysql> CREATE TABLE record_format_demo (
 -  **索引交集** 
 
 
-### 5.23 索引失效
+### 3、索引失效
 
 **explain**
 
@@ -258,7 +258,7 @@ mysql> CREATE TABLE record_format_demo (
 	
 	如 `select ... order by id limit 100` 会默认 `key = PRIMARY（主键索引）`，然后在加上 `extra = Using where（使用where过滤不走二级索引）`，直接导致慢查。优化的话就可以使用索引字段进行排序
 
-### 5.24 热点数据
+### 4、热点数据
 
  **问题**
 
