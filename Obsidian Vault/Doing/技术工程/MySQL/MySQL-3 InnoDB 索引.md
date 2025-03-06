@@ -93,8 +93,10 @@ mysql> CREATE TABLE record_format_demo (
 
 ### 1、构建索引
 
+- **索引结构**
 
-![[MySQL索引树.png]]
+	![[MySQL索引树.png]]
+
 
 **索引构成**
 
@@ -102,6 +104,7 @@ mysql> CREATE TABLE record_format_demo (
 	2. record_type：0（用户记录）、1（目录项纪录）、2（最小记录）、3（最大记录）
 	3. 下一页最小值
 	4. 下一页号
+	   
 
 **B+树**
 
@@ -111,7 +114,6 @@ mysql> CREATE TABLE record_format_demo (
 	4.  B+树叶子节点：所有关键字都在，查询时只需要遍历一遍叶子节点即可
 	5.  B+树叶子节点：都按照关键字大小顺序存放，支持排序 （vs 红黑树）
 	6.  B+树叶子节点：之间通过双向链表链接，方便进行范围查询
-
 
 ### 2、使用索引
 
@@ -127,6 +129,7 @@ mysql> CREATE TABLE record_format_demo (
 	目录项包括两部分
 	1.  页的用户记录中最小的主键值，用key来表示
 	2.  页号，用 page_表示
+
 
 ![[image-MySQL-5 InnoDB 索引-20240602161411817.png|500]]
 
@@ -260,7 +263,8 @@ mysql> CREATE TABLE record_format_demo (
 
 ### 4、热点数据
 
- **问题**
+
+ **热点问题**
 
 	1.  锁竞争，热点数据更新update会有排他锁，这就会导致大量请求被阻塞
 	2.  占用数据库连接，当有大量update更新同一条记录被阻塞，他们持有连接不会释放导致连接不够
