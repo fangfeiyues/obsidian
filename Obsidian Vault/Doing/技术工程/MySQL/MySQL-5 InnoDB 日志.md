@@ -31,9 +31,9 @@
 ### 写入机制
 
 -  1、配置写入 **innodb_flush_log_at_trx_commit** 
-	1.  0，每次提交事务都把 redo log 留在 redo log buffer
-	2.  1，每次提交事务都把 redo log 持久化到磁盘
-	3.  2，每次提交事务都把 redo log 留在 page buffer
+	1.  = 0，每次提交事务都把 redo log 留在 redo log buffer
+	2.  = 1，每次提交事务都把 redo log 持久化到磁盘
+	3.  = 2，每次提交事务都把 redo log 留在 page buffer
 
 -  2、后台线程每隔1s，会把 redo log buffer 中的日志写到 page cache，然后调用 fsync 持久化
 

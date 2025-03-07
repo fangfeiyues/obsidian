@@ -6,13 +6,13 @@
 
 	1. Java核心与底层原理
 		1. MySQL -> doing
-		2. 并发编程  
+		2. 并发编程  -> next
 		3. JVM
 		4. ...
 		   
 	2. 分布式系统与中间件
 		1. Dubbo -> next
-		2. MQ  
+		2. MQ  -> next
 		3. Redis 
 		4. Seata
 		   
