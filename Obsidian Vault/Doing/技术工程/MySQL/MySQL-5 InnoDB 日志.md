@@ -5,7 +5,7 @@
 
 -  **作用**
 
-	MySQL用于奔溃恢复和数据持久性的一种机制，在事务进行时，MySQL会将事务做了什么改动到redo log，当系统崩溃或者发生异常时，MySQL会利用Redo log记录信息进行恢复
+	MySQL 用于奔溃恢复和数据持久性的一种机制，在事务进行时，MySQL会将事务做了什么改动到 redo log，当系统崩溃或者发生异常时，MySQL会利用 redo log 记录信息进行恢复
 	
 	防止奔溃的话，为什么不直接保存记录到磁盘，而要在redo log上走一次？-- redo log是保证的buffer可用性
 
@@ -23,7 +23,8 @@
 
 	 `write pos` 记录当前位置，一边写一边后移
 	 `check point` 擦除当前位置
-	 write pos 和 check point 之间是空着部分还可以继续记录，如果write 追上 check 表示内存满了，则需要停下来清楚数据
+	 
+	write pos 和 check point 之间是空着部分还可以继续记录，如果write 追上 check 表示内存满了，则需要停下来清楚数据
 	 
 	![[MySQL-6 InnoDB日志-redo log.png|400]]
 
@@ -46,6 +47,8 @@
 ## 2、binlog（归档日志） 
 
 ### 格式
+
+发的
 
 -  **statement**
 
@@ -90,6 +93,7 @@
 
 
 Q&A 
+
 -  binlog 为什么不能用于奔溃恢复？
 
 
