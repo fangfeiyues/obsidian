@@ -25,14 +25,14 @@
 	1. CPU高
 		1. cpu利用率 = cpu非空闲时间/cpu空闲时间 * 100%｜vmstat 2 2 
               每两秒收集一次信息（包括memory,swap,io,system,cpu..）
-        2. top -> top -Hp 1893 -- 查看进程到线程的资源占用情况（包括cpu占用，memory占用）
-        3. jstack -l 12345 -- 查看线程堆栈信息 nid 16进制，如 RUNNABLE 具体代码行、deadlock（死锁
-        4. arthas: thread -n 3  -- 查看最忙的3个线程
+        1. top -> top -Hp 1893 -- 查看进程到线程的资源占用情况（包括cpu占用，memory占用）
+        2. jstack -l 12345 -- 查看线程堆栈信息 nid 16进制，如 RUNNABLE 具体代码行、deadlock（死锁
+        3. arthas: thread -n 3  -- 查看最忙的3个线程
            
 	2. OOM频繁
 		1. 自动dump文件：-xx:HeapDumpOnOutOfMemoryError 
-        2. 手动dump文件：jmap -dump:live,format=b,file=xxxheap.bin <pid>
-        3. MAT(Memory Analysic Tool) 内存分析
+        1. 手动dump文件：jmap -dump:live,format=b,file=xxxheap.bin <pid>
+        2. MAT(Memory Analysic Tool) 内存分析
                1. 死锁
                2. 大对象
                   
@@ -65,7 +65,6 @@
 -  **1、多次好绩效的原因**
 
 -  **2、团队管理经验**
-
 
 -  **3、架构优化及稳定性通用沉淀方案**
 
@@ -209,8 +208,8 @@
 	[需求] 根解线上的高频资损问题、缓解每周50+线上jira、规避高流量下系统的不稳定性、并合理规划架构演变
     [核心] 
 	    1. 高流量治理：分布式限流 + Redis有序集合，来自动隔离窗口期的高流量到vip通道，避免影响正常业务
-        2. 性能优化：通过优化SQL索引、Hot Key高频更新、CPU飙升等问题解决机器压力？
-        3. 资损防控：治理因分布式导致的最终不一致问题，并建立离线对账、资损监测等防控体系
+        1. 性能优化：通过优化SQL索引、Hot Key高频更新、CPU飙升等问题解决机器压力？
+        2. 资损防控：治理因分布式导致的最终不一致问题，并建立离线对账、资损监测等防控体系
     [结果] 潜在资损问题修复80%以上、每周线上问题下降30%、线上错误日志及告警下降50%以上，保障业务平稳发展
 
 
