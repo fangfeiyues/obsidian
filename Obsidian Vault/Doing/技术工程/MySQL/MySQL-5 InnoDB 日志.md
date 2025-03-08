@@ -19,12 +19,12 @@
 
 	LSN单调递增，每次写入长度为 redo log 的 length。用于组提交的一组LSN
 
--  **checkpoint** 
+-  **Checkpoint** 
 
 	 `write pos` 记录当前位置，一边写一边后移
 	 `check point` 擦除当前位置
 	 
-	write pos 和 check point 之间是空着部分还可以继续记录，如果write 追上 check 表示内存满了，则需要停下来清楚数据
+	write pos 和 check point 之间是空着部分还可以继续记录，如果 write 追上 check 表示内存满了，则需要停下来清楚数据
 	 
 	![[MySQL-6 InnoDB日志-redo log.png|400]]
 
