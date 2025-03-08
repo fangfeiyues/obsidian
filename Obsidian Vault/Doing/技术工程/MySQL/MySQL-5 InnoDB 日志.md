@@ -39,7 +39,7 @@
 
 -  3、其他场景的持久化
   
-	-  1、redo log buffer 占用空间到一半，主动写到page cache
+	-  1、redo log buffer 占用空间到一半，主动写到 page cache
 	-  2、并行事务的时候会顺带提交
 	  
 	![[MySQL-6 InnoDB 日志-1.png|500]]
