@@ -233,3 +233,20 @@
 
 
 
+
+
+
+vim ~/.bash_profile
+
+export JAVA_HOME=/Users/feiyuefang/Library/Java/JavaVirtualMachines/corretto-11.0.26/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin
+export MAVEN_HOME=/Users/feiyuefang/apache-maven-3.9.9
+export PATH=$PATH:$MAVEN_HOME/bin
+
+
+vim ~/.zshrc
+
+export MAVEN_HOME=/Users/feiyuefang/apache-maven-3.6.1
+export PATH=$PATH:$MAVEN_HOME/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin
