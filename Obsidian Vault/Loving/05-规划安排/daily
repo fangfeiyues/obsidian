@@ -250,3 +250,5 @@ export MAVEN_HOME=/Users/feiyuefang/apache-maven-3.6.1
 export PATH=$PATH:$MAVEN_HOME/bin
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
 export PATH=$PATH:$JAVA_HOME/bin
+
+FFy1994111*
