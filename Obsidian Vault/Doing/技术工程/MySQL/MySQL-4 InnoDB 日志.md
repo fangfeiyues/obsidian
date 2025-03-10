@@ -1,4 +1,3 @@
-
 ## 1、redo log（重做日志）
 
 `WAL技术` 全称 Write-Ahead Logging，先写日志再写磁盘
