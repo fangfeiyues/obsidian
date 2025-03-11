@@ -3,7 +3,10 @@
 
 **数据库为什么会忽然抖动？**
 
-	刷盘期间
+	1. 慢查询：索引、数据量太大
+	2. 刷脏页：比如redo log满了、内存不足或者系统空闲，这时候会把脏页刷回磁盘 innodb_max_dirty_pages_pct
+	3. 硬件和网络导致
+	4. MySQL后台任务，
 
 **MySQL vs HABSE vs Redis 存储差异？**
 

@@ -43,6 +43,13 @@
 	  
 	![[MySQL-6 InnoDB 日志-1.png|500]]
 
+
+
+ **redo log**
+
+	操作流程
+
+
 ## 2、binlog（归档日志） 
 
 ### 格式
