@@ -1,4 +1,13 @@
- **CPU高**
+
+### 1、分布式
+
+
+
+
+
+### JVM
+ 
+ **CPU飙高**
 
 	1. cpu利用率 = cpu非空闲时间/cpu空闲时间 * 100%｜vmstat 2 2 
               每两秒收集一次信息（包括memory,swap,io,system,cpu..）
