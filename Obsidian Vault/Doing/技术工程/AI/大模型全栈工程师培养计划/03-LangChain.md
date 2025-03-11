@@ -63,8 +63,6 @@ LangChain 是一套面向大模型的开发框架，是AGI时代软件呢工程�
 ### Callbacks
 
 
-
-
 ## 文档向量化：Text Embeddings
 
 1.  未来的开发中，会频繁用到 Embedding
