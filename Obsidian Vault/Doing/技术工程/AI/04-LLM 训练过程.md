@@ -1,22 +1,23 @@
 
-## Pretrain 预训练
+## Pretrain 
+
+预训练
 
 阅读大量大量人类文字，学习人类如何使用文字
 
 m 百万；b 十亿；t 万亿；
 一般 Llama3 使用了 15t token，假设2000字一个段落那大概是37.5段落
 
-
 段落联合概率：一个字一个字出现概率的乘积
 
 LLM：算法  平衡所有 段落联合概率
 
+核心问题：预训练模型说起话来非常像接话茬，并不是在做任务（不会思考）
 
-核心问题：预训练模型说起话来非常像接话茬，并不是在做任务。（不会思考）
 
-## SFT 有监督的微调 
+## Supervised Fine-Tuning 
 
-Supervised Fine-Tuning
+有监督的微调 
 
 使用有标签的数据进行训练，学习过程就是有监督学习；如评论 “送货真快” -> 正向标签、相似标签 等
 
@@ -26,12 +27,14 @@ Supervised Fine-Tuning
 
 Instruction Tuning 指令微调，告诉你指令让你干活，其实也是一种监督微调
 
-几十万条数据，大概是预训练阶段的 1/5000，需要的是数据的质量
+几十万条数据，大概是预训练阶段的 1/5000，需要的是数据的质量，但训练过程是类似只不过数据不一样
 
-核心问题：准备了什么数据，就会做什么任务（但要做的更好）
+核心问题：一个问题对应一个优质的回答，有可能人工博士如OpenAI，有可能机器如Llama（但怎么做的更好）
 
 
-## Reward Model 奖励模型
+## Reward Model 
+
+奖励模型
 
 开始使用LLM生成的数据做训练，奖励模型不是语言模型，是个单独模型
 
@@ -48,12 +51,15 @@ Instruction Tuning 指令微调，告诉你指令让你干活，其实也是一�
 
 4、<Prompt、Response> pair 排序后，打分？
 
+Decision making 跟随还是探索
+
+核心问题：产生 <Prompt、Response> 的打分
 
 很多专业的问题，怎么标注奖励？
 
+## Reinforcement Learning 
 
-
-## 强化学习
+强化学习
 
 三部曲：SFT、Reward Model、强化学习
 
@@ -62,4 +68,30 @@ Decision Making 策略
 探索 和 跟随：0 -1 的偏向值
 
 步骤：SFT 微调模型后，根据 prompt 生成 response，然后再用 reward model 去打分，PPO 算法排分后去更新策略（反馈给SFT ）并更新 reward model 
+
+核心问题：要强化 Reward Model，来进一步增强 SFT Model
+
+
+![[4660FD53-801D-4D98-99DC-71B459ACBA53_1_102_o.jpeg]]
+
+
+## LLM 训练过程
+
+Llama-3.1 偏好数据 -> Reward Model 
+
+GPT 三部曲
+1. Pretrain
+2. SFT
+3. Reward Model
+4. PPO proximal policy optimization（策略）
+
+
+Llama 六轮回
+1. Pretrain
+2. Reward Model
+3. Rejection Smaping -> 拒绝数据
+4. SFT
+5. DPO driect preference optimization（偏好数据再去分类好的坏的数据，继续去训练）
+
+![[1D86F0F7-1414-4B9F-BAD1-C1479EF1BE81_1_105_c.jpeg]]
 
