@@ -261,6 +261,8 @@
 
 
 
+invoke com.youzan.pay.fin.credit.core.api.third.ZhongLiangService.downloadAndUploadDxmLoanFile("20250309/duxiaoman_loan_20250309.txt")
+
 
 
 
