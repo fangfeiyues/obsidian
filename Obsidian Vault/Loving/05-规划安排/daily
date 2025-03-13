@@ -262,8 +262,10 @@
 
 invoke com.youzan.pay.fin.credit.core.api.third.ZhongLiangService.downloadAndUploadDxmLoanFile("202503")
 
-String username = "xapi-youzan";
-String password = "5WlvTrb1rG04CSG";
+
 
 sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
+5WlvTrb1rG04CSG
 
+sftp -P2890 xwd0010_p@haproxy.s.fin.qima-inc.com
+Kng1w8sM
