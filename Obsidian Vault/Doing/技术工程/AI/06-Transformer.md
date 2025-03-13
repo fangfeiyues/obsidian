@@ -1,15 +1,17 @@
 
+
 ## 框架结构
 
 
-## Tokenization：「文本」变成「Token」
+
+## Tokenization：文本 -> Token
 
 把一段文字变成一组Token（1000个tokens大概750英文，500汉子）
 
 1.  2020年 GPT-3，Token词表有50257个
 2.  ...
 
-## Embedding：「Token」变成「向量」
+## Embedding：Token -> 向量
 
 向量、空间、特征
 
@@ -42,3 +44,6 @@ input[0] = embedding[0] + position[0]
 
 编码器：多头处理机制，并行计算的并行聚合后 每个向量都是被信息聚合的结果（找到向量相似）？
 解码器：自回归的过程，输出同时作为输入
+
+
+注意力机制
