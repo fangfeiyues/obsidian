@@ -56,7 +56,6 @@
    E卡：com.youzan.pay.gateway.sdk.service.cardvoucher.ECardInoutService#queryBalance
       -> com.youzan.pay.multiprecard.biz.api.ecard.EcardService#queryEcardInfo
 
-
 --------------------------------【记录】---------------------------------
  
 
@@ -260,10 +259,11 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
-invoke com.youzan.pay.fin.credit.core.api.third.ZhongLiangService.downloadAndUploadDxmLoanFile("20250309/duxiaoman_loan_20250309.txt")
 
+invoke com.youzan.pay.fin.credit.core.api.third.ZhongLiangService.downloadAndUploadDxmLoanFile("202503")
 
+String username = "xapi-youzan";
+String password = "5WlvTrb1rG04CSG";
 
-
-
+sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
 

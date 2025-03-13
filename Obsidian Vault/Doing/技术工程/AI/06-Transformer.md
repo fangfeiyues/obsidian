@@ -47,3 +47,9 @@ input[0] = embedding[0] + position[0]
 
 
 注意力机制
+
+![[Pasted image 20250313170302.png]]
+
+
+
+![[Pasted image 20250313175021.png]]
