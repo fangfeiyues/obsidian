@@ -47,14 +47,8 @@
 
 「1、贷超H5导流」
 
-   银行卡：com.youzan.pay.gateway.sdk.service.user.MemberBankCardQueryService#queryBindingCardSimpleInfoList
-      -> com.youzan.pay.user.api.bankcard.BankCardQueryService.queryBindingCardSimpleInfoList
 
-   零钱余额：com.youzan.pay.gateway.sdk.service.user.UserInfoService#queryBalance
-      -> com.youzan.pay.user.api.balance.BalanceService.queryBalance
-
-   E卡：com.youzan.pay.gateway.sdk.service.cardvoucher.ECardInoutService#queryBalance
-      -> com.youzan.pay.multiprecard.biz.api.ecard.EcardService#queryEcardInfo
+「2、装修」
 
 
 --------------------------------【记录】---------------------------------
@@ -263,10 +257,5 @@
 invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.dxmDownloadSftpDaily("20241123")
 
 
-sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
-5WlvTrb1rG04CSG
-
-sftp -P2890 xwd0010_p@haproxy.s.fin.qima-inc.com
-Kng1w8sM
-
-
+1. 预训练差
+2. 微调
