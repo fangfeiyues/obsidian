@@ -56,6 +56,10 @@
    E卡：com.youzan.pay.gateway.sdk.service.cardvoucher.ECardInoutService#queryBalance
       -> com.youzan.pay.multiprecard.biz.api.ecard.EcardService#queryEcardInfo
 
+
+
+
+
 --------------------------------【记录】---------------------------------
  
 
