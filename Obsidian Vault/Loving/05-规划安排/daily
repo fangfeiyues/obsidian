@@ -260,7 +260,7 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
-invoke com.youzan.pay.fin.credit.core.api.third.ZhongLiangService.downloadAndUploadDxmLoanFile("202503")
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.dxmDownloadSftpDaily("20241123")
 
 
 sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
@@ -268,3 +268,5 @@ sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
 
 sftp -P2890 xwd0010_p@haproxy.s.fin.qima-inc.com
 Kng1w8sM
+
+
