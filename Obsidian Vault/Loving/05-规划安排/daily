@@ -47,6 +47,8 @@
 
 「1、贷超SFTP对账文件」
 
+   telnet haproxy.s.fin.qima-inc.com 2894
+
    sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
    5WlvTrb1rG04CSG
 
@@ -256,6 +258,7 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
-1. 预训练差
-2. 微调
+1. 预训练 - SFT
+2. 输出这么慢 - Transformer
+3. 微调 -LoRa
 
