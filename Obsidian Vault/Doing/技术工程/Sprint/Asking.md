@@ -14,14 +14,22 @@
 **MySQL vs HABSE vs Redis 存储差异？**
 
 
+**怎么做分库分表？**
+
 ### 2、分布式
 
 #### 1、Dubbo
 
-**Dubbo调用超时过程？**
+**Dubbo调用超时过程**
 
 
-**Dubbo**
+**Dubbo异步调用是怎样的**
+
+
+**Dubbo支持哪些负载均衡策略**
+
+
+**Dubbo泛化怎么实现的
 
 #### 2、MQ
 

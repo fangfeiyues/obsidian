@@ -145,3 +145,7 @@ Llama 3.1 六轮标注偏好数据
 
 ![[Pasted image 20250312112057.png]]
 
+
+## Next
+
+下一步要解决的问题就是，怎么用 Pretrain 和 SFT 的数据训练 LLM 的 DPO算法 让其输出最终的 Response
