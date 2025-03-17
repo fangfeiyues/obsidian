@@ -44,7 +44,8 @@ Prompt Embedding + LSTM / MLP -->
 
 ### LoRA
 
-Low-Rank Adaptation of LLMs 即是LLM的低秩序适应
+Low-Rank Adaptation of LLMs 即是LLM的低秩序适应。
+其核心思想是在冻结预训练模型权重后，将可训练的「低秩分解矩阵」注入到的Transformer架构的每一层中，从而大大减少了在下游任务上的可训练参数量。
 
 显著降低训练计算和存储成本，适合处理大规模训练模型。
 
@@ -55,9 +56,12 @@ Wq + A * B 的矩阵（A是12289 * r 的矩阵，B是 r * 12288的矩阵）
 r 比较常见的取值是：4、8、16、32，用很小的参数影响很大的参数
 
 
-![[Pasted image 20250317115111.png|400]]
+![[Pasted image 20250317115111.png|300]]
 
 QLoRA 希望解决显存占用量过大的问题
 比如 7B的模型，70亿 * 4个字节 = 280亿字节 / 1024 / 1028 / 1028 = 25G 内存 
 
 
+好文章
+
+	https://zhuanlan.zhihu.com/p/702629428

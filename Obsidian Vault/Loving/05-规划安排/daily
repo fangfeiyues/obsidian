@@ -45,11 +45,13 @@
 
 --------------------------------【项目】--------------------------------
 
-「1、贷超H5导流」
+「1、贷超SFTP对账文件」
 
+   sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
+   5WlvTrb1rG04CSG
 
-「2、装修」
-
+   sftp -P2890 xwd0010_p@haproxy.s.fin.qima-inc.com
+   Kng1w8sM
 
 --------------------------------【记录】---------------------------------
  
@@ -254,11 +256,6 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
-invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.dxmDownloadSftpDaily("20241123")
-
-
 1. 预训练差
 2. 微调
 
-
-invoke LoanMarketLoanService.queryLoanResult({"loanTransNo":"1250314391900262145","userId":10534185350})
