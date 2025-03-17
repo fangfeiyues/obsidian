@@ -259,3 +259,6 @@ invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.dxmDo
 
 1. 预训练差
 2. 微调
+
+
+invoke LoanMarketLoanService.queryLoanResult({"loanTransNo":"1250314391900262145","userId":10534185350})
