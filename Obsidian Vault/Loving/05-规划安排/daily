@@ -1,47 +1,6 @@
 
 「work」
 
-   1. AI｜核心能力 -> 
-
-      a. 数据分析与处理 -> 基于大数据学习快速分析问题
-
-         1. 大规模数据处理：快速处理海量结构化/非结构化数据（如文本、图像、传感器数据）
-         2. 模式识别：从数据中挖掘隐藏规律（如用户行为、市场趋势）
-
-
-      c. 预测与决策 -> 深度学习与推理预测
-
-         1. 基于历史数据预测未来结果（如股票走势、疾病风险）
-         2. 信贷评分模型、反欺诈系统（如蚂蚁金服RiskGo）
-         3. 需求预测+库存管理系统（如快消品行业）
-
-
-      b. 自然语言处理（NLP）-> 良好的人机交互
-
-         1. 解析语义、情感分析（如用户评论分类）
-         2. 生成文本、对话（如ChatGPT、客服机器人
-
-
-   2. AI｜上层应用 -> 普通人的机会
-
-      a. youzan
-
-         1. cursor 需求分析 + 代码提效
-         2. 准备一次周五分享？
-
-      b. feishu
-
-
-   3. AI｜下层原理 -> 技术人的优势
-
-      a. 预训练
-      b. 微调
-      c. 奖励模型
-      d. 强化学习
-
-
-   4. 贷超｜价值和瓶颈
-
 
 --------------------------------【项目】--------------------------------
 
@@ -54,6 +13,8 @@
 
    sftp -P2890 xwd0010_p@haproxy.s.fin.qima-inc.com
    Kng1w8sM
+
+
 
 --------------------------------【记录】---------------------------------
  
@@ -263,58 +224,3 @@
 3. 微调 -LoRa
 
 
-// 138.给定一个未排序的整数数组 nums ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。
-// 请你设计并实现时间复杂度为 O(n) 的算法解决此问题。
-// nums = [100,4,200,1,3,2] -> 最长数字连续序列是 [1, 2, 3, 4]。它的长度为 4。
-// nums = [0,3,7,2,5,8,4,6,0,1] -> 9
-
-public int longestConsecutive(int[] nums) {
-        
-}
-
-
-// 139.给你一个字符串 s 和一个字符串列表 wordDict 作为字典。如果可以利用字典中出现的一个或多个单词拼接出 s 则返回 true。
-// 注意：不要求字典中出现的单词全部都使用，并且字典中的单词可以重复使用。
-
-示例 1：
-
-输入: s = "leetcode", wordDict = ["leet", "code"]
-输出: true
-解释: 返回 true 因为 "leetcode" 可以由 "leet" 和 "code" 拼接成。
-示例 2：
-
-输入: s = "applepenapple", wordDict = ["apple", "pen"]
-输出: true
-解释: 返回 true 因为 "applepenapple" 可以由 "apple" "pen" "apple" 拼接成。
-     注意，你可以重复使用字典中的单词。
-示例 3：
-
-输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
-输出: false
-
-    public boolean wordBreak(String s, List<String> wordDict) {
-        
-    }
-
-
-146.请你设计并实现一个满足  LRU (最近最少使用) 缓存 约束的数据结构。
-实现 LRUCache 类：
-LRUCache(int capacity) 以 正整数 作为容量 capacity 初始化 LRU 缓存
-int get(int key) 如果关键字 key 存在于缓存中，则返回关键字的值，否则返回 -1 。
-void put(int key, int value) 如果关键字 key 已经存在，则变更其数据值 value ；如果不存在，则向缓存中插入该组 key-value 。如果插入操作导致关键字数量超过 capacity ，则应该 逐出 最久未使用的关键字。
-函数 get 和 put 必须以 O(1) 的平均时间复杂度运行。
-
-class LRUCache {
-
-    public LRUCache(int capacity) {
-        
-    }
-    
-    public int get(int key) {
-        
-    }
-    
-    public void put(int key, int value) {
-        
-    }
-}
