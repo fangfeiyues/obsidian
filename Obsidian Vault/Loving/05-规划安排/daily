@@ -25,7 +25,6 @@
    理想的方式是，前端不改变用户图片质量，直接存储原图。在需要使用图片的场景，视情况从七牛云拿压缩版本图片，比如去腾讯云做 OCR 的场景  
 
 
-
 --------------------------------【记录】---------------------------------
  
 
@@ -232,3 +231,25 @@
 invoke LoanMarketCreditApplyService.creditApply({"career":"02","income":"04","relations":[{"mobile":"13530826634","name":"范霖","relation":"OTHER"}],"userId":16466099451})
 
 
+personCardId = 250321103444000039
+userCertId = 250321103444000040
+clientCardNo = "341004199411110411"
+clientName = "方飞跃"
+cardType = {Integer@25641} 1
+validStart = "2025-01-01"
+validEnd = "2045-01-01"
+frontPhoto = "https://dn-kdt-private.qbox.me/kdt-private-2025-03-21-FoFO94hErjoYid1KPJwo3sUURNFu.jpg"
+reversePhoto = "https://dn-kdt-private.qbox.me/kdt-private-2025-03-21-FigOVoWQE2AyU5P76ohtTxcosRBc.jpg"
+issuingAuthority = "黄山市公安局徽州分局"
+sex = "男"
+ethnicity = "汉"
+address = "安徽省黄山市徽州区西溪南镇坑上村坑上4号"
+birth = "1994-11-11"
+outUserId = "221020413624000021"
+sourceAppCode = "1"
+status = {Integer@25641} 1
+outBizType = ""
+bizSerialNo = ""
+createdAt = {Date@25655} "Fri Mar 21 11:11:00 CST 2025"
+updatedAt = {Date@25656} "Fri Mar 21 11:11:37 CST 2025"
+profession = ""
