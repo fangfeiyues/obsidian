@@ -1,7 +1,7 @@
 
 ## 1、Pretrain 
 
-m 百万、b 十亿、t 万亿
+k 千、m 百万、b 十亿、t 万亿
 如 Llama3 使用了 15t token 参数（几乎包含了所有的文字数据）
 
 训练目标
@@ -70,7 +70,7 @@ SFT阶段需要的不多，大概是几十万条数据，大概是预训练阶�
 - 会做不行，怎么做的更好 -- Reward Model?
 
 
-## 4、RM
+## 3、RM
 
 奖励模型 Reward Model，其实也是一个概率模型，区别于 LLM 是一个单独模型。
 
@@ -96,7 +96,7 @@ SFT阶段需要的不多，大概是几十万条数据，大概是预训练阶�
   
 
 
-## 5、RL
+## 4、RL
 
 Reinforcement Learning 强化学习
 RLHF （Reinforcement Learning Human Feedback） 基于人类反馈的强化学习，人类反馈即上面说的标注的偏好数据
@@ -118,8 +118,8 @@ Decision Making 策略，选择 新的探索 还是 老的跟随：0 -1 的偏�
 
 ![[Pasted image 20250318111927.png]]
 
-	1.  Step1：生成有监督的数据
-	2.  Step2：训练奖励模型的ABCD答案
+	1. Step1：生成有监督的数据
+	2. Step2：训练奖励模型的ABCD答案
 	3. Step3：LLM 生成 response 后，RM 对 response 打分后，去升级LLM算法
 
 
@@ -128,7 +128,7 @@ Decision Making 策略，选择 新的探索 还是 老的跟随：0 -1 的偏�
 要强化 Reward Model，来进一步增强 SFT Model
 
 
-## LLM 训练过程
+## -> LLM 训练过程
 
 Llama-3.1 偏好数据 -> Reward Model 
 
@@ -155,4 +155,4 @@ Llama 3.1 六轮标注偏好数据
 
 ## Next
 
-下一步要解决的问题就是，怎么用 Pretrain 和 SFT 的数据训练 LLM 的 DPO算法 让其输出最终的 Response
+下一步要解决的问题就是，怎么用 Pretrain 和 SFT 的数据训练 以及 LLM 的 DPO算法，怎么 输出最终的 Response
