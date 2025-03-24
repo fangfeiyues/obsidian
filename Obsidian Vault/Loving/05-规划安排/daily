@@ -6,21 +6,16 @@
       2. 输出这么慢 -> Transformer
       3. 微调 -> LoRa
 
+   2. 贷超
+      1. ocr超时，FIX - done
+      2. 授信利率，FIX - done
+      3. 钱包首页，日常 - done
+
 
 --------------------------------【项目】--------------------------------
 
-「1、贷超SFTP对账文件」
 
-   telnet haproxy.s.fin.qima-inc.com 2894
-
-   sftp -P2894 xapi-youzan@haproxy.s.fin.qima-inc.com
-   5WlvTrb1rG04CSG
-
-   sftp -P2890 xwd0010_p@haproxy.s.fin.qima-inc.com
-   Kng1w8sM
-
-
-「2、认证图片压缩」
+「1、认证图片压缩」
 
    理想的方式是，前端不改变用户图片质量，直接存储原图。在需要使用图片的场景，视情况从七牛云拿压缩版本图片，比如去腾讯云做 OCR 的场景  
 
@@ -228,6 +223,7 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
-invoke com.youzan.pay.creditpayprod.api.loan.LoanOperatorLogService.userHasAsset({"userId":8562134865})
 
-com.youzan.pay.user.api.cert.CertService.submitIdentity
+{"career":"02","income":"04","relations":[{"mobile":"13958077867","name":"熊壮","relation":"SPOUSE"}]}
+
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketCreditApplyService.creditApply({"career":"02","income":"05","relations":[{"mobile":"13916826972","name":"朱燕","relation":"SPOUSE"}],"userId":12964360})
