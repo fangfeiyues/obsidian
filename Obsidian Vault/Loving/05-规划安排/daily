@@ -6,8 +6,9 @@
       2. 输出这么慢 -> Transformer
       3. 微调 -> LoRa
 
+
    2. 贷超
-      1. ocr超时，FIX - done
+      1. OCR图片超时，FIX - done
       2. 授信利率，FIX - done
       3. 钱包首页，日常 - done
 
@@ -222,8 +223,5 @@
 
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
-
-
-{"career":"02","income":"04","relations":[{"mobile":"13958077867","name":"熊壮","relation":"SPOUSE"}]}
 
 invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketCreditApplyService.creditApply({"career":"02","income":"05","relations":[{"mobile":"13916826972","name":"朱燕","relation":"SPOUSE"}],"userId":12964360})
