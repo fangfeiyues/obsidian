@@ -226,3 +226,19 @@ invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketCreditApplyService.credit
 
 
 invoke com.youzan.pay.creditpayprod.api.loan.LoanOperatorLogService.userHasAsset({"userId":8562134865})
+
+
+// 递归,返回最后一个节点
+        if (res == null) {
+            return list;
+        }
+        if (list == null) {
+            return res;
+        }
+        if (res.val < list.val) {
+            res.next = mergeTwoLists(res.next, list);
+            return res;
+        } else {
+            list.next = mergeTwoLists(res, list.next);
+            return list;
+        }
