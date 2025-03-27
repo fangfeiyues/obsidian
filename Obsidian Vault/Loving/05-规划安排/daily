@@ -227,4 +227,4 @@
 invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketCreditApplyService.creditApply({"career":"02","income":"05","relations":[{"mobile":"13916826972","name":"朱燕","relation":"SPOUSE"}],"userId":12964360})
 
 
-invoke com.youzan.pay.creditpayprod.api.loan.LoanOperatorLogService.userHasAsset({"userId":})
+invoke com.youzan.pay.creditpayprod.api.loan.LoanOperatorLogService.userHasAsset({"userId":8562134865})
