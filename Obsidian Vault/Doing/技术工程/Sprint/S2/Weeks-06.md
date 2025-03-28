@@ -52,11 +52,17 @@
 ### 03.28 周五
 
 	07:00 得加快进度！
-		1. AI课程
-			1. [New] Prompt、Function Calling、RAG、Agent
-			2. [Again] 神经网络、Transofmer
-		2. AI应用 - ？
-		3. <万历十五年>
+		1. AI+
+			1. 课程：学完基础建设
+				1. [New] Prompt、Function Calling、RAG、Agent
+				2. [Again] 神经网络、Transofmer
+			2. 应用：与技术的融合？
+		2. <万历十五年> + <就业、利息和货币通论>
+		3. 准备
+			1. 算法
+			2. 业务
+			3. 八股
+		4. 投资报告0328
 
 
 
