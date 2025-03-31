@@ -5,7 +5,7 @@
 多头隐式注意力机制 Multi-head Latent Attention，解决 Q K V 缓存问题（以前 MHA Multi-head Attention）
 
 Q K V 、相关度系数计算
-[[05-Transformer#Attention]]
+[[04-Transformer#Attention]]
 
 **缓存**
 
