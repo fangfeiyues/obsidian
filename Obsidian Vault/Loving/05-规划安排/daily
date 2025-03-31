@@ -22,6 +22,8 @@
       3. 故障产生的原因
       4. 故障如何避免
 
+   自上而下的思考体系：
+
 
 --------------------------------【记录】---------------------------------
  
@@ -232,7 +234,7 @@ invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketCreditApplyService.credit
 invoke com.youzan.pay.creditpayprod.api.loan.LoanOperatorLogService.userHasAsset({"userId":8562134865})
 
 
-
+明晚 07:00
 
 
 
