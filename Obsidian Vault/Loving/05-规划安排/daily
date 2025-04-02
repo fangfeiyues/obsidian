@@ -249,3 +249,8 @@
 
 
 
+
+
+
+
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.loanUserMarkingMessage()
