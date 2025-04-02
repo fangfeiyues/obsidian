@@ -241,23 +241,6 @@
 
 
 
-龙安躍
-
-23年毕业 
-
-数据平台
-   1. 算法评测：评测结果上报、存储，然后生成报表
-   2. 质检平台：制图，数据存储
-   3. 项目协助：
-
-
-索引：目录、索引的索引（二分查找，）
-事务：隔离性，事务隔离，互相不干扰的方式
-
-Kafka:
-RocketMQ: 分布式事务
-
-设计模式：策略，好处的
 
 
 
@@ -267,3 +250,7 @@ RocketMQ: 分布式事务
 
 
 
+
+
+
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.loanUserMarkingMessage()
