@@ -225,3 +225,6 @@ invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.loanU
 
 
 砂锅鱼头、油炸大白菜 
+
+
+invoke LoanMarketLoanService.apply({"loanTransNo":"1250327391452262248","userId":15680924643,"verifyList":["AGREEMENT_COMMON","FACE_CHECK"]})
