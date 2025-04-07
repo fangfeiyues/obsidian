@@ -2,13 +2,12 @@
 「work」
 
    1. 含硅率
-      1. AI + ?
 
    2. 贷超
-      1. OCR图片超时，FIX - done
-      2. 授信利率，FIX - done
-      3. 钱包首页，日常 - done
-      4. 借款一直wait，Online
+      1. 核心流程状态回查 - done
+   
+   3. 有赞寄件
+      1. 2月对账
 
 
 --------------------------------【项目】--------------------------------
@@ -215,7 +214,3 @@
 
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
-
-invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanCreditApplyStatus({"bizID":"c852c4a1a6ba3c27e9ada6cfa145544b","bizExtraID":"DXM"})
-
-invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanRepayStatus({"bizID":"1250327391500000000","bizExtraID":"1250107353302262144","data":"205400810"})
