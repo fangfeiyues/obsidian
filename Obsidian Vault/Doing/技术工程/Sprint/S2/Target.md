@@ -64,7 +64,7 @@
 
 ### 2.1 增值业务
 
-[[Values-add]]
+[[Values-promise]]
 
 ### 2.2 分销业务
 
