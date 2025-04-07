@@ -218,4 +218,4 @@
 
 invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanCreditApplyStatus({"bizID":"c852c4a1a6ba3c27e9ada6cfa145544b","bizExtraID":"DXM"})
 
-invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanOrderStatus({"bizID":"9250310405455000010","data":"8355781436"})
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanRepayStatus({"bizID":"1250327391500000000","bizExtraID":"1250107353302262144","data":"205400810"})
