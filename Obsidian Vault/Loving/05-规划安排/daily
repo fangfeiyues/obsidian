@@ -13,12 +13,7 @@
 
 --------------------------------【项目】--------------------------------
 
-
-「1、贷超H5复盘」
-
-
-「2、贷超数据」
-
+「1、」
 
 --------------------------------【记录】---------------------------------
  
@@ -221,4 +216,6 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
-invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.loanUserMarkingMessage()
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanCreditApplyStatus({"bizID":"c852c4a1a6ba3c27e9ada6cfa145544b","bizExtraID":"DXM"})
+
+invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.syncLoanOrderStatus({"bizID":"9250310405455000010","data":"8355781436"})
