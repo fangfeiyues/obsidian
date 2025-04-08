@@ -212,3 +212,28 @@
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
 
 
+
+
+
+
+invoke com.youzan.secured.shipping.api.ShippingTaskService.shippingMonthAccountTest("{\"data\":{\"delivery_no\":\"YZ20250103kg1g48917\",\"express_id\":\"138\",\"express_no\":\"JDVB35717270790\",\"pay_amount\":\"19\",\"shipping_month_settle_type\":\"2\"},\"dataSource\":\"hive\",\"db\":\"dev\",\"table\":\"delivery_waybill_recon_result\"}")
+
+
+
+
+负责增值物流、履约、金融消费等增值项目，为公司提升毛利和收入
+
+（一）履约增值
+为消费者提供良好的售后履约服务，并通过动态定价，来赚取商家服务费。
+1. 退货包运费：通过为消费者提供退货后的包运费服务来收取商家动态服务费，其中通过基础服务、保单、理赔等领域能力建设来构建清晰的业务模型，并进一步解决保费归因、保险抽象、开放能力等难题。
+2. 放心购：？？？
+
+（二）物流增值
+为消费者提供具有性价比的三方物流服务，并通过物流商运营、定价运营等，赚取与三方间的差价。
+1. 有赞寄件：通过承接正向的交易发货能力，搭建物流商运营、运费定价等体系构造清晰的物流计费模型。
+2. 上门取件：作为逆向交易的核心一环，
+
+
+
+
+
