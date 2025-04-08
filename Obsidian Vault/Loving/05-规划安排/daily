@@ -1,6 +1,5 @@
 
 「work」
-
    1. 含硅率：4月搞个AI产品，
    2. 贷超：核心流程状态回查 - done  
    3. 有赞寄件：2月对账脚本
@@ -210,13 +209,6 @@
    4、算法
 
       1. 双向队列Depue可用于「Last进 -> First出」的单向排序
-
-
-
-
-
-
-invoke com.youzan.secured.shipping.api.ShippingTaskService.shippingMonthAccountTest("{\"data\":{\"delivery_no\":\"YZ20250103kg1g48917\",\"express_id\":\"138\",\"express_no\":\"JDVB35717270790\",\"pay_amount\":\"19\",\"shipping_month_settle_type\":\"2\"},\"dataSource\":\"hive\",\"db\":\"dev\",\"table\":\"delivery_waybill_recon_result\"}")
 
 
 
