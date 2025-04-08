@@ -40,7 +40,7 @@ Retrieval-Augmented Generation 私有知识库
 	5. 将检索出的知识片段与原prompt合并一起组成新的prompt
 
 RAG & LLM
-	![[Pasted image 20250407201733.png]]
+	![[Pasted image 20250407201733.png|500]]
 
 
 
