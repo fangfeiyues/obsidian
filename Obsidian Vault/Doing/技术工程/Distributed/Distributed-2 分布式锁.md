@@ -60,7 +60,7 @@
 
 -  **RedLock方案**
 
-	单点实例挂了 或者 master --> slaver时挂了，导致新选举的节点没加key
+	单点实例挂了 或者 master -> slaver时挂了，导致新选举的节点没加上key
 	
 	![[image-Distributed-2 分布式锁-20240530200159971.png|600]]
 	
