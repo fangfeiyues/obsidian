@@ -163,3 +163,10 @@
 在技术上，搭建基础服务、保单、理赔等核心子域来建设清晰的领域模型，并进一步解决理赔归因、保险核心、对外开放等难题。
 
 invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.loanFaceDataFix("{\"bizNo\":\"250409122604262219\",\"imgUrl\":\"https://img01.yzcdn.cn/upload_files/2025/04/09/FmartPjBwyQWUEc-W_yqFhRI85sV.jpg\",\"message\":\"成功\",\"outBizNo\":\"1250407384452000001\",\"outBizType\":\"yz_loan_supermarket\",\"outUserId\":\"220402344518262185\",\"result\":true,\"score\":\"0.99154675\",\"sourceAppCode\":\"1\"}")
+
+
+
+invoke LoanMarketLoanService.apply({"loanTransNo":"1250407384452000001","userId":13914678253,"verifyList":["AGREEMENT_COMMON","FACE_CHECK"]})
+
+
+
