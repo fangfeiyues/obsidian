@@ -20,7 +20,9 @@
 -  **04.10｜怎么理解ACP**
 
 	[[Distributed-1  分布式基论 CAP]]
-	C：
+	
+		CP without A：即允许系统停机或长时间无响应，如HBase、ZK都是强一致性
+		AP whthout C：
 
 -  **04.10｜MQ异常重试 & 超时Ack**
 
