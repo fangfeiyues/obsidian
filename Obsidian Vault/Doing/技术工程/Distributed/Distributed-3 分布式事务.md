@@ -119,7 +119,7 @@
 	
 	![[image-Distributed-3 分布式事务-20240613231607053.png|500]]
 
-
+	![[Pasted image 20250411132723.png]]
 ### Saga
 
 -  **大意**
