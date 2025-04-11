@@ -24,7 +24,7 @@
       3. 阻塞队列：
 
    wangchunhua
-      
+
 
 
 
@@ -171,6 +171,10 @@ invoke com.youzan.pay.creditpayprod.api.loan.LoanMarketTaskCallBackService.loanF
 
 
 invoke LoanMarketLoanService.apply({"loanTransNo":"1250407384452000001","userId":13914678253,"verifyList":["AGREEMENT_COMMON","FACE_CHECK"]})
+
+
+
+
 
 
 
