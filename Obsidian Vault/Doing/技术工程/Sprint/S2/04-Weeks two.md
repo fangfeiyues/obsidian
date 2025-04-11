@@ -59,6 +59,8 @@
 	07:00 这两天都没啥正事，算法 + 八股 要补上。这周是一定要把 PLAN 准备好！
 
 
+---
+
 ### 04.11 周五&周末
 
 **Target**
@@ -68,9 +70,8 @@
 		1. 业务 -> 100%
 		2. 算法 -> review all + 10
 		3. 八股 -> 100%(yuque + do) -> MySQL、并发、JVM、Redis、MQ、Dubbo
-	3. AI
-		1. 技术：知乎AI全栈课堂 + 1 + 2 + 1（Function Calling、LangChain）
-		2. 应用：AI先锋赛
+	3. AI技术：知乎AI全栈课堂 + 1 + 2 + 1（Function Calling、LangChain）
+	4. AI应用：AI先锋赛
 
 **PLAN**
 
@@ -91,6 +92,5 @@
 		3. B端业务流量小难度低
 		4. 无AI工程 或 AI大模型经验
 		5. ..
-		   
 	优势
 		6. 经验还行、有些管理能力
