@@ -59,8 +59,32 @@
 	07:00 这两天都没啥正事，算法 + 八股 要补上。这周是一定要把 PLAN 准备好！
 
 
+---
 
-### 思考
+### 04.11 周五&周末
+
+**Target**
+
+	1. <万历十五年> -> 100%
+	2. PLAN
+		1. 业务 -> 100%
+		2. 算法 -> review all + 10
+		3. 八股 -> 100%(yuque + do) -> MySQL、并发、JVM、Redis、MQ、Dubbo
+	3. AI技术：知乎AI全栈课堂 + 1 + 2 + 1（Function Calling、LangChain）
+	4. AI应用：AI先锋赛
+
+**PLAN**
+
+	周五 20:00｜知乎AI全栈课堂 + Function Calling
+	周五 23:00｜PLAN + MySQL
+	周六 10:00｜PLAN + 算法review
+	周六 14:00｜PLAN + MySQL、Redis、并发
+	周六 20:00｜知乎AI全栈课堂 + LangChain
+	周六 23:00｜万历十五年
+
+
+
+**思考**
 
 	劣势
 		1. 年纪30、工作年限7+
@@ -68,6 +92,5 @@
 		3. B端业务流量小难度低
 		4. 无AI工程 或 AI大模型经验
 		5. ..
-		   
 	优势
 		6. 经验还行、有些管理能力
