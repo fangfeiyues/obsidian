@@ -39,10 +39,9 @@
 	5.  避免过长索引，每次表的插入、更新都会有额外的维护
 	6.  学会执行计划分析
 
--  **选错索引？**
 
 -  **怎么理解事务**
-
+	![[Pasted image 20250412174229.png]]
 
 -  **RR vs RC**
 
@@ -51,11 +50,11 @@
 		3. binlog = statment
 
 
-
--  **MySQL vs HABSE vs Redis 存储差异**
-
--  **怎么做分库分表**
-
+-  **快照读 和 当前读**
+  
+	1.  快照读的是快照数据，如 select * from table
+	2.  当前读的是最新数据，如 select * from table for update等
+	只有在 RR 和 RC 才会有快照读
 
 ## 2、分布式
 

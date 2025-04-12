@@ -69,7 +69,7 @@
 	2. PLAN
 		1. 业务 -> 100%
 		2. 算法 -> review all + 10
-		3. 八股 -> 100%(yuque + do) -> MySQL、并发、JVM、Redis、MQ、Dubbo
+		3. 八股 -> 100%(yuque + do) -> MySQL、Redis、MQ、并发、JVM、Dubbo
 	3. AI技术：知乎AI全栈课堂 + 1 + 2 + 1（Function Calling、LangChain）
 	4. AI应用：AI先锋赛
 

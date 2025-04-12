@@ -128,6 +128,16 @@
 -  **Order By**
 
 
+-  **limit**
+
+	select * from users limit 10000,20
+	1.   数据表取出所有符合的数据
+	2.  将数据按照 ORDER BY 排序
+	3.  根据 LIMIT 跳过前 10000 条，返回后 20 条 -> 深翻页
+	
+	优化
+	
+
 # 4、缓存
 
 InnoDB 用缓冲池 buffer pool 管理内存，能加快读写性能，但也必然会带来一些挑战。见 [[Redis-0 缓存的伤寒杂病论]]
