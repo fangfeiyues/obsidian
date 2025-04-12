@@ -76,7 +76,7 @@
 **PLAN**
 
 	周五 20:00｜知乎AI全栈课堂 + Function Calling
-	周五 23:00｜PLAN + MySQL
+	周五 23:00｜PLAN
 	周六 10:00｜PLAN + 算法review
 	周六 14:00｜PLAN + MySQL、Redis、并发
 	周六 20:00｜知乎AI全栈课堂 + LangChain
