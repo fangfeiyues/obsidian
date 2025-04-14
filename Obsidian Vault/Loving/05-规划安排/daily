@@ -24,11 +24,17 @@
 
 「2、退货包运费」
 
-   1、风控策略与定价
-      运费险准入: FREIGHT_ADMITTANCE
-      包运费定价: FREIGHT_RISK_PRICE
+   1、风控策略与定价(FREIGHT_ADMITTANCE, FREIGHT_RISK_PRICE)   
+      1. 风控策略：黑白名单
+      2. 出险定价：fi_service_team_final_outdangered_rate_price (出险等级对应的定价)
+         1. outdangered_rate_recent3 近期出险率 = 退货单 / 投保单
+         2. outdangered_Rate_7_90_day3
+      3. 存在问题？
 
    2、基础服务
+      子域: 
+      属性: 商家、状态、时间、版本号
+      能力: 开通、关闭、申请
 
    3、保单
       字段：外部单号、保费、
