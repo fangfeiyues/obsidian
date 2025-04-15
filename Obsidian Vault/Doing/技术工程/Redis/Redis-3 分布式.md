@@ -139,7 +139,7 @@ Sentinel 哨兵是 Redis 的高可用性解决方案：由一个或多个Sentine
 
 ### 作用
 
-	![[image-Redis-3 分布式-20240625014143549.png]]
+![[image-Redis-3 分布式-20240625014143549.png]]
 
 1. Redis Cluster 是 Redis 推荐的分布式解决方案，它将数据自动分片到多个节点，每个节点负责一部分
 
