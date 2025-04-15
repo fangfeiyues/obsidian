@@ -128,6 +128,7 @@
 			 1.  AT 的 RM 要基于数据库日志回滚，类似于 Redis 就不可用；还有可能读脏
 			 2.  TCC 则要求框架实现 Try - Confirm - Cancel ；不读脏？
 
+
 -  **04.10｜分布式锁实现**
 
 	[[Distributed-2 分布式锁]]
