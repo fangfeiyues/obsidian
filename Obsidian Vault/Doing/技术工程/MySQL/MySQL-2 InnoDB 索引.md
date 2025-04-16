@@ -249,6 +249,11 @@ mysql> CREATE TABLE record_format_demo (
 	
 	
 	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
+	
+	
+	如一个执行计划 type = index、key = 'a_b_c‘、extra = {Using where,Using index}'；
+	那么这就说明走了全索引扫描，比如前置索引失效，可能就会出现这种情况。
+
 
  **索引失效**
 
