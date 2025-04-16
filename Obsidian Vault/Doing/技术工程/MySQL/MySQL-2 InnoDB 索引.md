@@ -240,10 +240,20 @@ mysql> CREATE TABLE record_format_demo (
 		7.  Using filesort：文件排序而非索引排序，如无法索引排序时
 		8.  ... 
 
+- SQL
+  
+	![[Pasted image 20250416163956.png|600]]
+	
+	
+	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
+	
+	
+	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
+	
+	
+	如一个执行计划 type = index、key = 'a_b_c‘、extra = {Using where,Using index}'；
+	那么这就说明走了全索引扫描，比如前置索引失效，可能就会出现这种情况。
 
-![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
-
-![[image-MySQL-5 InnoDB 索引-20240604170214147.png]]
 
  **索引失效**
 

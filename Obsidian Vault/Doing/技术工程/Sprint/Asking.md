@@ -1,7 +1,5 @@
 ## 1、MySQL
 
-
-
 -  **数据库为什么会忽然抖动**
 
 		1. 慢查询：索引、数据量太大
@@ -17,11 +15,13 @@
   
 	[[MySQL-2 InnoDB 索引]]
 
+
 -  **Hash索引 vs B+树索引**
 
 	1.  Hash 适合于等值查询，不适合范围和排序
 	2.  Hash 在磁盘上无序存储，成本高
 	3.  Hash 节点维护成本低
+
 
 -  **B+树 vs B树**
 
@@ -57,6 +57,12 @@
 	1.  快照读的是快照数据，如 select * from table
 	2.  当前读的是最新数据，如 select * from table for update等
 	只有在 RR 和 RC 才会有快照读
+
+
+-  **04.16｜redolog && binlog 的 2PC**
+
+	![[Pasted image 20250416145009.png|400]]
+
 
 
 ## 2、分布式
