@@ -240,10 +240,15 @@ mysql> CREATE TABLE record_format_demo (
 		7.  Using filesort：文件排序而非索引排序，如无法索引排序时
 		8.  ... 
 
-
-![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
-
-![[image-MySQL-5 InnoDB 索引-20240604170214147.png]]
+- SQL
+  
+	![[Pasted image 20250416163956.png|600]]
+	
+	
+	![[image-MySQL-5 InnoDB 索引-20240604170246246.png|600]]
+	
+	
+	![[image-MySQL-5 InnoDB 索引-20240604170214147.png|600]]
 
  **索引失效**
 
