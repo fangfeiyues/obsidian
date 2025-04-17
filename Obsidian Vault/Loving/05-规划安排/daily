@@ -197,4 +197,4 @@ invoke LoanMarketCreditApplyService.creditApply({"career":"02","income":"07","re
 
 
 
-通过限流、分布式锁及离线&实时脚本对账等方式保证其数据一致
+
