@@ -108,7 +108,7 @@ Next-Key Lock：gap-lock + 行锁 即 (3,8]
 	![[image-MySQL-8 InnoDB 锁-20240604193320558.png|600]]
 
 
-## 加锁分析
+## 4、加锁分析
 
 ### 1、SELECT
 
