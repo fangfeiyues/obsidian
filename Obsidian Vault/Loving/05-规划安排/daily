@@ -19,9 +19,6 @@
 --------------------------------【项目】--------------------------------
 
 
-「1、候选人面试」
-
-
 「2、退货包运费」
 
    1、风控策略与定价(FREIGHT_ADMITTANCE, FREIGHT_RISK_PRICE)   
@@ -197,4 +194,4 @@ invoke LoanMarketCreditApplyService.creditApply({"career":"02","income":"07","re
 
 
 
-
+invoke com.youzan.secured.shipping.api.ShippingService.addFeedBack({"kdtId":60047576,"operator":{"operatorPhone":"18267110414","operatorId":8351155754,"operatorName":"dsfsd"},"feedBackReasonRequestList":[{"reason":"ewrew"}]})
