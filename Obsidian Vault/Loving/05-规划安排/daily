@@ -1,7 +1,7 @@
 
 「work」
 
-   1. 含硅率：4月搞个AI产品 
+   1. AI含硅率: 4月搞个AI产品 
       1. 简历自动筛选：捞简历 -> 工作流筛选 -> API筛选
       2. 日常抽奖
       3. 智能预警
@@ -11,29 +11,32 @@
       7. 客服机器人
       8. AI CR
 
-   2. 贷超：机器人预警、贷超节奏推进
+   2. 贷超: 机器人预警、贷超节奏推进
 
-   3. 有赞寄件：单个回填运单路径添加有赞寄件快捷入口
+   3. 有赞寄件: 单个回填运单路径添加有赞寄件快捷入口
+
+   4. 上门取件: 优化日常、
 
 
 --------------------------------【项目】--------------------------------
 
 
-「2、退货包运费」
+「1、退货包运费」
 
-   1、风控策略与定价(FREIGHT_ADMITTANCE, FREIGHT_RISK_PRICE)   
-      1. 风控策略：黑白名单
-      2. 出险定价：fi_service_team_final_outdangered_rate_price (出险等级对应的定价)
-         1. outdangered_rate_recent3 近期出险率 = 退货单 / 投保单
-         2. outdangered_Rate_7_90_day3
-      存在问题？
+   1. 风控策略与定价
+      1. 风控策略：FREIGHT_ADMITTANCE 黑白名单 
+      2. 出险定价：FREIGHT_RISK_PRICE 风险率 -> 定价
+         1. fi_service_team_final_outdangered_rate_price (出险等级对应的定价)
+         2. outdangered_rate_recent3 近期出险率 = 退货单 / 投保单
+         3. outdangered_Rate_7_90_day3
+      3. 存在问题？
 
-   2、基础服务
+   2. 基础服务 -> 给谁开通
       1. 实体：服务记录、变更记录、数据统计
       2. 属性：商家、状态、时间、版本号
       3. 能力：开通、关闭、申请
 
-   3、保单 -> 给谁投保，并收取多少保费
+   3. 保单 -> 给谁投保，并收取多少保费
       1. 实体：保单、保单权益记录
       2. 属性：单号、外部单号、保险单号、状态、【保费】
       3. 能力：订立、预投保、投保、出险、补贴成功
@@ -41,7 +44,7 @@
          a. 升级版：权益配置固定保费和赔付
          b. 商家版：依赖倒置，组件化
 
-   4、理赔 -> 给谁赔付多少钱
+   4. 理赔 -> 给谁赔付多少钱
       1. 子域：理赔、保险 -> 实体：理赔申请单、理赔单、理赔材料、理赔定价、保险核心
       2. 能力：申请理赔、选择理赔、理赔出险
       3. 属性：理赔单、保单、【理赔金】、状态、受益人
@@ -50,10 +53,12 @@
          b. 下游保险
 
 
-「3、上门取件」
+「2、上门取件」
 
    1. 下单：支付 - 初始化 -> 补贴申请 -> 三方下单(超时) -> 待揽件 -> 同步交易
+
    2. 修改
+
    3. 取消
       协调者：取件单
       参与A：包运费补贴
@@ -190,8 +195,4 @@
 
 
 
-invoke LoanMarketCreditApplyService.creditApply({"career":"02","income":"07","relations":[{"mobile":"17609228202","name":"小狮子","relation":"SPOUSE"}],"userId":8310090136})
 
-
-
-invoke com.youzan.secured.shipping.api.ShippingService.addFeedBack({"kdtId":60047576,"operator":{"operatorPhone":"18267110414","operatorId":8351155754,"operatorName":"dsfsd"},"feedBackReasonRequestList":[{"reason":"ewrew"}]})
