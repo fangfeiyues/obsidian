@@ -19,7 +19,7 @@
 --------------------------------【项目】--------------------------------
 
 
-「2、退货包运费」
+「1、退货包运费」
 
    1、风控策略与定价(FREIGHT_ADMITTANCE, FREIGHT_RISK_PRICE)   
       1. 风控策略：黑白名单
@@ -50,7 +50,7 @@
          b. 下游保险
 
 
-「3、上门取件」
+「2、上门取件」
 
    1. 下单：支付 - 初始化 -> 补贴申请 -> 三方下单(超时) -> 待揽件 -> 同步交易
    2. 修改
@@ -187,14 +187,6 @@
       07.25｜下探业务深度
       07.25｜AI学习计划
       07.29｜PDD、DW、GD all_dead (对所有的项目推翻->重塑)
-
-
-
-invoke LoanMarketCreditApplyService.creditApply({"career":"02","income":"07","relations":[{"mobile":"17609228202","name":"小狮子","relation":"SPOUSE"}],"userId":8310090136})
-
-
-
-invoke com.youzan.secured.shipping.api.ShippingService.addFeedBack({"kdtId":60047576,"operator":{"operatorPhone":"18267110414","operatorId":8351155754,"operatorName":"dsfsd"},"feedBackReasonRequestList":[{"reason":"ewrew"}]})
 
 
 
