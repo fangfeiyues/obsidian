@@ -104,6 +104,7 @@ RocketMQ 的拉消费模型
 RocketMQ 的 `MessageListener` 回调函数提供了两种消费模式
 -  有序消费模式 `MessageListenerOrderly` 
 -  并发消费模式 `MessageListenerConcurrently`
+  
 为了保证顺序消费，需要3把锁
 1. 消费者对`Broker`加分布式锁，消息只会发给这个Consumer ID
 2. 对 `MessageQueue消息队列` 加本地锁，确保同一时间一个队列只有一个线程处理（其他队列）
