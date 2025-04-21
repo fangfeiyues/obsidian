@@ -140,7 +140,7 @@
 
 # 4、缓存
 
-InnoDB 用缓冲池 buffer pool 管理内存，能加快读写性能，但也必然会带来一些挑战。见 [[Redis-0 缓存的伤寒杂病论]]
+InnoDB 用缓冲池 buffer pool 管理内存，能加快读写性能，但也必然会带来一些挑战。见 [[Redis-0 缓存的伤寒杂病]]
 
 ## Buffer Pool
 
