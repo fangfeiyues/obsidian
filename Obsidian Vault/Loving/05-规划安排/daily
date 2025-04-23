@@ -1,7 +1,7 @@
 
 「work」
 
-   1. AI含硅率: 4月搞个AI产品 
+   1. AI含硅率(能解决一切重复劳动的行为，都可以AI)
 
    2. 贷超: 机器人预警优化
 
@@ -60,5 +60,7 @@
 
 invoke com.youzan.trade.revdc.api.service.FareService.fareRightShow({"kdtId":148239632,"orderNo":"E20250418153406101900087"})
 
+
+invoke com.youzan.pay.yz.fin.aigis.api.service.ActivityService.placeOrder({"applyNo":"test11111111","userNo":"149519775","activityNo":"AN00037","applySceneNo":,"VAS_YCM_ORDER_PG","optId":"-1L"})
 
 
