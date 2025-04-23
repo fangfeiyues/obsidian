@@ -61,6 +61,6 @@
 invoke com.youzan.trade.revdc.api.service.FareService.fareRightShow({"kdtId":148239632,"orderNo":"E20250418153406101900087"})
 
 
-invoke com.youzan.pay.yz.fin.aigis.api.service.ActivityService.placeOrder({"applyNo":"test11111111","userNo":"149519775","activityNo":"AN00037","applySceneNo":,"VAS_YCM_ORDER_PG","optId":"-1L"})
+invoke com.youzan.pay.yz.fin.aigis.api.service.ActivityService.placeOrder({"applyNo":"test11111111","userNo":"149519775","activityNo":"AN00037","applySceneNo":"VAS_YCM_ORDER_PG","optId":"-1L"})
 
 
