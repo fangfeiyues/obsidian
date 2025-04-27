@@ -61,3 +61,5 @@
 RefundOperateService
 
 PickupFinishProcessor
+
+secured_shop_stat
