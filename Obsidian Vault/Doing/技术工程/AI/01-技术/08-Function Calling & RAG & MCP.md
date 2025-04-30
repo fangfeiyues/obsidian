@@ -16,7 +16,7 @@
 
 ## RAG
 
-Retrieval-Augmented Generation 私有知识库
+	Retrieval-Augmented Generation 私有知识库
 
 将参考资料、样例放在prompt中，就叫 In-Context-Learning
 但上下文窗口宽度有限，所以需要一个知识库，需要在知识库里找到一些有用的信息
@@ -59,6 +59,43 @@ RAG & LLM
 
 
 ### 多样使用方法
+
+
+
+## MCP
+
+- **MCP**
+
+	![[Pasted image 20250430173234.png|500]]
+	
+	1.  MCP Host：主机，启动连接的LLM，并集成 MCP IDE 如 Claude Desktop
+	2.  MCP Client：复杂请求 Server
+	3.  MCP Server：提供上下文与三方连接，然后暴露数据与功能给 Client 使用
+	4.  Transport：Client 与 Server 之间协议如标准输入/输出stdio、服务器发送事件SSE等
+
+
+-  **MCP  vs  Function Call**
+
+	![[Pasted image 20250430174346.png|500]]
+	
+	Function Call 是大语言模型LLM与外部工具或API交互的核心机制，是一个基础能力，识别什么时候要工具，可能需要什么类型的工具的能力
+	
+	MCP则是工具分类的箱子，而非取代Function Call，而是在其基础上，联合Agent一起完成任务
+
+
+-  **MCP乱局**
+  
+	1.  开发的难题
+	   
+			MCP早期对于云端服务器 remote 采用了一种双链接机制，
+			一条是SSE的长链接来单向的从服务端到客户端推送消息，还有一条是发消息的http常规请求短链接
+			这样对于云端接入服务端，MCP接口意味着复杂的成本
+		
+	2.  市场的混乱
+
+
+「MCP入门」 https://mp.weixin.qq.com/s/KOXJO_T8V1ebKE_Rbu6Mpw
+「MCP很好，但不是万灵药」 https://mp.weixin.qq.com/s/19NAsU0nYeEC822U2LttUw
 
 
 
