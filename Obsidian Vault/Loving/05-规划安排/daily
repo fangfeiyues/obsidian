@@ -61,3 +61,6 @@
 
 
 invoke LoanMarketLoanService.verify({"bankCardId":"2733577104732395657","loanAmount":200000,"loanUse":"个人日常消费","repayMethod":"FIXED_INTEREST_ON_SCHEDULE","totalTerm":12,"userId":10041826345})
+
+
+invoke com.youzan.secured.shipping.api.ShippingService.quit({"kdtId":44646367,"operatorId":-1L})
