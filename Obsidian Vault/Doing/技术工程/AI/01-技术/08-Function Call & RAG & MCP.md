@@ -94,8 +94,10 @@ RAG & LLM
 	2.  市场的混乱
 
 
-「MCP入门」 https://mp.weixin.qq.com/s/KOXJO_T8V1ebKE_Rbu6Mpw
-「MCP很好，但不是万灵药」 https://mp.weixin.qq.com/s/19NAsU0nYeEC822U2LttUw
+
+
+- 「MCP入门」 https://mp.weixin.qq.com/s/KOXJO_T8V1ebKE_Rbu6Mpw
+- 「MCP很好，但不是万灵药」 https://mp.weixin.qq.com/s/19NAsU0nYeEC822U2LttUw
 
 
 
