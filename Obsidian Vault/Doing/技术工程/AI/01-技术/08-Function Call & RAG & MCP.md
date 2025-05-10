@@ -2,6 +2,7 @@
 ## Plugins
 
 GPT提供了很多插件能力，并制定标准的接口调用模版 
+暂时歇菜了..
 
 ## Function Calling
 
