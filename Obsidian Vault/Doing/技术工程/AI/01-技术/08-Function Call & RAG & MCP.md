@@ -1,4 +1,8 @@
 
+## Plugins
+
+GPT提供了很多插件能力，并制定标准的接口调用模版 
+
 ## Function Calling
 
 简单来说，就是工具使用
@@ -73,7 +77,7 @@ RAG & LLM
 	3.  MCP Server：提供上下文与三方连接，然后暴露数据与功能给 Client 使用
 	4.  Transport：Client 与 Server 之间协议如标准输入/输出stdio、服务器发送事件SSE等
 
-
+ 
 -  **MCP  vs  Function Call**
 
 	![[Pasted image 20250430174346.png|500]]
