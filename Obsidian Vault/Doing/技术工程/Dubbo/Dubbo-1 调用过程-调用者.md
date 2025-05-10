@@ -4,7 +4,7 @@
  - **Dubbo vs  HTTP**
 	1.  稳定性。http的支持是集中式的，rpc的支持是分布式的。经验上，rpc的稳定性更高一些。
 	2.  稳定性。rpc在协议上实现了诸多功能如限流、熔断、降级等，这些功能在稳定性治理上是刚需。
-	3.  成本。http的附加支持是有成本的，http的支持附加成本比rpc高 （rpc不需要附加成本，这些附加成本是指：LB的成本，申请域名、审批、创建http vip配置等的成本）
+	3.  成本。http的附加支持是有成本的，http的支持附加成本比rpc高（rpc不需要附加成本，这些附加成本是指：LB的成本，申请域名、审批、创建http vip配置等的成本）
 
 
 ![[image-Dubbo-1 调用过程之调用者-20240420205050456.png|450]]
@@ -28,16 +28,16 @@ https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/arc
 
 ```text
 ReferenceConfig#createInvoker
-	-> RegistryProtocol#refer(Class<T>, url)           -- 1. 生成集合类invoker
-		-> RegistryProtocol#getRegistry     -- 1.1 获取注册类
+	-> RegistryProtocol#refer(Class<T>, url)  -- 1. 生成集合类invoker
+		-> RegistryProtocol#getRegistry         -- 1.1 获取注册类
 			-> AbstractRegistryFactory#getRegistry  -- 管理注册类
 				-> ZookeeperRegistryFactory#createRegistry 
 				-> NacosRegistryFactory#createRegistry
-		-> RegistryDirectory<T>(type, url)  -- 1.2 节点->目录
-		-> FailbackRegistry#register(url)   -- 1.3 消费者节点注册
-		-> RegistryDirectory#subscribe(URL) -- 1.4 生产者节点订阅（订阅->invoker）
-		    -> FailbackRegistry.subscribe()    - 1.41 Failback正常失败
-				-> ZookeeperRegistry.doSubscribe  - 1.411 以zk为例
+		-> RegistryDirectory<T>(type, url)      -- 1.2 节点->目录
+		-> FailbackRegistry#register(url)       -- 1.3 消费者节点注册
+		-> RegistryDirectory#subscribe(URL)     -- 1.4 生产者节点订阅（订阅->invoker）
+		    -> FailbackRegistry.subscribe()       - 1.41 Failback正常失败
+				-> ZookeeperRegistry.doSubscribe   - 1.411 以zk为例
 				    -> zkClient.create(path, false)  - 消费者节点创建
 				    -> FailbackRegistry.notify       - Failback通知（通知->invoker）
 					    -> AbstractRegistry.notify()  
@@ -125,6 +125,7 @@ ReferenceConfig#createInvoker
 
 
 -  **自定义过滤器**
+
 	用户可根据需要，扩展 Filter SPI 的自定义过滤器
 
 ### 1.3、Directory

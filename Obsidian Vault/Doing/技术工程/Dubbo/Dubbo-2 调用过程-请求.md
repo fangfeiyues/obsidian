@@ -4,7 +4,7 @@ proxy0#sayHello(String)
     —> MockClusterInvoker#invoke(Invocation)
       —> AbstractClusterInvoker#invoke(Invocation)
         —> FailoverClusterInvoker#doInvoke(Invocation, List<Invoker<T>>, LoadBalance)
-          —> Filter#invoke(Invoker, Invocation)  // 包含多个 Filter 调用
+          —> Filter#invoke(Invoker, Invocation)  --  包含多个 Filter 调用
             —> ListenerInvokerWrapper#invoke(Invocation)
               —> AbstractInvoker#invoke(Invocation)
                 —> DubboInvoker#doInvoke(Invocation)
@@ -40,7 +40,8 @@ proxy0#sayHello(String)
 
 - **随机负载（默认）**
   
-	根据服务提供者的权重随机选择一个进行调用。如果权重相同，则等概率随机选择；如果权重不同，则按权重比例随机选择
+	根据服务提供者的权重随机选择一个进行调用。
+	如果权重相同，则等概率随机选择；如果权重不同，则按权重比例随机选择
 
 - **一致性哈希负载**
   
@@ -59,7 +60,7 @@ proxy0#sayHello(String)
 ### 2.3 Filter & Listener
 
 	拦截器 Filter 开始对请求的 invoker 做一些逻辑上的处理
-	Filter有：AccessLogFilter、ContextFilter、ExceptionFilter、ExecuteLimitFilter等
+	Filter有：AccessLogFilter、ContextFilter、ExceptionFilter、ExecuteLimitFilter 等
 
 ### 2.4 Request
 
