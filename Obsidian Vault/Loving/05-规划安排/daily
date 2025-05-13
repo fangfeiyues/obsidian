@@ -52,7 +52,7 @@
    2. 修改
 
    3. 取消
-   
+
 
 --------------------------------【记录】---------------------------------
  
@@ -71,3 +71,9 @@
 
 
 JDVB41299444902
+
+invoke com.youzan.trade.rp.api.operate.RefundOperateService.finishPickup({"refundId":"202505102331333952160528","kdtId":95639616,"operator":{"role":"BUYER","operatorId":15398734352},"refundItemGroup":[],"extension":{},"bizExtension":{},"logisticsNo":"YT2552563017270","companyCode":"2"})
+
+分布式锁：
+   1. 连接超时问题
+   2. 被抢占问题
