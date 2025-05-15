@@ -48,7 +48,7 @@
 「2、one by one」-> 自信、聪明
 
 
-   1、增值：架构演变、分布式事务
+   1、增值：架构演变、分布式事务等
 
       1. 退货包运费
 
@@ -58,6 +58,10 @@
 
          1.2 离线风控
             出现率 -> 每日定价 -> 加工成指标 -> 产品配置策略 -> 关联具体事件
+
+         1.3 权益配置
+            a) 升级版：定价&
+
 
       2. 有赞寄件 & 上门取件
 
@@ -72,7 +76,7 @@
             b) 流程开放：组件可插拔、数据通用化
 
 
-   2、分销员：分布式一致性、高流量
+   2、分销员：分布式一致性、高流量等
 
       1. 架构演变（记不清了，慎用）
 
@@ -93,7 +97,9 @@
 
       3. 高流量高并发
 
-         3.1 限流
+         3.1 限流：Tesla
+            a) 漏斗
+            b) 令牌桶
 
          3.2 MQ分流： Redis zset滑动窗口（重点实现！） + VIP通道
             a) 删除窗口外数据：zremrageByScore key min max
@@ -130,3 +136,48 @@
 
 
 invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryDeliverMsg({"buyerId":"11023573335","deliveryOrderNo":"RO250515160607393217","kdtId":"108989502","refundId":"202505151513580020200343","showLogisticsTrace":true})
+
+
+  /**
+   * 等待快递员上门取件
+   */
+  WAIT(0, "等待快递员上门取件"),
+  /**
+   * 取消上门取件
+   */
+  CANCEL(1, "取消上门取件"),
+  /**
+   * 完成上门取件
+   */
+  FINISH(2, "完成上门取件"),
+
+  /**
+   * 前置选择了上门取件，上门取件回调前处于的状态
+   */
+  APPLYING(3, "上门取件申请中"),
+
+  /**
+   * 上门取件失败
+   */
+  FAILED(4, "上门取件申请失败"),
+
+
+
+    INIT("INIT","初始化"),
+    DISCARDED("DISCARDED", "已废弃"),
+    ORDER_PLACING("ORDER_PLACING", "下单中"),
+    WAIT_PICKUP("WAIT_PICKUP", "待揽件"),
+    ORDER_MODIFYING("ORDER_MODIFYING", "修改中"),
+    ORDER_CANCELLING("ORDER_CANCELLING", "取消中"),
+    PICKUP_FINISHED("PICKUP_FINISHED", "已揽件"),
+    CANCELLED("CANCELLED", "已取消"),
+
+
+WAIT(0, "等待快递员上门取件")：WAIT_PICKUP、ORDER_PLACING、ORDER_MODIFYING、ORDER_CANCELLING
+CANCEL(1, "取消上门取件")：CANCELLED
+FINISH(2, "完成上门取件")：PICKUP_FINISHED
+APPLYING(3, "上门取件申请中")：这是用户申请退货时打的标，还没申请上门取件，应该用不到
+FAILED(4, "上门取件申请失败")：DISCARDED
+
+
+
