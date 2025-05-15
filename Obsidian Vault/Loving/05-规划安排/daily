@@ -138,50 +138,6 @@
 invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryDeliverMsg({"buyerId":"11023573335","deliveryOrderNo":"RO250515160607393217","kdtId":"108989502","refundId":"202505151513580020200343","showLogisticsTrace":true})
 
 
-  /**
-   * 等待快递员上门取件
-   */
-  WAIT(0, "等待快递员上门取件"),
-  /**
-   * 取消上门取件
-   */
-  CANCEL(1, "取消上门取件"),
-  /**
-   * 完成上门取件
-   */
-  FINISH(2, "完成上门取件"),
 
-  /**
-   * 前置选择了上门取件，上门取件回调前处于的状态
-   */
-  APPLYING(3, "上门取件申请中"),
-
-  /**
-   * 上门取件失败
-   */
-  FAILED(4, "上门取件申请失败"),
-
-
-
-    INIT("INIT","初始化"),
-    DISCARDED("DISCARDED", "已废弃"),
-    ORDER_PLACING("ORDER_PLACING", "下单中"),
-    WAIT_PICKUP("WAIT_PICKUP", "待揽件"),
-    ORDER_MODIFYING("ORDER_MODIFYING", "修改中"),
-    ORDER_CANCELLING("ORDER_CANCELLING", "取消中"),
-    PICKUP_FINISHED("PICKUP_FINISHED", "已揽件"),
-    CANCELLED("CANCELLED", "已取消"),
-
-
-WAIT(0, "等待快递员上门取件")：WAIT_PICKUP、ORDER_PLACING、ORDER_MODIFYING、ORDER_CANCELLING
-CANCEL(1, "取消上门取件")：CANCELLED
-FINISH(2, "完成上门取件")：PICKUP_FINISHED
-APPLYING(3, "上门取件申请中")：这是用户申请退货时打的标，还没申请上门取件，应该用不到
-FAILED(4, "上门取件申请失败")：DISCARDED
-
-业务背景怎么描述好？
-架构/模式，讲述的方法论，感觉说的有点乱
-难点还要再深入下，无论是技术的还是业务的。技术的就分布式，业务的领域设计
-算法这几个月至少每天+1
 
 
