@@ -7,7 +7,7 @@
 
    3. 有赞寄件: 3月补扣&退款（可否AI串行流程）
 
-   4. 上门取件: 上门取件增加商家端价值透传项目发布
+   4. 上门取件: 上门取件增加商家端价值透传项目发布、取件码
 
 
 --------------------------------【项目】--------------------------------
@@ -140,3 +140,9 @@
 
 
 
+
+
+SD250424204337000001
+
+select * from shipping_fee_detail where voucher_no in ('SV250422221645000000') order by id desc limit 10;
+select * from shipping_payment_order where biz_no in ('SD250424204337000001') order by id desc limit 10;
