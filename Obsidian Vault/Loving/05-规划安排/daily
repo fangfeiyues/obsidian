@@ -129,13 +129,10 @@
 
 「2、关系」
 
-   1. 自我｜不会考虑他人 -> 保护自己、降低期待 ｜ 好像要明说要表达？
-   2. 差劲｜什么都不行（懒惰、素质..） -> 提升自己、尽量远离 ｜ 说了也没用督促也没用
+   1. 自我｜降低期待、保护自己 -> 好像要明说要表达？
+   2. 差劲｜什么都不行（懒惰、素质..） -> 做好自己
 
 
-
-
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryDeliverMsg({"buyerId":"11023573335","deliveryOrderNo":"RO250515160607393217","kdtId":"108989502","refundId":"202505151513580020200343","showLogisticsTrace":true})
 
 
 
