@@ -135,16 +135,3 @@
    1. 自我｜降低期待、保护自己 -> 好像要明说要表达？
    2. 差劲｜什么都不行（懒惰、素质..） -> 做好自己
 
-
-
-
-
-
-
-
-SD250424204337000001
-
-select * from shipping_fee_detail where voucher_no in ('SV250422221645000000') order by id desc limit 10;
-select * from shipping_payment_order where biz_no in ('SD250424204337000001') order by id desc limit 10;
-
-OUTER_202504071444091957240_1_773348154670768
