@@ -1,0 +1,7 @@
+
+## AI 不再卖工具，而是卖成果
+
+
+
+
+https://mp.weixin.qq.com/s/7atu0CxodoiCipRcppkgoQ
