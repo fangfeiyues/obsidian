@@ -4,6 +4,7 @@
    1. AI含硅率:
       1、AI SQL，通过现有表结构 + 提示词 -> 生成数据查询SQL
       2、一键Agent，通过 RAG、Function Calling等实现问题排查
+      3、AI日志，关键词 + Prompt搜索到全部相关日志
 
    2. 贷超: 
 
