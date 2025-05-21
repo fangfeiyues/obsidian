@@ -28,13 +28,10 @@ GPT提供了很多插件能力，并制定标准的接口调用模版
 
 1、构建可检索的知识库
 
-	1. 知识整理
-	2. 数据清理及格式化
-	3. 内容切分：较小的知识片段Chunk
-	4. 向量化：将每个知识片段转化为向量表示，如OpenAI 的 Embedding
-	5. 关联元数据
-	6. 载入向量数据库，并建立索引：如FAISS、Pinecone等
-	7. 部署集成
+	1. 知识整理、数据清理及格式化
+	2. 内容切分：较小的知识片Text Chunk
+	3. 向量化：将知识片段通过 Embedding Model 转化为向量，如 OpenAI 的 text-Embedding-3-large
+	4. 向量数据库：Vector Database 存储 Vector Embedding，提供相似性搜索。如Pinecone、FAISS
 
 2、模型调用知识库完成用户任务
 
