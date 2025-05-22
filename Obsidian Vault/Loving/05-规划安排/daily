@@ -144,6 +144,13 @@
 
 「2、关系」
 
-   1. 自我｜降低期待、保护自己 -> 好像要明说要表达？
-   2. 差劲｜什么都不行（懒惰、素质..） -> 做好自己
+   1. 自我｜只考虑自己（自私、冷漠） -> 降低期待、保护自己
+   2. 差劲｜什么都不行（懒惰、素质） -> 做好自己
 
+
+
+
+trade-core tsp-worker-0a37d905-10111089156-51a782ea E20250517173103063500089 -> 山东省
+
+
+内部错误(语法错误( [hive][explain]失败:语法错误:Error while compiling statement: FAILED: SemanticException [Error 10025]: Line 1:415 Expression not in GROUP BY key 'indicator_value' [spark][explain]失败:语法错误:Error running query: java.lang.RuntimeException: executor query error org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: expression 'spark_catalog.dm_fin_risk.quick_kdt_order_item_num_indicator.`indicator_value`' is neither present in the group by, nor is it an aggregate function. Add to group by or wrap in first() (or first_value) if you don't care
