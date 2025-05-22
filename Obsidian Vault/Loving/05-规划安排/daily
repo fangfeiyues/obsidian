@@ -2,10 +2,15 @@
 「work」
 
    1. AI含硅率:
-      1、AI SQL，通过现有表结构 + 提示词 -> 生成数据查询SQL
-      2、一键Agent，通过 RAG、Function Calling等实现问题排查
-      3、AI日志，关键词 + Prompt搜索到相关日志
-      4、..
+      1. AI SQL，通过现有表结构 + 提示词 -> 生成数据查询SQL
+      2. AI日志，关键词 + Prompt搜索到相关日志
+      3. Jira一键排查Agent
+         3.1 LangChain4j ClassificationChain + 文本标签
+         3.2 Prompt管理：根据分类加载Apollo配置
+         3.3 执行计划：LLM输出，如[{"tool":"xxxQuery","params":"orderNo=E001"}]
+         4. MCP 本地服务接入，然后RAG搜索增强匹配知识库
+         5. 
+      4...
 
    2. 贷超: 
 
