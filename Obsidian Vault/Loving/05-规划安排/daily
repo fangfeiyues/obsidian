@@ -157,6 +157,3 @@ trade-core tsp-worker-0a37d905-10111089156-51a782ea E20250517173103063500089 -> 
 [{\"context\":\"运输中\",\"status\":\"运输中\",\"time\":\"2023-03-21 15:44:05\"},{\"context\":\"揽收任务已分配给程佳乐（联系电话：15688348933）。给您服务的快递员已完成新冠疫苗接种，祝您身体健康。\",\"status\":\"揽收任务分配\",\"time\":\"2023-03-21 15:42:33\"}]
 
 
-//        Pattern namePattern = Pattern.compile("(?<=(?:分配给|快递员))[\\u4e00-\\u9fa5]{2,4}");
-   
-//        Pattern phonePattern = Pattern.compile("1\\d{10}");
