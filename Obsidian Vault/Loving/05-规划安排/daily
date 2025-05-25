@@ -7,7 +7,7 @@
       3. Jira一键排查Agent
          3.1 LangChain4j ClassificationChain + 文本标签
          3.2 Prompt管理，根据分类加载Apollo配置
-         3.3 执行计划，LLM输出如[{"tool":"xxxQuery","params":"orderNo=E001"}]
+         3.3 LLM执行计划，输出如[{"tool":"xxxQuery","params":"orderNo=E001"}]
          3.4 MCP本地服务接入，然后RAG搜索增强匹配知识库
       4...
 
