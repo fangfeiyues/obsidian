@@ -93,7 +93,6 @@ SFT阶段需要的不多，大概是几十万条数据，大概是预训练阶�
 -  奖励模型 vs 监督微调？
   
 
-
 ## 4、RL
 
 Reinforcement Learning 强化学习
