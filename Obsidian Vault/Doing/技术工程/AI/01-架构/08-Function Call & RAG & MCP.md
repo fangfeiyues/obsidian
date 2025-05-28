@@ -21,7 +21,7 @@ GPT提供了很多插件能力，并制定标准的接口调用模版
 
 ## RAG
 
-	Retrieval-Augmented Generation 私有知识库
+	Retrieval-Augmented Generation 检索增强生成
 
 将参考资料、样例放在prompt中，就叫 In-Context-Learning
 但上下文窗口宽度有限，所以需要一个知识库，需要在知识库里找到一些有用的信息
@@ -41,7 +41,8 @@ GPT提供了很多插件能力，并制定标准的接口调用模版
 	4. 选取相似高的一条或多条知识片段，并取出知识片段
 	5. 将检索出的知识片段与原prompt合并一起组成新的prompt
 
-RAG & LLM
+- RAG & LLM
+
 	![[Pasted image 20250407201733.png|500]]
 
 
