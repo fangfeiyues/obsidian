@@ -210,7 +210,43 @@
 一路飘摇、颠沛流离..
 
 
-28-29-30-31-1-2-3
+invoke com.youzan.pay.risk.engine.api.RuleEngineService.execute({"eventCode":"QUICK_RETURN_GOODS_NODE","kdtId":"174187231","batchId":"2222323212","basisInput":{"kdt_id":"174187231","order_no":"E20250602213225000306175","buyer_id":""}})
 
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryTaskService.waitPickupOrderFix(200,150,138)
 
+
+测试数据1
+kdt_id：174187231
+team_name：道韵阁
+order_no：E20250602213225000306175
+事件：快速回款发货节点
+策略：无须配送订单
+规则：无须物流商家准入规则
+规则结果:REJECT
+
+测试数据2
+kdt_id：138148503
+team_name：快充秒充服务250219
+order_no：E20250528211724056706167
+事件：快速回款发货节点
+策略：无须配送订单
+规则：无须物流商家准入规则
+规则结果:REJECT
+
+
+测试数据3
+kdt_id：14988482
+team_name：慈元阁
+order_no：E20250505124316051406209
+事件：快速回款发货节点
+策略：无须配送订单
+规则：无须物流订单准入规则
+规则结果:REJECT
+
+测试数据4
+kdt_id：115976305
+team_name：宾利杭州
+order_no：E20250525153818088500059
+事件：快速回款发货节点
+策略：无须配送订单
+规则：无须物流订单准入规则
+规则结果:REJECT
