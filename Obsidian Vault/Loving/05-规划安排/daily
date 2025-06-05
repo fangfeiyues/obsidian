@@ -124,7 +124,7 @@
                1. 基础结构，如 int[]、Deque、PriorityQueue、Stack等
                2. 深度遍历、回溯递归
                3. 滑动窗口、前缀和、二分切割
-               4. 动态规划
+               4. 动态规划(强)
                5. 想法题，如队列排序、
 
             b) 场景：多线程、LRU、trie.. -> 看点运气了
@@ -187,6 +187,10 @@
 
    6、心态：既来之则安之、永远留好后路(有你有赞)
 
+      1. Ant: 老哥的说法是应该还行的 感觉还可以
+
+      2. Self: 最近感觉心浮气躁，书看少了..原来看书真有用
+
  
 --------------------------------【记录】---------------------------------
  
@@ -194,7 +198,6 @@
 「1、减肥」（周更）
 
    06.05｜未知，昨晚吃的多有点控制不住
-
 
 
 「2、关系」
@@ -206,3 +209,4 @@
 
 一路飘摇、颠沛流离..
 
+invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["latest_3day_kdt_no_logistics_order_money"]})
