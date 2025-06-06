@@ -191,7 +191,6 @@
 
       2. Self: 最近感觉心浮气躁，书看少了..原来看书真有用
 
-
  
 --------------------------------【记录】---------------------------------
  
@@ -207,8 +206,10 @@
    3. 贫穷｜贫困夫妻百事哀 -> 赚钱、赚钱
 
 
-
 一路飘摇、颠沛流离..
 
 
 invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["latest_3day_kdt_no_logistics_order_money"]})
+
+
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryDeliverMsg({"refundId":"202506060757363952310853","deliveryOrderNo":"RO250606093802393217","kdtId":"146745912","buyerId":"11111","showLogisticsTrace":true})
