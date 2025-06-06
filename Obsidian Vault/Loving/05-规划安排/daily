@@ -5,9 +5,13 @@
 
    2. 贷款超市: 
 
-   3. 有赞寄件: (27号提前扣除对账)
+   3. 有赞寄件: 顺丰特运项目
 
-   4. 上门取件: 上门取件取件码项目
+   4. 上门取件: 上门取件取件码项目上线
+
+   5. 快速回款: 虚拟商品风控指标配合测试
+
+   6. 订单贷: 连连指标开发
 
 
 --------------------------------【项目】--------------------------------
@@ -19,7 +23,7 @@
    06.04｜transformer -> GPU -> Agent
 
 
-「2、one by one」-> 自信、聪明
+「2、one by one」-> 一路飘摇、颠沛流离
 
    1、增值：架构演变、分布式事务等
 
@@ -191,7 +195,8 @@
 
 「1、减肥」（周更）
 
-   06.05｜未知，昨晚吃的多有点控制不住
+   06.05｜未知。昨晚吃的多有点控制不住
+   06.06｜未知。昨晚情绪没控制住，又吃了
 
 
 「2、关系」
@@ -200,12 +205,7 @@
    3. 贫穷｜贫困夫妻百事哀 -> 赚钱、赚钱
 
 
-一路飘摇、颠沛流离..
 
 
-invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["latest_3day_kdt_no_logistics_order_money"]})
-
-
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryDeliverMsg({"refundId":"202506060757363952310853","deliveryOrderNo":"RO250606093802393217","kdtId":"146745912","buyerId":"11111","showLogisticsTrace":true})
 
 
