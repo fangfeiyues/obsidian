@@ -11,7 +11,7 @@
 
    5. 快速回款: “商品列表不包含虚拟商品”指标优化
       1. DP任务新建Hive任务，保存离线结果表
-      2. 风控新建指标，关联离线表，并生成离线SQL Temp Script
+      2. 风控新建指标，关联离线表，并生成离线 SQL Temp Script
       3. DP任务新建Temp任务，关联离线结果 和 指标
       4. DP任务新建导出任务，导出结果到HBase
 
@@ -213,3 +213,5 @@ invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync
 
 
 invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryDeliverMsg({"refundId":"202506060757363952310853","deliveryOrderNo":"RO250606093802393217","kdtId":"146745912","buyerId":"11111","showLogisticsTrace":true})
+
+
