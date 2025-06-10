@@ -23,6 +23,7 @@
 「2. 减肥」(周更)
 
    06.09｜未知。周末吃的太多，本周开始空腹爬楼5连鞭
+   06.10｜未知。前天没睡好昨晚太累，爬楼暂歇一天
 
 
 --------------------------------【记录】---------------------------------
@@ -195,5 +196,3 @@
       2. Self: 最近感觉心浮气躁，书看少了..原来看书真有用
 
 
-
-invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["latest_6to4_3month_mch_avg_pmv","latest_12to7_6month_mch_avg_pmv"]})
