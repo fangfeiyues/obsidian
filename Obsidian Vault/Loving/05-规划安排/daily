@@ -204,3 +204,12 @@
 
 
 
+
+
+
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"fixOrderList":["RO250610192836393216"]})
+
+
+
+
+
