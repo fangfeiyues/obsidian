@@ -208,36 +208,6 @@ invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvai
 
 
 
-贺胡松
-
-MVP
-
-大语言模型聊天模块，为上层统一接口，计费鉴权
-
-RAG：外挂知识库，新的知识
-
-Function Call：意图识别调用工具
-
-MCP：协议、client
-
-Agent：
-
-
-Sora文本生成图片
-
-
-海底捞替代客服，
--> ES 分词存储坐标、描述 
--> RAG
--> LLM根据用户提问意图识别 propmt
--> 命中 Function call 
--> 查询回塞
- 
-
-
-volatile 可见性 、 synchronized 锁 对象和类
-MQ不推荐，使用一般
-
 
 
 
