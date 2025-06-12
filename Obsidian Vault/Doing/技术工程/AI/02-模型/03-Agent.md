@@ -10,6 +10,9 @@
 
 ![[Pasted image 20250417192437.png]]
 
+Agent 的大脑就是 LLM 大语言模型，
+
+
 
 
 
