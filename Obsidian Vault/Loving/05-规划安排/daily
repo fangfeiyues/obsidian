@@ -200,9 +200,57 @@
 
 
 
-
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json":"{\"extraTrace\":{\"packId\":\"RL250610194247393219\",\"pickupCode\":\"1797\",\"pickupTime\":\"2025-06-12 08:18:30\"},\"newTrace\":{\"createdTime\":1749555770,\"data\":\"[{\\\"context\\\":\\\"【黄石市】快件已发往 湖北武昌转运中心\\\",\\\"status\\\":\\\"TRANSPORT\\\",\\\"time\\\":\\\"2025-06-12 18:39:18\\\"},{\\\"context\\\":\\\"【黄石市】湖北大冶市公司(0714-3703205)的肖本进084(13872079909) 已揽收\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-12 08:18:30\\\"}]\",\"expressId\":1,\"expressNo\":\"773360386874062\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749724778},\"oldTrace\":{\"createdTime\":1749555770,\"data\":\"[{\\\"context\\\":\\\"【黄石市】快件已发往 湖北武昌转运中心\\\",\\\"status\\\":\\\"发件\\\",\\\"time\\\":\\\"2025-06-12 18:39:18\\\"},{\\\"context\\\":\\\"【黄石市】湖北大冶市公司(0714-3703205)的肖本进084(13872079909) 已揽收\\\",\\\"status\\\":\\\"收件\\\",\\\"time\\\":\\\"2025-06-12 08:18:30\\\"},{\\\"context\\\":\\\"揽收任务已分配给肖本进（联系电话：13872079909）\\\",\\\"status\\\":\\\"待取件\\\",\\\"time\\\":\\\"2025-06-10 19:42:50\\\"}]\",\"expressId\":1,\"expressNo\":\"773360386874062\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749724777}}"})
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json":"{\"extraTrace\":{\"packId\":\"RL250611094325393219\",\"pickupCode\":\"6242\",\"pickupTime\":\"2025-06-12 18:15:14\"},\"newTrace\":{\"createdTime\":1749606208,\"data\":\"[{\\\"context\\\":\\\"【杭州市】浙江杭州萧山区聚益公司(057182661649)的冯—施建钢(18806711490) 已揽收【物流问题无需找商家或平台，请致电（057182661649）或专属渠道95543更快解决】\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-12 18:15:14\\\"}]\",\"expressId\":1,\"expressNo\":\"773360455048398\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749726697},\"oldTrace\":{\"createdTime\":1749606208,\"data\":\"[{\\\"context\\\":\\\"【杭州市】浙江杭州萧山区聚益公司(057182661649)的冯—施建钢(18806711490) 已揽收【物流问题无需找商家或平台，请致电（057182661649）或专属渠道95543更快解决】\\\",\\\"status\\\":\\\"收件\\\",\\\"time\\\":\\\"2025-06-12 18:15:14\\\"},{\\\"context\\\":\\\"揽收任务已分配给施建钢（联系电话：18806711490）\\\",\\\"status\\\":\\\"待取件\\\",\\\"time\\\":\\\"2025-06-11 21:02:14\\\"},{\\\"context\\\":\\\"揽收任务已分配给顾杰（联系电话：19857111612）\\\",\\\"status\\\":\\\"待取件\\\",\\\"time\\\":\\\"2025-06-11 09:43:28\\\"}]\",\"expressId\":1,\"expressNo\":\"773360455048398\",\"message\":\"已揽件\",\"state\":1,\"updatedTime\":1749723327}}"})
 
 
 
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"kdtId":60047576,"receiptProvince":"上海市","sendProvince":"西藏自治区","weight":1000})
+
+
+
+贺胡松
+
+MVP
+
+大语言模型聊天模块，为上层统一接口，计费鉴权
+
+RAG：外挂知识库，新的知识
+
+Function Call：意图识别调用工具
+
+MCP：协议、client
+
+Agent：
+
+
+Sora文本生成图片
+
+
+海底捞替代客服，
+-> ES 分词存储坐标、描述 
+-> RAG
+-> LLM根据用户提问意图识别 propmt
+-> 命中 Function call 
+-> 查询回塞
+ 
+
+
+volatile 可见性 、 synchronized 锁 对象和类
+MQ不推荐，使用一般
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
