@@ -207,9 +207,10 @@
 
 
 
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"fixOrderList":["RO250610192836393216"]})
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"fixOrderList":["RO250610224209393217","RO250610225410393216","RO250610230820393217","RO250610233745393217"]})
 
 
 
 
 
+2025-06-10 19:02:39.979
