@@ -204,24 +204,8 @@
 
 
 
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json":"{\"extraTrace\":{\"packId\":\"RL250610204859393219\",\"pickupCode\":\"8127\",\"pickupTime\":\"2025-06-13 00:21:35\"},\"newTrace\":{\"createdTime\":1749559742,\"data\":\"[{\\\"context\\\":\\\"【东莞市】广东东莞凤岗镇公司(076933550307)的高二娃(16620679167) 已揽收\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-13 00:21:35\\\"}]\",\"expressId\":1,\"expressNo\":\"773360392036511\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749776477},\"oldTrace\":{\"createdTime\":1749559742,\"data\":\"[{\\\"context\\\":\\\"【东莞市】广东东莞凤岗镇公司(076933550307)的高二娃(16620679167) 已揽收\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-13 00:21:35\\\"}]\",\"expressId\":1,\"expressNo\":\"773360392036511\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749772874}}"})
 
-
-
-invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"kdtId":60047576,"receiptProvince":"上海市","sendProvince":"西藏自治区","weight":1000})
-
-
-{
-  "mcpServers": {
-    "notion": {
-      "command": "npx",
-      "args": ["-y", "@suekou/mcp-notion-server"],
-      "env": {
-        "NOTION_API_TOKEN": "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"
-      }
-    }
-  }
-}
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json":"{\"extraTrace\":{\"packId\":\"RL250611104654393219\",\"pickupCode\":\"4165\",\"pickupTime\":\"2025-06-13 11:24:45\"},\"newTrace\":{\"createdTime\":1749610035,\"data\":\"[{\\\"context\\\":\\\"您的快件在【新疆乌鲁木齐市幸福花园】已揽收，揽收人: 汪海强（18521165569）【物流问题无需找商家或平台，请致电（09918823621）（专属热线:95554）更快解决】\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-13 11:24:45\\\"}]\",\"expressId\":2,\"expressNo\":\"YT2528241506275\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749792302},\"oldTrace\":{\"createdTime\":1749610035,\"data\":\"[{\\\"context\\\":\\\"您的快件在【新疆乌鲁木齐市幸福花园】已揽收，揽收人: 汪海强（18521165569）【物流问题无需找商家或平台，请致电（09918823621）（专属热线:95554）更快解决】\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-13 11:24:45\\\"}]\",\"expressId\":2,\"expressNo\":\"YT2528241506275\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749788698}}"})
 
 
 
@@ -236,6 +220,8 @@ invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvai
     }
   }
 }
+
+
 
 
 
