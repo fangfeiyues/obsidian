@@ -20,6 +20,7 @@
    06.09｜ MCP接入 + transformer 结构复习之一
    06.10｜ 略忙，先搞个MCP试试 -> FastMCP
    06.12｜ 搞个Cousor账号用起来
+   06.13｜ Cursor + Notion = AI优化笔记
 
 
 「2. 减肥」(周更)
@@ -27,6 +28,9 @@
    06.09｜未知。周末吃的太多，本周开始空腹爬楼5连鞭
    06.10｜未知。前天没睡好昨晚太累，爬楼暂歇一天
    06.11｜159.8，昨晚回去很累，11点就睡了..最近体力不足
+
+
+「3. 投资」(周更)
 
 
 --------------------------------【记录】---------------------------------
@@ -207,8 +211,17 @@ invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json"
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"kdtId":60047576,"receiptProvince":"上海市","sendProvince":"西藏自治区","weight":1000})
 
 
-
-
+{
+  "mcpServers": {
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "@suekou/mcp-notion-server"],
+      "env": {
+        "NOTION_API_TOKEN": "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"
+      }
+    }
+  }
+}
 
 
 
