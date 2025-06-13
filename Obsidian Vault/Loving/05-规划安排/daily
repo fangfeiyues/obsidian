@@ -225,7 +225,17 @@ invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvai
 
 
 
-
+{
+  "mcpServers": {
+    "notionApi": {
+      "command": "npx",
+      "args": ["-y", "@notionhq/notion-mcp-server"],
+      "env": {
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer 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\", \"Notion-Version\": \"2022-06-28\" }"
+      }
+    }
+  }
+}
 
 
 
