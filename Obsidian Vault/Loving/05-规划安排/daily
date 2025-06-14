@@ -205,42 +205,27 @@
 
 
 
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json":"{\"extraTrace\":{\"packId\":\"RL250611104654393219\",\"pickupCode\":\"4165\",\"pickupTime\":\"2025-06-13 11:24:45\"},\"newTrace\":{\"createdTime\":1749610035,\"data\":\"[{\\\"context\\\":\\\"您的快件在【新疆乌鲁木齐市幸福花园】已揽收，揽收人: 汪海强（18521165569）【物流问题无需找商家或平台，请致电（09918823621）（专属热线:95554）更快解决】\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-13 11:24:45\\\"}]\",\"expressId\":2,\"expressNo\":\"YT2528241506275\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749792302},\"oldTrace\":{\"createdTime\":1749610035,\"data\":\"[{\\\"context\\\":\\\"您的快件在【新疆乌鲁木齐市幸福花园】已揽收，揽收人: 汪海强（18521165569）【物流问题无需找商家或平台，请致电（09918823621）（专属热线:95554）更快解决】\\\",\\\"status\\\":\\\"ACCEPT\\\",\\\"time\\\":\\\"2025-06-13 11:24:45\\\"}]\",\"expressId\":2,\"expressNo\":\"YT2528241506275\",\"message\":\"运输中\",\"state\":7,\"updatedTime\":1749788698}}"})
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json":""})
 
 
 
 {
   "mcpServers": {
-    "notionApi": {
+    "notion": {
       "command": "npx",
-      "args": ["-y", "@notionhq/notion-mcp-server"],
-      "env": {
-        "OPENAPI_MCP_HEADERS": "{\"Authorization\": \"Bearer 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\", \"Notion-Version\": \"2022-06-28\" }"
-      }
-    }
-  }
-}
-
-
-{
-  "mcpServers": {
-    "notionApi": {
-      "command": "docker",
       "args": [
+        "-y",
+        "@smithery/cli@latest",
         "run",
-        "--rm",
-        "-i",
-        "-e", "OPENAPI_MCP_HEADERS",
-        "mcp/notion"
-      ],
-      "env": {
-        "OPENAPI_MCP_HEADERS": "{\"Authorization\":\"Bearer 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\",\"Notion-Version\":\"2022-06-28\"}"
-      }
+        "@smithery/notion",
+        "--key",
+        "581e8cf9-3b66-4c7f-857e-c3fd2d55b7cb",
+        "--profile",
+        "provincial-orca-PYfyWU"
+      ]
     }
   }
 }
-
-
 
 
 
