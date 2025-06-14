@@ -222,6 +222,24 @@ invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.fixWait({"json"
 }
 
 
+{
+  "mcpServers": {
+    "notionApi": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-e", "OPENAPI_MCP_HEADERS",
+        "mcp/notion"
+      ],
+      "env": {
+        "OPENAPI_MCP_HEADERS": "{\"Authorization\":\"Bearer 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\",\"Notion-Version\":\"2022-06-28\"}"
+      }
+    }
+  }
+}
+
 
 
 
