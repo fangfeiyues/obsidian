@@ -202,9 +202,6 @@
 
 
 
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryTaskService.fix2TradeRp("RO250612181952393217")
-
-
 
 
 
