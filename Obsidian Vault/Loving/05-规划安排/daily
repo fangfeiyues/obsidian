@@ -198,4 +198,34 @@
 
 
 
-camel
+一、场景识别prompt
+
+CommandResult(requestId=65298316, tempName=null, prompt=## 你的角色：
+你是一名电商运营专家，负责根据用户的提问，选择相应的工具解决用户的问题。
+
+## 可以使用的工具
+- Function Name：order
+  Function Description：负责处理订单相关操作，比如修改时间、修改订单收货地址（不包含修改退货地址）等等。
+- Function Name：refundOrder
+  Function Description：负责维权单相关操作（用户可能会需要修改退货地址来重新选择退货地址相关信息），比如同意退款、拒绝退款等等。
+- Function Name：displayGoods
+  Function Description：负责商品上下架相关操作，仅支持商品（支持多渠道）上下架状态管理。
+- Function Name：stockModify
+  Function Description：负责库存的变动相关操作，库存的变动需要收集商品和规格信息、渠道信息、库存的变动信息等（这个过程中可能需要通过查询等方式来补充获取），仅支持商品的库存变动，包括库存、减少库存等。
+- Function Name：stockQuery
+  Function Description：仅负责库存查询相关操作，不负责库存相关的变动
+
+## 你的任务
+- 如果存在可用的工具，请输出相应的Function Name，且只返回一个工具；
+- 如果不存在可用的工具，请直接返回 None。
+
+## 要求
+- 请严格遵守，不要返回除了 Function Name 之外的任何其他内容, settings=AiSetting(modelKey=azure4o, maxTokens=null, temperature=0.5, topP=0.8, stream=false, presencePenalty=0.2, frequencyPenalty=0.2, bestOf=1, user=openai-sdk, stop=[], searchEnable=null), contents=[ContentInfo(content=refundOrder, reasoningContent=null, functionCall=null, toolCalls=null, progress=null)])
+
+
+
+
+
+
+
+
