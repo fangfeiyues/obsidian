@@ -197,3 +197,4 @@
       2. Self: 最近感觉心浮气躁，书看少了..原来看书真有用
 
 
+invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.batchAvailableProduct({"batchDeliveryProductRequest":[{"kdtId":,"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"浙江省","receiptCity":"杭州市"}]})
