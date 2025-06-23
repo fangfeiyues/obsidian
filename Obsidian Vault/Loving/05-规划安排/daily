@@ -265,3 +265,6 @@
 
 
 
+
+
+insert into forward_logistics_express_price(express_id, express_name, send_region,receipt_region, min_weight, max_weight, price_type, initial_weight,initial_weight_price,additional_weight,additional_weight_price,extra,created_at,updated_at) values (7,"顺丰特运","北京市北京市","广东省广州市",0,1000000,"discount_price",1000,1610,500,490,"{\"productCode\":\"1\"}",now(),now())
