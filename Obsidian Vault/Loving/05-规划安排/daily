@@ -262,3 +262,21 @@ http://tether-pre.s.qima-inc.com:8680/soa/com.youzan.delivery.service.waybill.Wa
 
 
 com.youzan.delivery.service.waybill.WaybillService#listWaybillOrders
+
+[
+    {
+        "buyerName": "",
+        "buyerPhone": "",
+        "expressNo": "JDVB43419990180",
+        "expressState": -1,
+        "kdtId": 43729418,
+        "orderId": "",
+        "page": 1,
+        "pageSize": 10,
+        "payState": -1,
+        "paymentType": 0,
+        "requestId": "8875de3a-b03f-44e4-a487-45290aed0852"
+    }
+]
+
+
