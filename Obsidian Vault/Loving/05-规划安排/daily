@@ -258,12 +258,7 @@
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"productCode":"1","kdtId":1984620})
 
 
-http://tether-pre.s.qima-inc.com:8680/soa/com.youzan.ebiz.mall.trade.seller.api.service.delivery.OrderDeliveryService/listDistOrderByOrderNo
+http://tether-pre.s.qima-inc.com:8680/soa/com.youzan.delivery.service.waybill.WaybillService/listWaybillOrders
 
 
-http://tether-pre.s.qima-inc.com:8680/soa/com.youzan.ebiz.mall.trade.seller.api.service.search.OrderSearchService/orderFormat
-
-{"kdtId":106638922,"orderNo":"E20250615162255007000061"}
-
-
-108742209
+com.youzan.delivery.service.waybill.WaybillService#listWaybillOrders
