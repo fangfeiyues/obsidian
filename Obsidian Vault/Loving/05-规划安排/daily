@@ -258,5 +258,11 @@
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"productCode":"1","kdtId":1984620})
 
 
-http://tether-pre.s.qima-inc.com:8680/soa/com.youzan.delivery.service.waybill.WaybillService/listWaybillOrders
+1. 看看昨天的订单
+2. 把未发货的都发货了
+3. 取消订单Exxx
+4. 运单JDXB..到哪了
 
+
+
+http://tether-pre.s.qima-inc.com:8680/soa/com.youzan.delivery.service.waybill.WaybillService/waybillOrderCancel
