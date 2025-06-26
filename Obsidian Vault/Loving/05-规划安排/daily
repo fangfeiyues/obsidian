@@ -253,4 +253,4 @@
 
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"productCode":"1","kdtId":1984620})
 
-   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.batchTrialExpressPrice({"expressIds":[1,7],"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"kdtId":1984620,"expressProductCode":{7:"qqq"}})
+   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.batchTrialExpressPrice({"expressIds":[1,7],"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"kdtId":1984620,"expressProductCode":{"7":"qqq"}})
