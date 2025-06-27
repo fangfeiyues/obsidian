@@ -3,11 +3,11 @@
 
    1. 贷款超市: - 
 
-   2. 有赞寄件: 顺丰特运项目-开发中、有赞寄件开店礼包补贴支持
+   2. 有赞寄件: 顺丰特运项目-开发中、开店礼包补贴支持有赞寄件、5月调账
 
-   3. 上门取件: -
+   3. 上门取件: 定价日常、多订单合并的项目
 
-   4. 快速回款: -
+   4. 快速回款: 两个指标开发日常
 
    5. 订单贷: -
 
@@ -257,6 +257,7 @@
 
 
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"湖北省","receiptCity":"武汉市","weight":1000,"kdtId":1984620})
+
 
 
 
