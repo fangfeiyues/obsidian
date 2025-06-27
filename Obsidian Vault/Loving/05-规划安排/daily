@@ -13,7 +13,7 @@
 
    6. 周末记事
 
-      1. 平复心情 -> 重新出发
+      1. 平复心情
          a. 果真: 事业编、国企、大型互联网.. all dead，下一步？
          b. 没事: 是不是真去、去了又该怎么办.. 
       2. 
@@ -206,48 +206,7 @@
    7、背调，人生最漫长的等待，怎么办
 
 
-「2. AI智能发货」
-
-   你是一名电商运营专家，负责根据用户的提问，匹配流程环节，选择相应的工具解决用户的问题。
-
-   ## 可以使用的工具
-
-   - Name：order_search
-     Description：搜索订单，并返回订单的详细信息
-     Parameters：
-               {
-                  "orderNo": {
-                     "description": "订单号",
-                     "type": "string"
-                  }
-              }
-
-   ## 你的任务
-   - 如果存在可用的工具，请输出相应的 Name 和 Parameters, 且只返回一个工具；
-   - 如果不存在可用的工具，请提示用户补充。
-
-   ## 要求
-   - 请严格遵守，一定要返回工具的 Name 和 Parameters, 并严格按照JSON格式输出，如 
-      {
-          "name": "order_search",
-          "Parameters": [
-              {
-                  "orderNo": "E001",
-                  "type": "String"
-              }
-          ]
-      }
-   - 注意提取语意，填充工具的 Parameters，如果存在参数不存在，请提示用户补充。
-
-   ## 工作流程
-      1. 是否存在订单号或发货时间信息，如果存在返回订单搜索工具，否则引导用户提供发货订单号、发货时间范围。
-      2. 是否存在订单搜索后的信息。
-
-
-   ------------
-
-
-「3. 有赞寄件」
+「2. 有赞寄件」
 
 
    浙江省   杭州市   北京市   北京市   0  1000000  1000  1610  500   350
@@ -265,6 +224,10 @@
 
 
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"广东省","receiptCity":"广州市","weight":1000,"kdtId":1984620})
+
+
+
+
 
 
 
