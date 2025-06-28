@@ -231,5 +231,17 @@
 
 
 
+并以json格式输出结果。
+以下是对话中已有的action值：
+<已有_action>
+{{#conversation.action#}}
+</已有_action>
+以下是用户当前的输入内容：
+<用户输入>
+{{#sys.query#}}
+</用户输入>
+对于action的判断，优先查看<已有_action>是否有值，如果有则直接使用该值；如果没有，
+
+
 
 
