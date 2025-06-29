@@ -218,5 +218,3 @@
 
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"广东省","receiptCity":"广州市","weight":1000,"kdtId":1984620})
 
-
-
