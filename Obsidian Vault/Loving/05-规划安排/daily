@@ -3,10 +3,10 @@
 
    1. 有赞寄件顺丰特运项目 -> doing
    2. 有赞寄件开店礼包补贴 -> doing
-   3. 有赞寄件5月调账日常 -> wait
+   3. 有赞寄件5月调账日常 -> done
    4. 上门取件定价测试日常 -> doing
    5. 上门取件多订单合并的项目 -> wait
-   6. 快速回款两个指标开发日常 -> doing 周一开发号晖炫
+   6. 快速回款两个指标开发日常 -> doing 周一开发晖弦
 
 
 --------------------------------【项目】--------------------------------
@@ -220,3 +220,7 @@
 
 
 近30天同一物流单号对应的收件人数大于3的订单金额
+
+
+invoke com.youzan.secured.shipping.api.ShippingTaskService.shippingMonthAccountTest("{\"data\":{\"delivery_no\":\"YZ20250529tsii40022\",\"express_id\":\"7\",\"express_no\":\"SF3173762427811\",\"pay_amount\":\"153.3\",\"shipping_month_settle_type\":\"5\"},\"dataSource\":\"hive\",\"db\":\"dev\",\"table\":\"delivery_waybill_recon_result\"}")
+
