@@ -14,7 +14,7 @@
 
 「1. AI」 (周更) -> 解决一切重复劳动
 
-   06.30｜继续往前走 ..
+   06.30｜继续往前走..
 
 
 「2. 减肥」(周更)
@@ -219,8 +219,5 @@
 
 
 
-近30天同一物流单号对应的收件人数大于3的订单金额
 
-
-invoke com.youzan.secured.shipping.api.ShippingTaskService.shippingMonthAccountTest("{\"data\":{\"delivery_no\":\"YZ20250529tsii40022\",\"express_id\":\"7\",\"express_no\":\"SF3173762427811\",\"pay_amount\":\"153.3\",\"shipping_month_settle_type\":\"5\"},\"dataSource\":\"hive\",\"db\":\"dev\",\"table\":\"delivery_waybill_recon_result\"}")
 
