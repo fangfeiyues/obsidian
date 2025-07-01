@@ -6,7 +6,7 @@
    3. 有赞寄件5月调账日常 -> done
    4. 上门取件定价测试日常 -> doing
    5. 上门取件多订单合并的项目 -> wait
-   6. 快速回款两个指标开发日常 -> doing 周一开发晖弦
+   6. 快速回款两个指标开发日常 -> doing 周一开发晖弦、评论表
 
 
 --------------------------------【项目】--------------------------------
@@ -217,20 +217,6 @@
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"广东省","receiptCity":"广州市","weight":1000,"kdtId":1984620})
 
 
-
-
-
-invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
-
-1. 上门取件路线在定价测试路线内，适配到分组，进行加价0.5或1.0
-
-1. 上门取件下单页路由到定价分组，展示加价价格
-2. 上门取件下单后路由到定价分组，展示加价价格
-
-1. 上门取件下单页 + 京东定价分组：加价展示
-2. 上门取件下单页 + 京东基础分组：正常价展示
-3. 上门取件下单后 + 京东定价分组：加价展示
-4. 上门取件下单后 + 京东基础分组：正常价展示
 
 
 
