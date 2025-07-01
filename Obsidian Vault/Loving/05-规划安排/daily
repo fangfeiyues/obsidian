@@ -221,3 +221,7 @@
 
 
 
+
+
+
+invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["feedback_item_quaility_refund_rate_180d_V2","feedback_quaility_refund_rate_180d_V2","kdt_is_cert_food_category"]})
