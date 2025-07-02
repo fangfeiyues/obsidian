@@ -209,19 +209,5 @@
    insert into forward_logistics_express_price(express_id, express_name, send_region,receipt_region, min_weight, max_weight, price_type, initial_weight,initial_weight_price,additional_weight,additional_weight_price,extra,created_at,updated_at) values (7,"顺丰特运","浙江省杭州市","北京市北京市",0,1000000,"standard_price",1000,2300,500,500,"{\"productCode\":\"1\"}",now(),now())
 
 
-   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"productCode":"1","kdtId":1984620})
-
-   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.batchTrialExpressPrice({"expressIds":[1,7],"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"北京市","receiptCity":"北京市","weight":1000,"kdtId":1984620,"expressProductCode":{"7":"qqq"}})
-
-
-   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.queryAvailableProduct({"expressId":7,"sendProvince":"浙江省","sendCity":"杭州市","receiptProvince":"广东省","receiptCity":"广州市","weight":1000,"kdtId":1984620})
-
-
-
-
-
-
-
-
 
 invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["kdt_is_kuajing","yestday_cs_ops_ticket_has_warning_word"]})
