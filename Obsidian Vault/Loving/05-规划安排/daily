@@ -209,43 +209,22 @@
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["kdt_is_kuajing","yestday_cs_ops_ticket_has_warning_word"]})
 
+
+   invoke com.youzan.pay.risk.monkey.api.service.ReqParamService.addReqParam({"createUser":"fangfeiyue","createdAt":1751533111970,"desc":"地址ip","name":"ip","updateUser":"fangfeiyue","updatedAt":1751533111970})
+
+
+   invoke com.youzan.pay.risk.monkey.api.service.ApiService.addYouZanDubboApi({"apiDocUrl":"https://zanapi.qima-inc.com/site/service/view/1625442","apiResultEtlScript":"","apiType":"YOUZAN_DUBBO","bizParamEtlScript":"","bizParams":[{"code":"RP250703165917262176","createUser":"fangfeiyue","createdAt":1751533734453,"desc":"ip\"","name":"ip","updateUser":"fangfeiyue","updatedAt":1751533734453}],"commonParamEtlScript":"","commonParams":[],"description":"查询ip地址信息","headers":"{\n\t\"cluster\": \"primary\"\n}","interfaceStr":"com.youzan.paas.yalp.api.GeoIpService","method":"searchIpv4","name":"查询ip地址信息","retryTimes":0,"status":"ENABLE","timeout":1200,"version":""})
+
+
+   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.domain.param.DubboInvokeParam\ndef parse(Map<String, Object> paramMap) {\n        def ip = paramMap.get(\"ip\");\n        if (ip == null) {\n            return null;\n        }\n        List<DubboInvokeParam> list = new ArrayList<>(1);\n        DubboInvokeParam dubboInvokeParam = new DubboInvokeParam();\n        dubboInvokeParam.setParamName(\"ip\");\n        dubboInvokeParam.setParamType(\"java.lang.String\")\n        dubboInvokeParam.setParamVal(ip)\n        list.add(dubboInvokeParam);\n        return list;\n    }","scriptTypeEnum":"BIZ_PARAM_SCRIPT"})
+
+
+   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.infrastructure.engine.pipeline.PipelineResult\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        def result = (String) map.get(\"country_code\");\n        if (StringUtils.isEmpty(result)) {\n            return PipelineResult.serverFail(\"ip的国家code不存在\");\n        }\n        if (result != \"CN\") {\n            return PipelineResult.serverFail(\"非境内ip\");\n        }\n        return PipelineResult.success();\n    }","scriptTypeEnum":"RESULT_PARAM_SCRIPT"})
+
+
+
+
 invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("60.12.2.162")
 
 {"country":"中国","country_code":"CN","routes":"中国联通","province":"浙江省","city":"杭州市","isp":"中国联通","latitude":"30.255611","city_code":"330100","longitude":"120.208335"}
 
-
-
-{"apiFieldMapList":"[{\"aggFieldName\":\"kdt_id\",\"apiFieldCode\":\"RP201119200444000000\"},{\"aggFieldName\":\"goods_id_list\",\"apiFieldCode\":\"RP201223102507000000\"}]","apiResultFieldName":"item_detail_model_list","resultScriptType":"SCRIPT","apiResultFieldCode":"RF230226173601000014"}
-
-
-import com.alibaba.fastjson.JSONArray
-import com.alibaba.fastjson.JSONObject
-
-def execute(Map<String, Object> apiResult) {
-    def result = apiResult.get("apiResult");
-    if (result == null) {
-        return null;
-    }
-    JSONArray jsonArray = JSONArray.parseArray(result as String);
-    if (jsonArray == null || jsonArray.isEmpty()) {
-        return null;
-    }
-    int count = 0;
-    for (int i = 0; i < jsonArray.size(); i++) {
-        JSONObject jsonObject = jsonArray.getJSONObject(i);
-        if (jsonObject == null || jsonObject.isEmpty()) {
-            continue;
-        }
-        JSONObject bizMark = jsonObject.getJSONObject("bizMark");
-        if (bizMark == null || bizMark.isEmpty()) {
-            continue;
-        }
-        String code = bizMark.getString("code");
-        Integer isVirtual = jsonObject.getInteger("isVirtual");
-        Integer goodsType = jsonObject.getInteger("goodsType");
-        if ("000000000000".equals(code) && goodsType != null && 0 == goodsType && isVirtual != null && 0 != isVirtual) {
-            count = count + 1;
-        }
-    }
-    return count == jsonArray.size();
-}
