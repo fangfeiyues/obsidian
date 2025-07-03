@@ -200,13 +200,9 @@
 「2. 有赞寄件」
 
 
-   浙江省   杭州市   北京市   北京市   0  1000000  1000  1610  500   350
+   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"kdtId":44396265,"receiptCity":"佛山市","receiptProvince":"广东省","sendCity":"成都市","sendProvince":"四川省","weight":1000})
 
-   insert into forward_logistics_express_price(express_id, express_name, send_region,receipt_region, min_weight, max_weight, price_type, initial_weight,initial_weight_price,additional_weight,additional_weight_price,extra,created_at,updated_at) values (7,"顺丰特运","浙江省杭州市","北京市北京市",0,1000000,"discount_price",1000,1610,500,350,"{\"productCode\":\"1\"}",now(),now())
-
-   浙江省   杭州市   北京市   北京市   0  1000000  1000  2300  500   500
-
-   insert into forward_logistics_express_price(express_id, express_name, send_region,receipt_region, min_weight, max_weight, price_type, initial_weight,initial_weight_price,additional_weight,additional_weight_price,extra,created_at,updated_at) values (7,"顺丰特运","浙江省杭州市","北京市北京市",0,1000000,"standard_price",1000,2300,500,500,"{\"productCode\":\"1\"}",now(),now())
+   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"kdtId":44396265,"receiptCity":"佛山市","receiptProvince":"广东省","sendCity":"成都市","sendProvince":"四川省","weight":1000,"productCode":"1"})
 
 
 
