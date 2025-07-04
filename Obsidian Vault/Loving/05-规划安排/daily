@@ -217,12 +217,9 @@
    invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.domain.param.DubboInvokeParam\ndef parse(Map<String, Object> paramMap) {\n        def ip = paramMap.get(\"ip\");\n        if (ip == null) {\n            return null;\n        }\n        List<DubboInvokeParam> list = new ArrayList<>(1);\n        DubboInvokeParam dubboInvokeParam = new DubboInvokeParam();\n        dubboInvokeParam.setParamName(\"ip\");\n        dubboInvokeParam.setParamType(\"java.lang.String\")\n        dubboInvokeParam.setParamVal(ip)\n        list.add(dubboInvokeParam);\n        return list;\n    }","scriptTypeEnum":"BIZ_PARAM_SCRIPT"})
 
 
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.infrastructure.engine.pipeline.PipelineResult\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        def result = (String) map.get(\"country_code\");\n        if (StringUtils.isEmpty(result)) {\n            return PipelineResult.serverFail(\"ip的国家code不存在\");\n        }\n        if (result != \"CN\") {\n            return PipelineResult.serverFail(\"非境内ip\");\n        }\n        return PipelineResult.success();\n    }","scriptTypeEnum":"RESULT_PARAM_SCRIPT"})
+   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.infrastructure.engine.pipeline.PipelineResult\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        def result = (String) map.get(\"country_code\");\n        if (StringUtils.isEmpty(result)) {\n            return PipelineResult.serverFail(\"ip的国家code不存在\");\n        }\n        return PipelineResult.success();\n    }","scriptTypeEnum":"RESULT_PARAM_SCRIPT"})
 
 
-
-
-invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("60.12.2.162")
-
-{"country":"中国","country_code":"CN","routes":"中国联通","province":"浙江省","city":"杭州市","isp":"中国联通","latitude":"30.255611","city_code":"330100","longitude":"120.208335"}
+   invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("60.12.2.162")
+   {"country":"中国","country_code":"CN","routes":"中国联通","province":"浙江省","city":"杭州市","isp":"中国联通","latitude":"30.255611","city_code":"330100","longitude":"120.208335"}
 
