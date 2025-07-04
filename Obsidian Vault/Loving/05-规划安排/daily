@@ -2,11 +2,12 @@
 「work」
 
    1. 有赞寄件顺丰特运项目 -> doing
-   2. 有赞寄件开店礼包补贴 -> doing
+   2. 有赞寄件开店礼包补贴项目 -> doing
    3. 有赞寄件5月调账日常 -> done
-   4. 上门取件定价测试日常 -> done
-   5. 上门取件多订单合并的项目 -> wait
-   6. 快速回款两个指标开发日常 -> doing 周一开发晖弦、微信支付投诉记录、境外ip
+   4. 有赞寄件申通调价日常 -> done
+   5. 上门取件定价测试日常 -> done
+   6. 上门取件多订单合并的项目 -> doing
+   7. 快速回款两个指标开发日常 -> doing 周一开发晖弦、微信支付投诉记录、境外ip
 
 
 --------------------------------【项目】--------------------------------
@@ -211,15 +212,20 @@
 
    invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.domain.param.DubboInvokeParam\ndef parse(Map<String, Object> paramMap) {\n        def ip = paramMap.get(\"ip\");\n        if (ip == null) {\n            return null;\n        }\n        List<DubboInvokeParam> list = new ArrayList<>(1);\n        DubboInvokeParam dubboInvokeParam = new DubboInvokeParam();\n        dubboInvokeParam.setParamName(\"ip\");\n        dubboInvokeParam.setParamType(\"java.lang.String\")\n        dubboInvokeParam.setParamVal(ip)\n        list.add(dubboInvokeParam);\n        return list;\n    }","scriptTypeEnum":"BIZ_PARAM_SCRIPT"})
 
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.infrastructure.engine.pipeline.PipelineResult\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        def result = (String) map.get(\"country_code\");\n        if (StringUtils.isEmpty(result)) {\n            return PipelineResult.serverFail(\"ip的国家code不存在\");\n        }\n        return PipelineResult.success();\n    }","scriptTypeEnum":"RESULT_PARAM_SCRIPT"})
+   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.alibaba.fastjson.JSONObject\nimport com.youzan.pay.risk.monkey.infrastructure.engine.pipeline.PipelineResult\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        Logger logger = LoggerFactory.getLogger(\"DeliveryInfoApi\");\n        def result = (String) map.get(\"ApiResult\");\n        if (StringUtils.isEmpty(result)) {\n            logger.warn(\"DeliveryOrderApi业务,api结果数据不存在,result:{},param:{}\", result, map)\n            return PipelineResult.serverFail(\"Api结果数据不存在\");\n        }\n        JSONObject jsonObject = JSONObject.parseObject(result);\n        if (jsonObject == null) {\n            logger.warn(\"DeliveryOrderApi业务,json解析后为空,result:{},param:{}\", result, map)\n            return PipelineResult.serverFail(\"Api结果数据解析json失败\");\n        }\n        def flag = jsonObject.getBoolean(\"success\");\n        if (!flag) {\n            logger.warn(\"DeliveryOrderApi业务,json内状态异常,result:{},param:{}\", result, map)\n            return PipelineResult.serverFail(\"Api返回的状态不正确\");\n        }\n        return PipelineResult.success();\n    }","scriptTypeEnum":"RESULT_PARAM_SCRIPT"})
 
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.addApiResultField({"apiCode":"API250703171100262152","description":"ip归属国家","etlScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\ndef parse(Map<String, Object> map) {\n        return map.get(\"country_code\");\n    }","fieldKey":"country_code","scriptType":"GROOVY","valueType":"STRING"})
+   invoke com.youzan.pay.risk.monkey.api.service.ApiService.addApiResultField({"apiCode":"API250703171100262152","description":"ip归属国家","etlScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\ndef parse(Map<String, Object> map) {\n        String jsonData = map.get(\"result\");\n        if (StringUtils.isEmpty(jsonData)) {\n            return null;\n        }\n        JSONObject jsonObject = JSONObject.parseObject(jsonData);\n        if (jsonObject == null) {\n            return null;\n        }\n        JSONObject dataObject = jsonObject.getJSONObject(\"data\");\n        if (dataObject == null) {\n            return null;\n        }\n        return dataObject.getString(\"country_code\");\n    }","fieldKey":"country_code","scriptType":"GROOVY","valueType":"STRING"})
 
    invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.add({"code":"country_code","description":"ip归属国家如CN","name":"ip归属国家","params":[{"code":"RP250703165917262176","createUser":"fangfeiyue","createdAt":1751600394612,"desc":"ip","name":"ip","updateUser":"fangfeiyue","updatedAt":1751600394612}],"valueType":"STRING"})
 
    invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.addApiResultRelation({"apiCode":"API250703171100262152","apiFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256","paramMap":[{"leftCode":"RP250703165917262176","rightCode":"ip"}]})
    {"apiCode":"API250703171100262152","innerFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256"}
 
+
+   invoke com.youzan.pay.risk.tortoise.api.IndicatorService.saveApiIndicator({"aggFieldMaps":[{"aggFieldName":"ip","apiFieldCode":"RP250703165917262176"}],"aggFields":["ip"],"apiResultFieldCode":"RF250704142449262256","cluster":"YZ","dataSourceNo":"IF4520546","defaultValue":"","indicatorDescription":"IP地址","indicatorName":"ip_country_code","indicatorStatement":"IP地址","indicatorType":"INNER_API","resultScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\ndef parse(Map<String, Object> map) {\n        return map.get(\"country_code\");\n    }","resultScriptType":"SCRIPT","valueType":"STRING"})
+
+
+   invoke com.youzan.pay.risk.tortoise.api.IndicatorService.updateIndicatorState({"indicatorNo": "A5160167", "state": "ON"})  
 
 
    ---
