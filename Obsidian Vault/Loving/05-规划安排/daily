@@ -246,3 +246,6 @@
 
 
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":138,"kdtId":180780457,"receiptCity":"黄石市","receiptProvince":"湖北省","sendCity":"武汉市","sendProvince":"湖北省","weight":10000})
+
+
+invoke com.youzan.ic.delivery.service.DelayTaskCallbackService.waybillQueryWeight({"bizID":"YZ20250704c9me41815"})
