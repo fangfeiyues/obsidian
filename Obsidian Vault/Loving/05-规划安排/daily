@@ -245,4 +245,4 @@
 
 
 
-invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":1,"kdtId":148624957,"receiptCity":"广州市","receiptProvince":"广东省","sendCity":"茂名市","sendProvince":"广东省","weight":1000})
+invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":138,"kdtId":180780457,"receiptCity":"黄石市","receiptProvince":"湖北省","sendCity":"武汉市","sendProvince":"湖北省","weight":10000})
