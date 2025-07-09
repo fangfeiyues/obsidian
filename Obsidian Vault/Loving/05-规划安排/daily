@@ -222,7 +222,7 @@
 
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorService.updateIndicatorState({"indicatorNo": "A5160167", "state": "ON"})  
-   
+
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
 
@@ -241,4 +241,72 @@
 
 
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":138,"kdtId":180780457,"receiptCity":"黄石市","receiptProvince":"湖北省","sendCity":"武汉市","sendProvince":"湖北省","weight":10000})
+
+
+测试数据1
+kdt_id：130726705
+team_name：票朵朵旅游
+order_no：E20250708194323054800075
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：订单支付时的ip地址是否是境外的
+规则结果:ACCEPT 
+
+
+测试数据1
+kdt_id：130726705
+team_name：票朵朵旅游
+order_no：E20250708194323054800075
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：订单支付时的ip地址是否是境外的
+规则结果:ACCEPT 
+
+
+测试数据2
+kdt_id：149625282
+team_name：起程国际旅行
+order_no：E20250708203335078200093
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：订单支付时的ip地址是否是境外的
+规则结果:REJECT
+
+测试数据3
+kdt_id：144126515
+team_name：极易优品旗舰店
+order_no：E20250709105329080200029
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：重复物流单号是否过多且金额是否较大
+规则结果:ACCEPT 
+
+测试数据4
+kdt_id：869939
+team_name：平人原素
+order_no：E20250709085453002600019
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：重复物流单号是否过多且金额是否较大
+规则结果:REJECT
+
+
+测试数据5
+kdt_id：93871694
+team_name：好吃生活馆
+order_no：E20250709125316048106217
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：昨日的微信支付投诉记录中是否有风险关键词
+规则结果:REJECT
+
+测试数据6
+kdt_id：40241471
+team_name：上海国际医学中心
+order_no：E20250707112857098306233
+事件：快速回款交易节点事中监控
+策略：快速回款交易节点反欺诈预警策略
+规则：昨日的微信支付投诉记录中是否有风险关键词
+规则结果:ACCEPT
+
 
