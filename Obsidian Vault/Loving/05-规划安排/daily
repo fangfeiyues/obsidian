@@ -222,15 +222,22 @@
 
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorService.updateIndicatorState({"indicatorNo": "A5160167", "state": "ON"})  
+   
+
+   invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
 
 
-   ---
+   -- 下线
+   invoke com.youzan.pay.risk.bee.api.MonitorEventService.offlineMonitorEvent({"eventCode":"ME240411105146262144","reEventCode":"QUICK_TRADING_NODE_MONITORING"})
 
-   invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("60.12.2.162")
-   {"country":"中国","country_code":"CN","routes":"中国联通","province":"浙江省","city":"杭州市","isp":"中国联通","latitude":"30.255611","city_code":"330100","longitude":"120.208335"}
 
-   invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["kdt_is_kuajing","yestday_cs_ops_ticket_has_warning_word"]})
+   -- 变更脚本
 
+   invoke com.youzan.pay.risk.bee.api.MonitorEventService.updateMonitorEventMetaConf({"bizParamDTOList":[{"name":"order_no","script":"$.orderNo","type":2},{"name":"kdt_id","script":"$.kdtId","type":2},{"name":"ip","script":"$.ip","type":2},{"name":"TITLE","script":"","type":1}],"bizParamsScript":"import org.apache.commons.lang3.StringUtils\n\nMap<String, Object> handle(Map<String, Object> messageBody) {\n    if (messageBody == null) {\n        return new HashMap<>();\n    }\n    Map<String, Object> paramMap = new HashMap<>(2);\n    Object titlesObj = messageBody.get(\"titles\");\n    List<String> titles = titlesObj instanceof List? (List<String>) titlesObj : Collections.emptyList();\n    if (titles.isEmpty()) {\n        paramMap.put(\"TITLE\", \"\");\n    } else {\n        paramMap.put(\"TITLE\", StringUtils.join(titles, \",\"));\n    }\n    return paramMap;\n}","eventNo":"ME240411105146262144","metaConfNo":"MEM240411105237262144"})
+
+
+   -- 上线
+   invoke com.youzan.pay.risk.bee.api.MonitorEventService.onlineMonitorEvent({"eventCode":"ME240411105146262144","reEventCode":"QUICK_TRADING_NODE_MONITORING"})
 
 
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":138,"kdtId":180780457,"receiptCity":"黄石市","receiptProvince":"湖北省","sendCity":"武汉市","sendProvince":"湖北省","weight":10000})
