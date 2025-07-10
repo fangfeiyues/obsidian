@@ -225,6 +225,7 @@
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
 
+   invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("49.230.49.233")
 
 
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":138,"kdtId":180780457,"receiptCity":"黄石市","receiptProvince":"湖北省","sendCity":"武汉市","sendProvince":"湖北省","weight":10000})
