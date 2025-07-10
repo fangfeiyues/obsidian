@@ -188,7 +188,6 @@
 
 「2. 有赞寄件」
 
-
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"kdtId":44396265,"receiptCity":"佛山市","receiptProvince":"广东省","sendCity":"成都市","sendProvince":"四川省","weight":1000})
 
    invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"kdtId":44396265,"receiptCity":"佛山市","receiptProvince":"广东省","sendCity":"成都市","sendProvince":"四川省","weight":1000,"productCode":"1"})
@@ -210,22 +209,18 @@
 
    invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiResultField({"apiCode":"API250703171100262152","code":"AR250704113435262304","description":"ip归属国家","etlScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        Logger logger = LoggerFactory.getLogger(\"DeliveryInfoApi\");\n        logger.warn(\"DeliveryOrderApi业务map数据,map:{}\", map)\n        String jsonData = map.get(\"result\");\n        if (StringUtils.isEmpty(jsonData)) {\n            return null;\n        }\n        JSONObject jsonObject = JSONObject.parseObject(jsonData);\n        if (jsonObject == null) {\n            return null;\n        }\n        return jsonObject.getString(\"country_code\");\n    }","fieldKey":"country_code","scriptType":"GROOVY","valueType":"STRING"})
 
-
    invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.add({"code":"country_code","description":"ip归属国家如CN","name":"ip归属国家","params":[{"code":"RP250703165917262176","createUser":"fangfeiyue","createdAt":1751600394612,"desc":"ip","name":"ip","updateUser":"fangfeiyue","updatedAt":1751600394612}],"valueType":"STRING"})
 
    invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.addApiResultRelation({"apiCode":"API250703171100262152","apiFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256","paramMap":[{"leftCode":"RP250703165917262176","rightCode":"ip"}]})
    {"apiCode":"API250703171100262152","innerFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256"}
 
-
    invoke com.youzan.pay.risk.tortoise.api.IndicatorService.saveApiIndicator({"aggFieldMaps":[{"aggFieldName":"ip","apiFieldCode":"RP250703165917262176"}],"aggFields":["ip"],"apiResultFieldCode":"RF250704142449262256","cluster":"YZ","dataSourceNo":"IF4520546","defaultValue":"","indicatorDescription":"IP地址","indicatorName":"ip_country_code","indicatorStatement":"IP地址","indicatorType":"INNER_API","resultScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\ndef parse(Map<String, Object> map) {\n        return map.get(\"country_code\");\n    }","resultScriptType":"SCRIPT","valueType":"STRING"})
 
-
    invoke com.youzan.pay.risk.tortoise.api.IndicatorService.updateIndicatorState({"indicatorNo": "A5160167", "state": "ON"})  
-
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
 
    invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("49.230.49.233")
 
-   
+
 
