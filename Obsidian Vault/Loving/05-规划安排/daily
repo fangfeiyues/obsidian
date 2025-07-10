@@ -211,7 +211,6 @@
    invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiResultField({"apiCode":"API250703171100262152","code":"AR250704113435262304","description":"ip归属国家","etlScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        Logger logger = LoggerFactory.getLogger(\"DeliveryInfoApi\");\n        logger.warn(\"DeliveryOrderApi业务map数据,map:{}\", map)\n        String jsonData = map.get(\"result\");\n        if (StringUtils.isEmpty(jsonData)) {\n            return null;\n        }\n        JSONObject jsonObject = JSONObject.parseObject(jsonData);\n        if (jsonObject == null) {\n            return null;\n        }\n        return jsonObject.getString(\"country_code\");\n    }","fieldKey":"country_code","scriptType":"GROOVY","valueType":"STRING"})
 
 
-
    invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.add({"code":"country_code","description":"ip归属国家如CN","name":"ip归属国家","params":[{"code":"RP250703165917262176","createUser":"fangfeiyue","createdAt":1751600394612,"desc":"ip","name":"ip","updateUser":"fangfeiyue","updatedAt":1751600394612}],"valueType":"STRING"})
 
    invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.addApiResultRelation({"apiCode":"API250703171100262152","apiFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256","paramMap":[{"leftCode":"RP250703165917262176","rightCode":"ip"}]})
@@ -226,18 +225,6 @@
 
    invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
 
-
-   -- 下线
-   invoke com.youzan.pay.risk.bee.api.MonitorEventService.offlineMonitorEvent({"eventCode":"ME240411105146262144","reEventCode":"QUICK_TRADING_NODE_MONITORING"})
-
-
-   -- 变更脚本
-
-   invoke com.youzan.pay.risk.bee.api.MonitorEventService.updateMonitorEventMetaConf({"bizParamDTOList":[{"name":"order_no","script":"$.orderNo","type":2},{"name":"kdt_id","script":"$.kdtId","type":2},{"name":"ip","script":"$.ip","type":2},{"name":"TITLE","script":"","type":1}],"bizParamsScript":"import org.apache.commons.lang3.StringUtils\n\nMap<String, Object> handle(Map<String, Object> messageBody) {\n    if (messageBody == null) {\n        return new HashMap<>();\n    }\n    Map<String, Object> paramMap = new HashMap<>(2);\n    Object titlesObj = messageBody.get(\"titles\");\n    List<String> titles = titlesObj instanceof List? (List<String>) titlesObj : Collections.emptyList();\n    if (titles.isEmpty()) {\n        paramMap.put(\"TITLE\", \"\");\n    } else {\n        paramMap.put(\"TITLE\", StringUtils.join(titles, \",\"));\n    }\n    return paramMap;\n}","eventNo":"ME240411105146262144","metaConfNo":"MEM240411105237262144"})
-
-
-   -- 上线
-   invoke com.youzan.pay.risk.bee.api.MonitorEventService.onlineMonitorEvent({"eventCode":"ME240411105146262144","reEventCode":"QUICK_TRADING_NODE_MONITORING"})
 
 
 invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":138,"kdtId":180780457,"receiptCity":"黄石市","receiptProvince":"湖北省","sendCity":"武汉市","sendProvince":"湖北省","weight":10000})
