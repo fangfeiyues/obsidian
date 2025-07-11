@@ -224,3 +224,9 @@
 
 
 
+
+
+
+invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryCanMergeRevOrder({"buyerId":"8351155754","kdtId":60047576,"orderNo":"E20250711105715055402023","refundId":"202507111103240020000554","sendAddress":{"addressDetail":"广州市海珠区人民政府西门)","city":"广州市","country":"中国","county":"海珠区","fullAddress":"广东省广州市海珠区广州市海珠区人民政府西门)","latitude":"23.09023723769325","longitude":"113.3229300748153","name":"李四","province":"广东省","telephone":"18267112323"}})
+
+
