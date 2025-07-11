@@ -186,47 +186,11 @@
    7、背调，人生最漫长的等待..
 
 
-「2. 有赞寄件」
+「2. 上门取件」
 
-   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"kdtId":44396265,"receiptCity":"佛山市","receiptProvince":"广东省","sendCity":"成都市","sendProvince":"四川省","weight":1000})
-
-   invoke com.youzan.pay.yz.fin.aigis.api.service.ForwardLogisticsService.calculateExpressPrice({"expressId":7,"kdtId":44396265,"receiptCity":"佛山市","receiptProvince":"广东省","sendCity":"成都市","sendProvince":"四川省","weight":1000,"productCode":"1"})
-
-
-「3. 风控指标」
-
-   invoke com.youzan.pay.risk.monkey.api.service.ReqParamService.addReqParam({"createUser":"fangfeiyue","createdAt":1751533111970,"desc":"地址ip","name":"ip","updateUser":"fangfeiyue","updatedAt":1751533111970})
-
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.addYouZanDubboApi({"apiDocUrl":"https://zanapi.qima-inc.com/site/service/view/1625442","apiResultEtlScript":"","apiType":"YOUZAN_DUBBO","bizParamEtlScript":"","bizParams":[{"code":"RP250703165917262176","createUser":"fangfeiyue","createdAt":1751533734453,"desc":"ip\"","name":"ip","updateUser":"fangfeiyue","updatedAt":1751533734453}],"commonParamEtlScript":"","commonParams":[],"description":"查询ip地址信息","headers":"{\n\t\"cluster\": \"primary\"\n}","interfaceStr":"com.youzan.paas.yalp.api.GeoIpService","method":"searchIpv4","name":"查询ip地址信息","retryTimes":0,"status":"ENABLE","timeout":1200,"version":""})
-
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.youzan.pay.risk.monkey.domain.param.DubboInvokeParam\ndef parse(Map<String, Object> paramMap) {\n        def ip = paramMap.get(\"ip\");\n        if (ip == null) {\n            return null;\n        }\n        List<DubboInvokeParam> list = new ArrayList<>(1);\n        DubboInvokeParam dubboInvokeParam = new DubboInvokeParam();\n        dubboInvokeParam.setParamName(\"ip\");\n        dubboInvokeParam.setParamType(\"java.lang.String\")\n        dubboInvokeParam.setParamVal(ip)\n        list.add(dubboInvokeParam);\n        return list;\n    }","scriptTypeEnum":"BIZ_PARAM_SCRIPT"})
-
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiConfScript({"apiCode":"API250703171100262152","script":"import com.alibaba.fastjson.JSONObject\nimport com.youzan.pay.risk.monkey.infrastructure.engine.pipeline.PipelineResult\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        Logger logger = LoggerFactory.getLogger(\"DeliveryInfoApi\");\n        def result = (String) map.get(\"ApiResult\");\n        logger.warn(\"DeliveryOrderApi业务,api结果数据,result:{},param:{}\", result, map)\n        if (StringUtils.isEmpty(result)) {\n            return PipelineResult.serverFail(\"Api结果数据不存在\");\n        }\n        return PipelineResult.success();\n    }","scriptTypeEnum":"RESULT_PARAM_SCRIPT"})
-
-
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.addApiResultField({"apiCode":"API250703171100262152","description":"ip归属国家","etlScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\ndef parse(Map<String, Object> map) {\n        Logger logger = LoggerFactory.getLogger(\"DeliveryInfoApi\");\n        logger.warn(\"DeliveryOrderApi业务map数据,map:{}\", map)\n        String jsonData = map.get(\"result\");\n        if (StringUtils.isEmpty(jsonData)) {\n            return null;\n        }\n        JSONObject jsonObject = JSONObject.parseObject(jsonData);\n        if (jsonObject == null) {\n            return null;\n        }\n        JSONObject dataObject = jsonObject.getJSONObject(\"data\");\n        if (dataObject == null) {\n            return null;\n        }\n        return dataObject.getString(\"country_code\");\n    }","fieldKey":"country_code","scriptType":"GROOVY","valueType":"STRING"})
-
-
-   invoke com.youzan.pay.risk.monkey.api.service.ApiService.updateApiResultField({"apiCode":"API250703171100262152","code":"AR250704113435262304","description":"ip归属国家","etlScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\nimport org.slf4j.Logger\nimport org.slf4j.LoggerFactory\ndef parse(Map<String, Object> map) {\n        Logger logger = LoggerFactory.getLogger(\"DeliveryInfoApi\");\n        logger.warn(\"DeliveryOrderApi业务map数据,map:{}\", map)\n        String jsonData = map.get(\"result\");\n        if (StringUtils.isEmpty(jsonData)) {\n            return null;\n        }\n        JSONObject jsonObject = JSONObject.parseObject(jsonData);\n        if (jsonObject == null) {\n            return null;\n        }\n        return jsonObject.getString(\"country_code\");\n    }","fieldKey":"country_code","scriptType":"GROOVY","valueType":"STRING"})
-
-   invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.add({"code":"country_code","description":"ip归属国家如CN","name":"ip归属国家","params":[{"code":"RP250703165917262176","createUser":"fangfeiyue","createdAt":1751600394612,"desc":"ip","name":"ip","updateUser":"fangfeiyue","updatedAt":1751600394612}],"valueType":"STRING"})
-
-   invoke com.youzan.pay.risk.monkey.api.service.ResultFiledService.addApiResultRelation({"apiCode":"API250703171100262152","apiFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256","paramMap":[{"leftCode":"RP250703165917262176","rightCode":"ip"}]})
-   {"apiCode":"API250703171100262152","innerFieldCode":"AR250704113435262304","outFieldCode":"RF250704142449262256"}
-
-   invoke com.youzan.pay.risk.tortoise.api.IndicatorService.saveApiIndicator({"aggFieldMaps":[{"aggFieldName":"ip","apiFieldCode":"RP250703165917262176"}],"aggFields":["ip"],"apiResultFieldCode":"RF250704142449262256","cluster":"YZ","dataSourceNo":"IF4520546","defaultValue":"","indicatorDescription":"IP地址","indicatorName":"ip_country_code","indicatorStatement":"IP地址","indicatorType":"INNER_API","resultScript":"import com.alibaba.fastjson.JSONObject\nimport org.apache.commons.lang3.StringUtils\ndef parse(Map<String, Object> map) {\n        return map.get(\"country_code\");\n    }","resultScriptType":"SCRIPT","valueType":"STRING"})
-
-   invoke com.youzan.pay.risk.tortoise.api.IndicatorService.updateIndicatorState({"indicatorNo": "A5160167", "state": "ON"})  
-
-   invoke com.youzan.pay.risk.tortoise.api.IndicatorSyncService.indicatorChangeSync({"operator":"system","app":"fin-risk-engine","indicatorNameList":["laste_30_same_logistics_order_amt"]})
-
-   invoke com.youzan.paas.yalp.api.GeoIpService.searchIpv4("49.230.49.233")
+   invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryCanMergeRevOrder({"buyerId":"8351155754","kdtId":60047576,"orderNo":"E20250711105715055402023","refundId":"202507111103240020000554","sendAddress":{"addressDetail":"广州市海珠区人民政府(西门)","city":"广州市","country":"中国","county":"海珠区","fullAddress":"广东省广州市海珠区广州市海珠区人民政府(西门)","latitude":"23.09023723769325","longitude":"113.3229300748153","name":"李四","province":"广东省","telephone":"18267112323"}})
 
 
 
-
-
-
-invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryCanMergeRevOrder({"buyerId":"8351155754","kdtId":60047576,"orderNo":"E20250711105715055402023","refundId":"202507111103240020000554","sendAddress":{"addressDetail":"广州市海珠区人民政府西门)","city":"广州市","country":"中国","county":"海珠区","fullAddress":"广东省广州市海珠区广州市海珠区人民政府西门)","latitude":"23.09023723769325","longitude":"113.3229300748153","name":"李四","province":"广东省","telephone":"18267112323"}})
 
 
