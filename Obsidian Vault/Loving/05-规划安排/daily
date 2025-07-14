@@ -193,8 +193,11 @@
 
 「3.上门取件」
 
+   invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryCanMergeRefund({"buyerId":"8351155754","kdtId":60047576,"orderNo":"E20250711105715055402023","refundId":"202507111103240020000554"})
+
+
    invoke com.youzan.trade.revdc.api.service.ReverseDeliveryQueryService.queryCanMergeRevOrder({"buyerId":"8351155754","kdtId":60047576,"orderNo":"E20250711105715055402023","refundId":"202507111103240020000554","sendAddress":{"addressDetail":"广州市海珠区人民政府(西门)","city":"广州市","country":"中国","county":"海珠区","fullAddress":"广东省广州市海珠区广州市海珠区人民政府(西门)","latitude":"23.09023723769325","longitude":"113.3229300748153","name":"李四","province":"广东省","telephone":"18267112323"}})
 
 
-   invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.mergeOrder({"mergeDeliveryOrderNo":"RO250711115543000001","kdtId":60047576,"buyerId":8351155754,"ipClient":"127.0.0.1","mergeOrderInfoList":[{"orderNo":"E20250711115411055402000","refundId":"202507111155130020100554"},{"orderNo":"E20250711105842055402033","refundId":"202507111101540020000554"}]})
+   invoke com.youzan.trade.revdc.api.service.ReverseDeliveryService.mergeOrder({"mergeDeliveryOrderNo":"RO250711115543000001","kdtId":60047576,"buyerId":8351155754,"ipClient":"127.0.0.1","mergeOrderInfoList":[{"orderNo":"E20250714161631055402004","refundId":"202507141618050020100554"},{"orderNo":"E20250711105842055402033","refundId":"202507111102250020000554"}]})
 
